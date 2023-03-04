@@ -1,5 +1,7 @@
 build
 cbuild
+!cbuild/
+cbuild/*
 !cbuild/work
 CMakeCache.txt
 CMakeFiles
@@ -9,4 +11,3 @@ install_manifest.txt
 .DS_Store
 wbuild
 DerivedData
-
