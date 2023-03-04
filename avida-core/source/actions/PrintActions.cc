@@ -86,7 +86,7 @@ static const cString GetDescription() { return "Arguments: [string fname=\"" #DE
 void Process(cAvidaContext&) { m_world->GetStats().METHOD(m_filename); }            /* 12 */ \
 }                                                                                         /* 13 */ \
 
-STATS_OUT_FILE(PrintAverageData,            average.dat         );
+STATS_OUT_FILE(PrintAverageData,            average1.dat         );
 STATS_OUT_FILE(PrintDemeAverageData,        deme_average.dat    );
 STATS_OUT_FILE(PrintErrorData,              error.dat           );
 STATS_OUT_FILE(PrintVarianceData,           variance.dat        );
@@ -5393,14 +5393,14 @@ private:
   cString m_filename;
   
 public:
-  cActionPrintDominantData(cWorld* world, const cString& args, Feedback&) : cAction(world, args), m_filename("dominant.dat")
+  cActionPrintDominantData(cWorld* world, const cString& args, Feedback&) : cAction(world, args), m_filename("dominant1.dat")
   {
     cString largs(args);
     largs.Trim();
     if (largs.GetSize()) m_filename = largs.PopWord();
   }
   
-  static const cString GetDescription() { return "Arguments: [string fname=\"dominant.dat\"]"; }
+  static const cString GetDescription() { return "Arguments: [string fname=\"dominant1.dat\"]"; }
   
   void Process(cAvidaContext&)
   {
