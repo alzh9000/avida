@@ -61,10 +61,11 @@ with open('environment.cfg', 'w') as f:
 experiment_start_time_string = time.strftime(
             "%m-%d_%H-%M-%S", time.localtime(time.time())
         )
-log_file_name = "229r/" + str(values) + f"_{experiment_start_time_string}.txt"
+log_file_name = "229r/" + str(xy) +"_" + str(values) + f"_{experiment_start_time_string}.txt"
 
 with open(log_file_name, "a") as f:
     f.write(str(values) + "\n")
+    f.write(str(xy) + "\n")
 
 with open(log_file_name, "a") as f:
     subprocess.run(args.command, stdout=f)
