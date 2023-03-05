@@ -1,6 +1,7 @@
 # python getting_data.py -o testing1.txt  # default command './avida' will be used
 # python getting_data.py ./some-command -o testing1.txt  # 'some-command' will be executed
 values = {'NOT': 1.0, 'NAND': 1.0, 'AND': 2.0, 'ORN': 2.0, 'OR': 3.0, 'ANDN': 3.0, 'NOR': 4.0, 'XOR': 4.0, 'EQU': 5.0}
+xy = {'x': 10, 'y': 10}
 
 import argparse
 import subprocess
@@ -17,6 +18,25 @@ parser.add_argument(
 )
 
 args = parser.parse_args()
+
+with open('avida.cfg', 'r') as f:
+    contents = f.read()
+
+# Modify the WORLD_X and WORLD_Y parameters in the file contents
+lines = contents.split('\n')
+for i, line in enumerate(lines):
+    if line.startswith('WORLD_X'):
+        lines[i] = f"WORLD_X {xy['x']}"  
+    elif line.startswith('WORLD_Y'):
+        lines[i] = f"WORLD_Y {xy['y']}"  
+
+# Join the modified lines back together
+new_contents = '\n'.join(lines)
+
+# Write the modified contents back to the file
+with open('avida.cfg', 'w') as f:
+    f.write(new_contents)
+
 
 with open('environment.cfg', 'r') as f:
     contents = f.read()
