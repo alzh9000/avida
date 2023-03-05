@@ -1,9 +1,10 @@
 # python getting_data.py -o testing1.txt  # default command './avida' will be used
 # python getting_data.py ./some-command -o testing1.txt  # 'some-command' will be executed
-values = {'NOT': 2.0, 'NAND': 1.0, 'AND': 2.0, 'ORN': 2.0, 'OR': 3.0, 'ANDN': 3.0, 'NOR': 4.0, 'XOR': 4.0, 'EQU': 5.0}
+values = {'NOT': 1.0, 'NAND': 1.0, 'AND': 2.0, 'ORN': 2.0, 'OR': 3.0, 'ANDN': 3.0, 'NOR': 4.0, 'XOR': 4.0, 'EQU': 5.0}
 
 import argparse
 import subprocess
+import time
 
 parser = argparse.ArgumentParser(
     description="Execute a command and redirect output to a file"
@@ -37,8 +38,15 @@ contents = '\n'.join(lines)
 with open('environment.cfg', 'w') as f:
     f.write(contents)
 
+experiment_start_time_string = time.strftime(
+            "%m-%d_%H-%M-%S", time.localtime(time.time())
+        )
+log_file_name = "229r/" + str(values) + f"_{experiment_start_time_string}.txt"
 
-# with open("229r/" + args.output, "w") as f:
-#     subprocess.run(args.command, stdout=f)
+with open(log_file_name, "a") as f:
+    f.write(str(values) + "\n")
+
+with open(log_file_name, "a") as f:
+    subprocess.run(args.command, stdout=f)
 
 # TODO: figure out how to get Python to modify the values in environment.cfg, or have Python create a new environment.cfg file in this directory to replace the existing one, then execute the command.
