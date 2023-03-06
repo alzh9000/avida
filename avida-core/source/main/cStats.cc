@@ -1201,6 +1201,7 @@ void cStats::PrintThreadsData(const cString& filename)
 
 void cStats::PrintTasksData(const cString& filename)
 {
+  // ALBERT: This is a hack to get the filename from the config file dat_filenames.txt 
   std::ifstream file("dat_filenames.txt");  // open file for reading
   std::string str;
 
@@ -1222,7 +1223,9 @@ void cStats::PrintTasksData(const cString& filename)
 	// }
   
 	// print tasks.dat
-  Avida::Output::FilePtr df = Avida::Output::File::StaticWithPath(m_world->GetNewWorld(), (const char*)str.c_str());
+  // ALBERT: This is a hack to get the filename from the config file dat_filenames.txt, i pass in the stuff from the config file directly into this function via str.c_str() 
+  Avida::Output::FilePtr df = 
+  Avida::Output::File::StaticWithPath(m_world->GetNewWorld(), (const char*)str.c_str());
 	df->WriteComment("Avida tasks data");
 	df->WriteTimeStamp();
 	df->WriteComment("First column gives the current update, next columns give the number");
