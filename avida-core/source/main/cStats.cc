@@ -1201,14 +1201,24 @@ void cStats::PrintThreadsData(const cString& filename)
 
 void cStats::PrintTasksData(const cString& filename)
 {
-	cString file = filename;
+  std::ifstream file("dat_filenames.txt");  // open file for reading
+  std::string str;
+
+  if (file.is_open()) {
+      std::getline(file, str);  // read the entire line
+      file.close();  // close the file
+      std::cout << str << std::endl;  // print the string
+  } else {
+      std::cout << "Unable to open file" << std::endl;
+  }
+	cString file = str.c_str();
   
-	// flag to print both tasks.dat and taskquality.dat
-	if (filename == "tasksq.dat")
-	{
-		file = "tasks.dat";
-		PrintTasksQualData("taskquality.dat");
-	}
+	// // flag to print both tasks.dat and taskquality.dat
+	// if (filename == "tasksq.dat")
+	// {
+	// 	file = "tasks.dat";
+	// 	PrintTasksQualData("taskquality.dat");
+	// }
   
 	// print tasks.dat
   Avida::Output::FilePtr df = Avida::Output::File::StaticWithPath(m_world->GetNewWorld(), (const char*)file);
