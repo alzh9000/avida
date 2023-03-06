@@ -1,3 +1,6 @@
+# Search for ALBERT in the whole repo to find comments in other files that I wrote as notes for how to get this code to work
+# Ex: In `avida-core/source/main/cStats.cc`: // ALBERT: This is a hack to get the filename from the config file dat_filenames.txt, i pass in the stuff from the config file directly into this function via str.c_str() 
+
 # python getting_data.py -o testing1.txt  # default command './avida' will be used
 # python getting_data.py ./some-command -o testing1.txt  # 'some-command' will be executed
 values = {'NOT': 1.0, 'NAND': 1.0, 'AND': 2.0, 'ORN': 2.0, 'OR': 3.0, 'ANDN': 3.0, 'NOR': 4.0, 'XOR': 4.0, 'EQU': 5.0}
