@@ -1204,6 +1204,7 @@ void cStats::PrintTasksData(const cString& filename)
   std::ifstream file("dat_filenames.txt");  // open file for reading
   std::string str;
 
+  str = "task_dat_filesnames1.dat";
   if (file.is_open()) {
       std::getline(file, str);  // read the entire line
       file.close();  // close the file
@@ -1211,7 +1212,7 @@ void cStats::PrintTasksData(const cString& filename)
   } else {
       std::cout << "Unable to open file" << std::endl;
   }
-	cString file = str.c_str();
+	// cString file = str.c_str();
   
 	// // flag to print both tasks.dat and taskquality.dat
 	// if (filename == "tasksq.dat")
@@ -1221,7 +1222,7 @@ void cStats::PrintTasksData(const cString& filename)
 	// }
   
 	// print tasks.dat
-  Avida::Output::FilePtr df = Avida::Output::File::StaticWithPath(m_world->GetNewWorld(), (const char*)file);
+  Avida::Output::FilePtr df = Avida::Output::File::StaticWithPath(m_world->GetNewWorld(), (const char*)str.c_str());
 	df->WriteComment("Avida tasks data");
 	df->WriteTimeStamp();
 	df->WriteComment("First column gives the current update, next columns give the number");

@@ -19,6 +19,18 @@ parser.add_argument(
 
 args = parser.parse_args()
 
+experiment_start_time_string = time.strftime(
+            "%m-%d_%H-%M-%S", time.localtime(time.time())
+        )
+log_file_name = "229r/" + str(xy) +"_" + str(values) + f"_{experiment_start_time_string}.txt"
+
+log_file_name = "229r/task_date_" + str(xy) +"_" + str(values) + f"_{experiment_start_time_string}.txt"
+
+
+with open('dat_filenames.txt', 'w') as f:
+    f.write(log_file_name)
+
+
 with open('avida.cfg', 'r') as f:
     contents = f.read()
 
@@ -57,11 +69,6 @@ contents = '\n'.join(lines)
 # Write the modified contents to a new file
 with open('environment.cfg', 'w') as f:
     f.write(contents)
-
-experiment_start_time_string = time.strftime(
-            "%m-%d_%H-%M-%S", time.localtime(time.time())
-        )
-log_file_name = "229r/" + str(xy) +"_" + str(values) + f"_{experiment_start_time_string}.txt"
 
 with open(log_file_name, "a") as f:
     f.write(str(values) + "\n")
