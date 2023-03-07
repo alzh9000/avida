@@ -3,7 +3,7 @@
 
 # python getting_data.py -o testing1.txt  # default command './avida' will be used
 # python getting_data.py ./some-command -o testing1.txt  # 'some-command' will be executed
-values = {'NOT': 1.0, 'NAND': 1.0, 'AND': 2.0, 'ORN': 2.0, 'OR': 3.0, 'ANDN': 3.0, 'NOR': 4.0, 'XOR': 4.0, 'EQU': 5.0}
+values = {'NOT': 3.0, 'NAND': 3.0, 'AND': 2.0, 'ORN': 2.0, 'OR': 3.0, 'ANDN': 3.0, 'NOR': 4.0, 'XOR': 4.0, 'EQU': 5.0}
 xy = {'x': 10, 'y': 10}
 
 import argparse
