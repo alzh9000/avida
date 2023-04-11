@@ -27,17 +27,13 @@ args = parser.parse_args()
 experiment_start_time_string = time.strftime(
             "%m-%d_%H-%M-%S", time.localtime(time.time())
         )
-log_file_name = "229r/" + str(xy) +"_" + str(values) + f"_{experiment_start_time_string}.txt"
 
-log_file_name = "229r/task_" + str(xy) +"_" + str(values) + f"_date_{experiment_start_time_string}.txt"
-
+log_file_name = "229r/p2/task_" + str(xy) +"_" + str(values) + f"_date_{experiment_start_time_string}.txt"
 if args.output:
     log_file_name +=  str(args.output)
 
-
 with open('dat_filenames.txt', 'w') as f:
     f.write(log_file_name)
-
 
 with open('avida.cfg', 'r') as f:
     contents = f.read()
