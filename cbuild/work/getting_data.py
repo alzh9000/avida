@@ -78,7 +78,13 @@ with open(log_file_name, "a") as f:
     f.write(str(values) + "\n")
     f.write(str(xy) + "\n")
 
+start_time = time.time()
+
 with open(log_file_name, "a") as f:
     subprocess.run(args.command, stdout=f)
 
+end_time = time.time()
+
+elapsed_time = end_time - start_time
+print(f"Elapsed Time: {elapsed_time:.3f} seconds")
 # TODO: figure out how to get Python to modify the values in environment.cfg, or have Python create a new environment.cfg file in this directory to replace the existing one, then execute the command.
