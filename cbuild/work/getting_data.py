@@ -82,9 +82,6 @@ start_time = time.time()
 
 with open(log_file_name, "a") as f:
     result = subprocess.run(args.command, stdout=f)
-    result = subprocess.run(["ls", "-l"], stdout=subprocess.PIPE, text=True)
-    print(result.stdout)
-    f.write(result.stdout)
 
 end_time = time.time()
 
