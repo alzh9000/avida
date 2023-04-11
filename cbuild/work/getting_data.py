@@ -1,3 +1,5 @@
+# Look in "/Users/albertzhang/GitHub/avida/cbuild/work/data/229r/p2" to get data on how many organisms have evolved EQU and other functions by certain timesteps.
+
 # Search for ALBERT in the whole repo to find comments in other files that I wrote as notes for how to get this code to work
 # Ex: In `avida-core/source/main/cStats.cc`: // ALBERT: This is a hack to get the filename from the config file dat_filenames.txt, i pass in the stuff from the config file directly into this function via str.c_str() 
 
@@ -82,6 +84,27 @@ start_time = time.time()
 
 with open(log_file_name, "a") as f:
     result = subprocess.run(args.command, stdout=f)
+
+new_lines = []
+# Read data from file into a list of strings
+with open(log_file_name, 'r') as f:
+    lines = f.readlines()
+
+    for line in lines:
+        keep = True
+        if line.startswith("229r/"):
+            keep = False
+            continue
+        if line.startswith("UD:"):
+            ud_value = int(line.split()[1])
+            if ud_value % 100 != 0:
+                keep = False 
+        if keep:
+            new_lines.append(line)
+            
+with open(log_file_name, "w") as f:
+    for line in new_lines:
+        f.write(line)
 
 end_time = time.time()
 
