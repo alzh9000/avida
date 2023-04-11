@@ -1,3 +1,6 @@
+# Tweak requisite:max_count in envrionment.cfg, reward values in envrionment.cfg through this file, mutation rate in avida.cfg, grid size in avida.cfg through this file, # of updates, where 10 updates are roughly equal to 1 generation, in events.cfg by EXIT.
+
+
 # Look in "/Users/albertzhang/GitHub/avida/cbuild/work/data/229r/p2" to get data on how many organisms have evolved EQU and other functions by certain timesteps.
 
 # Search for ALBERT in the whole repo to find comments in other files that I wrote as notes for how to get this code to work
