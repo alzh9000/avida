@@ -1,7 +1,7 @@
 #filetype genotype_data
 #format id src src_args parents num_units total_units length merit gest_time fitness gen_born update_born update_deactivated depth hw_type inst_set sequence cells gest_offset lineage 
 # Structured Population Save
-# Tue Apr 11 17:52:07 2023
+# Tue Apr 11 17:53:38 2023
 #  1: ID
 #  2: Source
 #  3: Source Args
@@ -23,190 +23,835 @@
 # 19: Gestation (CPU) Cycle Offsets
 # 20: Lineage Label
 
-1150 div:int (none) 1117 2 2 100 97 377 0.257294 39 486 -1 8 0 heads_default wzcagccmcvccccccccccucccdcccccccccilccccccccmcccccjcjccccccccccccccccccccoccccccccccccmcccczvfcaxgab 73,83 99,98 0,0 
-760 div:int (none) 520 2 11 99 96 381 0.251969 29 358 -1 5 0 heads_default wzcagcpcccccccccccccccccccccccccccccccccwcgcccccxcccccccccccccccccccccccrccccccccccccmcccczvfcaxgab 7,16 274,241 0,0 
-944 div:int (none) 842 3 7 98 95 377 0.251989 34 419 -1 9 0 heads_default wzcagcccccccccccccccccbccccccciqccccoccccccicccccccccccccccccccccnccccccccccccccicccmxccczvfcaxgab 21,22,31 144,144,177 0,0,0 
-1036 div:int (none) 860 3 4 100 95 381 0.249344 36 449 -1 6 0 heads_default wzcagccfccdcccccccccccccccckccctccccccccccccccccccctcdccccccccccccccccccccccccccccocccccccczvfcaxgab 49,50,51 98,65,98 0,0,0 
-1105 div:int (none) 1071 1 1 97 0 0 0 38 470 -1 13 0 heads_default wtcagccvqccccccccccacccccccckcccccccccmccctcccccccccecccbcccccctacccaccccccccucccccbcccczrfcaxgab 75 924 0 
-1174 div:int (none) 1139 1 1 102 0 0 0 38 494 -1 14 0 heads_default wzcagcpccjccccccccncccccczccycccccccccwccccccccccccccccccccccdotaccccrlcccccccccecccuccfmcccczvfcaxgab 76 218 0 
-1151 div:int (none) 1115 1 1 97 94 367 0.256131 39 486 -1 13 0 heads_default wzcagccvqccccccccccacccccccckcccccccccmccctcccccccccecxcucccccctaccccxcccccccucccccbcccczvfcaxgab 86 93 0 
-1177 div:int (none) 1066 1 1 102 0 0 0 39 495 -1 16 0 heads_default aaaaaaawzcagcccccccccccccaccoccccccccffccclcccclccccckchcccbcccccccccccccccccccccgcaccccccvcczvfcaxgab 12 198 0 
-1154 div:int (none) 1120 2 2 98 91 366 0.248634 39 487 -1 11 0 heads_default wzcagcccvcciccccccccacrzccccckcccccccccmckcccdcccccccccccccccccctaccccccccccccucccccccccczvfcaxgab 37,47 66,65 0,0 
-1131 div:int (none) 988 1 1 97 94 370 0.254054 39 480 -1 9 0 heads_default wzcagcccccccccccctccccecccccccccccccccccccccccccccccccccsccccyccucckcccccccccccccccmcccczvfcaxgab 97 286 0 
-1109 div:int (none) 1028 1 1 101 98 384 0.255208 38 472 -1 7 0 heads_default wzcagccmcvccccccccccccccccccccccccimccccccccccccccjcjccccccccccaccccccccccoccccccccccccmcccczvfcaxgab 2 131 0 
-1018 div:int (none) 938 2 4 99 96 382 0.251309 36 442 -1 10 0 heads_default wzcagccocceccacccccccccccrccccccccccccccccccccccccaccccccwccccccccccccccccccccccccccimttwczvfcaxgab 26,27 330,329 0,0 
-1179 div:int (none) 944 1 1 98 0 0 0 40 495 -1 10 0 heads_default wzcagcccccccccccccccccbccccccciqcchcocccccciccccccccccccccccpccccnccccccccccccccicccmxccczvfcaxgab 32 175 0 
-489 div:int (none) 272 1 14 98 95 374 0.254011 21 263 -1 6 0 heads_default wzcagcccvcccccccccccacccccccckcccccccccmcccccccccccccccccccccccctpccccccccccccucccccccccczvfcaxgab 71 230 0 
-1180 div:int (none) 944 1 1 98 0 0 0 40 495 -1 10 0 heads_default wzcagcccccccccccccccccbccccccciqccccoccccccicccccccccccccrcccccccnccccccccccccccicccmxccczvfcaxgab 33 176 0 
-1157 div:int (none) 1082 1 1 98 0 0 0 39 488 -1 10 0 heads_default wzcagcccvcciccccccccacczccccckcccccccccmckcccccccccccccccccccccctaccccccccccccucccccccccczvfwaxgdb 38 371 0 
-1181 div:int (none) 1050 1 1 99 0 0 0 40 496 -1 8 0 heads_default wzcagcpccccccccccccccccccccccccccqccccccccccccccxccccccccccccczcccccccccrcccccccccccxecccczvfcaxvab 15 169 0 
-1066 div:int (none) 989 1 3 103 96 388 0.247423 36 458 -1 15 0 heads_default aaaaaaawzcagcccccccccccccaccocccccccceffccclcccclccccckchcccbcccccccccccccccccccccgcaccccccvcczvfcaxgab 23 197 0 
-1020 div:int (none) 489 3 4 98 95 373 0.254692 36 443 -1 7 0 heads_default wzcagcccvcccccccccccacccccccckccccccnccmcccccccccccccccccccccccctpccccccccccccucccccccccczvfcaxgab 78,80,89 297,264,329 0,0,0 
-1158 div:int (none) 822 1 1 99 0 0 0 39 488 -1 8 0 heads_default wzcagccccccnccccccccccccccccyciqccccucccccciccccccccccccccccvccccccccccccccccccccccccmcccczvfcaxgao 90 387 0 
-1090 div:int (none) 781 1 1 98 83 363 0.22865 36 466 -1 8 0 heads_default wzcagccccccccczcccccacccccccqccccccccccccccccccccccccccpcccjccccccckcccccccccccczccccsccczvfcaxgab 56 197 0 
-1182 div:int (none) 1143 1 1 97 0 0 0 40 496 -1 13 0 heads_default wzcagccvcccccccccccacwcccccckccccccccccmccctcccdccccceccccccccctaccccccccccccucccccbcccczvfcaxgab 59 132 0 
-1136 div:int (none) 1050 1 1 99 87 371 0.234501 39 481 -1 8 0 heads_default wzcagcpccccccccccccckccccccccccccqccccccccccccccxccccccccccccczcccccccccrcccccccccccxecccczvfcaxgab 94 168 0 
-1183 div:int (none) 1142 1 1 98 0 0 0 40 496 -1 11 0 heads_default wzcagcccccccccccccccccbccccccciqcccaoccccccicccccccccccccccccccccnccccccccccccccicccmxccczvfcaxfab 14 144 0 
-999 div:int (none) 961 2 4 98 95 374 0.254011 35 435 -1 9 0 heads_default wzcagcccvcccccccccccacccccccckcccccccccmckxccccccccccccccccccccctaccccccccccccujccccccccczvfcaxgab 55,66 103,103 0,0 
-1160 div:int (none) 988 1 1 97 0 0 0 40 491 -1 9 0 heads_default wzcagcccclccccccctccccceccccccccccccccccccccccccccccccccsccccyccucckcccccccccccccccmcccczvfcaxgab 96 285 0 
-1184 div:int (none) 1109 1 1 101 0 0 0 40 496 -1 8 0 heads_default wzcagccmcvccccccccccccccccccccccccimccccccccccccccjcjccccccccccaccccccccccoccdcccccccccmcccczvfcaxgab 11 132 0 
-793 div:int (none) 728 3 8 100 97 379 0.255937 30 369 -1 9 0 heads_default wzcagccccccccrcccccccccccpxcccccccvcccccccccccccccccccuccccsccccyccucccccaccccccccccscrcccczvfcaxgab 48,58,67 289,256,223 0,0,0 
-1161 div:int (none) 489 1 1 99 0 0 0 40 492 -1 7 0 heads_default wzcagcccvcccccccccccacccccccckcccccccccmccccccccccocccccccccccccctpccccccccccccucccccccccczvfcaxgab 60 297 0 
-1185 div:int (none) 1147 1 1 101 0 0 0 40 497 -1 9 0 heads_default wzcagccctcecccccccccccccwccckccccccccscccccccccccccctcdccgcccccckcccyccccccccccccccocccccccczvfcaxgab 30 123 0 
-1070 div:int (none) 993 1 2 101 98 386 0.253886 37 458 -1 9 0 heads_default wzcagcccccccccccccccccccccccclccuccccbccccccccccccccwccccccsccccycjccccccccccccqcccyccymcccczvfcaxgab 41 242 0 
-1139 div:int (none) 1053 1 1 102 97 385 0.251948 37 482 -1 13 0 heads_default wzcagcpccjccccccccncccccczccyccccccccccccccccccccccccccccccccdocaccccrlcccccccccecccuccfmcccczvfcaxgab 65 218 0 
-1093 div:int (none) 1057 2 2 98 85 363 0.23416 38 467 -1 8 0 heads_default wzcagcccvcccccccccccacccccccaecccccccccmcccccccccccccccccccccccctpfcccccccccccuccccccccdczvfcaxgab 72,81 198,197 0,0 
-1048 div:int (none) 856 4 4 99 92 374 0.245989 35 455 -1 8 0 heads_default wzcagccccccccczcciccacccccccqccccccccccccccccccccccccccccccjccccccckcccccccccctcczccccsccczvfcaxgab 3,4,13,92 230,198,164,231 0,0,0,0 
-979 div:int (none) 938 5 6 99 96 381 0.251969 35 430 -1 10 0 heads_default wzcagccocceccaccccccccccclccccccccccccccccccccccccaccccccwcccccccccccccccccccccccccdimtcwczvfcaxgab 35,36,44,45,46 264,263,264,263,296 0,0,0,0,0 
-773 div:int (none) 648 2 10 102 89 379 0.234828 28 360 -1 11 0 heads_default wzcagcpccjccccccccncccccczcccccccccccccccccccccccccccccccccccdocaccccrlcccccccccecccccccmcccczvfcaxgab 42,43 198,230 0,0 
-1187 div:int (none) 1023 1 1 102 0 0 0 38 497 -1 13 0 heads_default wzcagcpccjccccccccncccccczccccccccccccccccccccccccccccccrccccdocaccgcrlcccccccccecccccccmcccczvfcaxgab 53 99 0 
-1164 div:int (none) 1131 1 1 97 0 0 0 40 492 -1 10 0 heads_default wzcagcccccccccccctccccecccccccccccccccccccccccccccccccccsccccyccucckcccacccccccccccmcccczvfcaxgab 88 253 0 
-1050 div:int (none) 836 2 3 99 87 372 0.233871 37 455 -1 7 0 heads_default wzcagcpccccccccccccccccccccccccccqccccccccccccccxccccccccccccczcccccccccrcccccccccccxecccczvfcaxgab 6,95 169,235 0,0 
-1119 div:int (none) 1007 1 2 101 98 386 0.253886 38 474 -1 7 0 heads_default wzcarcccccdcccccccccccccwccckccccccccscccccccccccccctcdccgcccccccccccccccccccccccccocccccccczvfcaxgab 19 33 0 
-1142 div:int (none) 944 1 1 98 95 377 0.251989 39 483 -1 10 0 heads_default wzcagcccccccccccccccccbccccccciqcccaoccccccicccccccccccccccccccccnccccccccccccccicccmxccczvfcaxgab 24 177 0 
-1165 div:int (none) 793 1 1 100 0 0 0 40 493 -1 10 0 heads_default wzcagccccccccrcccccccccccpxcccccccvcccccccccccccccccccuccfcsccccyccucccccaccccccccccscrcccczvfcaxgab 57 222 0 
-1188 div:int (none) 1151 1 1 98 0 0 0 40 498 -1 14 0 heads_default wzcagccvqccccccccccacccccccckcccccccccmccctcccccccccecxcucccccctaccccxccczcccucccccbcccmczvfcaxgab 77 126 0 
-1074 div:int (none) 1033 3 4 100 97 382 0.253927 37 459 -1 8 0 heads_default wzcagcccccccccccccccccccccccyciqccccucccccpicccccccccccccccccvccccccccccccccccccccccccmcccczvfcaxgab 1,9,10 157,157,157 0,0,0 
-1166 div:int (none) 836 1 1 99 0 0 0 40 493 -1 7 0 heads_default wzcagcpcccccccccccccccccccccccccqcccccccccccccczxcccccccccccccceccccccccrccccccccccccecccczvfcaxgab 5 242 0 
-1189 div:int (none) 1036 1 1 100 0 0 0 40 498 -1 7 0 heads_default wzcagccfccdcccccccccccccccckccctcccccccccccbccccccctcdcccccccccccccccqccccccccccccocccccccczvfcaxgab 52 99 0 
-1143 div:int (none) 1078 1 1 96 93 363 0.256198 39 484 -1 12 0 heads_default wzcagccvcccccccccccacwcccccckcccccccccmccctcccdccccceccccccccctaccccccccccccucccccbcccczvfcaxgab 69 164 0 
-937 div:int (none) 897 1 5 100 97 383 0.253264 33 416 -1 7 0 heads_default wzcagclpccccccccccccccccccckcncccncccccpcccccccccccccdjcccccccccccccccccccccccccccccccccccczvfcaxgab 34 330 0 
-1190 div:int (none) 1036 1 1 100 0 0 0 40 498 -1 7 0 heads_default wzcagccfccdcccccccccccccccckccctccccccccccccccccccctcdccccccccccccccccdcccccccccccocccccccczvfcaxgab 39 66 0 
-1006 div:int (none) 966 1 1 100 97 382 0.253927 35 437 -1 8 0 heads_default wzcagcpccccccccycccccccccccccccccccoccccccbcccccccccccrcccccccccccecccccccccccccccchccmcccczvfcaxgab 64 110 0 
-1167 div:int (none) 1056 1 1 100 0 0 0 39 493 -1 7 0 heads_default wzcagcccccccccccccccccccckycccccccccdcccccccccccccccdcccccccccccpcccccccccccccccccccccccccczvfcaxgab 68 287 0 
-1098 div:int (none) 489 1 3 98 85 363 0.23416 38 468 -1 7 0 heads_default wzcagcccvcccccccccccacccccccckcccccccccmcccccccccccfcccccccccccctpccccccccccccucccccccccczvfcaxgab 70 230 0 
-822 div:int (none) 671 1 6 99 96 377 0.254642 30 376 -1 7 0 heads_default wzcagccccccnccccccccccccccccyciqccccucccccciccccccccccccccccvccccccccccccccccccccccccmcccczvfcaxgab 91 321 0 
-1191 div:int (none) 1155 1 1 101 0 0 0 40 499 -1 8 0 heads_default wzcagcccccdcccccccccccccwccckccccccccscccccccccccccctcdccgcccccccpcccccccccccccccccocccceciczvfcaxgab 0 66 0 
-1122 div:int (none) 1018 2 2 99 96 382 0.251309 39 477 -1 11 0 heads_default wzcagccocceccacccccccccccrccccccccccccccccccccccccaccccccwcccccccccccccccccaccccccccimttwczvfcaxgab 17,28 330,362 0,0 
-1007 div:int (none) 785 2 4 101 98 386 0.253886 35 438 -1 6 0 heads_default wzcagcccccdcccccccccccccwccckccccccccscccccccccccccctcdccgcccccccccccccccccccccccccocccccccczvfcaxgab 18,29 65,32 0,0 
-1053 div:int (none) 773 1 2 102 97 385 0.251948 35 455 -1 12 0 heads_default wzcagcpccjccccccccncccccczccyccccccccccccccccccccccccccccccccdocaccccrlcccccccccecccucccmcccczvfcaxgab 54 218 0 
-1168 div:int (none) 489 1 1 98 0 0 0 40 493 -1 7 0 heads_default wzcagcccvcccccccccccmcccccccckcccccccccmcccccccccccccccccucccccctpccccccccccccucccccccccczvfcaxgab 62 264 0 
-1192 div:int (none) 1036 1 1 101 0 0 0 40 499 -1 7 0 heads_default wzcagccfccdcccccccccccccccckccctccccccccccccccccccctcdcccccccccckccccccccccccccccccocccccccczvfcaxgab 61 66 0 
-1031 div:int (none) 883 2 5 101 98 383 0.255875 36 447 -1 6 0 heads_default wzcagccmcvccccccccccuccccccccccccccicccccccccccccccjcjccccccccccccccccccccoccccccccccccmcccczvfcaxgab 82,93 131,132 0,0 
-1169 div:int (none) 1050 1 1 99 0 0 0 40 493 -1 8 0 heads_default wzcagcpcccccmccccccccccccccccccccqccccccccccccccxccccccccrcccczcccccccccrcccccccccccxecccczvfcaxgab 85 200 0 
-1193 div:int (none) 1007 1 1 101 0 0 0 40 500 -1 7 0 heads_default wzcagcccccdcccccccccccccwccckccccccccscccccccccccccctcdccgcccccccccccccccccccccccccocccccccczvfcaxgap 8 33 0 
-1147 div:int (none) 1039 1 1 101 98 384 0.255208 39 485 -1 8 0 heads_default wzcagccctcecccccccccccccwccckccccccccscccccccccccccctcdccgcccccckccccccccccccccccccocccccccczvfcaxgab 40 131 0 
-1101 div:int (none) 1023 1 1 102 0 0 0 36 469 -1 13 0 heads_default izcagcpccjccccccccncccccnzccccccccccccccccccccccccccccccrccccdocaccccrlcccccccccecccccccmcccczvfcaxgab 63 883 0 
-1124 div:int (none) 1020 1 2 98 95 373 0.254692 39 478 -1 8 0 heads_default wzcagcccvcccccccccccacccccccckccccccnccmcccccccccccccccccccccccctpccccccccacccucccccccccczvfcaxgab 98 296 0 
-1194 div:int (none) 1007 1 1 101 0 0 0 40 500 -1 7 0 heads_default wzcagcccccdcccccccccccccwccckccccccccscccccccccocccctcdccgccccccccccaccccccccccccccocccccccczvfcaxgab 20 33 0 
-1148 div:int (none) 1060 1 1 100 0 0 0 37 485 -1 9 0 heads_default wzcauccccccccczcccccacccccccqcccccccccccccccccccccnccccpcccjccccsccckccccccccccccczccccsccczvdcaxgab 84 412 0 
-1034 div:int (none) 857 1 1 100 0 0 0 36 448 -1 7 0 heads_default wzcagcpccccccccycccccncccccccccccccnccccccbcccccccccccrcccccccccccccccccccccccccccccccmccccyvfcaxgab 25 1678 0 
-1149 div:int (none) 1006 1 1 200 0 0 0 39 485 -1 9 0 heads_default aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaawzcagcpccccccccycccccccccccccccccccoccccccbcccccccccccrccccccccccceccccccccccccccuchccmcccczvfcaxgab 74 474 0 
-988 div:int (none) 950 2 5 98 95 374 0.254011 35 433 -1 8 0 heads_default wzcagcccccccccccctcccccecccccccccccccccccccccccccccccccccsccccyccucckcccccccccccccccmcccczvfcaxgab 79,87 353,320 0,0 
-1172 div:int (none) 959 1 1 97 0 0 0 40 494 -1 11 0 heads_default wzcagcccvcccccccccccatccccccckcccccccccmcccccccccccccccccccccccctacccccccccccacciccbcccczvfcaxgab 99 231 0 
-1155 div:int (none) 1007 0 1 101 98 385 0.254545 39 487 500 7 0 heads_default wzcagcccccdcccccccccccccwccckccccccccscccccccccccccctcdccgcccccccpcccccccccccccccccocccccccczvfcaxgab 
-1120 div:int (none) 1082 0 1 98 91 366 0.248634 38 475 499 10 0 heads_default wzcagcccvcciccccccccacczccccckcccccccccmckcccdcccccccccccccccccctaccccccccccccucccccccccczvfcaxgab 
-1115 div:int (none) 994 0 1 97 94 368 0.255435 38 473 498 12 0 heads_default wzcagccvqccccccccccacccccccckcccccccccmccctcccccccccecccccccccctaccccxcccccccucccccbcccczvfcaxgab 
-1023 div:int (none) 773 0 2 102 89 378 0.23545 34 443 497 12 0 heads_default wzcagcpccjccccccccncccccczccccccccccccccccccccccccccccccrccccdocaccccrlcccccccccecccccccmcccczvfcaxgab 
-1117 div:int (none) 1031 0 1 101 98 383 0.255875 38 473 496 7 0 heads_default wzcagccmcvccccccccccuccccccccccccccilccccccccccccccjcjccccccccccccccccccccoccccccccccccmcccczvfcaxgab 
-959 div:int (none) 922 0 6 97 94 371 0.253369 34 423 496 10 0 heads_default wzcagcccvcccccccccccacccccccckcccccccccmcccccccccccccccccccccccctacccccccccccacccccbcccczvfcaxgab 
-1056 div:int (none) 603 0 2 100 97 385 0.251948 36 456 494 6 0 heads_default wzcagcccccbccccccccccccccckcccccccccdcccccccccccccccdcccccccccccpcccccccccccccccccccccccccczvfcaxgab 
-1071 div:int (none) 994 0 1 97 94 368 0.255435 37 459 494 12 0 heads_default wzcagccvqccccccccccacccccccckcccccccccmccctcccccccccecccbcccccctaccccccccccccucccccbcccczvfcaxgab 
-781 div:int (none) 700 0 10 99 84 367 0.228883 28 362 493 7 0 heads_default wzcagccccccccczcccccacccccccqccccccccccccccccccccccccccpcccjccccccckccccccccccccczccccsccczvfcaxgab 
-836 div:int (none) 796 0 4 99 95 381 0.249344 31 382 493 6 0 heads_default wzcagcpccccccccccccccccccccccccccqccccccccccccccxcccccccccccccccccccccccrccccccccccccecccczvfcaxgab 
-1078 div:int (none) 921 0 2 97 94 367 0.256131 37 460 490 11 0 heads_default wzcagccvcccccccccccacwcccccckcccccccccmccctcccdcccccecccccccccctaccccccccccccucccccbcccczvfcaxgab 
-1082 div:int (none) 925 0 1 98 91 367 0.247956 37 461 488 9 0 heads_default wzcagcccvcciccccccccacczccccckcccccccccmckcccccccccccccccccccccctaccccccccccccucccccccccczvfcaxgab 
-1039 div:int (none) 1007 0 2 101 98 385 0.254545 36 450 487 7 0 heads_default wzcagccctcdcccccccccccccwccckccccccccscccccccccccccctcdccgcccccccccccccccccccccccccocccccccczvfcaxgab 
-1060 div:int (none) 781 0 2 99 84 366 0.229508 35 456 485 8 0 heads_default wzcagccccccccczcccccacccccccqcccccccccccccccccccccnccccpcccjccccccckccccccccccccczccccsccczvfcaxgab 
-994 div:int (none) 921 0 3 97 94 368 0.255435 35 435 482 11 0 heads_default wzcagccvqccccccccccacccccccckcccccccccmccctcccccccccecccccccccctaccccccccccccucccccbcccczvfcaxgab 
-1033 div:int (none) 671 0 2 100 97 382 0.253927 36 447 481 7 0 heads_default wzcagcccccccccccccccccccccccyciqccccucccccyicccccccccccccccccvccccccccccccccccccccccccmcccczvfcaxgab 
-925 div:int (none) 848 0 3 98 91 368 0.247283 33 410 474 8 0 heads_default wzcagcccvcccccccccccacczccccckcccccccccmckcccccccccccccccccccccctaccccccccccccucccccccccczvfcaxgab 
-1028 div:int (none) 883 0 1 101 98 384 0.255208 36 447 472 6 0 heads_default wzcagccmcvccccccccccccccccccccccccimccccccccccccccjcjcccccccccccccccccccccoccccccccccccmcccczvfcaxgab 
-1057 div:int (none) 489 0 1 98 85 363 0.23416 37 456 471 7 0 heads_default wzcagcccvcccccccccccacccccccakcccccccccmcccccccccccccccccccccccctpfcccccccccccuccccccccdczvfcaxgab 
-921 div:int (none) 811 0 1 97 94 368 0.255435 33 410 470 10 0 heads_default wzcagccvcccccccccccacccccccckcccccccccmccctcccccccccecccccccccctaccccccccccccucccccbcccczvfcaxgab 
-880 div:int (none) 849 0 5 100 97 385 0.251948 32 397 467 6 0 heads_default wzcagcccccccccccccccccccccccclccccccccccccccccccccccwccccccsccccyccccccccccccccqccccccmcccczvfcaxgab 
-603 div:int (none) 572 0 9 100 97 386 0.251295 24 304 466 5 0 heads_default wzcagcccccbccccccccccccccckcccccccccccccccccccccccccdcccccccccccpcccccccccccccccccccccccccczvfcaxgab 
-857 div:int (none) 821 0 5 100 97 384 0.252604 31 388 465 6 0 heads_default wzcagcpccccccccycccccccccccccccccccnccccccbcccccccccccrcccccccccccccccccccccccccccccccmcccczvfcaxgab 
-989 div:int (none) 917 0 2 103 97 389 0.249357 34 433 465 14 0 heads_default aaaaaaawzcagcccccccccccccaccoccccccccccfccclcccclccccckchcccccccccccccccccccccccccgcaccccccvcczvfcaxgab 
-883 div:int (none) 816 0 2 101 98 384 0.255208 32 398 460 5 0 heads_default wzcagccmcvccccccccccccccccccccccccicccccccccccccccjcjcccccccccccccccccccccoccccccccccccmcccczvfcaxgab 
-993 div:int (none) 954 0 2 101 98 386 0.253886 35 434 459 8 0 heads_default wzcagcccccccccccccccccccccccclccuccccbccccccccccccccwccccccsccccycjccccccccccccqcccycccmcccczvfcaxgab 
-860 div:int (none) 674 0 6 100 97 383 0.253264 31 388 457 5 0 heads_default wzcagcccccdcccccccccccccccckccctccccccccccccccccccctcdccccccccccccccccccccccccccccocccccccczvfcaxgab 
-856 div:int (none) 700 0 3 99 92 375 0.245333 30 388 456 7 0 heads_default wzcagccccccccczcciccacccccccqccccccccccccccccccccccccccccccjccccccckccccccccccccczccccsccczvfcaxgab 
-966 div:int (none) 857 0 1 100 97 383 0.253264 34 425 455 7 0 heads_default wzcagcpccccccccycccccccccccccccccccnccccccbcccccccccccrcccccccccccecccccccccccccccccccmcccczvfcaxgab 
-671 div:int (none) 458 0 6 100 97 382 0.253927 26 327 451 6 0 heads_default wzcagcccccccccccccccccccccccyciqccccuccccccicccccccccccccccccvccccccccccccccccccccccccmcccczvfcaxgab 
-961 div:int (none) 848 0 1 98 95 373 0.254692 34 423 447 8 0 heads_default wzcagcccvcccccccccccacccccccckcccccccccmckcccccccccccccccccccccctaccccccccccccujccccccccczvfcaxgab 
-917 div:int (none) 872 0 1 103 97 389 0.249357 32 409 445 13 0 heads_default aaaaaaawzcagcccccccccccccaccoccccccccccfccclcccclccccckchcccccccccccccccccccccccccgccccccccvcczvfcaxgab 
-842 div:int (none) 806 0 4 98 95 377 0.251989 31 383 443 8 0 heads_default wzcagcccccccccccccccccbccccccciqccccuccccccicccccccccccccccccccccnccccccccccccccicccmxccczvfcaxgab 
-922 div:int (none) 736 0 2 98 95 375 0.253333 33 410 443 9 0 heads_default wzcagcccvcccccccccccacccccccckcccccccccmcccccccccccccccccccccccctaccccccccccccacccccbcccczvfcaxgab 
-736 div:int (none) 618 0 4 98 95 374 0.254011 28 349 443 8 0 heads_default wzcagcccvcccccccccccacccccccckcccccccccmcccccccccccccccccccccccctaccccccccccccucccccbcccczvfcaxgab 
-938 div:int (none) 827 0 1 99 96 381 0.251969 34 417 442 9 0 heads_default wzcagccocceccaccccccccccclccccccccccccccccccccccccaccccccwccccccccccccccccccccccccccimtcwczvfcaxgab 
-785 div:int (none) 674 0 4 101 98 387 0.25323 29 364 440 5 0 heads_default wzcagcccccdcccccccccccccwccckccccccccccccccccccccccctcdccgcccccccccccccccccccccccccocccccccczvfcaxgab 
-954 div:int (none) 880 0 1 101 98 386 0.253886 34 422 438 7 0 heads_default wzcagcccccccccccccccccccccccclccucccccccccccccccccccwccccccsccccycjccccccccccccqcccycccmcccczvfcaxgab 
-674 div:int (none) 535 0 5 100 97 384 0.252604 26 328 437 4 0 heads_default wzcagcccccdcccccccccccccccckccccccccccccccccccccccctcdccccccccccccccccccccccccccccocccccccczvfcaxgab 
-848 div:int (none) 489 0 1 98 95 373 0.254692 31 385 435 7 0 heads_default wzcagcccvcccccccccccacccccccckcccccccccmckcccccccccccccccccccccctaccccccccccccucccccccccczvfcaxgab 
-753 div:int (none) 439 0 3 99 96 382 0.251309 29 356 434 7 0 heads_default wzcagccoccccccccccccccccclccccccccccccccccccccccccacccccccccccccccccccccccccccccccccimtcwczvfcaxgab 
-950 div:int (none) 912 0 1 98 95 375 0.253333 34 421 433 7 0 heads_default wzcagcccccccccccctcccccecccccccccccccccccccccccccccccccccsccccyccuccccccccccccccccccmcccczvfcaxgab 
-912 div:int (none) 874 0 1 98 95 376 0.25266 33 408 430 6 0 heads_default wzcagcccccccccccctcccccecccccccccccccccccccccccccccccccccsccccycccccccccccccccccccccmcccczvfcaxgab 
-872 div:int (none) 685 0 3 102 96 389 0.246787 31 395 429 12 0 heads_default aaaaawzcagccccccccccccccaccoccccccccccfccclcccclccccckchccccccccccccccccccccccccccccccccccccczvfcaxgab 
-874 div:int (none) 844 0 1 99 96 380 0.252632 32 395 428 5 0 heads_default wzcagccccccccccccctcccccecccccccccccccccccccccccccccccccccsccccycccccccccccccccccccccmcccczvfcaxgab 
-811 div:int (none) 736 0 2 98 95 373 0.254692 30 373 423 9 0 heads_default wzcagcccvcccccccccccacccccccckcccccccccmccctcccccccccccccccccccctaccccccccccccucccccbcccczvfcaxgab 
-685 div:int (none) 645 0 1 100 94 381 0.246719 26 331 421 11 0 heads_default aaawzcagccccccccccccccaccoccccccccccfccclcccclccccckchccccccccccccccccccccccccccccccccccccczvfcaxgab 
-520 div:int (none) 311 0 12 99 96 382 0.251309 22 274 421 4 0 heads_default wzcagcpcccccccccccccccccccccccccccccccccccccccccxcccccccccccccccccccccccrccccccccccccmcccczvfcaxgab 
-658 div:int (none) 529 0 3 99 96 381 0.251969 26 324 421 6 0 heads_default wzcagcccccccccccccccccbccccccciqccccuccccccicccccccccccccccccccccncccccccccccccccccccmcccczvfcaxgab 
-827 div:int (none) 753 0 2 99 96 381 0.251969 31 380 420 8 0 heads_default wzcagccoccecccccccccccccclccccccccccccccccccccccccaccccccwccccccccccccccccccccccccccimtcwczvfcaxgab 
-897 div:int (none) 749 0 1 100 97 383 0.253264 32 402 419 6 0 heads_default wzcagcdpccccccccccccccccccckcncccncccccpcccccccccccccdjcccccccccccccccccccccccccccccccccccczvfcaxgab 
-821 div:int (none) 377 0 1 100 97 384 0.252604 30 376 412 5 0 heads_default wzcagcpccccccccycccccccccccccccccccnccccccccccccccccccrcccccccccccccccccccccccccccccccmcccczvfcaxgab 
-849 div:int (none) 810 0 1 100 97 385 0.251948 31 385 410 5 0 heads_default wzcagcccccccccccccccccccccccclcccccccccccccccccccccccccccccsccccyccccccccccccccqccccccmcccczvfcaxgab 
-810 div:int (none) 368 0 1 100 97 385 0.251948 30 373 409 4 0 heads_default wzcagcccccccccccccccccccccccclcccccccccccccccccccccccccccccsccccycccccccccccccccccccccmcccczvfcaxgab 
-749 div:int (none) 716 0 2 100 97 383 0.253264 28 354 407 5 0 heads_default wzcagcdpccccccccccccccccccckcncccscccccpcccccccccccccdjcccccccccccccccccccccccccccccccccccczvfcaxgab 
-529 div:int (none) 340 0 17 100 97 386 0.251295 22 276 406 5 0 heads_default wzcagcccccccccccccccccbccccccciqccccucccccciccccccccccccccccccccccccccccccccccccccccccmcccczvfcaxgab 
-648 div:int (none) 578 0 5 101 89 377 0.236074 25 320 403 10 0 heads_default wzcagcpccjccccccccncccccczcccccccccccccccccccccccccccccccccccdocaccccrlccccccccccccccccmcccczvfcaxgab 
-700 div:int (none) 580 0 3 99 84 368 0.228261 26 335 402 6 0 heads_default wzcagccccccccczcccccacccccccqccccccccccccccccccccccccccccccjccccccckccccccccccccczccccsccczvfcaxgab 
-816 div:int (none) 588 0 1 101 98 385 0.254545 30 374 401 4 0 heads_default wzcagccmcvccccccccccccccccccccccccccccccccccccccccjcjcccccccccccccccccccccoccccccccccccmcccczvfcaxgab 
-580 div:int (none) 282 0 6 99 93 379 0.245383 23 294 395 5 0 heads_default wzcagcccccccccccccccacccccccqccccccccccccccccccccccccccccccjccccccccccccccccccccczccccsccczvfcaxgab 
-844 div:int (none) 368 0 1 100 97 385 0.251948 31 384 395 4 0 heads_default wzcagccccccccccccccccccceccccccccccccccccccccccccccccccccccsccccycccccccccccccccccccccmcccczvfcaxgab 
-728 div:int (none) 689 0 3 100 97 380 0.255263 28 345 395 8 0 heads_default wzcagccccccccrcccccccccccpxcccccccvcccccccccccccccccccuccccsccccyccuccccccccccccccccccrcccczvfcaxgab 
-588 div:int (none) 34 0 7 101 98 387 0.25323 24 300 387 3 0 heads_default wzcagccmcvccccccccccccccccccccccccccccccccccccccccccjccccccccccccccccccccccccccccccccccmcccczvfcaxgab 
-552 div:int (none) 485 0 8 100 97 383 0.253264 23 285 386 6 0 heads_default wzcagccccccccccccccccccccpccccccccccccccccccccccccccccuccccsccccyccuccccccccccccccccccmcccczvfcaxgab 
-368 div:int (none) 90 0 10 100 97 386 0.251295 18 227 384 3 0 heads_default wzcagccccccccccccccccccccccccccccccccccccccccccccccccccccccsccccycccccccccccccccccccccmcccczvfcaxgab 
-796 div:int (none) 520 0 1 99 95 381 0.249344 30 370 384 5 0 heads_default wzcagcpcccccccccccccccccccccccccccccccccccccccccxcccccccccccccccccccccccrccccccccccccecccczvfcaxgab 
-806 div:int (none) 658 0 1 99 96 381 0.251969 30 372 383 7 0 heads_default wzcagcccccccccccccccccbccccccciqccccuccccccicccccccccccccccccccccncccccccccccccciccccmxccczvfcaxgab 
-377 div:int (none) 237 0 8 100 97 385 0.251948 18 228 376 4 0 heads_default wzcagcpccccccccycccccccccccccccccccnccccccccccccccccccccccccccccccccccccccccccccccccccmcccczvfcaxgab 
-618 div:int (none) 489 0 2 98 95 374 0.254011 25 311 373 7 0 heads_default wzcagcccvcccccccccccacccccccckcccccccccmcccccccccccccccccccccccctpccccccccccccucccccbcccczvfcaxgab 
-439 div:int (none) 332 0 12 99 96 382 0.251309 20 247 367 6 0 heads_default wzcagccoccccccccccccccccclccccccccccccccccccccccccacccccccccccccccccccccccccccccccccimccwczvfcaxgab 
-716 div:int (none) 679 0 1 100 97 385 0.251948 27 342 364 4 0 heads_default wzcagcdpccccccccccccccccccckcccccccccccpcccccccccccccdjcccccccccccccccccccccccccccccccccccczvfcaxgab 
-249 div:int (none) 8 0 13 100 97 387 0.250646 14 180 354 2 0 heads_default wzcagcccccccccccccccccccccckcccccccccccccccccccccccccdccccccccccccccccccccccccccccccccccccczvfcaxgab 
-311 div:int (none) 57 0 8 99 96 383 0.250653 16 203 347 3 0 heads_default wzcagcpcccccccccccccccccccccccccccccccccccccccccxccccccccccccccccccccccccccccccccccccmcccczvfcaxgab 
-689 div:int (none) 552 0 1 100 97 384 0.252604 27 333 345 7 0 heads_default wzcagccccccccccccccccccccpxcccccccccccccccccccccccccccuccccsccccyccuccccccccccccccccccrcccczvfcaxgab 
-645 div:int (none) 575 0 1 99 93 378 0.246032 25 318 343 10 0 heads_default aawzcagccccccccccccccaccoccccccccccfccclcccccccccckchccccccccccccccccccccccccccccccccccccczvfcaxgab 
-679 div:int (none) 249 0 1 100 97 387 0.250646 26 330 342 3 0 heads_default wzcagcccccccccccccccccccccckcccccccccccccccccccccccccdjcccccccccccccccccccccccccccccccccccczvfcaxgab 
-578 div:int (none) 385 0 2 101 89 377 0.236074 23 294 334 9 0 heads_default wzcagcpccjccccccccncccccczcccccccccccccccccccccccccccccccccccdocaccccrcccccccccccccccccmcccczvfcaxgab 
-535 div:int (none) 249 0 3 100 97 386 0.251295 22 279 333 3 0 heads_default wzcagcccccdcccccccccccccccckcccccccccccccccccccccccccdccccccccccccccccccccccccccccccccccccczvfcaxgab 
-458 div:int (none) 340 0 5 100 97 383 0.253264 20 253 331 5 0 heads_default wzcagccccccccccccccccccccccccciqccccuccccccicccccccccccccccccvccccccccccccccccccccccccmcccczvfcaxgab 
-575 div:int (none) 502 0 1 99 93 378 0.246032 23 292 327 9 0 heads_default awzcagccccccccccccccaccoccccccccccfccclcccccccccckchcccccccccccccccccccccccccccccccccccccczvfcaxgab 
-340 div:int (none) 255 0 5 100 97 386 0.251295 17 216 304 4 0 heads_default wzcagccccccccccccccccccccccccciqccccucccccciccccccccccccccccccccccccccccccccccccccccccmcccczvfcaxgab 
-572 div:int (none) 535 0 1 99 96 383 0.250653 23 292 304 4 0 heads_default wzcagcccccbccccccccccccccckcccccccccccccccccccccccccdccccccccccccccccccccccccccccccccccccczvfcaxgab 
-502 div:int (none) 462 0 1 99 93 378 0.246032 21 267 303 8 0 heads_default wzcagccccccccccccccaccoccccccccccfccclccccccccccckchcccccccccccccccccccccccccccccccccccccczvfcaxgab 
-34 div:int (none) 3 0 24 101 98 388 0.252577 8 102 302 2 0 heads_default wzcagccmcvcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccmcccczvfcaxgab 
-282 div:int (none) 246 0 6 99 89 376 0.236702 15 192 300 4 0 heads_default wzcagcccccccccccccccacccccccqccccccccccccccccccccccccccccccjccccccccccccccccccccczcccccccczvfcaxgab 
-272 div:int (none) 244 0 6 99 96 378 0.253968 15 191 294 5 0 heads_default wzcagcccvcccccccccccacccccccckcccccccccmccccccccccccccccccccccccccpccccccccccccucccccccccczvfcaxgab 
-385 div:int (none) 343 0 2 101 89 377 0.236074 18 229 294 8 0 heads_default wzcagcpccjccccccccncccccczccccccccccccccccccccccccccccccccccccocaccccrcccccccccccccccccmcccczvfcaxgab 
-485 div:int (none) 444 0 2 100 97 384 0.252604 21 262 287 5 0 heads_default wzcagcccccccccccccccccccccccccccccccccccccccccccccccccuccccsccccyccuccccccccccccccccccmcccczvfcaxgab 
-234 div:int (none) 64 0 7 99 96 383 0.250653 14 177 275 5 0 heads_default wzcagcccccccccccccccaccocccccccccccccccccccccccccckccccccccccccccccccccccccccccccccccccccczvfcaxgab 
-444 div:int (none) 368 0 1 100 97 385 0.251948 20 250 274 4 0 heads_default wzcagccccccccccccccccccccccccccccccccccccccccccccccccccccccsccccyccuccccccccccccccccccmcccczvfcaxgab 
-462 div:int (none) 378 0 1 99 93 379 0.245383 20 254 267 7 0 heads_default wzcagcccccccccccccccaccoccccccccccfccclccccccccccckccccccccccccccccccccccccccccccccccccccczvfcaxgab 
-332 div:int (none) 84 0 4 99 96 382 0.251309 17 212 267 5 0 heads_default wzcagccoccccccccccccccccclccccccccccccccccccccccccacccccccccccccccccccccccccccccccccimcccczvfcaxgab 
-378 div:int (none) 234 0 1 99 86 372 0.231183 18 229 255 6 0 heads_default wzcagcccccccccccccccaccoccccccccccfccccccccccccccckccccccccccccccccccccccccccccccccccccccczvfcaxgab 
-25 div:int (none) 7 0 7 99 96 384 0.25 7 92 255 3 0 heads_default wzcagcccccccccccccccaccocccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccczvfcaxgab 
-90 div:int (none) 3 0 7 100 97 387 0.250646 10 127 252 2 0 heads_default wzcagccccccccccccccccccccccccccccccccccccccccccccccccccccccsccccccccccccccccccccccccccmcccczvfcaxgab 
-255 div:int (none) 107 0 3 100 97 387 0.250646 14 181 249 3 0 heads_default wzcagccccccccccccccccccccccccccqccccucccccccccccccccccccccccccccccccccccccccccccccccccmcccczvfcaxgab 
-7 div:int (none) 4 0 17 99 96 385 0.249351 4 52 243 2 0 heads_default wzcagcccccccccccccccaccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccczvfcaxgab 
-343 div:int (none) 276 0 1 101 98 387 0.25323 17 217 238 7 0 heads_default wzcagcpccjccccccccncccccccccccccccccccccccccccccccccccccccccccocaccccrcccccccccccccccccmcccczvfcaxgab 
-237 div:int (none) 57 0 7 100 97 386 0.251295 14 178 230 3 0 heads_default wzcagcpccccccccccccccccccccccccccccnccccccccccccccccccccccccccccccccccccccccccccccccccmcccczvfcaxgab 
-276 div:int (none) 248 0 3 101 98 388 0.252577 15 191 226 6 0 heads_default wzcagcpccjccccccccccccccccccccccccccccccccccccccccccccccccccccocaccccrcccccccccccccccccmcccczvfcaxgab 
-133 div:int (none) 94 0 3 100 97 386 0.251295 11 142 216 4 0 heads_default wzcagcpccccccccccccccccccccccccccccccccccccccccccccccccccccccccaccccrcccccccccccccccccmcccczvfcaxgab 
-57 div:int (none) 3 0 5 100 97 387 0.250646 9 115 215 2 0 heads_default wzcagcpcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccmcccczvfcaxgab 
-84 div:int (none) 36 0 5 100 97 386 0.251295 10 126 213 4 0 heads_default wzcagccoccccccccccccccccclcccccccccccccccccccccccccacccccccccccccccccccccccccccccccccimcccczvfcaxgab 
-248 div:int (none) 133 0 2 101 98 389 0.251928 14 180 212 5 0 heads_default wzcagcpcccccccccccccccccccccccccccccccccccccccccccccccccccccccocaccccrcccccccccccccccccmcccczvfcaxgab 
-246 div:int (none) 7 0 1 99 96 384 0.25 14 179 204 3 0 heads_default wzcagcccccccccccccccaccccccccccccccccccccccccccccccccccccccjcccccccccccccccccccccccccccccczvfcaxgab 
-8 div:int (none) 1 0 11 100 97 388 0.25 4 54 191 1 0 heads_default wzcagcccccccccccccccccccccckccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccczvfcaxgab 
-244 div:int (none) 170 0 1 99 96 382 0.251309 14 179 191 4 0 heads_default wzcagcccccccccccccccaccccccccccccccccccmccccccccccccccccccccccccccpccccccccccccucccccccccczvfcaxgab 
-64 div:int (none) 25 0 1 100 96 384 0.25 9 117 190 4 0 heads_default wzcagcccccccccccccccaccocccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccczvfcaxgabz 
-170 div:int (none) 7 0 2 99 96 383 0.250653 12 156 189 3 0 heads_default wzcagcccccccccccccccaccccccccccccccccccmccccccccccccccccccccccccccpccccccccccccccccccccccczvfcaxgab 
-107 div:int (none) 3 0 2 100 97 388 0.25 10 132 188 2 0 heads_default wzcagccccccccccccccccccccccccccqccccccccccccccccccccccccccccccccccccccccccccccccccccccmcccczvfcaxgab 
-36 div:int (none) 9 0 2 100 97 386 0.251295 8 102 163 3 0 heads_default wzcagccoccccccccccccccccclcccccccccccccccccccccccccaccccccccccccccccccccccccccccccccccmcccczvfcaxgab 
-94 div:int (none) 57 0 1 100 97 387 0.250646 10 129 153 3 0 heads_default wzcagcpccccccccccccccccccccccccccccccccccccccccccccccccccccccccaccccccccccccccccccccccmcccczvfcaxgab 
-3 div:int (none) 1 0 16 100 97 388 0.25 2 25 151 1 0 heads_default wzcagcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccmcccczvfcaxgab 
-4 div:int (none) 1 0 5 100 97 389 0.249357 3 39 151 1 0 heads_default wzcagcccccccccccccccacccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccczvfcaxgab 
-1 div:ext (none) (none) 0 5 100 97 389 0.249357 0 -1 121 0 0 heads_default wzcagcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccczvfcaxgab 
-9 div:int (none) 3 0 2 100 97 387 0.250646 5 64 117 2 0 heads_default wzcagccoccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccmcccczvfcaxgab 
+3542 div:int (none) 2496 1 1 101 98 389 0.251928 35 441 -1 7 0 heads_default wzcagcccccccccicigcccxpycccccccccccccxcccccccccccccccccccccccccccccccccccccccccccpcccccccccczvfcaxgab 1 229 0 
+4255 div:int (none) 3942 1 1 99 0 0 0 40 498 -1 12 0 heads_default wzcagccccccccccccncnccccnccccccbcccocccccncccvcpcccccccccccccwccccccccwcccctcccjccrccccccqzvfcaxgab 110 66 0 
+4117 div:int (none) 3783 1 1 110 0 0 0 37 487 -1 14 0 heads_default aaaaauaaawzcagcccccccccccucccccckccccnccxbcccccczcccctcccccccccccccmcocccsccfccccccfccnccggccccccvicczvfcaxgab 143 381 0 
+4232 div:int (none) 4031 1 1 100 0 0 0 38 496 -1 11 0 heads_default wzcagcczcccccccccccccccccccccccbccccccsccccccccchccicccccccceccqcccwccccccccccpcccccacccscczvfcaxgab 169 132 0 
+3841 div:int (none) 3519 1 3 113 105 428 0.245327 36 465 -1 15 0 heads_default aaaaaaaaaaaaawzcagchcccccccccccccccckdfcccccfbcccccckccccccccccccccgccccocccsccgcccccccccccccccccccccicczvfcaxgab 203 329 0 
+2668 div:int (none) 1854 4 14 101 98 384 0.255208 29 366 -1 12 0 heads_default wzcagccccccccccccccccccncccccccxbcccccccvccccccccawccaccccccoccnocccctcxccccjccccccwcccccicczvfcaxgab 268,270,289,291 361,262,361,262 0,0,0,0 
+4209 div:int (none) 4052 1 1 102 0 0 0 39 494 -1 16 0 heads_default wzcagcccccccccccccccccceecccccccxbcccccccvcaccccccacccactccccoccnocccctclccccjccccccwcscccicczvfcaxgab 288 193 0 
+4163 div:int (none) 3064 1 1 105 0 0 0 39 490 -1 10 0 heads_default waaaaaazcagccccccccccccgcnccccccccvccccclccccccccccccccchcccccccncoccccccccccccccccccacccccccccczvfcaxgab 293 363 0 
+4278 div:int (none) 2775 1 1 104 0 0 0 40 500 -1 10 0 heads_default waaaazcagccccccccccccgcnccccccccvccccclccccccccccccacchbccchcccncoccccccccccccccccccccccccccccczvfcaxgab 314 33 0 
+2760 div:int (none) 2599 1 1 103 100 392 0.255102 30 373 -1 11 0 heads_default awzcagcccccccccjccccccccncccccccxbhcccccccvccccccccccccaccccccocccncccccccccacbccccccwccbccicczvfcaxgab 367 258 0 
+3979 div:int (none) 3811 1 1 101 96 376 0.255319 38 476 -1 15 0 heads_default wzcagccccccmcccccscccccncccccccxbcccccccvccccjcccciccaccccccocccykzcccococlccksccccwcccccicczvfcaxgab 368 55 0 
+3543 div:int (none) 2339 1 3 101 98 380 0.257895 35 441 -1 9 0 heads_default wzcagcccccccccxccccccvcccccyccccctccvcjcccccccccclccccccccccccccccctccrcccccccccccsccccccccczvfcaxgab 81 255 0 
+4187 div:int (none) 3543 1 1 100 0 0 0 39 492 -1 10 0 heads_default wzcagcccccccccxccccccvcccccyccccctccvcjcccccccccclccccccccccccccccctccrcccccccccccscccccccczvfcaxgab 82 288 0 
+3635 div:int (none) 3330 1 2 99 96 371 0.25876 36 448 -1 12 0 heads_default wzcagcclcccccccccncnccccnccccccbcccocccccncccvcccccicrccccccccccccccccwcccctcccjccrccccccczvfcaxgab 89 98 0 
+4233 div:int (none) 3873 1 1 99 0 0 0 39 497 -1 12 0 heads_default wzcagcnccccccccccccccdcnccccocbcccacccccccccccjkcccceccccccczcccccccvcccccccccecccccdcpccczvfcaxgab 133 132 0 
+4256 div:int (none) 3182 1 1 124 0 0 0 39 498 -1 17 0 heads_default aaaaaaaaaaaaaaaaaaaaaaaawzcagccccccccckddgcccccccchccccccccoccccccccccccccnccckcccccccccccccccccccccccccccdwccxcccczvfcaxoab 157 66 0 
+4095 div:int (none) 3182 1 1 124 0 0 0 38 486 -1 17 0 heads_default aaaaaaaaaaxaaaaaaaaaaaaawzccgccccccccccddgcccccccchccccccccoccccccccccccccnccckccccccccccccccccccgccccccccdwccxcccczvfcaxgfb 178 563 0 
+3773 div:int (none) 2730 1 2 101 98 480 0.204167 36 460 -1 11 0 heads_default wzcagcccccccccccmccccccncccccccnbcccccccvccccccccccclccccccscccsccucccccccccccccccccccccicczvfcaxmgab 188 231 0 
+4164 div:int (none) 4006 1 1 100 0 0 0 39 490 -1 11 0 heads_default wbcagcccxccccccccccccccncvccccnxbcccccccvcccccczccccccccccccocccscrcccccccccccccccccccccicczvfcaxgab 202 293 0 
+3888 div:int (none) 1512 3 4 99 87 370 0.235135 36 469 -1 6 0 heads_default wzcagcccccccccccgccxzccccccccccccccccccccccccccvclcccccccccccccccccccccccccccccccccccccccczvfcaxgab 220,240,298 147,147,180 0,0,0 
+4118 div:int (none) 3130 1 1 105 48 284 0.169014 38 487 -1 12 0 heads_default aaaawzcagccjccccccccccccccckcycccccxzccccycccccccccccccccccccccqocccscccccccccccwcccccfccccccicczvfcfxgab 299 64 0 
+4141 div:int (none) 3977 1 1 101 0 0 0 38 489 -1 12 0 heads_default wzcagccccvicccccccccccccjcyccccccccccccccccbcccccccccmcccccccccucccccxpcktcccuccccccclccpccczvfcaxgab 303 358 0 
+4257 div:int (none) 3946 1 1 100 0 0 0 38 499 -1 9 0 heads_default wzcagccccccclccccccccccccccccccoccccccccscqcccgclcccccccccccrcczccctccccctcccccccccclcccccczvfcaxgab 56 66 0 
+4119 div:int (none) 3639 1 1 100 97 383 0.253264 38 487 -1 13 0 heads_default wzcagccccccccccccccccccccccccccbccmccccccccscccicciycccccccccccqcccbcccccccccpccccccyaccccczvfcaxgab 73 32 0 
+3751 div:int (none) 3596 1 1 124 121 477 0.253669 36 459 -1 16 0 heads_default aamaaaaaaaaaaaaaaaaaaawzcagccccccccccccccccccxchccugccbcccccuciitcccracaccccccccccccccqccccccccccccccaccccccpccccrczvfcaxgab 97 140 0 
+3935 div:int (none) 3798 1 1 100 0 0 0 36 473 -1 13 0 heads_default cccccccmcocccsccfccccccfccnccbcccccccvicczvflaxgabwzcagcccccccccccccccccckccccnccxbcccccczcccctccccc 101 413 0 
+4142 div:int (none) 3271 1 1 100 0 0 0 37 489 -1 12 0 heads_default wzcagccccccccccccccccccccccnccxbcccccczcccctpccccccccccccmcocccsccfccccccfccnccbcccccccvicczvfcaxgab 141 356 0 
+4211 div:int (none) 3709 1 1 119 0 0 0 38 494 -1 17 0 heads_default aaaaaoaaaaaaaawaaawzcagcqccccccccbcccfccckcfcccccgbcccccbcccccccccucccccccccccocccscccacccccccbccccccccccccicczvfcaxgab 184 264 0 
+3728 div:int (none) 3585 2 3 101 98 380 0.257895 36 457 -1 13 0 heads_default wzcagcccccccscccmcccccceccccccuxbcccccccvcdcccccccccccccccccocccsccucyccccccccrccccccccciicczvfcaxgab 206,226 92,92 0,0 
+4004 div:int (none) 3720 1 1 119 0 0 0 37 478 -1 11 0 heads_default aaaaaaaaaaaaaaaaaawzcagcczvccccccccnccccccccccfccccclccccccccccccccccccuccccccccoccccccccclccccceccfcccccccccczvfcaxgab 255 726 0 
+3130 div:int (none) 2334 2 9 105 93 392 0.237245 32 407 -1 11 0 heads_default aaaawzcagccjccccccccccccccckcycccccxzccccycccccccccccccccccccccqocccscccccccccccwcccccfccccccicczvfcaxgab 256,278 328,391 0,0 
+4234 div:int (none) 4118 1 1 105 0 0 0 39 497 -1 13 0 heads_default cccccccccccqocccscccccccccccwcccccfccccccicczvfcfxgabaaaawzcagccjccccccccccccccckcycccccxzccccycccccccccc 279 50 0 
+4188 div:int (none) 3530 1 1 101 0 0 0 39 493 -1 13 0 heads_default wzcwgccccccccccccccccccncpccccnxbccccbccveccccccccccccccccccocccscccccccccccccccccccccccincczvfcaxgab 281 258 0 
+3705 div:int (none) 2955 2 4 99 96 374 0.256684 36 455 -1 10 0 heads_default wzcagccccccccuccgccxpcccccccccccccccccccccvccccvclcccccccccccccccocccccccccccccccccccccccczvfcaxgab 300,319 245,212 0,0 
+4165 div:int (none) 3844 1 1 101 0 0 0 39 491 -1 14 0 heads_default wzcagccccccccccccccccccncpccccnxbccicbccvecyccccccccccccccccocccscccccccccccccccccccccccincczvfcaxgab 320 323 0 
+4073 div:int (none) 3317 2 2 100 97 379 0.255937 38 484 -1 11 0 heads_default wzcagcccnciccccpcccccccccjcccccccccccccccccbccicsccccccccccccscccccccakcccbucccccncccccccczzvfcaxgab 340,359 164,165 0,0 
+3521 div:int (none) 3198 1 4 99 96 379 0.253298 35 439 -1 8 0 heads_default wzcagccccccccccccccccccccccccccbccccccccccecccccccccccjcccccdcccccccwccccccicccccccoccoccczvfcaxgab 358 330 0 
+4050 div:int (none) 3866 1 1 131 119 499 0.238477 35 482 -1 19 0 heads_default aaaaaaaaaaaaaaaaaaaaaaajaaaaaaaawzcagcccccccahcccccccccucwccccbcsmccccccaccccccccccccccccccccczacccccccccccccccccccccccccczvfcaxgab 364 164 0 
+3729 div:int (none) 3265 1 1 100 0 0 0 36 457 -1 14 0 heads_default wzcagccccccccccccccqccccmccccccbccycccccrcqccgccckocccccjcccccxctccccccccqcccccccccccccccccmvfcaxgab 15 1264 0 
+3982 div:int (none) 3499 2 3 100 97 382 0.253927 37 476 -1 9 0 heads_default wzcagcccccicccccccccccccjccccccccccccccqcccbcccccccccccccccccccucccccxckccccuccccccclccpccczvfcaxgab 19,399 33,32 0,0 
+4189 div:int (none) 2136 1 1 102 0 0 0 39 493 -1 7 0 heads_default wzczagcccccccccciccccccscccccoccbcccccccccccccccccccclcccwcccccmcccccccccccccccccuccccccccccczvfcaxgaz 28 264 0 
+3545 div:int (none) 3087 1 4 102 97 386 0.251295 34 441 -1 12 0 heads_default wzcagccccccmlccccccccccdcccccckccccccccccccmcccpcccccccccccccccqzcccocccccccccccncceccccqcccczvfcaxgab 31 264 0 
+3614 div:int (none) 3176 2 4 99 96 372 0.258065 36 447 -1 12 0 heads_default wzcagccccccccccccncnccccncccpccbcccocccccnczcvccccccccccccccccccccccccwcccctcccjccrccccccczvfcaxgab 69,70 132,197 0,0 
+4258 div:int (none) 3946 1 1 100 0 0 0 38 499 -1 9 0 heads_default wzcagccccccclcccccccccscccccccccccccccccscqcccgcccccccccccccrcczccctccccctcccccccccclcccccczvfcaxgab 95 66 0 
+4166 div:int (none) 3851 1 1 100 0 0 0 39 491 -1 11 0 heads_default wzcagcccxcccccccgccccccncsccccnxbcccccccvcccccccccccccccccccocccscccccccccucccccccccccccicczvfcaxgab 205 322 0 
+3936 div:int (none) 3073 1 1 100 82 368 0.222826 35 473 -1 12 0 heads_default wzcagcccccccccccccecccceccgccbcbccccccccyccccccccccccxccccccccpzcccccccccccccccccccfcccccckzvfcaxgab 208 277 0 
+4120 div:int (none) 3957 1 1 126 122 480 0.254167 38 487 -1 18 0 heads_default aaaaaaaaadaaaaaaaaaaaaaawzcagccccccccchcnccwcdccxchccucccbcccccucicycsracpclccccccccccccqcccccccccccccxcccccccccccccczvfcaxgab 209 32 0 
+3913 div:int (none) 3728 1 1 102 0 0 0 37 471 -1 14 0 heads_default wzcaegcccccccscccmcccccceccccccuxbcccccccvcdcccccccccccccccccocccsccucyccccccccrccccccccciicczvfcaxgab 247 878 0 
+4051 div:int (none) 3875 1 1 107 100 399 0.250627 38 482 -1 14 0 heads_default aaaaaawzcagcccchccccncccccccccncccccccxbcccccccvcocclcccccccccccccocccvcccctlcccccccccccccfccccicczvfcaxgab 284 164 0 
+3844 div:int (none) 3530 1 2 101 97 382 0.253927 37 465 -1 13 0 heads_default wzcagccccccccccccccccccncpccccnxbccicbccveccccccccccccccccccocccscccccccccccccccccccccccincczvfcaxgab 301 290 0 
+3867 div:int (none) 3250 2 4 101 97 382 0.253927 37 468 -1 13 0 heads_default wzcagcccccccccccccccccencccccccxbnccccccvccccccdcacccaccccccoccnocccctcxccccjccccccwcccccicczvfcaxgab 307,328 161,194 0,0 
+4143 div:int (none) 2112 1 1 101 0 0 0 39 489 -1 6 0 heads_default wzcagccccccccccccxcccccscccccccbcccccccccccccccccccccccccccccccvccccccccccccccccicccccccqcuczvfcaxgab 350 344 0 
+3499 div:int (none) 3193 1 2 100 97 382 0.253927 34 437 -1 8 0 heads_default wzcagcccccicccccccccccccjccccccccccccccccccbcccccccccccccccccccucccccxckccccuccccccclccpccczvfcaxgab 380 360 0 
+4235 div:int (none) 4050 1 1 133 0 0 0 36 497 -1 20 0 heads_default aafpaaaaaaaaaaaaaaaaaaaaajaaaaaaaawzcagcccccccahcccccccccucwccccbcsmccccccaccccccccccccccccccccczacccccccccccccccccccccccccczvfcaxgab 384 165 0 
+4190 div:int (none) 3542 1 1 101 0 0 0 39 493 -1 8 0 heads_default wzcagcccccccccicigcccxpywcccccccccccuxccccccccccccccccccccccccccccccccccchcccccccpcccccccccczvfcaxgab 0 230 0 
+3293 div:int (none) 3023 2 6 99 96 375 0.256 33 421 -1 11 0 heads_default wzcagcccnciccccpcccccccccjcxcccccccccccccccbccicsccccccccccccscccccccckcccbucccccncccacccczvfcaxgab 24,25 119,119 0,0 
+4121 div:int (none) 3930 1 1 136 0 0 0 36 488 -1 13 0 heads_default aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaawzcagcccccccahcccccccccccccccccbncccccccccccccckcccrccccccccccczcccmccccccfchcccccccgcccccczvfcaxgab 42 528 0 
+3477 div:int (none) 3014 2 4 100 97 381 0.254593 34 435 -1 11 0 heads_default wzcagcccccccpqccucccwccccucccccscblccccccccctcccccccccccccccccccccccccccccccyccicccccytcccczvfcaxgab 83,84 32,33 0,0 
+4236 div:int (none) 3919 1 1 124 0 0 0 39 497 -1 16 0 heads_default aaaaaaaaaaaaaaaaaaaaaawzcagccccccccccccccccccxchccucccbcccccuciitcccracpccccccccccccccqccccccccccccccaccccccphcccwczvfcaxgab 116 141 0 
+4052 div:int (none) 3561 1 1 102 98 386 0.253886 38 482 -1 15 0 heads_default wzcagccccccccccccccccccencccccccxbcccccccvcaccccccacccactccccoccnocccctclccccjccccccwcccccicczvfcaxgab 267 193 0 
+3638 div:int (none) 2775 2 4 104 101 388 0.260309 36 448 -1 10 0 heads_default waaaazcagccccccccccccgcnccccccccvccccclccccccccccccccchbccchcwcncoccccccccccccccccccccscccccccczvfcaxgab 277,297 99,65 0,0 
+4167 div:int (none) 3988 1 1 101 0 0 0 39 491 -1 14 0 heads_default wzcagccccccccccccccccccncccccccxbcccccccvccccvcccawccaccccccoccnocccctcxgcccjccccccwcccccicczvfcaxgab 290 295 0 
+3546 div:int (none) 3250 1 1 101 98 381 0.257218 35 441 -1 13 0 heads_default wzcagccccccccccccccccccncccccccxbnclccccvccccccdcacccaccccccoccnocccctcxccccjccccccwcccccicczvfcaxgab 327 292 0 
+3753 div:int (none) 3452 1 1 108 105 409 0.256724 37 459 -1 15 0 heads_default aaaaawzcagcccccccccjccdccccccncccccccxbhcdcccccvccccccccccccaccccccocccncccccccccacbucccccwccbccicczvfcaxgab 345 163 0 
+4213 div:int (none) 3717 1 1 102 0 0 0 39 495 -1 8 0 heads_default wzcagccccuyccccccccccucxocccccuccccccccscccccccccccccccccccxcccccccccccccdcccccccccwccccccccczvfcaxgab 379 183 0 
+3662 div:int (none) 3069 1 3 101 98 383 0.255875 36 450 -1 11 0 heads_default wzcagcccccccccccccclcccncccccccxbcccccccvcccccccrccccaccccccocccscccccmcccaccccccccwcccccicczvfcaxgab 3 356 0 
+2972 div:int (none) 1140 4 14 100 97 383 0.253264 31 393 -1 5 0 heads_default wzcagcmcccccdccccccccccccccccccccccccccccccaccvcccccccccccccccccccccccccccccccccdccccbccccczvfcaxgab 8,11,370,392 65,98,382,65 0,0,0,0 
+3087 div:int (none) 2789 1 4 101 96 384 0.25 31 403 -1 11 0 heads_default wzcagccccccmlccccccccccdcccccckcccccccccccccccccccccccccccccccqzcccocccccccccccncceccccqcccczvfcaxgab 29 263 0 
+3984 div:int (none) 3824 1 1 108 0 0 0 36 476 -1 8 0 heads_default aaaaaaaawwcagccjcccclcccccccccccccccccccccccccchccccccccccccccccccccccczccctccccctcccccccccclcccccczvfcaxgab 57 743 0 
+3639 div:int (none) 3474 2 3 101 98 387 0.25323 35 448 -1 12 0 heads_default wzcagccccccccccccccccccccccccccbccmccccccccsccccicciycccccccccccqcccbcccccccccpccccccyaccccczvfcaxgab 92,112 32,33 0,0 
+4076 div:int (none) 2895 1 2 98 95 369 0.257453 39 484 -1 12 0 heads_default wzcagcccccccccccczcnccccncccoccbcciocccccncccvcccccccccccccccccccccccwcccctcccjccrccccccczvfcaxgab 93 99 0 
+4237 div:int (none) 3147 1 1 102 0 0 0 39 497 -1 13 0 heads_default wzcagcccccccccccmccccccrccccccuxbcccccccvcetcdccccccccccccccocccsccucycccccbccccccccccyccincczvfcaxgab 105 108 0 
+4191 div:int (none) 3847 1 1 102 0 0 0 39 493 -1 11 0 heads_default wzcagcccccccccxccccccccccccyccccctccvcjcccccccccclcccccccccccccccckctcsrccccclcccccsccccccccczvfcaxgjb 124 255 0 
+4122 div:int (none) 3968 1 1 124 0 0 0 38 488 -1 16 0 heads_default aaaaaaaaaaaaaaaaaaaaaawzcagccchccccccccccccccxchccucccbcccccuciitcccracpccccccccccccccqccccccccccccccactclcccccccwczvfcaxgab 136 437 0 
+3271 div:int (none) 2680 1 4 101 89 371 0.239892 32 419 -1 11 0 heads_default wzcagcccccccccccccccccckccccnccxbcccccczcccctcccccccccccccmcocccsccfccccccfccnccbcccccccvicczvfcaxgab 162 356 0 
+4214 div:int (none) 4054 1 1 127 0 0 0 39 495 -1 20 0 heads_default aaaaaaaaaaaaaaaaaaaaaasaawzcagccccacccvnccccceccxchccuccecbcccccuciitcccracpccccccccccccccqcccccccccccccacccccccccccbczvfcaxgab 174 240 0 
+3754 div:int (none) 3290 1 3 101 98 383 0.255875 36 459 -1 11 0 heads_default wzcagcccccccccccgcccccceccccccuxbcccccccvcccccccccccccccccccocccsccucycccccccccccccccccciicczvfcaxgab 187 94 0 
+4260 div:int (none) 3939 1 1 259 0 0 0 39 499 -1 20 0 heads_default aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaadaaaaaaaaaaaaaawzcagccccrcccccccccwcccxchcwucccbcccccucinyccractpcltcccccccccccqccjccccccccccxcccccccccccccczvfcaxgab 210 66 0 
+3386 div:int (none) 3066 1 1 124 116 471 0.246285 33 428 -1 17 0 heads_default aaaaaaaaaaaaaaaaaaaaaaaawzcagchccccccccicccccckcfcccccxbcpcjcccccccccccccccccccccccocctshcccccccccccccccccccccccicczvfcaxgab 241 329 0 
+4030 div:int (none) 3562 1 1 102 95 380 0.25 38 481 -1 12 0 heads_default aawzcagcccchcccccccccccccncccccccxbcccccccvcocclcccccccccccccocccvcccctlcccccccccccccfccccicczvfcaxgab 325 193 0 
+3317 div:int (none) 2738 4 9 99 96 375 0.256 33 422 -1 10 0 heads_default wzcagcccnciccccpcccccccccjcccccccccccccccccbccicsccccccccccccscccccccakcccbucccccncccccccczvfcaxgab 342,361,363,382 66,65,99,98 0,0,0,0 
+3985 div:int (none) 3150 1 1 100 0 0 0 36 476 -1 11 0 heads_default wzcaoccccccccfccccccccccccrcccciwcccccccccccccccccjcccccwcccccccccckmciccccccccczccmcycclxczvfcaxgab 44 633 0 
+4008 div:int (none) 3480 1 1 112 95 412 0.230583 37 478 -1 11 0 heads_default aaaaaaaaaawzcagccgcccccccccccqcciccccceccsbccccccplcccycccfccccfcccjcsccccxcccccccbczccccccccccccccchcazvfcaxgab 68 255 0 
+4215 div:int (none) 3575 1 1 101 0 0 0 39 495 -1 16 0 heads_default wzcagacccccccccccccqccccmccccccbccycccccrcqccgccckocccccjcccccxctcccccrccqcccccccccccccccccdzvfcaxgab 72 165 0 
+4238 div:int (none) 3751 1 1 124 0 0 0 39 497 -1 17 0 heads_default aamaaataaaaaaaaaaaaaaawzcagccccqcccccccccccccxchccugccbcccccuciitcccracacyccccccccccccqccccccccccccccaccccccpccccrczvfcaxgab 77 129 0 
+4169 div:int (none) 4013 1 1 100 0 0 0 39 491 -1 9 0 heads_default wzcagccccccccciccgccccpycccccccccccccxcccccccccccccccccrtcccccceccncccccccccccccpcccccccccczvfcaxgab 79 295 0 
+4100 div:int (none) 3932 1 1 100 89 372 0.239247 38 486 -1 10 0 heads_default wzcagcccccccqccckccccccyucxcccbcblccccccjjcccccccecccccccccdccccccccrccccccccfcccccccyteccczvfcaxgab 80 54 0 
+3640 div:int (none) 3478 1 4 100 95 380 0.25 34 448 -1 7 0 heads_default wzcagccccccclcccccccccccccccccccccccccccscqcccgcccccccccccccccczccctccccctcccccccccclcccccczvfcaxgab 96 329 0 
+3847 div:int (none) 3682 1 2 102 99 386 0.256477 37 466 -1 10 0 heads_default wzcagcccccccccxccccccccccccyccccctccvcjcccccccccclcccccccccccccccckctcsrcccccccccccsccccccccczvfcaxgab 103 255 0 
+3686 div:int (none) 3227 2 3 100 97 384 0.252604 36 453 -1 7 0 heads_default wzcagccccccccqccqccicccccccccccbkccccccccccccccccccccccccccckccccccccccccccccccccccccctcceczvfcaxgab 104,123 264,230 0,0 
+4054 div:int (none) 3901 1 1 127 124 484 0.256198 38 482 -1 19 0 heads_default aaaaaaaaaaaaaaaaaaaaasaawzcagccccacccvnccccceccxchccuccecbcccccuciitcccracpccccccccccccccqccccccccccccccacccccccccccbczvfcaxgab 194 206 0 
+3709 div:int (none) 1332 2 2 119 108 451 0.239468 35 455 -1 16 0 heads_default aaaaaoaaaaaaaawaaawzcagcqccccccccbcccfccckcfcccccxbcccccbcccccccccccccccccccccocccscccacccccccbccccccccccccicczvfcaxgab 204,224 197,197 0,0 
+3939 div:int (none) 3778 1 1 129 125 494 0.253036 37 473 -1 19 0 heads_default aaaaaaaaaaaaadaaaaaaaaaaaaaawzcagccccrcccccccccwcccxchccucccbcccccucinyccracpcltcccccccccccqccjccccccccccxcccccccccccccczvfcaxgab 211 91 0 
+4077 div:int (none) 3456 1 2 124 119 479 0.248434 38 484 -1 17 0 heads_default aaaaaaaaaaaaaaaaaaaaaaaawzcagccccccccccddjcccccfcchccccccccccccccccccccrqflccccccccccccccccccccccccccccoccccccccccczvfcaxgab 219 131 0 
+4192 div:int (none) 3562 1 1 102 0 0 0 39 493 -1 12 0 heads_default aawzcagccccacccccccccccccncccccccxbcccccccvcocclcccccccccccccocccvcccctlcccccccccccccfccccicczvfcaxgab 304 227 0 
+3962 div:int (none) 3607 1 2 100 97 385 0.251948 38 474 -1 7 0 heads_default wzcagccccccccccccxcccccscccccccbcccccccccccccccccccccccccccccccvccccccwccccccccccccccccqcuszvfcaxgab 353 47 0 
+4261 div:int (none) 4102 1 1 110 0 0 0 40 499 -1 17 0 heads_default adaaaaawzcagcccccccccjccdccccccncccccccxbhcdcccccvccccccccccccaccccccocccncccccccxcacbucccccwccbccicczvfcaxgab 366 64 0 
+4170 div:int (none) 3508 1 1 100 0 0 0 38 491 -1 8 0 heads_default wzcagcccccicccccccgcccccccccccccccccccccccbccccccczccccccccccmcccccccccmccccucccccccccccccczvfcaxgab 7 264 0 
+4239 div:int (none) 2972 1 1 100 0 0 0 39 497 -1 6 0 heads_default wzcagcmcccccdccccccccccccccccccccccccccccccaccvcccccccccccccccccccccccccccccccccdccccbcrccczvfcaxgab 12 132 0 
+4124 div:int (none) 3478 2 2 101 96 384 0.25 37 488 -1 7 0 heads_default wzcagccccccclccccccccccccccclccccccxcccccccccccgcccccccccccccccczccctccccctcccccccccclcccccczvfcaxgab 16,37 30,30 0,0 
+3733 div:int (none) 3377 4 4 100 84 368 0.228261 31 457 -1 10 0 heads_default wzcagcccocbccccccccccccccccccccecccccczcccccjfmcccccccccccccccczccccccccecccccccbccczcccmcczvfcaxgab 125,145,146,165 363,362,362,363 0,0,0,0 
+4147 div:int (none) 3970 1 1 102 0 0 0 37 489 -1 13 0 heads_default wzcagccccccccccccccccccvccccnccxbcccccczcccctcccccccccccccmcoccclsccfccccccfccnccbcccccccvizczvfcaxgab 161 324 0 
+4101 div:int (none) 3619 1 1 127 124 486 0.255144 38 486 -1 18 0 heads_default aanaaaaaaaadaaaaaaaaaaaaaawzcagccccccccccccccwcccxchccucccbcccccucinyccracpcltcccccccccccqccjcnccccccccxcccccccccccccczvfcaxgab 190 32 0 
+4193 div:int (none) 4020 1 1 101 0 0 0 37 493 -1 13 0 heads_default wtzeagcwccccccagcccceccccccwccccccckccjcccccctcccsccccccicccccccccccqcccclfcccacccckccckccxczvfcaxgab 200 203 0 
+4055 div:int (none) 3413 1 1 120 117 457 0.256018 38 482 -1 10 0 heads_default aaaaaaaaaaaaaaaaaawzcagcczvccccccccnccccccccccvccccclcccycccccccccccccccuccccccccoccccccccclccccccccccccccccccczvfcaxgab 213 216 0 
+3158 div:int (none) 2067 2 8 99 96 380 0.252632 32 409 -1 6 0 heads_default wzcagccccccccccccpccccycccccccccccccxcccccccccnccccccccccccccccccccccccccccccccpccsccccccczvfcaxgab 377,396 31,31 0,0 
+4262 div:int (none) 3979 1 1 101 0 0 0 40 499 -1 16 0 heads_default wzqagccccccmcccccscccccncccccccxbcccccccvccccjcccciccaccccccocccykzcccococlccksccccwcccccicczvfcaxgab 387 57 0 
+3320 div:int (none) 1637 2 5 100 95 380 0.25 32 422 -1 6 0 heads_default wzcagccccccclcccccccccccccuccccccccccccccccccccccocccccccwccccczccctccccatcccccccccclcccccczvfcaxgab 17,18 65,33 0,0 
+4079 div:int (none) 3776 2 2 100 92 371 0.247978 38 485 -1 7 0 heads_default wzcagcmcccccdcccvcccccccczccccccvccccccccccaccvcccccccccccccacccccccccccccccccccdccccbccccczvfcaxgab 32,51 98,99 0,0 
+4148 div:int (none) 3991 1 1 100 0 0 0 37 489 -1 7 0 heads_default wzcagccccccclcpccccccccccccccccccccccccccccccccccccccccccccjccczccqtccccctcccccccccclcccccczvfcaxgab 38 363 0 
+4194 div:int (none) 3241 1 1 100 0 0 0 39 493 -1 8 0 heads_default wzcagccccccccciccgccccpyccchcccccccccxcccccccccccccccccrtcccccccccccccccccccccccpcccccccccczvacaxgab 98 213 0 
+3757 div:int (none) 3147 1 1 102 0 0 0 36 459 -1 13 0 heads_default wzcngcccccccccccmccccccrccccccuxbcccccccvceccdccccccccccccccocccsccucycccccbccccccccccyccincczvfcaxgab 126 1278 0 
+3182 div:int (none) 2891 1 1 122 119 472 0.252119 32 411 -1 16 0 heads_default aaaaaaaaaaaaaaaaaaaaaawzcagccccccccccddgcccccccchccccccccoccccccccccccccnccckcccccccccccccccccccccccccccdwccxcccczvfcaxgab 158 98 0 
+4010 div:int (none) 3024 1 1 101 98 387 0.25323 37 478 -1 7 0 heads_default wzcagccccccccqcccccccccchccccccbccccccccccccccacccccccccccccckcccccccucccccwclccckccccctcccczvfcaxgab 167 296 0 
+4240 div:int (none) 3886 1 1 119 0 0 0 39 497 -1 8 0 heads_default aaaaaaaaaaaaaaaaaawzcagcczcccccceccgccccccccccvcccccjcccccccccccccccccccccccccccoccccccccclccccccccccccccccccczvfcaxgab 177 99 0 
+4171 div:int (none) 3849 1 1 103 0 0 0 39 491 -1 9 0 heads_default wzcagccccccccccpcgccbcccycccvccccclcccccccccccccccccccccccccicocccccnsccclcccccccccccqcccccccczvfcaxgab 212 316 0 
+3849 div:int (none) 3548 1 2 102 99 387 0.255814 37 466 -1 8 0 heads_default wzcagccccccccccpcgccbcccccccvccccclcccccccccccccccccccccccccicocccccnsccclccccccccccccccccccczvfcaxgab 233 296 0 
+4217 div:int (none) 3875 1 1 107 0 0 0 39 495 -1 14 0 heads_default aaaaaawzcagcccchccccncccccccccncccccccxbcccccccvcocclcccccccccccccocccvcchctlcccccccccccccfccccicczvfcaxgab 286 164 0 
+4263 div:int (none) 3638 1 1 103 0 0 0 40 499 -1 11 0 heads_default waaaazcagccccccccccccgcnccccccccvccccclccccccccccccccchbccchcwcncoccccccccccccccccccccsccccccczvfcaxgab 296 33 0 
+3711 div:int (none) 2955 1 2 99 96 376 0.255319 36 456 -1 10 0 heads_default wzcagccccccccuhcgccxpccccccccccccccccccccccocccvclcccccccccccccccocccccccccccccccccccccccczvfcaxgab 339 245 0 
+4125 div:int (none) 3804 1 1 98 0 0 0 38 488 -1 8 0 heads_default wzcagccccccccccccgcbccccccccccccccxccccccdccccccclcccccccxccccccccccccncccccccccccccccccczvfcaxgab 355 376 0 
+4102 div:int (none) 3937 2 2 109 106 413 0.256659 39 486 -1 16 0 heads_default aaaaaawzcagcccccccccjccdccccccncccccccxbhcdcccccvccccccccccccaccccccocccncccccccxcacbucccccwccbccicczvfcaxgab 365,386 65,65 0,0 
+4034 div:int (none) 3216 1 1 100 0 0 0 37 481 -1 11 0 heads_default wccagccccccmldccccccmccdcccyccccccccccccccccccccmcccccccccccccqzcccoccccccccccccceccccccccczvfcaxgab 54 578 0 
+3689 div:int (none) 2932 1 1 101 98 389 0.251928 36 453 -1 8 0 heads_default wzcagccccccccqccqcccccccccacccccbccccccccccccycccccccccccccccwmlccccccccccccccccccxcccctcceczvfcaxgab 64 664 0 
+3942 div:int (none) 2761 1 2 99 96 373 0.257373 38 473 -1 11 0 heads_default wzcagccccccccccccncnccccnccccccbcccocccccncccvcpccccccccccccccccccccccwcccctcccjccrccccccczvfcaxgab 90 65 0 
+3873 div:int (none) 3700 3 3 99 90 367 0.245232 37 468 -1 11 0 heads_default wzcagccccccccccccccccdcnccccocbcccacccccccccccjkcccceccccccczcccccccvcccccccccecccccrcpccczvfcaxgab 94,114,115 65,98,66 0,0,0 
+3919 div:int (none) 3453 1 1 122 119 470 0.253191 37 471 -1 15 0 heads_default aaaaaaaaaaaaaaaaaaaawzcagccccccccccccccccccxchccucccbcccccuciitcccracpccccccccccccccqccccccccccccccaccccccphcccwczvfcaxgab 117 106 0 
+4080 div:int (none) 3635 1 2 99 96 370 0.259459 39 485 -1 13 0 heads_default wzcagcclcccccccccncnccccnccccccbcccocccccncccvtccccicrccccccccccccccccwcccctcccjccrccccccczvfcaxgab 130 99 0 
+3413 div:int (none) 3237 3 8 119 116 454 0.255507 34 430 -1 9 0 heads_default aaaaaaaaaaaaaaaaaawzcagcczvccccccccnccccccccccvccccclccccccccccccccccccuccccccccoccccccccclccccccccccccccccccczvfcaxgab 215,234,236 131,164,165 0,0,0 
+3390 div:int (none) 3234 1 3 100 97 382 0.253927 34 428 -1 10 0 heads_default wzcagcccxccccccccccccccncsccccnxbcccccccscccccclccccccccccccocccscccccccccccccccccccccccicczvfcaxgab 223 290 0 
+4241 div:int (none) 3413 1 1 119 0 0 0 39 497 -1 10 0 heads_default aaaaaaaaaaaaaaaaaawzcagcczvccccccccnccccccccccvccccclccccccccccccccccccuccccccccojcccccccclccccccccccccccccccczvfcaxgab 235 132 0 
+3988 div:int (none) 2668 1 1 101 98 381 0.257218 38 476 -1 13 0 heads_default wzcagccccccccccccccccccncccccccxbcccccccvccccvcccawccaccccccoccnocccctcxccccjccccccwcccccicczvfcaxgab 309 295 0 
+4172 div:int (none) 3861 1 1 99 0 0 0 39 491 -1 13 0 heads_default wzcagccccvcccccpcgcbcccccnccccccccxccccccdccccccclcckckccccccccccccccinccccncccclccccccccczvfcaxgab 318 259 0 
+4149 div:int (none) 3652 1 1 99 0 0 0 38 489 -1 9 0 heads_default wzcagccccccccccccgcbccccccccccxcccxccccccdccccccclcccccccccccczcccccccnccmcccccccccccmcccczvfcaxgab 332 327 0 
+2654 div:int (none) 2490 3 11 100 97 379 0.255937 29 364 -1 8 0 heads_default wzcagccccccccccccgcnccllccccvccccclccccccccccccccccqtccccccncoccccccccccccccccccccccccccccczvfcaxgab 333,354,374 297,296,296 0,0,0 
+3804 div:int (none) 2063 1 2 98 95 377 0.251989 36 461 -1 7 0 heads_default wzcagccccccccccccgcbccccccccccccccxccccccdccccccclccccccccccccccccccccncccccccccccccccccczvfcaxgab 336 360 0 
+4195 div:int (none) 3711 1 1 99 0 0 0 39 493 -1 11 0 heads_default wzcagccccccccuhcgccxpocccccccccccccccccscccocccvclcccccccccccccccocccccccccccccccccccccccczvfcaxgab 338 212 0 
+4218 div:int (none) 3753 1 1 109 0 0 0 40 495 -1 16 0 heads_default aaaaaafzcagcccccccccjccdccccccncccccccxbhcdccccczccccccccccccaccccccocccncccccccccacbucccccwccbccicczvfcaxgab 344 164 0 
+4011 div:int (none) 3546 1 1 101 98 381 0.257218 38 478 -1 14 0 heads_default wzcagccccccccccccccccccncccccccxbnclccccvccccccdcacccaccccccoccngcccctcxccccjccccccwcccccicczvfcaxgab 346 292 0 
+4103 div:int (none) 3755 1 1 134 0 0 0 36 486 -1 12 0 heads_default aaaaaaaaaaaaaaaaaaaxaaaaaaaaaaaaaawzcagcccccccahcccccccccccccccccbccccccccccccccckcccrccccccccccczcccmcccccccchcccccccccccccczvfcaxgab 383 514 0 
+3759 div:int (none) 3605 1 2 102 87 381 0.228346 36 459 -1 8 0 heads_default wzcagcsccccccqccmcccccccccccccccbcccfcccccccccccacxcccccccccckccccccccccccccccccccccccctcccczvfcaxgyab 40 331 0 
+3575 div:int (none) 3423 1 2 101 98 385 0.254545 35 444 -1 15 0 heads_default wzcagccccccccccccccqccccmccccccbccycccccrcqccgccckocccccjcccccxctcccccrccqcccccccccccccccccdzvfcaxgab 53 185 0 
+4104 div:int (none) 3477 1 1 100 0 0 0 38 486 -1 12 0 heads_default wzcagccccccmpqcgucccwccccucccccscblccccccccctcccccccccccccccccccccccccccccccyccicucccytcccczvfcaxgab 102 429 0 
+4242 div:int (none) 3581 1 1 99 0 0 0 38 497 -1 8 0 heads_default wzcagccccccccacccccccccccccclccccgccjccccccccccezccccccccfcccccccccctcccccccccccccnccccccczvfcaxgab 138 99 0 
+3276 div:int (none) 2334 1 4 105 93 393 0.236641 33 420 -1 11 0 heads_default aaaawzcagccjccccccccccccccckcccccccxzccccyccccccccccccccccaccccqocccscccccccccccwcccccfccccccicczvfcaxgab 239 296 0 
+2310 div:int (none) 2010 1 8 100 93 373 0.24933 27 338 -1 10 0 heads_default wzcagccccccccccccccccccncccccccxbcccccccvcocclcccccccccccccocccvcccctlcccccccccccccfccccicczvfcaxgab 282 126 0 
+4265 div:int (none) 2112 1 1 100 0 0 0 40 500 -1 6 0 heads_default wzcagcccccccccccbxcccccscccccccbcccccccccccccccccccccccccccccccvcccccccccccccccccccccccqcuczvfcaxgab 312 47 0 
+4127 div:int (none) 3817 1 1 101 0 0 0 39 488 -1 14 0 heads_default wzcagccccccocccccsrccccncccccccxbccccrcccccccccccccccaccckccocccykccccocccccccsccccwcccccicczvfcaxgab 329 352 0 
+4219 div:int (none) 3866 1 1 131 0 0 0 36 495 -1 19 0 heads_default aaaaaaaaaaaaaaaaaaaaaaajaaaaaaaawzcagcccccccahcccccccccucwccccbcsmcccccccccccccccccccccccccccczacccccccccccccccccccccccccczvfcaxgab 343 198 0 
+4266 div:int (none) 4100 1 1 100 0 0 0 39 500 -1 11 0 heads_default wzcagcccccccqccckccccccyucxcgcbcblccccccjjcccccccecccccccccdccccccccrccccccccfcccccccyteccczvfcaxgab 61 54 0 
+2932 div:int (none) 2290 2 9 101 98 389 0.251928 31 389 -1 7 0 heads_default wzcagccccccccqccqcccccccccacccccbccccccccccccyccccccccccccccckmcccccccccccccccccccxcccctcceczvfcaxgab 65,85 209,275 0,0 
+4082 div:int (none) 3147 1 1 103 0 0 0 38 485 -1 13 0 heads_default wzcagcccccccccccmccccccrccccccuxbcccccccvceccdccccccccccccccocccsccucycccccbccccccccccycocincczvfcbxgab 86 470 0 
+3944 div:int (none) 3634 1 2 99 95 371 0.256065 38 473 -1 12 0 heads_default wzcagccccccccccccncnccccnccccccecccocccccncccvccccccccccccccccccccccccwcccctcccjccrceccccczvfcaxgab 131 98 0 
+3024 div:int (none) 1010 1 5 101 88 378 0.232804 31 397 -1 6 0 heads_default wzcagccccccccqccccccccccfccccccbccccccccccccccacccccccccccccckcccccccucccccwclccccccccctcccczvfcaxgab 147 263 0 
+4128 div:int (none) 3271 1 1 101 46 266 0.172932 37 488 -1 12 0 heads_default wzcagcccccccccccccccccckccccnccxbcccccczcccctcccccccccccccmcocccsccfccccccfccnccbcccccccvicczvfcwxgab 163 59 0 
+4197 div:int (none) 3577 1 1 100 0 0 0 38 493 -1 15 0 heads_default wzcagccccccccccxccuccccjpccccccxbcccccclvccctccccccgcccaccccocccsccaccncccccnccccccccccvicczvfcaxgab 180 224 0 
+3599 div:int (none) 3290 1 1 100 98 377 0.259947 35 446 -1 11 0 heads_default wzcagcccccccccccmcccccceccccccuxbcccccccvcccccccccccccccccccocccsccucycccccccacccccccccciicczvfcxgab 227 1249 0 
+3530 div:int (none) 3378 1 2 101 98 384 0.255208 35 440 -1 12 0 heads_default wzcagccccccccccccccccccncpccccnxbccccbccveccccccccccccccccccocccscccccccccccccccccccccccincczvfcaxgab 280 290 0 
+3875 div:int (none) 3710 1 1 105 98 391 0.250639 37 468 -1 13 0 heads_default aaaawzcagcccchccccncccccccccncccccccxbcccccccvcocclcccccccccccccocccvcccctlcccccccccccccfccccicczvfcaxgab 305 162 0 
+3806 div:int (none) 3501 1 1 101 0 0 0 37 462 -1 14 0 heads_default wzcagccccccmcccccscccccncccccccxbcccccccvccccccccxiccaccccccocccykccccococlcccsccccwcccccicczvfcaxvab 311 1134 0 
+3967 div:int (none) 3193 1 1 100 97 383 0.253264 37 475 -1 8 0 heads_default wzcagcccccicccccccccccccjccccccccccccccccwcbcccccccccccccccccccucccccxckccccuccccccccccpccczvfcaxgab 321 360 0 
+4151 div:int (none) 2756 1 1 100 0 0 0 39 490 -1 7 0 heads_default wzcagccccccccccccxcccccscccccccbccccccccccccdccccccccccccccccccvcdcccccccccccccccccccccqcuczvfcaxgav 349 344 0 
+3737 div:int (none) 3157 1 1 100 0 0 0 36 458 -1 7 0 heads_default jzcagcccczcccccccpccccycccccccccccccxccccpcccccnacccccccccccccccccccccccccccccccpccsmcccccczvfcalgab 356 1344 0 
+3622 div:int (none) 3317 1 1 99 0 0 0 35 447 -1 11 0 heads_default wzcagcccnciccccpcccccccccjcccccccccccccccccbccicsccccccccccccscccccccakcccbucccccncccccccuzvfcaxgao 362 1584 0 
+4243 div:int (none) 4109 1 1 100 0 0 0 39 498 -1 8 0 heads_default cccccccccccccccccccctccccccccccpccsccccccczvfnaxgabwzcagccccccccccccpccccycccccccccccccxcccccccccncc 395 48 0 
+4106 div:int (none) 3609 1 1 132 0 0 0 36 487 -1 13 0 heads_default aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaawzcagcfcccccahcccccccccccccccccbccccccccccccccckcccjccccccccccclcccmcccccccchcccccccccccccczvfcaxgab 2 495 0 
+3301 div:int (none) 2346 1 2 100 87 372 0.233871 33 421 -1 9 0 heads_default wzcagccccccccqccccccccccccccccbcbmcpccccwccctcccccccccsccccccceccccccozccccccccccbcccytcccczvfcaxgab 39 330 0 
+3991 div:int (none) 1637 1 1 100 96 383 0.250653 36 476 -1 6 0 heads_default wzcagccccccclcccccccccccccccccccccccccccccccccccccccccccccccccczccqtccccctcccccccccclcccccczvfcaxgab 58 382 0 
+4152 div:int (none) 3326 1 1 106 0 0 0 38 490 -1 13 0 heads_default aaaawzcagcccccemccccccccucccccccccbcchhcccccccccccccccccalckccccccjccccccocckcctnckcccyceccccccsczvfcaxgab 88 330 0 
+4267 div:int (none) 3951 1 1 101 0 0 0 39 500 -1 16 0 heads_default wzcagccccccccccccccccccjcccccccbccmccocccccscccccccicccccvcccicqcccbsccccccccpccccccyacccciczvfcaxgab 113 33 0 
+2174 div:int (none) 1668 1 10 100 87 374 0.23262 25 327 -1 6 0 heads_default wzcagccccccccacccccecccccccccceccccccjccccccncqccccccccccccccccccccqcccccfccccccccccccccccczvfcaxgab 119 132 0 
+3600 div:int (none) 3125 1 3 99 96 383 0.250653 35 446 -1 6 0 heads_default wzcagccccaccdccccccccccccccccccbcccccccccccccccccccccccccccccccccccccccyccxcaccccccccccccczvfcaxgab 135 168 0 
+3577 div:int (none) 3424 1 4 100 97 375 0.258667 34 444 -1 14 0 heads_default wzcagccccccccccxccucccckpccccccxbcccccclvccctccccccccccaccccocccsccaccncccccnccccccccccvicczvfcaxgab 140 224 0 
+3968 div:int (none) 2865 1 1 122 119 470 0.253191 37 475 -1 15 0 heads_default aaaaaaaaaaaaaaaaaaaawzcagccccccccccccccccccxchccucccbcccccuciitcccracpccccccccccccccqccccccccccccccaccclcccccccwczvfcaxgab 156 469 0 
+4244 div:int (none) 4063 1 1 121 0 0 0 39 498 -1 16 0 heads_default aaaaaaaaaaaaaaaaaaaawzcagccccccccccddgcccnccccchccccccccccccccccccccrqclccccccccccccccccccccccccccaccccccccccccczvfcaxgab 218 99 0 
+4198 div:int (none) 4018 1 1 128 0 0 0 38 493 -1 19 0 heads_default aaaaaaaaaaaaaaaaaaaaaaaaaaaawzcagchccccccccicccccckcfcccccxbcpcjccccccccccccccccccccccyocctssccccccncccccccccccpccccicczvfcaxgab 243 270 0 
+4037 div:int (none) 1332 1 1 119 0 0 0 37 481 -1 16 0 heads_default aaaaaoaaaaaaaawaaawzcagcqccccccccbccccccckcfcccccxbcccccbcccccccccccccccccccccocccsccccccccuccbccccccccccccicczvfcaxbab 246 627 0 
+4221 div:int (none) 4045 1 1 99 0 0 0 39 496 -1 12 0 heads_default wzcgcccccuccccccccccccncccccccxbcccccccvcocclcccccccccccccocccvcccctlcccccccccccccfccccicczvfcaxgab 302 158 0 
+4084 div:int (none) 2185 1 1 99 96 382 0.251309 38 485 -1 6 0 heads_default wzcagcccccccccccccccccccgccccccrcccccccccccuccccccccccccccccccccccccccccccccaccccbcccccccczvfcaxgab 59 98 0 
+3946 div:int (none) 3640 2 2 100 95 379 0.25066 36 473 -1 8 0 heads_default wzcagccccccclcccccccccccccccccccccccccccscqcccgcccccccccccccrcczccctccccctcccccccccclcccccczvfcaxgab 75,76 65,65 0,0 
+4245 div:int (none) 3632 1 1 98 0 0 0 40 498 -1 14 0 heads_default wzcagcnccccccccccncncccnccccccbcccocicccncccvcccdcccoccccccccccccccccwcwcctcccjccrccccccczvfcaxgab 149 99 0 
+3877 div:int (none) 3709 1 1 119 0 0 0 36 469 -1 17 0 heads_default aaaaaoaaaaaaaawaaawzcagcqccccccccbcccfccckcfcccccxbcccccbcccccccccccccccccccccocccscccacccccccbccccccccccccicczvfcaigab 225 1089 0 
+4199 div:int (none) 4036 1 1 118 0 0 0 39 493 -1 19 0 heads_default aaaaaaaaaaaaaaaaxawzcagcccccckcccccccwcccxchccucccbcccccuciccccrvcpclccrcccccccccqccccccccccccccckcccccccccgczvfcaxgab 231 268 0 
+4015 div:int (none) 3678 1 1 128 120 487 0.246407 37 479 -1 19 0 heads_default aaaaaaaaaaaaaaaaaaaaaaaaaaaawzcagchccccccccicccccckcfcccccxbcpcjcccccccccccccccccccccccocctshcccccccccccccccccccccccicczvfcaxgab 242 230 0 
+4153 div:int (none) 3836 1 1 145 0 0 0 38 490 -1 19 0 heads_default aaaaaaaaaaaaaaaaaaaaaaaaaaaaaasaaaaaaaaaahaaawzcagccccccccccczcccccqxchcculccbcccxuciccccracpccnccccyccccccqcccckcccccccxccccccccccccccczvfcaxgab 252 431 0 
+4222 div:int (none) 4051 1 1 109 0 0 0 39 496 -1 15 0 heads_default aaaaaaaawzcagcccchccccncccccccccncccccccxbcccccccvcocrlcccccccccccccocccvcccctlcccccccccccccfccccicczvfcaxgab 283 166 0 
+4130 div:int (none) 3967 1 1 99 0 0 0 38 488 -1 9 0 heads_default wzcagcccccicccccccccccccjccccccccccccccccwcbccccccccccccccccccucccccxckccccuccccccccccpccczvfcaxgab 322 378 0 
+4176 div:int (none) 2760 1 1 104 0 0 0 39 491 -1 12 0 heads_default aawzcagcccccccccjccccccccncccccccxbhcccccccvccccccccccccaccccccocccncccccccccacbccccccwccbccicczvfcaxgab 348 292 0 
+3924 div:int (none) 3608 1 2 98 95 369 0.257453 37 472 -1 13 0 heads_default wzcagcccnciccccpcccccccccjcxccccccccccccpcbccicsccccccccccccscccccccckcccbucccccncccscccczvfcaxgab 6 152 0 
+1969 div:int (none) 1079 4 13 101 98 385 0.254545 25 309 -1 9 0 heads_default wzcagcccccccccjccccccccncccccccxbcccccccvccccccccccccaccccccocccscccccccccaccccccccwcccccicczvfcaxgab 10,369,388,389 384,356,323,323 0,0,0,0 
+3809 div:int (none) 3320 1 1 100 0 0 0 35 462 -1 7 0 heads_default wzcagccccccclcccccccccccccuccccqcccccccccccccccccocccccccwccccczccctccccatcccccccccclcccccczvfcaogab 36 1155 0 
+3993 div:int (none) 3508 1 2 101 94 381 0.246719 37 477 -1 8 0 heads_default wzcagcccccicocccccgccccccccccccccccccccccccbccccccczccccckccccmcccccccccmccccucccccccccccccczvfcaxgab 47 263 0 
+3326 div:int (none) 2880 1 5 106 99 399 0.24812 33 423 -1 12 0 heads_default aaaawzcagcccccemccccccccccccccccccbcchhcccccccccccccccccalckccccccjccccccocckcctnckcccyceccccccsczvfcaxgab 67 398 0 
+3970 div:int (none) 3271 1 1 102 90 375 0.24 36 475 -1 12 0 heads_default wzcagcccccccccccccccccckccccnccxbcccccczcccctcccccccccccccmcoccclsccfccccccfccnccbcccccccvicczvfcaxgab 142 323 0 
+4200 div:int (none) 3577 1 1 99 0 0 0 38 493 -1 15 0 heads_default vzcagccccccccccxccucccckpccccccxbcccccclvccctccccccccccaccccocccccaccncccccnccccccccccvicczvfcaxgab 160 224 0 
+3901 div:int (none) 3748 1 1 126 123 481 0.255717 37 470 -1 18 0 heads_default aaaaaaaaaaaaaaaaaaaaaaawzcagccccacccvnccccceccxchccuccecbcccccuciitcccracpccccccccccccccqccccccccccccccacccccccccccbczvfcaxgab 173 173 0 
+4246 div:int (none) 4128 1 1 101 0 0 0 38 498 -1 13 0 heads_default ccccccccmcocccsccfccccccfccnccbcccccccvicczvfcwxgabwzcagcccccccccccccccccckccccnccxbcccccczcccctccccc 183 41 0 
+3395 div:int (none) 2657 1 1 110 99 412 0.240291 34 429 -1 7 0 heads_default aaaaaaaaawzcagcczcccccccccgccccccdcccvccccclcccccccccccccccccccccccccccoccccccccclccccccccccccccccccczvfcaxgab 217 65 0 
+3073 div:int (none) 2604 1 5 100 82 369 0.222222 30 402 -1 11 0 heads_default wzcagcccccccccccccecccccccgccbcbccccccccyccccccccccccxccccccccpzcccccccccccccccccccfcccccckzvfcaxgab 228 344 0 
+4223 div:int (none) 2310 1 1 100 0 0 0 39 496 -1 11 0 heads_default wzcagccccccccccccccccccncccccccxbcccccccvcocclcccccccccccccocccvcncctlccccccccccccchccccicczvfcaxgab 263 126 0 
+4177 div:int (none) 3846 1 1 102 0 0 0 39 491 -1 15 0 heads_default wzcagcccccccccccccccycccncccscccqbcccccccvccccccccabccaccccccoccnoclcctcxccccjcccccvwcccccicczvfcaxgab 271 293 0 
+4016 div:int (none) 3053 1 1 100 96 375 0.256 38 479 -1 14 0 heads_default wzcagccpccccccccccqcccencsccccnxbcccccccvccocvccccccrcccccceocccscccccccccccccccccccccccimczvfcaxgab 287 256 0 
+4108 div:int (none) 2112 1 1 100 97 384 0.252604 39 487 -1 6 0 heads_default wzcagccccccccccccxcccccscccccccbcccccccccccccccccccccccccccccccvccccccccccccccccccccccxqcuczvfcaxgab 330 14 0 
+4085 div:int (none) 2972 2 2 100 97 382 0.253927 38 485 -1 6 0 heads_default wzcagcmcccccdccccctccccccccccccccccccccccccaccvcccccccccccccccccccccccccccccccccdccccbccccczvfcaxgab 371,390 98,99 0,0 
+4269 div:int (none) 3518 1 1 101 0 0 0 40 500 -1 10 0 heads_default wzcagccccccccccccgcnccllccccvtccccclccccccccccccccccqtccccccncoccccccccicccccccccccccccccccczvfcaxgab 372 33 0 
+3717 div:int (none) 3410 1 4 101 98 388 0.252577 36 456 -1 7 0 heads_default wzcagccccuyccccccccccucxocccccccccccccscccccccccccccccccccxcccccccccccccdcccccccccwccccccccczvfcaxgab 378 216 0 
+4132 div:int (none) 3301 1 1 100 0 0 0 38 488 -1 10 0 heads_default wzcagccccccccqccccccccccccccccbcbmcpcccbwccctcccccccccsccccccceccccccozccccccccccbcccytcccczvfcaxgab 20 297 0 
+2890 div:int (none) 2429 1 10 100 97 384 0.252604 30 385 -1 6 0 heads_default wzcagcccccicccccccgccccccccccccccccccccccccbcccccccccccccccccmcccccccccmccccucccccccccccccczvfcaxgab 27 363 0 
+4155 div:int (none) 3800 1 1 99 0 0 0 37 490 -1 8 0 heads_default pzcagcrccccclccccccccccccccccccccccccbcccccccgcccccccccccccccczccctccccctcccccccccclcccccczvfcaxgab 34 330 0 
+4178 div:int (none) 4010 1 1 103 0 0 0 38 491 -1 8 0 heads_default aawzcagccccccccqcccccccccchccccccbccccccccccccccacccccccccccccckcccccccucccccwclccckccccctcccczvfcaxgab 168 297 0 
+3971 div:int (none) 3073 1 1 100 0 0 0 35 475 -1 12 0 heads_default wzcagfccccccccccccecccccccgccbcbccccccccyccccccccccccxccccccccpzcccccccccccccccccccfcccccckzvfcaxgab 186 660 0 
+4063 div:int (none) 3591 1 1 120 117 465 0.251613 38 483 -1 15 0 heads_default aaaaaaaaaaaaaaaaaaawzcagccccccccccddgcccnccccchccccccccccccccccccccrqclccccccccccccccccccccccccccaccccccccccccczvfcaxgab 199 98 0 
+4247 div:int (none) 3794 1 1 103 0 0 0 39 498 -1 16 0 heads_default wzcagccccccccxcccccccccccccccccbclmccocfcccscccccccickcccccvcccccqcccbsccccccccpccccccyacccciczvfcaxgab 214 106 0 
+3810 div:int (none) 2334 3 3 105 93 393 0.236641 36 462 -1 11 0 heads_default aaaawzcagccjccccccccccccccckcccccccxzbcccycccccccccccccccccccccqocccscccccccccccwcccccfccccccicczvfcaxgab 238,259,260 329,329,329 0,0,0 
+4224 div:int (none) 3709 1 1 119 0 0 0 38 496 -1 17 0 heads_default aaaaaoaaaaaaaaraaawzcagcqccccccccbcccfccckcfcczccxbcccccbcccccccccccccccccccccocccscccacccccccbccccccccccccicczvfcaxgab 245 169 0 
+4270 div:int (none) 4110 1 1 104 0 0 0 40 500 -1 12 0 heads_default waaaazcagccccccccccccgcncoccccccvccccclceccccccccccccchbccchcwcncoccccccccccccccccccccscccccccczvfcaxgab 276 33 0 
+2775 div:int (none) 2623 3 7 104 101 389 0.25964 30 375 -1 9 0 heads_default waaaazcagccccccccccccgcnccccccccvccccclccccccccccccccchbccchcccncoccccccccccccccccccccccccccccczvfcaxgab 294,295,313 131,32,99 0,0,0 
+4086 div:int (none) 3158 1 2 99 96 379 0.253298 38 485 -1 7 0 heads_default wzcagccccccccccccpccccycccccccccccccxcccccccccnccccccrccccccccccccccccccccccccctccsccccccczvfcaxgab 375 64 0 
+4109 div:int (none) 3158 1 1 99 48 327 0.146789 38 487 -1 7 0 heads_default wzcagccccccccccccpccccycccccccccccccxcccccccccnccccccccccccccccccccccccccccccccpccsccccccczvfnaxgab 376 64 0 
+4248 div:int (none) 2972 1 1 100 0 0 0 39 498 -1 6 0 heads_default wzcagcmcccccdccccccccccccccccccccccccccccccaccvcccccccbcccccccccccccccccccccccccdccccbccccczvfcaxgab 9 99 0 
+3903 div:int (none) 3568 1 2 99 96 381 0.251969 37 471 -1 8 0 heads_default wzcagchccccccccccccccccccccccccbcccccscccccccccccciccccccccccccccccwcgccccccccccccccaccccczvfcaxgab 128 164 0 
+3949 div:int (none) 3783 1 1 110 0 0 0 36 473 -1 14 0 heads_default aaaaauaaawzcagcccccccccccucccccckccccnccxpcccccczcccctcccccccfcccccmcocccsccfccccccfccnccgcccccccvicczvfcaxgab 164 759 0 
+2293 div:int (none) 1795 2 9 99 95 381 0.249344 26 336 -1 6 0 heads_default wzcagccccccccaccccccccccccccccccccgccjccccccccccezccccccccccccccccccctcccccccccccccccccccczvfcaxgab 175,176 198,197 0,0 
+4271 div:int (none) 4120 1 1 129 0 0 0 39 500 -1 19 0 heads_default aaaaaaaaaaaadaaaaaaaaaaaaaawzcagccccccccchcnccwcdccxchccucccbcccccucicycsracpclccccccccccccqcccccccccccccxcccccccccccccczvfcaxgab 189 33 0 
+4156 div:int (none) 3073 1 1 100 0 0 0 36 490 -1 12 0 heads_default wzcagcccccccccccccecccccccgccbcbccccrcccyccccccccccccxccccccccpzcccccccccccccccccccfcccccckzvfcaxgab 207 310 0 
+2960 div:int (none) 2361 3 9 101 93 378 0.246032 31 392 -1 11 0 heads_default wzcagcclccccjcccccccccncccccccxbcccccccvcccccccccccccccccccbcccsccccccccccrcccccccciczcccacczvfcaxgab 249,250,251 24,354,377 0,0,0 
+4179 div:int (none) 3386 1 1 126 0 0 0 38 491 -1 18 0 heads_default aaaaaaaaaaaaaaaaaaaaaaaaaawzcagchccccccccicccccckcfcccccxbcpcjcccccccccccccccccccccccocctshcccccccccccccccccccccccicwzvfcaxgab 261 330 0 
+4202 div:int (none) 4015 1 1 130 0 0 0 38 493 -1 20 0 heads_default aaaaaaaaaaaaaaaaaaaaaaaaaaaaaawzcagchccccccccicccccckcfcccccxbcpcjcccccccccccccccccccccccocctshcccccccccyccccccccccccsicczvfcaxgab 262 253 0 
+2615 div:int (none) 2316 2 9 100 96 380 0.252632 29 362 -1 11 0 heads_default wzcagcccccccccccccqcccencsccccnxbcccccccvcccccccccccrcccccceocccscccccccccccccccccccccccimczvfcaxgab 264,285 26,26 0,0 
+3673 div:int (none) 3064 1 1 105 0 0 0 36 451 -1 10 0 heads_default waaaaaazcagbcccccccccccgcnccccccccvccccclcccrccccccccccchcccccccncoccccccccccccccccccacccccccccczvfcaxgab 292 1551 0 
+2063 div:int (none) 1762 3 15 99 96 381 0.251969 25 317 -1 6 0 heads_default wzcagccccccccccccgcbccccccccccccccxccccccdccccccclccccccccccccccccccccnccccccccccccccccccczvfcaxgab 316,317,335 360,360,327 0,0,0 
+3880 div:int (none) 3410 2 3 101 98 387 0.25323 37 469 -1 7 0 heads_default wzcagccccuyckccccccccucxocccccccccccccscccccccccccccccccccccccccccccccccdcccccccccwccccccccczvfcaxgab 397,398 182,215 0,0 
+4249 div:int (none) 4091 1 1 138 0 0 0 37 498 -1 16 0 heads_default aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaadaaawzcagcccccccahcccccccccccccccccbccccccccccccccckcccccdcccgcccccgcccmcccccccchcccccccccccccczvfcaxgab 41 99 0 
+3927 div:int (none) 3764 1 1 134 131 518 0.252896 35 472 -1 14 0 heads_default aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaawzcagcccccccahcccccccccccccccccbccccccccccccccckcccccdcccgcccccgcccmcccccccchcccccccccccccczvfcaxgab 43 98 0 
+3858 div:int (none) 3689 2 4 101 98 388 0.252577 37 467 -1 9 0 heads_default wzcagcsccccccqccqcccccccccacccccbccccccccccccycccccccccccccccwmlccccccccccccccccccxcccctcceczvfcaxgab 45,66 274,274 0,0 
+4226 div:int (none) 3905 1 1 99 0 0 0 38 496 -1 14 0 heads_default wzcagccccncmlccccccccccdcccccccccccczcckccccccqccccccccccccocqzcccoccbcccccccccceccccccccczvfcaxgab 52 165 0 
+4134 div:int (none) 3959 1 1 101 0 0 0 38 488 -1 14 0 heads_default wzcagcccpccccccccccccccccccccccbccmccccccccsccccicciycccccccccccqcccbcccccccccpccccccyaccccvzvfcaxgab 71 373 0 
+4111 div:int (none) 3952 1 1 126 114 476 0.239496 38 487 -1 18 0 heads_default aaaaaaaaaaaaaaaaaoaaaaaaaawzcagccccccccccddgcccccccchccccccccoccccccccccccccnccckccccccyczccccccccccccccccccdwccxcccczvfcaxgab 118 32 0 
+2777 div:int (none) 1828 1 6 100 71 356 0.199438 26 375 -1 8 0 heads_default wzcagcccoccccccccccccccccccccccecccccczcccccjfccccccccccccccccczccccccccrcccccccbccczcccccczvfcaxgab 127 330 0 
+4272 div:int (none) 4111 1 1 128 0 0 0 39 500 -1 19 0 heads_default aaaaaaaaaaaaaaaaaaaoaaaaaaaawzcagccccccccccddgcccccccchccccccccoccccccccccccccnccckccccccyczccccccccccccccccccdwccxcccczvfcaxgab 139 33 0 
+4203 div:int (none) 3686 1 1 101 0 0 0 39 493 -1 8 0 heads_default wzcagccccccccqccqcciwccccccccccbkccccccccccccccccccccccccccckcccccccccccccccccccccccccctcceczvfwaxgab 144 221 0 
+3030 div:int (none) 2546 1 8 101 88 377 0.233422 31 397 -1 9 0 heads_default wzcagcczcccccccccccccccccccccccbccccccscccccccccccciccccccccceccqcccwccccccccccpcccccacccscczvfcaxgab 170 164 0 
+3743 div:int (none) 3441 1 1 122 60 350 0.171429 36 458 -1 16 0 heads_default aaaaaaadaaoaaaaaaaaaaawzcagccccccccccccccwcccxchccucccbcccccuicyccracpclccccccccccccqccccccccrccccxcccccccccccccczvfcxxgab 172 606 0 
+3582 div:int (none) 3395 1 1 119 0 0 0 35 445 -1 8 0 heads_default aaaaaaaaaaaaaaaaaawzcagcczcccccccccgccccccacccvccccclcccccacccccccccccccccccccccoccccccccclccscccccccccccccccczvfcaxgab 198 1683 0 
+4157 div:int (none) 3504 1 1 99 0 0 0 39 490 -1 14 0 heads_default wzcagcccccccccccccqfcencsccocnxbcccccccvcccccccccccrcccccceocccsccccccccccccccrccccccccimczvfcaxgab 222 286 0 
+3628 div:int (none) 2334 1 3 105 93 393 0.236641 35 448 -1 11 0 heads_default aaaawzcagccjcccccccccccccccncccccccxzccccycccccccccccccccccccccqocccscccccccccccwcccccfccccccicczvfcaxgab 258 362 0 
+3053 div:int (none) 2909 2 8 100 96 376 0.255319 32 399 -1 13 0 heads_default wzcagcccccccccccccqcccencsccccnxbcccccccvccocvccccccrcccccceocccscccccccccccccccccccccccimczvfcaxgab 265,266 323,323 0,0 
+4180 div:int (none) 3250 1 1 101 0 0 0 39 492 -1 13 0 heads_default wzcagccccccccccccccccccncccccccxbnccccrcvccccccdcacccaccccccoccnocccctcxccccjccccccwcccccicczvfcaxgab 308 292 0 
+3974 div:int (none) 3344 2 2 100 91 378 0.240741 37 475 -1 7 0 heads_default wzcagcccccicccfccccccmcccccccccctccccccccccbccccccccccccccccccccccccccckccccucccccccccccccczvfcaxgab 5,385 363,329 0,0 
+4227 div:int (none) 3924 1 1 98 0 0 0 39 496 -1 14 0 heads_default wzcagcccnciccccpcccccccccjcxccccccccccccpcbccicsccccccccccccscccccccckcccbucccccncccsccccyvfcaxgab 26 152 0 
+3905 div:int (none) 3108 1 2 100 94 377 0.249337 36 471 -1 13 0 heads_default wzcagccccncmlccccccccccdcccccccccccczcckcccccccccccccwccccccocqzcccoccbcccccccccceccccccccczvfcaxgab 33 131 0 
+4250 div:int (none) 4084 1 1 100 0 0 0 39 498 -1 7 0 heads_default wzcagcccccccccccccccccccgccccccucccccccczcccucccccccccccccccccccfccccccccccccaccccbcccccccczvfcaxgab 60 99 0 
+3951 div:int (none) 3633 1 2 101 98 381 0.257218 37 473 -1 15 0 heads_default wzcagccccccccccccccccccccccccccbccmccocccccscccccccicccccvcccicqcccbsccccccccpccccccyacccciczvfcaxgab 132 32 0 
+4020 div:int (none) 3511 1 1 101 90 376 0.239362 36 479 -1 12 0 heads_default wtzcagcwccccccagcccceccccccwccccccckccjcccccctcccsccccccicccccccccccqcccclfcccacccckccckccxczvfcaxgab 181 202 0 
+3859 div:int (none) 3558 1 1 101 98 383 0.255875 37 467 -1 12 0 heads_default awzcagcccccccccccccccchcncsccccnxbcccccccvpccccccccccccccccccocccgcccccccccccccccccccccccicczvfcaxgab 182 290 0 
+4043 div:int (none) 3413 1 1 119 0 0 0 38 482 -1 10 0 heads_default aaaaaaaaaaaaaaaaaawzcagcczvccccccccnccccccccccvccccclccccccccccccccccccuccccccccoccccccccclccccccckccccccccccczvfccxgab 193 726 0 
+4089 div:int (none) 3395 2 2 119 0 0 0 38 485 -1 8 0 heads_default aaaaaaaaaaaaaaaaaawzcagcczcccccccccgccccccdcccvccccclcccccccccccccccccccccccccccoccccccccclccccccccccccccccccczvfcaxgab 196,216 33,429 0,0 
+4181 div:int (none) 3539 1 1 109 0 0 0 39 492 -1 12 0 heads_default waaaaaaaaaazcagccccccccccccgcnccccccccvccccclccccccccccccccchcccccccncoccccccccccncccciccacccccccccczvfeaxgab 253 269 0 
+4135 div:int (none) 2668 1 1 101 0 0 0 39 489 -1 13 0 heads_default wzcagccccccccccccccccccncccccccxbcccccccvccccccccawccsccccccoccnocccctcxccccjccccccwcccccicczvfcaxgab 269 382 0 
+3836 div:int (none) 3177 1 1 140 133 535 0.248598 36 464 -1 18 0 heads_default aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaawzcagccccccccccczcccccqxchccucccbcccxuciccccracpccnccccyccccccqcccckcccccccxccccccccccccccczvfcaxgab 272 461 0 
+4204 div:int (none) 4030 1 1 104 0 0 0 39 494 -1 13 0 heads_default aaaawzcagcocchcccccccccccccncccccccxbcccccccvcocclcccccccccccccocccvcccctlcccccccccccccfcbccicczvfcaxgab 306 227 0 
+4273 div:int (none) 4108 1 1 100 0 0 0 40 500 -1 7 0 heads_default wzcagccccccccccccxcccccscccccbcbcccccccccccccccccccccccccccccccvccccccccccccccccccccccxqcuczvfcaxgab 331 14 0 
+3744 div:int (none) 3132 2 3 101 98 385 0.254545 36 458 -1 13 0 heads_default wzcagccccccccccgcccqccccccccclccbcccrcpcctcqcccccckocccccjccccccccccccccccqccccccccycccccccczvfcaxgab 373,394 139,106 0,0 
+4182 div:int (none) 3696 1 1 100 0 0 0 38 492 -1 12 0 heads_default wzcagccccccmldcccccccccdcccyccccccccccccpaccpcccmcccccccccccccqzcccoccccccccccccceccccccccczvfcaxgab 13 286 0 
+3975 div:int (none) 3777 1 1 140 0 0 0 35 475 -1 13 0 heads_default aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaawzcagcccccccahczcccccccccccccccbccccccccccccccckccccccccccccccczcccmcccccccchcccccccccccccczvfcaxgaj 63 924 0 
+4021 div:int (none) 3241 1 1 100 0 0 0 38 479 -1 8 0 heads_default wfcagccccccbcciccgccccpycccccccccccccxcccccccccccccccccrtcccccccccccccccccccccccpcccccccccczvfcaxgab 99 647 0 
+3147 div:int (none) 2996 1 9 102 98 383 0.255875 32 408 -1 12 0 heads_default wzcagcccccccccccmccccccrccccccuxbcccccccvceccdccccccccccccccocccsccucycccccbccccccccccyccincczvfcaxgab 106 140 0 
+4274 div:int (none) 3932 1 1 101 0 0 0 39 500 -1 10 0 heads_default wzcagccccccccqccckcccccmyucxcccbcblccccccjjccccccceccccccccccccccccccrccccccccccccccccyteccczvfcaxgab 121 20 0 
+3952 div:int (none) 3182 1 1 124 112 469 0.238806 37 473 -1 17 0 heads_default aaaaaaaaaaaaaaaoaaaaaaaawzcagccccccccccddgcccccccchccccccccoccccccccccccccnccckcccccccczccccccccccccccccccdwccxcccczvfcaxgab 137 421 0 
+3883 div:int (none) 3577 1 1 100 0 0 0 36 469 -1 15 0 heads_default hzcfgccccccccccxccucccckpccccccxbcccccclvccctccccccccccaccccocccsccaccncccacnccccccccccvicczvfcaxgab 179 885 0 
+4090 div:int (none) 3939 1 1 258 0 0 0 38 485 -1 20 0 heads_default aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaadaaaaaaaaaaaaaawzcagccccrcccccccccwcccxchccucccbcccccucinyccracpcltcccccccccccqccjccccccccccxcccccccccccccczvfcaxgab 230 616 0 
+4205 div:int (none) 3418 1 1 119 0 0 0 39 494 -1 17 0 heads_default aaaaaaaaaaaaaaaaaawzcagccccccccccccccwcccxchccucccbcccccuciccccrvcpclccrcccccccccqcccccccccccccccckcccccccccgczvfcaxgab 232 236 0 
+4136 div:int (none) 3819 1 1 99 0 0 0 39 489 -1 13 0 heads_default wzcagcccccccccccccqcccencsccccnxbcccccccvccccccgccccrqcccceocccscccccccccccccccccccccccimczvfcaxgab 244 356 0 
+4228 div:int (none) 4092 1 1 104 0 0 0 40 496 -1 12 0 heads_default hbccchcwcncoccccccccccccccccccccscccccccczvecaxgabwaaaazcagccccccccccccgcnccccccccvccccclccccccccccccccc 257 60 0 
+4044 div:int (none) 3885 1 2 101 79 367 0.215259 38 482 -1 10 0 heads_default wzcagcczcufccccccccccunxocccccccccccccscczcccccccccccccdccccccccccccccccdcccccccccwccccccccczvfcaxgab 341 173 0 
+2112 div:int (none) 100 1 12 100 97 384 0.252604 26 321 -1 5 0 heads_default wzcagccccccccccccxcccccscccccccbcccccccccccccccccccccccccccccccvcccccccccccccccccccccccqcuczvfcaxgab 351 344 0 
+3607 div:int (none) 2112 1 3 100 97 385 0.251948 36 446 -1 6 0 heads_default wzcagccccccccccccxcccccscccccccbcccccccccccccccccccccccccccccccvcccccccccccccccccccccccqcuszvfcaxgab 352 311 0 
+4251 div:int (none) 2972 1 1 100 0 0 0 39 498 -1 6 0 heads_default wzcagcmcccccdcccccccccccxccccccccccccccccccaccvcccccccccccccccccccccccccccccccccdccccbccccczvfcaxgab 391 85 0 
+4022 div:int (none) 3542 1 1 101 98 388 0.252577 38 480 -1 8 0 heads_default wzcagcccccccccicigcccxpycccccccccccccxcccccccccccccccccccccjcccccccccccccccccccccpcccccccccczvfcaxgab 21 229 0 
+3930 div:int (none) 3755 1 1 134 128 515 0.248544 35 473 -1 12 0 heads_default aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaawzcagcccccccahcccccccccccccccccbncccccccccccccckcccrccccccccccczcccmccccccfchcccccccccccccczvfcaxgab 22 514 0 
+2136 div:int (none) 1840 3 14 101 98 388 0.252577 26 323 -1 6 0 heads_default wzcagcccccccccciccccccscccccoccbccccccccccccccccccccccccwcccccmcccccccccccccccccuccccccccccczvfcaxgab 48,49,50 230,297,296 0,0,0 
+4068 div:int (none) 2335 1 2 100 97 382 0.253927 38 483 -1 13 0 heads_default wzcagccccccccccccgcqccccmccccccbccycccccrcqcccccckocccccjcccccxctccccccccqccccccccccccccccczvfcaxgab 55 152 0 
+4091 div:int (none) 3927 1 1 136 132 524 0.251908 36 485 -1 15 0 heads_default aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaadaaawzcagcccccccahcccccccccccccccccbccccccccccccccckcccccdcccgcccccgcccmcccccccchcccccccccccccczvfcaxgab 62 98 0 
+2895 div:int (none) 2761 2 10 98 95 370 0.256757 31 385 -1 11 0 heads_default wzcagcccccccccccczcnccccnccccccbcciocccccncccvcccccccccccccccccccccccwcccctcccjccrccccccczvfcaxgab 91,111 99,131 0,0 
+4252 div:int (none) 3635 1 1 99 0 0 0 40 498 -1 13 0 heads_default wzcagcclcccccccccncnccccrccccccbcccocccccncccvcccccicrccccccccccccvcccwcccctcccjccrccccccczvfcaxgab 109 66 0 
+4206 div:int (none) 3577 1 1 100 0 0 0 38 494 -1 15 0 heads_default wzcagccccccccccxccucccckpccccccxbcccccclvccctccccccccccaccccocccsccaccnccccjnccccccccccvicczvfcaxgab 120 224 0 
+4229 div:int (none) 3901 1 1 127 0 0 0 39 496 -1 19 0 heads_default aaaaaeaaaaaaaaaaaaaaaaaawzcagccccacccvnccccceccxchccuccecbcccccuciitcccracpccccccccccccccqcccccccccccccctcccccccccccbczvfcaxgab 192 205 0 
+4137 div:int (none) 3936 1 1 100 0 0 0 36 489 -1 13 0 heads_default wzcagccccjccccccccecccceccgccbcbccccccccyccccccccccccxccccccccpzcccccccccccccccccccfcccccckzvfcaxgab 229 309 0 
+4275 div:int (none) 2960 1 1 100 0 0 0 39 500 -1 12 0 heads_default wzcagcclccccjcccccccccncccccccxbcccccccvccccccccccccccccaccbcccsccccccccccrccccccciczcccacczvfcaxgab 248 24 0 
+3539 div:int (none) 3219 1 2 107 104 407 0.255528 35 440 -1 11 0 heads_default waaaaaaaazcagccccccccccccgcnccccccccvccccclccccccccccccccchcccccccncoccccccccccccccciccacccccccccczvfcaxgab 273 296 0 
+4114 div:int (none) 3804 2 2 98 95 376 0.25266 38 487 -1 8 0 heads_default wzcagccccccccccccgcbccccccccccccccxccccccdcmccccclccccccccccccccccccccncccccccccccccccccczvfcaxgab 315,334 30,30 0,0 
+3562 div:int (none) 2310 1 1 100 93 372 0.25 35 443 -1 11 0 heads_default wzcagcccchcccccccccccccncccccccxbcccccccvcocclcccccccccccccocccvcccctlcccccccccccccfccccicczvfcaxgab 324 224 0 
+3861 div:int (none) 3712 2 2 99 96 376 0.255319 37 467 -1 12 0 heads_default wzcagccccccccccpcgcbcccccnccccccccxccccccdccccccclcckckccccccccccccccinccccccccclccccccccczvfcaxgab 337,357 259,259 0,0 
+3976 div:int (none) 3839 1 1 101 0 0 0 38 475 -1 12 0 heads_default cccaccqcccocwcscccccccccaccccccccwcccccicczvtcaxgabwzcagcccfcccccjccccccccncccccccxbcccccccvccccccccc 347 328 0 
+4253 div:int (none) 3927 1 1 136 0 0 0 37 498 -1 15 0 heads_default aaaaaaaaaaaaaaaaaaaaawaaaaaaaaaaaaaawzcagcccccccahcccccccccccccccccbccccccccccccccckcccccdcccwcccccgcccmcccccccchcccccccccccccczvfcaxgab 23 132 0 
+4207 div:int (none) 2932 1 1 101 0 0 0 39 494 -1 8 0 heads_default wzcagccccccccqccqcccccccccacccccbccccccccccccyccccccccccccccckmcccccccccccccccccccxcacctcceczvfcaxgab 46 209 0 
+4276 div:int (none) 4119 1 1 99 0 0 0 39 500 -1 14 0 heads_default wzcagccccccccccccccccccccccccccbccmccccccccscccicciycccccccccccqcccbcccccccccpccccccyacccczvfcaxgab 74 33 0 
+3241 div:int (none) 2496 1 5 100 97 384 0.252604 33 416 -1 7 0 heads_default wzcagccccccccciccgccccpycccccccccccccxcccccccccccccccccrtcccccccccccccccccccccccpcccccccccczvfcaxgab 78 229 0 
+3793 div:int (none) 3632 2 3 97 94 363 0.258953 37 461 -1 14 0 heads_default wzcagccdccccccccncncccnccccccbcccocccccncccvcccdcccoccccccccccccccccwcccctcccjccrccccccczvfcaxgab 87,108 132,98 0,0 
+3632 div:int (none) 3475 3 3 98 95 368 0.258152 36 448 -1 13 0 heads_default wzcagccccccccccccncncccnccccccbcccocccccncccvcccdcccoccccccccccccccccwcccctcccjccrccccccczvfcaxgab 129,148,150 98,99,98 0,0,0 
+4069 div:int (none) 3581 1 1 98 0 0 0 37 483 -1 8 0 heads_default wzcagccccccccacccccccccccjcccccccgccjccccccccccezccccccccccccccccccctcccccccccccccccccccczvfcaxgab 159 495 0 
+4184 div:int (none) 3024 1 1 101 0 0 0 38 492 -1 7 0 heads_default wzcagccccccccqccccckccccfccccccbccccccccccccccacccccccccccccckcccccccucccccwclccccccccctcccczvfcaxgab 166 264 0 
+4230 div:int (none) 3748 1 1 126 0 0 0 39 496 -1 18 0 heads_default aaaaaaaaaaaaaataaaaaaaawzcagccccacccvnccccceccxchccuccecbcccccuciitcccracpccccccccccccccqccccccccccccccacccccccccccbczvfcaxgab 171 172 0 
+3494 div:int (none) 3024 1 4 101 88 377 0.233422 34 436 -1 7 0 heads_default wzcagccccccccqccccccccccfccccccbccccccocccccccacccccccccccccckcccccccucccccwclccccccccctcccczvfcaxgab 185 297 0 
+3954 div:int (none) 3772 1 1 126 123 488 0.252049 37 474 -1 18 0 heads_default aaaaaiaaaaaaaaaaaaaaaaaaaawzcagccccccccccddjcccccccchccccccccccccccccacccrqflccccccccccccccccccccccccccccoccccccccccczvfcaxgab 201 487 0 
+3931 div:int (none) 3761 1 1 121 0 0 0 37 473 -1 18 0 heads_default aoaaaaaaaaaaaaaaaaaaaawzcagcccccccccddjccccccccocccccccccccgccccccccrqflcccccccccccclcccccccccccccccoccccccccccczvfcaxgab 221 957 0 
+4161 div:int (none) 3997 1 1 102 0 0 0 39 490 -1 10 0 heads_default wzcagcyecccccccpcgcccccccccjvccccclccccccccccccccccccxccccccrcocccccnsccclccccccccccccncccccczvfcaxgab 254 310 0 
+4023 div:int (none) 3539 1 1 109 106 415 0.255422 38 480 -1 12 0 heads_default waaaaaaaaaazcagccccccccccccgcnccccccccvccccclccccccccccccccchcccccccncoccccccccccccccciccacccccccccczvfcaxgab 274 197 0 
+3977 div:int (none) 3820 1 1 100 97 377 0.257294 37 476 -1 11 0 heads_default wzcagccccvicccccccccccccjcyccccccccccccccccbcccccccccmcccccccccucccccxcktcccuccccccclccpccczvfcaxgab 323 376 0 
+3816 div:int (none) 3499 2 2 100 97 381 0.254593 36 463 -1 9 0 heads_default wzcagcccccicccccccccccccjccccccccccccccccccbccccmccccccccccccccucccccxckccccuccccccclccpccczvfcaxgab 360,381 33,32 0,0 
+4047 div:int (none) 1259 1 2 100 97 381 0.254593 38 482 -1 10 0 heads_default wzcagcqcccccccccccccmccncccccccxbcccccccvcccccccccccaccccccycccsccccccccccccccccccwcccccicczvfcaxgab 4 186 0 
+3518 div:int (none) 2654 3 5 101 98 382 0.256545 35 438 -1 9 0 heads_default wzcagccccccccccccgcnccllccccvtccccclccccccccccccccccqtccccccncoccccccccccccccccccccccccccccczvfcaxgab 14,35,393 32,33,32 0,0,0 
+4185 div:int (none) 3087 1 1 101 0 0 0 38 492 -1 12 0 heads_default wzcagccccccmlccccccccccdcccccgkcccccccccccccccccccccccccccccccqzcccocccccccccccncceccccqcccczvfcaxgab 30 231 0 
+3932 div:int (none) 3471 1 1 101 97 385 0.251948 37 473 -1 9 0 heads_default wzcagccccccccqccckccccccyucxcccbcblccccccjjccccccceccccccccccccccccccrccccccccccccccccyteccczvfcaxgab 100 20 0 
+4231 div:int (none) 3903 1 1 99 0 0 0 39 496 -1 9 0 heads_default wzcagchccccccccccccccccccccccccbcccccscccccccccccciccccccccccccccccwcgccdcccccccccccaccccczvfcaxgab 107 132 0 
+4001 div:int (none) 3856 1 1 100 0 0 0 38 478 -1 9 0 heads_default cccccccccckccccccccccccccccccccccccctcceczvfkaxgabwzcagccccclccqccqccicccccccccccbkccccccccccccccccc 122 342 0 
+3633 div:int (none) 3324 4 5 102 99 385 0.257143 35 448 -1 14 0 heads_default wzcagccccccccccccccccccccccccccbccmccocccccsccccccciccccccvcccicqcccbsccccccccpccccccyacccciczvfcaxgab 134,153,154,155 66,33,32,65 0,0,0,0 
+4254 div:int (none) 3944 1 1 98 0 0 0 40 498 -1 13 0 heads_default wzcagccccccccccccncnccccnccccccecccoccfcncccvccccccccccccccccccccccccwcccctcccjccrceccccczvfcaxgab 151 66 0 
+3748 div:int (none) 3586 1 1 125 122 477 0.255765 36 458 -1 17 0 heads_default aaaaaaaaaaaaaaaaaaaaaawzcagccccacccvnccccceccxchccuccecbcccccuciitcccracpccccccccccccccqccccccccccccccacccccccccccbczvfcaxgab 152 172 0 
+4277 div:int (none) 4101 1 1 129 0 0 0 39 500 -1 19 0 heads_default aaaanaaaaaaaadaaaaaaaaaaaaaawzcagccccccccccccccwcccxchccucccbcccccucinyccracpcltcccccccccccqccjcnccccccccxcccccccccccccczvfcaxgab 191 33 0 
+3794 div:int (none) 3479 1 2 102 96 383 0.250653 36 461 -1 15 0 heads_default wzcagccccccccxcccccccccccccccccbccmccocfcccsccccccciccccccvcccccqcccbsccccccccpccccccyacccciczvfcaxgab 195 106 0 
+3886 div:int (none) 2657 1 1 110 99 413 0.239709 37 469 -1 7 0 heads_default aaaaaaaaawzcagcczcccccccccgccccccccccvcccccjcccccccccccccccccccccccccccoccccccccclccccccccccccccccccczvfcaxgab 197 131 0 
+4139 div:int (none) 3628 1 1 104 0 0 0 38 489 -1 12 0 heads_default aaaaezcagccjcccccccccccccccncccccccxzccccycccccccccccccccccccccqocccsccccccccccwcccccfccccccicczvfcaxgab 237 363 0 
+4208 div:int (none) 4023 1 1 111 0 0 0 39 494 -1 13 0 heads_default waaaaaaaaaaaazcagccccccccccccgcnccccccccvccccclccccccccccccccchcccccccncoccccccccccccccciccaccccdccccczvfcaxgab 275 231 0 
+3679 div:int (none) 2668 1 1 101 0 0 0 36 452 -1 13 0 heads_default wzhagccccccccccccccccccncccccccxbcccccccvccccccccawccaccccccoccnocccctcxccccjccccccwcccccicczvfcaxgab 310 1418 0 
+4070 div:int (none) 3753 1 1 109 0 0 0 39 484 -1 16 0 heads_default aaaaaawzcagcccccccccjccdccgcccncccccccxbhcdcccckvccccccccccccaccccccocccncccccccccacbucccccwccsccicczvfcaxgab 326 592 0 
+3800 div:int (none) 3478 0 2 100 95 380 0.25 35 461 500 7 0 heads_default wzcagcrccccclccccccccccccccccccccccccbccccccccgcccccccccccccccczccctccccctcccccccccclcccccczvfcaxgab 
+3652 div:int (none) 3484 0 3 99 90 373 0.241287 35 449 500 8 0 heads_default wzcagccccccccccccgcbccccccccccccccxccccccdccccccclcccccccccccczcccccccnccccccccccccccmcccczvfcaxgab 
+3778 div:int (none) 3619 0 1 127 123 487 0.252567 36 460 500 18 0 heads_default aaaaaaaaaaadaaaaaaaaaaaaaawzcagccccccccccccccwcccxchccucccbcccccucinyccracpcltcccccccccccqccjccccccccccxcccccccccccccczvfcaxgab 
+2335 div:int (none) 1877 0 7 100 97 383 0.253264 27 340 500 12 0 heads_default wzcagccccccccccccccqccccmccccccbccycccccrcqcccccckocccccjcccccxctccccccccqccccccccccccccccczvfcaxgab 
+4031 div:int (none) 3030 0 1 100 87 373 0.233244 37 481 500 10 0 heads_default wzcagcczcccccccccccccccccccccccbccccccsccccccccccccicccccccceccqcccwccccccccccpcccccacccscczvfcaxgab 
+4110 div:int (none) 3638 0 1 104 101 387 0.260982 39 487 500 11 0 heads_default waaaazcagccccccccccccgcncoccccccvccccclccccccccccccccchbccchcwcncoccccccccccccccccccccscccccccczvfcaxgab 
+3069 div:int (none) 1365 0 4 101 98 384 0.255208 32 401 499 10 0 heads_default wzcagccccccccccccccccccncccccccxbcccccccvcccccccrccccaccccccocccscccccmcccaccccccccwcccccicczvfcaxgab 
+3937 div:int (none) 3452 0 1 108 105 409 0.256724 38 473 499 15 0 heads_default aaaaawzcagcccccccccjccdccccccncccccccxbhcdcccccvccccccccccccaccccccocccncccccccxcacbucccccwccbccicczvfcaxgab 
+3478 div:int (none) 1637 0 2 100 95 381 0.249344 33 435 499 6 0 heads_default wzcagccccccclcccccccccccccccccccccccccccccccccgcccccccccccccccczccctccccctcccccccccclcccccczvfcaxgab 
+3820 div:int (none) 3655 0 1 100 97 381 0.254593 36 463 499 10 0 heads_default wzcagcccccicccccccccccccjcyccccccccccccccccbcccccccccccccccccccucccccxcktcccuccccccclccpccczvfcaxgab 
+3609 div:int (none) 3134 0 2 130 127 504 0.251984 33 446 498 12 0 heads_default aaaaaaaaaaaaaaaaaaaaaaaaaaaaaawzcagcccccccahcccccccccccccccccbccccccccccccccckcccccccccccccccgcccmcccccccchcccccccccccccczvfcaxgab 
+4013 div:int (none) 3241 0 1 100 97 383 0.253264 38 479 498 8 0 heads_default wzcagccccccccciccgccccpycccccccccccccxcccccccccccccccccrtcccccccccncccccccccccccpcccccccccczvfcaxgab 
+4092 div:int (none) 3638 0 1 104 53 339 0.156342 39 486 498 11 0 heads_default waaaazcagccccccccccccgcnccccccccvccccclccccccccccccccchbccchcwcncoccccccccccccccccccccscccccccczvecaxgab 
+3581 div:int (none) 2293 0 1 98 94 377 0.249337 34 444 497 7 0 heads_default wzcagccccccccacccccccccccccccccccgccjccccccccccezccccccccccccccccccctcccccccccccccccccccczvfcaxgab 
+3959 div:int (none) 3639 0 1 101 98 384 0.255208 37 474 497 13 0 heads_default wzcagccccccccccccccccccccccccccbccmccccccccsccccicciycccccccccccqcccbcccccccccpccccccyaccccvzvfcaxgab 
+3586 div:int (none) 3279 0 1 123 120 471 0.254777 35 445 497 16 0 heads_default aaaaaaaaaaaaaaaaaaaaawzcagccccacccvnccccccccxchccucccbcccccuciitcccracpccccccccccccccqccccccccccccccacccccccccccbczvfcaxgab 
+3619 div:int (none) 3146 0 1 125 121 479 0.25261 35 447 496 17 0 heads_default aaaaaaaaadaaaaaaaaaaaaaawzcagccccccccccccccwcccxchccucccbcccccucinyccracpcltcccccccccccqccjccccccccccxcccccccccccccczvfcaxgab 
+3819 div:int (none) 2615 0 1 99 94 377 0.249337 37 463 496 12 0 heads_default wzcagcccccccccccccqcccencsccccnxbcccccccvcccccccccccrqcccceocccscccccccccccccccccccccccimczvfcaxgab 
+4045 div:int (none) 2310 0 1 100 93 372 0.25 38 482 496 11 0 heads_default wzcagcccccuccccccccccccncccccccxbcccccccvcocclcccccccccccccocccvcccctlcccccccccccccfccccicczvfcaxgab 
+3456 div:int (none) 3275 0 1 122 119 473 0.251586 34 434 496 16 0 heads_default aaaaaaaaaaaaaaaaaaaaaawzcagccccccccccddjcccccccchccccccccccccccccccccrqflccccccccccccccccccccccccccccoccccccccccczvfcaxgab 
+3866 div:int (none) 3535 0 1 129 117 491 0.238289 34 468 495 18 0 heads_default aaaaaaaaaaaaaaaaaaaaajaaaaaaaawzcagcccccccahcccccccccucwccccbcsmcccccccccccccccccccccccccccczacccccccccccccccccccccccccczvfcaxgab 
+3851 div:int (none) 3234 0 2 100 97 380 0.255263 37 466 494 10 0 heads_default wzcagcccxccccccccccccccncsccccnxbcccccccvcccccccccccccccccccocccscccccccccucccccccccccccicczvfcaxgab 
+3720 div:int (none) 3413 0 1 119 103 747 0.137885 36 457 494 10 0 heads_default aaaaaaaaaaaaaaaaaawzcagcczvccccccccnccccccccccfccccclccccccccccccccccccuccccccccoccccccccclccccccccfcccccccccczvfcaxgab 
+3418 div:int (none) 3264 0 3 119 116 455 0.254945 34 431 494 16 0 heads_default aaaaaaaaaaaaaaaaaawzcagccccccccccccccwcccxchccucccbcccccuciccccracpclccrcccccccccqcccccccccccccccckcccccccccgczvfcaxgab 
+3783 div:int (none) 3617 0 1 106 94 388 0.242268 35 460 493 13 0 heads_default auaaawzcagcccccccccccucccccckccccnccxbcccccczcccctcccccccccccccmcocccsccfccccccfccnccgcccccccvicczvfcaxgab 
+4018 div:int (none) 3386 0 1 126 118 478 0.246862 37 479 493 18 0 heads_default aaaaaaaaaaaaaaaaaaaaaaaaaawzcagchccccccccicccccckcfcccccxbcpcjccccccccccccccccccccccyocctshccccccnccccccccccccccccicczvfcaxgab 
+4036 div:int (none) 3870 0 1 118 115 450 0.255556 38 481 493 18 0 heads_default aaaaaaaaaaaaaaaaxawzcagcccccckcccccccwcccxchccucccbcccccuciccccracpclccrcccccccccqccccccccccccccckcccccccccgczvfcaxgab 
+3504 div:int (none) 3056 0 2 99 95 375 0.253333 35 437 493 13 0 heads_default wzcagcccccccccccccqccencsccccnxbcccccccvcccccccccccrcccccceocccsccccccccccccccrccccccccimczvfcaxgab 
+3591 div:int (none) 2538 0 1 119 116 461 0.251627 35 445 493 14 0 heads_default aaaaaaaaaaaaaaaaaawzcagccccccccccddgcccnccccchccccccccccccccccccccrqclccccccccccccccccccccccccccaccccccccccccczvfcaxgab 
+3508 div:int (none) 2890 0 4 101 89 378 0.23545 34 437 493 7 0 heads_default wzcagcccccicccccccgccccccccccccccccccccccccbccccccczccccccccccmcccccccccmccccucccccccccccccczvfcaxgab 
+3696 div:int (none) 3216 0 2 100 95 379 0.25066 35 454 492 11 0 heads_default wzcagccccccmldcccccccccdcccyccccccccccccpcccccccmcccccccccccccqzcccoccccccccccccceccccccccczvfcaxgab 
+3250 div:int (none) 1854 0 4 101 98 382 0.256545 33 417 492 12 0 heads_default wzcagccccccccccccccccccncccccccxbnccccccvccccccdcacccaccccccoccnocccctcxccccjccccccwcccccicczvfcaxgab 
+3846 div:int (none) 3680 0 2 102 99 383 0.258486 37 466 491 14 0 heads_default wzcagcccccccccccccccycccncccccccqbcccccccvccccccccawccaccccccoccnoclcctcxccccjcccccvwcccccicczvfcaxgab 
+4006 div:int (none) 3234 0 1 100 88 370 0.237838 38 478 491 10 0 heads_default wzcagcccxccccccccccccccncsccccnxbcccccccvcccccczccccccccccccocccscrcccccccccccccccccccccicczvfcaxgab 
+2185 div:int (none) 2050 0 19 99 96 384 0.25 26 328 491 5 0 heads_default wzcagccccccccccccccccccccccccccbcccccccccccuccccccccccccccccccccccccccccccccaccccbcccccccczvfcaxgab 
+3885 div:int (none) 3718 0 1 101 89 376 0.236702 37 469 491 9 0 heads_default wzcagcczcuyccccccccccucxocccccccccccccscczcccccccccccccdccccccccccccccccdcccccccccwccccccccczvfcaxgab 
+3064 div:int (none) 2623 0 1 103 100 392 0.255102 32 400 490 9 0 heads_default waaaazcagccccccccccccgcnccccccccvccccclccccccccccccccchcccccccncoccccccccccccccccccacccccccccczvfcaxgab 
+1332 div:int (none) 1186 0 15 119 111 454 0.244493 20 257 490 15 0 heads_default aaaaaoaaaaaaaawaaawzcagcqccccccccbccccccckcfcccccxbcccccbcccccccccccccccccccccocccscccccccccccbccccccccccccicczvfcaxgab 
+3997 div:int (none) 3527 0 1 102 99 386 0.256477 38 477 490 9 0 heads_default wzcagcyecccccccpcgcccccccccjvccccclccccccccccccccccccxccccccccocccccnsccclccccccccccccncccccczvfcaxgab 
+3378 div:int (none) 3211 0 5 100 97 380 0.255263 34 427 490 11 0 heads_default wzcagccccccccccccccccccncpccccnxbccccbccveccccccccccccccccccocccscccccccccccccccccccccccicczvfcaxgab 
+3678 div:int (none) 3386 0 2 126 118 479 0.246347 35 452 490 18 0 heads_default aaaaaaaaaaaaaaaaaaaaaaaaaawzcagchccccccccicccccckcfcccccxbcpcjcccccccccccccccccccccccocctshcccccccccccccccccccccccicczvfcaxgab 
+3870 div:int (none) 3418 0 1 119 116 454 0.255507 37 468 490 17 0 heads_default aaaaaaaaaaaaaaaaxawzcagcccccckcccccccwcccxchccucccbcccccuciccccracpclccrcccccccccqcccccccccccccccckcccccccccgczvfcaxgab 
+2756 div:int (none) 2112 0 8 100 97 382 0.253927 30 373 490 6 0 heads_default wzcagccccccccccccxcccccscccccccbccccccccccccdccccccccccccccccccvcdcccccccccccccccccccccqcuczvfcaxgab 
+1637 div:int (none) 1482 0 18 100 95 382 0.248691 21 282 489 5 0 heads_default wzcagccccccclcccccccccccccccccccccccccccccccccccccccccccccccccczccctccccctcccccccccclcccccczvfcaxgab 
+3817 div:int (none) 3375 0 1 101 98 383 0.255875 37 463 489 13 0 heads_default wzcagccccccmcccccsrccccncccccccxbccccrcccccccccccccccaccckccocccykccccocccccccsccccwcccccicczvfcaxgab 
+3561 div:int (none) 3396 0 2 102 98 387 0.25323 35 443 489 14 0 heads_default wzcagccccccccccccccccccencccccccxbcccccccvcaccccccacccaccccccoccnocccctclccccjccccccwcccccicczvfcaxgab 
+3471 div:int (none) 3315 0 5 101 97 385 0.251948 34 435 488 8 0 heads_default wzcagccccccccqccckccccccyucxcccbcblccccccjcccccccceccccccccccccccccccrccccccccccccccccyteccczvfcaxgab 
+3957 div:int (none) 3765 0 1 124 120 474 0.253165 37 474 487 17 0 heads_default aaaaaaaadaaaaaaaaaaaaaawzcagcccccccccccnccwcccxchccucccbcccccucicyccracpclccccccccccccqcccccccccccccxcccccccccccccczvfcaxgab 
+3856 div:int (none) 3686 0 1 100 49 333 0.147147 37 466 487 8 0 heads_default wzcagccccccccqccqccicccccccccccbkccccccccccccccccccccccccccckccccccccccccccccccccccccctcceczvfkaxgab 
+3776 div:int (none) 2972 0 2 100 92 371 0.247978 36 460 487 6 0 heads_default wzcagcmcccccdcccvcccccccczccccccvccccccccccaccvcccccccccccccccccccccccccccccccccdccccbccccczvfcaxgab 
+1365 div:int (none) 1079 0 23 101 98 385 0.254545 21 262 487 9 0 heads_default wzcagccccccccccccccccccncccccccxbcccccccvcccccccrccccaccccccocccscccccccccaccccccccwcccccicczvfcaxgab 
+3755 div:int (none) 2349 0 1 128 122 493 0.247465 34 459 487 11 0 heads_default aaaaaaaaaaaaaaaaaaaaaaaaaaaawzcagcccccccahcccccccccccccccccbccccccccccccccckcccrccccccccccczcccmcccccccchcccccccccccccczvfcaxgab 
+3568 div:int (none) 2498 0 2 100 97 385 0.251948 35 443 485 7 0 heads_default wzcagchccccccccccccccccccccccccbccccccscccccccccccciccccccccccccccccwcgccccccccccccccaccccczvfcaxgab 
+3474 div:int (none) 2554 0 2 101 98 387 0.25323 34 435 484 11 0 heads_default wzcagccccccccccccccccccccccccccbccmccccccccsccccicciccccccccccccqcccbcccccccccpccccccyaccccczvfcaxgab 
+3375 div:int (none) 2133 0 3 101 98 383 0.255875 34 427 484 12 0 heads_default wzcagccccccmcccccscccccncccccccxbccccrcccccccccccccccaccckccocccykccccocccccccsccccwcccccicczvfcaxgab 
+3216 div:int (none) 2305 0 5 100 95 380 0.25 32 414 483 10 0 heads_default wzcagccccccmldcccccccccdcccyccccccccccccccccccccmcccccccccccccqzcccoccccccccccccceccccccccczvfcaxgab 
+2657 div:int (none) 2023 0 1 101 90 377 0.238727 29 365 483 6 0 heads_default wzcagcczcccccccccgccccccccccvccccclcccccccccccccccccccccccccccoccccccccclccccccccccccccccccczvfcaxgab 
+1259 div:int (none) 692 0 8 100 97 382 0.253927 20 252 482 9 0 heads_default wzcagcqccccccccccccccccncccccccxbcccccccvcccccccccccaccccccycccsccccccccccccccccccwcccccicczvfcaxgab 
+3344 div:int (none) 3189 0 2 100 97 384 0.252604 33 424 482 6 0 heads_default wzcagccccciccccccccccmcccccccccctccccccccccbccccccccccccccccccccccccccckccccucccccccccccccczvfcaxgab 
+3453 div:int (none) 1772 0 1 120 117 462 0.253247 34 434 481 14 0 heads_default aaaaaaaaaaaaaaaaaawzcagccccccccccccccccccxchccucccbcccccuciitcccracpccccccccccccccqccccccccccccccaccccccpccccwczvfcaxgab 
+3410 div:int (none) 1855 0 1 101 98 388 0.252577 34 430 481 6 0 heads_default wzcagccccuyccccccccccucxocccccccccccccscccccccccccccccccccccccccccccccccdcccccccccwccccccccczvfcaxgab 
+3511 div:int (none) 3349 0 2 101 88 374 0.235294 33 438 481 11 0 heads_default wtzcagcwccccccagcccceccccccwccccccckccjcccccctcccsccccccicccccccccccqcccccfcccacccccccckccxczvfcaxgab 
+2168 div:int (none) 2023 0 9 102 99 388 0.255155 26 326 480 6 0 heads_default wzcagccccccccccpcgccccccccccvccccclcccccccccccccccccccccccccccocccccnsccclccccccccccccccccccczvfcaxgab 
+3480 div:int (none) 2531 0 1 102 85 372 0.228495 34 435 480 10 0 heads_default wzcagccgcccccccccccqcciccccceccsbccccccplcccycccfccccfcccjcsccccxcccccccbczccccccccccccccchcazvfcaxgab 
+3234 div:int (none) 1115 0 2 100 97 381 0.254593 33 415 478 9 0 heads_default wzcagcccxccccccccccccccncsccccnxbcccccccvcccccccccccccccccccocccscccccccccccccccccccccccicczvfcaxgab 
+3527 div:int (none) 3226 0 3 102 99 386 0.256477 35 439 478 8 0 heads_default wzcagcyecccccccpcgccccccccccvccccclccccccccccccccccccxccccccccocccccnsccclccccccccccccncccccczvfcaxgab 
+3798 div:int (none) 3271 0 1 100 46 314 0.146497 35 461 478 12 0 heads_default wzcagcccccccccccccccccckccccnccxbcccccczcccctccccccccccccmcocccsccfccccccfccnccbcccccccvicczvflaxgab 
+3718 div:int (none) 3564 0 1 101 98 386 0.253886 36 456 477 8 0 heads_default wzcagcczcuyccccccccccucxocccccccccccccsccccccccccccccccdccccccccccccccccdcccccccccwccccccccczvfcaxgab 
+3608 div:int (none) 3293 0 2 99 96 373 0.257373 35 446 477 12 0 heads_default wzcagcccnciccccpcccccccccjcxccccccccccccpccbccicsccccccccccccscccccccckcccbucccccncccscccczvfcaxgab 
+3772 div:int (none) 3456 0 1 124 121 481 0.251559 36 460 477 17 0 heads_default aaaaaaaaaaaaaaaaaaaaaaaawzcagccccccccccddjcccccccchccccccccccccccccacccrqflccccccccccccccccccccccccccccoccccccccccczvfcaxgab 
+3811 div:int (none) 3503 0 1 101 98 378 0.259259 37 462 477 14 0 heads_default wzcagccccccmcccccscccccncccccccxbcccccccvccccjcccciccaccccccocccykccccococlccksccccwcccccicczvfcaxgab 
+3654 div:int (none) 1637 0 1 100 95 380 0.25 34 450 477 6 0 heads_default wzcagccjcccclcccccccccccccccccccccccccchccccccccccccccccccccccczccctccccctcccccccccclcccccczvfcaxgab 
+3824 div:int (none) 3654 0 1 104 99 396 0.25 35 463 476 7 0 heads_default aaaawzcagccjcccclcccccccccccccccccccccccccchccccccccccccccccccccccczccctccccctcccccccccclcccccczvfcaxgab 
+3150 div:int (none) 2320 0 4 100 86 371 0.231806 31 408 476 10 0 heads_default wzcagccccccccfccccccccccccrcccciwcccccccccccccccccccccccwcccccccccckmciccccccccczccmcycclxczvfcaxgab 
+3839 div:int (none) 3676 0 1 101 44 324 0.135802 37 464 476 11 0 heads_default wzcagcccfcccccjccccccccncccccccxbcccccccvccccccccccccaccqcccocwcscccccccccaccccccccwcccccicczvtcaxgab 
+3253 div:int (none) 3106 0 3 99 96 378 0.253968 33 418 475 9 0 heads_default wzcagccccccccccpcgcbcccccnccccccccxccccccdccccccclccccccccccccccccccccnccccccccclccccccccczvfcaxgab 
+3777 div:int (none) 3593 0 1 134 120 508 0.23622 34 460 475 12 0 heads_default aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaawzcagcccccccahczcccccccccccccccbccccccccccccccckccccccccccccccczcccmcccccccchcccccccccccccczvfcaxgab 
+2865 div:int (none) 1772 0 1 120 117 462 0.253247 30 383 475 14 0 heads_default aaaaaaaaaaaaaaaaaawzcagccccccccccccccccccxchccucccbcccccuciitcccracpccccccccccccccqccccccccccccccaccclcccccccwczvfcaxgab 
+3193 div:int (none) 3057 0 3 100 97 383 0.253264 32 412 475 7 0 heads_default wzcagcccccicccccccccccccjccccccccccccccccccbcccccccccccccccccccucccccxckccccuccccccccccpccczvfcaxgab 
+2761 div:int (none) 2273 0 5 99 96 374 0.256684 30 373 474 10 0 heads_default wzcagccccccccccccncnccccnccccccbcccocccccncccvccccccccccccccccccccccccwcccctcccjccrccccccczvfcaxgab 
+3765 div:int (none) 3292 0 1 123 119 470 0.253191 36 459 474 16 0 heads_default aaaaaaadaaaaaaaaaaaaaawzcagcccccccccccnccwcccxchccucccbcccccucicyccracpclccccccccccccqcccccccccccccxcccccccccccccczvfcaxgab 
+3761 div:int (none) 3611 0 1 121 118 467 0.252677 36 459 474 17 0 heads_default aoaaaaaaaaaaaaaaaaaaaawzcagcccccccccddjccccccccoccccccccccciccccccccrqflccccccccccccccccccccccccccccoccccccccccczvfcaxgab 
+3634 div:int (none) 2761 0 1 99 95 372 0.255376 36 448 473 11 0 heads_default wzcagccccccccccccncnccccnccccccbcccocccccncccvccccccccccccccccccccccccwcccctcccjccrceccccczvfcaxgab 
+3682 div:int (none) 2339 0 1 101 98 383 0.255875 36 453 473 9 0 heads_default wzcagcccccccccxccccccccccccyccccctccvcjcccccccccclccccccccccccccccctcsrcccccccccccsccccccccczvfcaxgab 
+3680 div:int (none) 2668 0 1 102 99 387 0.255814 36 452 473 13 0 heads_default wzcagcccccccccccccccycccncccccccxbcccccccvccccccccawccaccccccoccnocccctcxccccjccccccwcccccicczvfcaxgab 
+3134 div:int (none) 2349 0 1 128 122 496 0.245968 30 407 473 11 0 heads_default aaaaaaaaaaaaaaaaaaaaaaaaaaaawzcagcccccccahcccccccccccccccccbccccccccccccccckcccccccccccccccgcccmcccccccchcccccccccccccczvfcaxgab 
+3452 div:int (none) 3171 0 1 107 104 405 0.25679 35 434 473 14 0 heads_default aaaawzcagcccccccccjccdccccccncccccccxbhcdcccccvccccccccccccaccccccocccncccccccccacbucccccwccbccicczvfcaxgab 
+2730 div:int (none) 2100 0 11 100 97 378 0.256614 29 371 473 10 0 heads_default wzcagcccccccccccmccccccncccccccnbcccccccvcccccccccccoccccccscccsccucccccccccccccccccccccicczvfcaxgab 
+3764 div:int (none) 3609 0 1 132 129 510 0.252941 34 459 473 13 0 heads_default aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaawzcagcccccccahcccccccccccccccccbccccccccccccccckcccccdcccgcccccgcccmcccccccchcccccccccccccczvfcaxgab 
+3479 div:int (none) 3324 0 1 102 99 386 0.256477 34 435 472 14 0 heads_default wzcagccccccccxcccccccccccccccccbccmccocccccsccccccciccccccvcccccqcccbsccccccccpccccccyacccciczvfcaxgab 
+3593 div:int (none) 2349 0 1 128 114 484 0.235537 33 446 472 11 0 heads_default aaaaaaaaaaaaaaaaaaaaaaaaaaaawzcagcccccccahczcccccccccccccccbccccccccccccccckccccccccccccccczcccmcccccccchcccccccccccccczvfcaxgab 
+3596 div:int (none) 3453 0 1 122 119 471 0.252654 35 446 471 15 0 heads_default aaaaaaaaaaaaaaaaaaaawzcagccccccccccccccccccxchccucccbcccccuciitcccracaccccccccccccccqccccccccccccccaccccccpccccwczvfcaxgab 
+3108 div:int (none) 2665 0 4 100 94 378 0.248677 31 405 471 12 0 heads_default wzcagccccccmlccccccccccdcccccccccccczcckcccccccccccccwccccccocqzcccoccbcccccccccceccccccccczvfcaxgab 
+3424 div:int (none) 2975 0 1 101 96 377 0.254642 33 431 470 13 0 heads_default wzcagcccccccccccccucccckpccccccxbcccccclvccctccccccccccaccccocccsccaccncccfccnccccccccccvicczvfcaxgab 
+3450 div:int (none) 3290 0 2 101 98 382 0.256545 34 433 470 11 0 heads_default wzcagcccccccccccmcccccceccccccuxbcccccccvcdcccccccccccccccccocccsccucycccccccccccccccccciicczvfcaxgab 
+3564 div:int (none) 3410 0 1 101 98 387 0.25323 35 443 470 7 0 heads_default wzcagccccuyccccccccccucxocccccccccccccsccccccccccccccccdccccccccccccccccdcccccccccwccccccccczvfcaxgab 
+3535 div:int (none) 3206 0 1 127 115 483 0.238095 32 440 470 17 0 heads_default aaaaaaaaaaaaaaaaaaajaaaaaaaawzcagcccccccahcccccccccucwccccbcsmcccccccccccccccccccccccccccczacccccccccccccccccccccccccczvfcaxgab 
+1512 div:int (none) 551 0 16 100 88 374 0.235294 22 274 469 5 0 heads_default wzcagccccccccccccgccxzccccccccccccccccccccccccccvclcccccccccccccccccccccccccccccccccccccccczvfcaxgab 
+3292 div:int (none) 2524 0 1 121 117 463 0.2527 33 421 469 15 0 heads_default aaaaadaaaaaaaaaaaaaawzcagccccccccccccccwcccxchccucccbcccccucicyccracpclccccccccccccqcccccccccccccxcccccccccccccczvfcaxgab 
+3324 div:int (none) 3002 0 1 102 99 386 0.256477 33 423 469 13 0 heads_default wzcagccccccccccccccccccccccccccbccmccocccccsccccccciccccccvcccccqcccbsccccccccpccccccyacccciczvfcaxgab 
+3519 div:int (none) 3207 0 2 114 106 431 0.24594 34 438 469 14 0 heads_default aaaaaaaaaaaaaawzcagchcccccccccccccccckcfcccccfbcccccckccccccccccccccgccccocccsccgcccccccccccccccccccccicczvfcaxgab 
+3710 div:int (none) 3562 0 1 102 95 380 0.25 36 456 468 12 0 heads_default aawzcagcccchcccccccccccccncccccccxbcccccccvcocclcccccccccccccocccvcccctlcccccccccccccfccccicczvfcaxgab 
+3700 div:int (none) 3392 0 1 99 87 367 0.237057 36 455 468 10 0 heads_default wzcagccccccccccccccccdcnccccocbcccacccccccccccjkcccceccccccczcccccccccccccccccecccccrcpccczvfcaxgab 
+3712 div:int (none) 3557 0 1 99 96 377 0.254642 36 456 468 11 0 heads_default wzcagccccccccccpcgcbcccccnccccccccxccccccdccccccclcckccccccccccccccccinccccccccclccccccccczvfcaxgab 
+2955 div:int (none) 2666 0 6 99 96 377 0.254642 31 391 468 9 0 heads_default wzcagccccccccuccgccxpccccccccccccccccccccccccccvclcccccccccccccccocccccccccccccccccccccccczvfcaxgab 
+3557 div:int (none) 3253 0 1 99 96 377 0.254642 35 443 467 10 0 heads_default wzcagccccccccccpcgcbcccccnccccccccxccccccdccccccclcckcccccccccccccccccnccccccccclccccccccczvfcaxgab 
+3558 div:int (none) 3401 0 1 102 99 387 0.255814 35 443 467 11 0 heads_default aawzcagcccccccccccccccchcncsccccnxbcccccccvpccccccccccccccccccocccgcccccccccccccccccccccccicczvfcaxgab 
+3548 div:int (none) 2168 0 2 102 99 387 0.255814 35 441 466 7 0 heads_default wzcagccccccccccpcgccccccccccvccccclcccccccccccccccccccccccccicocccccnsccclccccccccccccccccccczvfcaxgab 
+3585 div:int (none) 3450 0 1 101 98 381 0.257218 35 445 466 12 0 heads_default wzcagcccccccscccmcccccceccccccuxbcccccccvcdcccccccccccccccccocccsccucycccccccccccccccccciicczvfcaxgab 
+3617 div:int (none) 3271 0 1 101 89 370 0.240541 34 447 466 12 0 heads_default wzcagcccccccccccccccccckccccnccxbcccccczcccctcccccccccccccmcocccsccfccccccfccnccgcccccccvicczvfcaxgab 
+3676 div:int (none) 1969 0 1 101 93 380 0.244737 36 452 464 10 0 heads_default wzcagcccfcccccjccccccccncccccccxbcccccccvccccccccccccaccqcccocwcscccccccccaccccccccwcccccicczvfcaxgab 
+3132 div:int (none) 2360 0 3 101 98 386 0.253886 32 407 464 12 0 heads_default wzcagccccccccccccccqccccccccclccbcccrcpcctcqcccccckocccccjccccccccccccccccqccccccccycccccccczvfcaxgab 
+3177 div:int (none) 2885 0 1 135 128 516 0.248062 32 411 464 17 0 heads_default aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaawzcagccccccccccczcccccqxchccucccbcccxuciccccracpccnccccyccccccqccccccccccccxccccccccccccccczvfcaxgab 
+2531 div:int (none) 1925 0 8 102 95 384 0.247396 28 355 463 9 0 heads_default wzcagccgcccccccccccqcciccccccccsbccccccclcccycccfccccfcccjcsccccxcccccccbckcccccccccccccccccazvfcaxgab 
+3655 div:int (none) 3499 0 1 100 97 381 0.254593 35 450 463 9 0 heads_default wzcagcccccicccccccccccccjcyccccccccccccccccbcccccccccccccccccccucccccxckccccuccccccclccpccczvfcaxgab 
+3503 div:int (none) 3204 0 2 101 98 379 0.258575 35 437 463 13 0 heads_default wzcagccccccmcccccscccccncccccccxbcccccccvccccccccciccaccccccocccykccccococlccksccccwcccccicczvfcaxgab 
+3501 div:int (none) 3204 0 1 101 98 379 0.258575 35 437 462 13 0 heads_default wzcagccccccmcccccscccccncccccccxbcccccccvccccccccxiccaccccccocccykccccococlcccsccccwcccccicczvfcaxgab 
+2334 div:int (none) 2018 0 7 105 93 393 0.236641 27 340 462 10 0 heads_default aaaawzcagccjccccccccccccccckcccccccxzccccycccccccccccccccccccccqocccscccccccccccwcccccfccccccicczvfcaxgab 
+3265 div:int (none) 2335 0 2 100 97 382 0.253927 33 418 461 13 0 heads_default wzcagccccccccccccccqccccmccccccbccycccccrcqccgccckocccccjcccccxctccccccccqccccccccccccccccczvfcaxgab 
+3227 div:int (none) 1664 0 3 100 97 385 0.251948 33 415 460 6 0 heads_default wzcagccccccccqccqccicccccccccccbcccccccccccccccccccccccccccckccccccccccccccccccccccccctcceczvfcaxgab 
+3290 div:int (none) 2858 0 1 101 98 383 0.255875 33 421 460 10 0 heads_default wzcagcccccccccccmcccccceccccccuxbcccccccvcccccccccccccccccccocccsccucycccccccccccccccccciicczvfcaxgab 
+2339 div:int (none) 1886 0 7 101 98 383 0.255875 27 340 460 8 0 heads_default wzcagcccccccccxccccccccccccyccccctccvcjcccccccccclccccccccccccccccctccrcccccccccccsccccccccczvfcaxgab 
+3025 div:int (none) 2712 0 1 123 111 468 0.237179 29 397 460 15 0 heads_default aaaaaaaaaaaaaaaaaaaaaaaawzcagcccccccahcccccccccucwccccbcsmcccccccccccccccccccccccccccczacccccccccccccccccccccccccczvfcaxgab 
+3611 div:int (none) 3275 0 1 121 118 468 0.252137 35 446 460 16 0 heads_default aaaaaaaaaaaaaaaaaaaaaawzcagcccccccccddjccccccccoccccccccccciccccccccrqflccccccccccccccccccccccccccccoccccccccccczvfcaxgab 
+3146 div:int (none) 2994 0 1 123 119 472 0.252119 32 407 459 16 0 heads_default aaaaaaadaaaaaaaaaaaaaawzcagccccccccccccccwcccxchccucccbcccccucinyccracpcltcccccccccccqcccccccccccccxcccccccccccccczvfcaxgab 
+2349 div:int (none) 2175 0 2 122 116 470 0.246809 25 341 459 10 0 heads_default aaaaaaaaaaaaaaaaaaaaaawzcagcccccccahcccccccccccccccccbccccccccccccccckccccccccccccccczcccmcccccccchcccccccccccccczvfcaxgab 
+3605 div:int (none) 3267 0 1 101 86 378 0.227513 35 446 459 7 0 heads_default wzcagcsccccccqcccccccccccccccccbcccfcccccccccccacxcccccccccckccccccccccccccccccccccccctcccczvfcaxgyab 
+3157 div:int (none) 2067 0 3 100 97 384 0.252604 32 408 459 6 0 heads_default wzcagccccccccccccpccccycccccccccccccxccccccccccnacccccccccccccccccccccccccccccccpccsmcccccczvfcaxgab 
+3125 div:int (none) 2985 0 3 100 97 388 0.25 32 406 459 5 0 heads_default wzcagccccaccdccccccccccccccccccbcccccccccccccccccccccccccccccccccccccccccccxcaccccccccccccczvfcaxgab 
+3267 div:int (none) 2492 0 2 101 96 389 0.246787 33 418 458 6 0 heads_default wzcagcsccccccqcccccccccccccccccbcccccccccccccccccxcccccccccckccccccccccccccccccccccccctcccczvfcaxgyab 
+3441 div:int (none) 2524 0 1 121 117 462 0.253247 34 433 458 15 0 heads_default aaaaadaaoaaaaaaaaaaawzcagccccccccccccccwcccxchccucccbcccccucicyccracpclccccccccccccqcccccccccccccxcccccccccccccczvfcaxgab 
+3171 div:int (none) 3039 0 1 106 103 402 0.256219 33 410 458 13 0 heads_default aaawzcagcccccccccjccdccccccncccccccxbhcdcccccvccccccccccccaccccccocccncccccccccacbccccccwccbccicczvfcaxgab 
+3176 div:int (none) 2761 0 2 99 96 373 0.257373 33 411 458 11 0 heads_default wzcagccccccccccccncnccccnccccccbcccocccccnczcvccccccccccccccccccccccccwcccctcccjccrccccccczvfcaxgab 
+3392 div:int (none) 3238 0 2 99 87 369 0.235772 34 428 458 9 0 heads_default wzcagccccccccccccccccdcnccccocbcccacccccccccccjkcccccccccccczcccccccccccccccccecccccccpccczvfcaxgab 
+2538 div:int (none) 1937 0 1 116 113 450 0.251111 28 356 458 13 0 heads_default aaaaaaaaaaaaaaaawzcagccccccccccddgcccccccchccccccccccccccccccccrqclcccccccccccccccccccccccccccccccccccccccczvfcaxgab 
+3377 div:int (none) 2815 0 2 100 81 366 0.221311 29 427 457 9 0 heads_default wzcagcccocbccccccccccccccccccccecccccczcccccjfmcccccccccccccccczccccccccecccccccbccczcccccczvfcaxgab 
+1854 div:int (none) 1391 0 10 101 98 384 0.255208 24 301 457 11 0 heads_default wzcagccccccccccccccccccncccccccxbcccccccvccccccccacccaccccccoccnocccctcxccccjccccccwcccccicczvfcaxgab 
+3401 div:int (none) 3095 0 1 100 97 379 0.255937 34 430 457 10 0 heads_default wzcagcccccccccccccccchcncsccccnxbcccccccvpccccccccccccccccccocccscccccccccccccccccccccccicczvfcaxgab 
+2496 div:int (none) 1732 0 6 101 98 389 0.251928 28 352 455 6 0 heads_default wzcagccccccccciccgccccpycccccccccccccxcccccccccccccccccccccccccccccccccccccccccccpcccccccccczvfcaxgab 
+2680 div:int (none) 2181 0 4 101 89 372 0.239247 28 367 455 10 0 heads_default wzcagcccccccccccccccccckcccccccxbcccccczcccctcccccccccccccmcocccsccfccccccfccnccbcccccccvicczvfcaxgab 
+3423 div:int (none) 3265 0 1 101 98 386 0.253886 34 431 454 14 0 heads_default wzcagccccccccccccccqccccmccccccbccycccccrcqccgccckocccccjcccccxctccccccccqcccccccccccccccccdzvfcaxgab 
+2498 div:int (none) 1712 0 7 100 97 386 0.251295 28 353 453 6 0 heads_default wzcagccccccccccccccccccccccccccbccccccscccccccccccciccccccccccccccccwcgccccccccccccccaccccczvfcaxgab 
+3264 div:int (none) 2823 0 1 119 116 456 0.254386 33 418 453 15 0 heads_default aaaaaaaaaaaaaaaaaawzcagccccccccccccccwcccxchccucccbcccccuciccccracpclccrcccccccccqccccccccccccccccccccccccccgczvfcaxgab 
+3219 div:int (none) 3064 0 1 105 102 399 0.255639 33 414 452 10 0 heads_default waaaaaazcagccccccccccccgcnccccccccvccccclccccccccccccccchcccccccncoccccccccccccccciccacccccccccczvfcaxgab 
+3101 div:int (none) 1854 0 2 101 98 384 0.255208 32 404 451 12 0 heads_default wzcagccccccccccccccccccncccccccxbcccccccvcaccccccacccaccccccoccnocccctcxccccjccccccwcccccicczvfcaxgab 
+3226 div:int (none) 2168 0 1 102 99 386 0.256477 33 415 451 7 0 heads_default wzcagccecccccccpcgccccccccccvccccclcccccccccccccccccccccccccccocccccnsccclccccccccccccncccccczvfcaxgab 
+3026 div:int (none) 2035 0 3 101 88 376 0.234043 30 397 451 9 0 heads_default wtzcagccccccccagcccceccccccwccccccccccjcccccctcccsccccccicccccccccccqcccccfcccccccccccccccxczvfcaxgab 
+3349 div:int (none) 3026 0 1 101 88 375 0.234667 32 424 451 10 0 heads_default wtzcagccccccccagcccceccccccwccccccckccjcccccctcccsccccccicccccccccccqcccccfcccccccccccccccxczvfcaxgab 
+3056 div:int (none) 2615 0 5 100 96 379 0.253298 32 399 450 12 0 heads_default wzcagcccccccccccccqcccencsccccnxbcccccccvcccccccccccrcccccceocccsccccccccccccccrccccccccimczvfcaxgab 
+2085 div:int (none) 1935 0 4 101 98 383 0.255875 25 319 450 8 0 heads_default wzcagcccccccccccmccccccnccccccuxbcccccccvcccccccccccccccccccocccsccucycccccccccccccccccccicczvfcaxgab 
+3057 div:int (none) 2908 0 2 100 97 383 0.253264 31 399 450 6 0 heads_default wzcagcccccicccccccccccccjccccccccccccccccccbcccccccccccccccccccuccccccckccccuccccccccccpccczvfcaxgab 
+3484 div:int (none) 2063 0 1 99 96 380 0.252632 34 436 449 7 0 heads_default wzcagccccccccccccgcbccccccccccccccxccccccdccccccclccccccccccccccccccccnccccccccccccccmcccczvfcaxgab 
+2133 div:int (none) 1519 0 8 101 98 382 0.256545 26 323 449 11 0 heads_default wzcagccccccmcccccscccccncccccccxbcccccccvccccccccccccaccccccocccykccccocccccccsccccwcccccicczvfcaxgab 
+3204 div:int (none) 2133 0 2 101 98 379 0.258575 33 413 448 12 0 heads_default wzcagccccccmcccccscccccncccccccxbcccccccvccccccccciccaccccccocccykccccococlcccsccccwcccccicczvfcaxgab 
+2880 div:int (none) 2728 0 4 106 99 400 0.2475 30 384 448 11 0 heads_default aaaawzcagcccccemccccccccccccccccccbcchhcccccccccccccccccalckcccccccccccccocckcctnckcccyceccccccsczvfcaxgab 
+3330 div:int (none) 2761 0 2 99 96 373 0.257373 34 423 448 11 0 heads_default wzcagccccccccccccncnccccnccccccbcccocccccncccvccccciccccccccccccccccccwcccctcccjccrccccccczvfcaxgab 
+3475 div:int (none) 3345 0 1 99 96 372 0.258065 35 435 448 12 0 heads_default wzcagccccccccccccncnccccnccccccbcccocccccncccvcccdcccoccccccccccccccccwcccctcccjccrccccccczvfcaxgab 
+3279 div:int (none) 3135 0 1 122 119 470 0.253191 33 420 448 15 0 heads_default aaaaaaaaaaaaaaaaaaaawzcagcccccccccnccccccccxchccucccbcccccuciitcccracpccccccccccccccqccccccccccccccacccccccccccwczvfcaxgab 
+3345 div:int (none) 2761 0 1 99 96 373 0.257373 34 424 448 11 0 heads_default wzcagccccccccccccncnccccnccccccbcccocccccncccvcccccccoccccccccccccccccwcccctcccjccrccccccczvfcaxgab 
+3275 div:int (none) 2705 0 1 120 117 465 0.251613 33 420 448 15 0 heads_default aaaaaaaaaaaaaaaaaaaawzcagccccccccccddjcccccccchccccccccccccccccccccrqflccccccccccccccccccccccccccccoccccccccccczvfcaxgab 
+3206 div:int (none) 3025 0 1 125 113 476 0.237395 30 413 447 16 0 heads_default aaaaaaaaaaaaaaaaaaaaaaaaaawzcagcccccccahcccccccccucwccccbcsmcccccccccccccccccccccccccccczacccccccccccccccccccccccccczvfcaxgab 
+2554 div:int (none) 2380 0 2 101 98 388 0.252577 28 357 447 10 0 heads_default wzcagccccccccccccccccccccccccccbccmccccccccsccccccciccccccccccccqcccbcccccccccpccccccyaccccczvfcaxgab 
+3023 div:int (none) 2738 0 1 99 96 375 0.256 31 397 447 10 0 heads_default wzcagcccnciccccpcccccccccjcxcccccccccccccccbccicsccccccccccccscccccccckcccbucccccncccccccczvfcaxgab 
+3002 div:int (none) 2715 0 1 102 99 390 0.253846 31 396 446 12 0 heads_default wzcagccccccccccccccccccccccccccbccmccccccccsccccccciccccccccccccqcccbsccccccccpccccccyacccciczvfcaxgab 
+3207 div:int (none) 1813 0 1 114 106 432 0.24537 32 413 445 13 0 heads_default aaaaaaaaaaaaaawzcagchcccccccccccccccckcfcccccfbcccccckcccccccccccccccccccocccsccgcccccccccccccccccccccicczvfcaxgab 
+2726 div:int (none) 567 0 3 101 98 389 0.251928 29 371 444 6 0 heads_default wzcagccccccccqccccccccccyucxcccbcblccccccccccccccccccccccccccccccccccrccccccccccccccccytcccczvfcaxgab 
+1772 div:int (none) 1451 0 1 118 115 455 0.252747 23 293 444 13 0 heads_default aaaaaaaaaaaaaaaawzcagccccccccccccccccccxchccucccbcccccuciitcccracpccccccccccccccqccccccccccccccacccccccccccwczvfcaxgab 
+2438 div:int (none) 86 0 4 98 95 378 0.251323 28 348 443 5 0 heads_default wzcagccccccccccccccccccccccccccbccccccccccccccccccccccjcccccdcccccccccccccicccccccccccccczvfcaxgab 
+3237 div:int (none) 3080 0 1 119 108 448 0.241071 33 416 443 8 0 heads_default aaaaaaaaaaaaaaaaaawzcagcczcccccccccnccccccccccvccccclccccccccccccccccccuccccccccoccccccccclccccccccccccccccccczvfcaxgab 
+3396 div:int (none) 3101 0 1 102 98 388 0.252577 34 429 443 13 0 heads_default wzcagccccccccccccccccccencccccccxbcccccccvcaccccccacccaccccccoccnocccctcxccccjccccccwcccccicczvfcaxgab 
+3059 div:int (none) 2438 0 2 98 95 377 0.251989 32 400 443 6 0 heads_default wzcagccccccccccccccccccccccccccbccccccccccecccccccccccjcccccdcccccccccccccicccccccccccccczvfcaxgab 
+1855 div:int (none) 1541 0 6 101 98 389 0.251928 24 301 443 5 0 heads_default wzcagccccuyccccccccccuccocccccccccccccccccccccccccccccccccccccccccccccccdcccccccccwccccccccczvfcaxgab 
+3014 div:int (none) 2555 0 2 100 97 383 0.253264 31 397 442 10 0 heads_default wzcagcccccccpqcccccccccccucccccscblcccccccccccccccccccccccccccccccccccccccccyccicccccytcccczvfcaxgab 
+2604 div:int (none) 2421 0 3 100 88 376 0.234043 27 361 441 10 0 heads_default wzcagcccccccccccccecccccccgccbcbccccccccyccccccccccccxccccccccpzcccccccccccccccccccccccccckzvfcaxgab 
+3066 div:int (none) 2427 0 1 122 114 463 0.24622 31 401 440 16 0 heads_default aaaaaaaaaaaaaaaaaaaaaawzcagchccccccccicccccckcfcccccxbcpcjcccccccccccccccccccccccocctshcccccccccccccccccccccccicczvfcaxgab 
+3106 div:int (none) 2841 0 1 99 96 379 0.253298 32 405 440 8 0 heads_default wzcagccccccccccpcgcbccccccccccccccxccccccdccccccclccccccccccccccccccccnccccccccclccccccccczvfcaxgab 
+2360 div:int (none) 1885 0 6 101 98 386 0.253886 27 342 439 11 0 heads_default wzcagccccccccccccccqccccccccclccbcccrcpcchcqcccccckocccccjccccccccccccccccqccccccccycccccccczvfcaxgab 
+2823 div:int (none) 1900 0 2 119 116 457 0.253829 30 379 439 14 0 heads_default aaaaaaaaaaaaaaaaaawzcagccccccccccccccwcccxchccucccbcccccuciccccracpclccccccccccccqccccccccccccccccccccccccccgczvfcaxgab 
+3198 div:int (none) 3059 0 2 98 95 375 0.253333 33 412 439 7 0 heads_default wzcagccccccccccccccccccccccccccbccccccccccecccccccccccjcccccdcccccccccccccicccccccoccoccczvfcaxgab 
+2050 div:int (none) 1901 0 4 99 96 384 0.25 25 316 439 4 0 heads_default wzcagccccccccccccccccccccccccccbcccccccccccuccccccccccccccccccccccccccccccccaccccccccccccczvfcaxgab 
+2975 div:int (none) 2545 0 2 101 96 379 0.253298 30 394 438 12 0 heads_default wzcagcccccccccccccucccckpccccccxbcccccclcccctccccccccccaccccocccsccaccncccfccnccccccccccvicczvfcaxgab 
+1696 div:int (none) 1170 0 6 101 98 378 0.259259 23 289 437 8 0 heads_default wzcagccccccccccccccccccncccccccxbcccccccvcoccclcccccccccccccocccvcccctlcccccccccccccvccccicczvfcaxgab 
+3039 div:int (none) 2760 0 1 105 102 399 0.255639 32 398 436 12 0 heads_default aawzcagcccccccccjccdccccccncccccccxbhcccccccvccccccccccccaccccccocccncccccccccacbccccccwccbccicczvfcaxgab 
+3315 div:int (none) 2726 0 1 101 97 388 0.25 33 422 436 7 0 heads_default wzcagccccccccqccccccccccyucxcccbcblccccccccccccccccccccccccccccccccccrccccccccccccccccyteccczvfcaxgab 
+2815 div:int (none) 1828 0 4 100 71 356 0.199438 26 379 435 8 0 heads_default wzcagcccocbccccccccccccccccccccecccccczcccccjfccccccccccccccccczccccccccecccccccbccczcccccczvfcaxgab 
+2550 div:int (none) 2085 0 4 102 98 385 0.254545 28 357 434 9 0 heads_default wzcagcccccccccccmccccccrccccccuxbcccccccvcecccccccccccccccccocccsccucycccccccccccccccccccincczvfcaxgab 
+2546 div:int (none) 1164 0 4 101 89 379 0.234828 28 356 434 8 0 heads_default wzcagcczcccccccccccccccccccccccbccccccscccccccccccciccccccccccccqcccwccccccccccpcccccacccscczvfcaxgab 
+2524 div:int (none) 1900 0 1 119 115 455 0.252747 28 355 434 14 0 heads_default aaadaaaaaaaaaaaaaawzcagccccccccccccccwcccxchccucccbcccccucicyccracpclccccccccccccqcccccccccccccxcccccccccccccczvfcaxgab 
+3238 div:int (none) 3082 0 1 99 87 369 0.235772 33 416 433 8 0 heads_default wzcagccccccccccccccccdcnccccocbcccacccccccccccckcccccccccccczcccccccccccccccccecccccccpccczvfcaxgab 
+1164 div:int (none) 707 0 12 101 98 390 0.251282 19 242 433 7 0 heads_default wzcagccccccccccccccccccccccccccbccccccscccccccccccciccccccccccccqcccwccccccccccccccccacccscczvfcaxgab 
+3095 div:int (none) 1115 0 1 100 97 380 0.255263 32 403 432 9 0 heads_default wzcagccccccccccccccccccncsccccnxbcccccccvpccccccccccccccccccocccscccccccccccccccccccccccicczvfcaxgab 
+2738 div:int (none) 2412 0 2 99 96 375 0.256 29 371 432 9 0 heads_default wzcagcccnciccccpcccccccccjcccccccccccccccccbccicsccccccccccccscccccccckcccbucccccncccccccczvfcaxgab 
+3135 div:int (none) 1772 0 2 120 117 463 0.2527 32 407 432 14 0 heads_default aaaaaaaaaaaaaaaaaawzcagccccccccccccccccccxchccucccbcccccuciitcccracpccccccccccccccqccccccccccccccacccccccccccwczvfcaxgab 
+2841 div:int (none) 2063 0 2 99 96 380 0.252632 30 381 430 7 0 heads_default wzcagccccccccccccgcbccccccccccccccxccccccdccccccclccccccccccccccccccccnccccccccclccccccccczvfcaxgab 
+567 div:int (none) 438 0 17 100 97 386 0.251295 15 191 429 5 0 heads_default wzcagccccccccqcccccccccccucccccbcblccccccccccccccccccccccccccccccccccccccccccccccccccytcccczvfcaxgab 
+3189 div:int (none) 1489 0 1 100 97 385 0.251948 32 411 428 5 0 heads_default wzcagccccciccccccccccmcccccccccccccccccccccbccccccccccccccccccccccccccckccccucccccccccccccczvfcaxgab 
+3211 div:int (none) 2613 0 1 100 97 380 0.255263 33 414 428 10 0 heads_default wzcagccccccccccccccccccncpccccnxbcccccccveccccccccccccccccccocccscccccccccccccccccccccccicczvfcaxgab 
+2613 div:int (none) 1115 0 3 100 97 381 0.254593 29 362 427 9 0 heads_default wzcagccccccccccccccccccncpccccnxbcccccccvcccccccccccccccccccocccscccccccccccccccccccccccicczvfcaxgab 
+2885 div:int (none) 1929 0 1 130 123 496 0.247984 30 384 426 16 0 heads_default aaaaaaaaaaaaaaaaaaaaaaaaaaaaaawzcagccccccccccczcccccqxchccucccbcccxuciccccracpccnccccyccccccqccccccccccccxccccccccccccccczvfcaxgab 
+2789 div:int (none) 2651 0 2 100 95 381 0.249344 29 376 426 10 0 heads_default wzcagccccccmlccccccccccdcccccckcccccccccccccccccccccccccccccccqzcccoccccccccccccceccccqcccczvfcaxgab 
+2705 div:int (none) 2538 0 3 118 115 458 0.251092 29 369 426 14 0 heads_default aaaaaaaaaaaaaaaaaawzcagccccccccccddgcccccccchccccccccccccccccccccrqclcccccccccccccccccccccccccccccccccccccccczvfcaxgab 
+1115 div:int (none) 574 0 11 100 97 381 0.254593 19 239 426 8 0 heads_default wzcagccccccccccccccccccncsccccnxbcccccccvcccccccccccccccccccocccscccccccccccccccccccccccicczvfcaxgab 
+1813 div:int (none) 1492 0 8 115 107 436 0.245413 23 297 425 12 0 heads_default aaaaaaaaaaaaaawzcagchcccccccccccccccckcfcccccfbcccccckccccccccccccccccccccocccsccgcccccccccccccccccccccicczvfcaxgab 
+2346 div:int (none) 1863 0 3 101 88 376 0.234043 27 341 425 8 0 heads_default wzcagccccccccqcccccccccccccccccbcbmcpccccwccctcccccccccsccccccceccccccozccccccccccbcccytcccczvfcaxgab 
+2018 div:int (none) 1553 0 5 105 87 388 0.224227 25 314 422 9 0 heads_default aaaawzcagccjccccccccccccccckcccccccxzccccccccccccccccccccccccccqocccscccccccccccwcccccfccccccicczvfcaxgab 
+2067 div:int (none) 1278 0 6 100 97 384 0.252604 25 318 421 5 0 heads_default wzcagccccccccccccpccccycccccccccccccxccccccccccnccccccccccccccccccccccccccccccccpccsccccccczvfcaxgab 
+2858 div:int (none) 2085 0 2 101 98 383 0.255875 30 382 421 9 0 heads_default wzcagcccccccccccmcccccceccccccuxbcccccccvcccccccccccccccccccocccsccucycccccccccccccccccccicczvfcaxgab 
+1010 div:int (none) 252 0 7 101 98 389 0.251928 18 230 421 5 0 heads_default wzcagccccccccqcccccccccccccccccbccccccccccccccacccccccccccccckcccccccuccccccclccccccccctcccczvfcaxgab 
+2320 div:int (none) 1315 0 8 100 86 370 0.232432 26 339 419 9 0 heads_default wzcagccccccccfccccccccccccrcccciwcccccccccccccccccccccccwcccccccccckmciccccccccczccmcycclcczvfcaxgab 
+2492 div:int (none) 2159 0 4 101 96 390 0.246154 28 352 418 5 0 heads_default wzcagccccccccqcccccccccccccccccbcccccccccccccccccxcccccccccckccccccccccccccccccccccccctcccczvfcaxgyab 
+2305 div:int (none) 1980 0 3 100 95 380 0.25 26 338 418 9 0 heads_default wzcagccccccmlccccccccccdcccyccccccccccccccccccccmcccccccccccccqzcccoccccccccccccceccccccccczvfcaxgab 
+2665 div:int (none) 2497 0 3 100 86 371 0.231806 28 366 418 11 0 heads_default wzcagccccccmlccccccccccdcccccccccccczccccccccccccccccwccccccocqzcccoccbcccccccccceccccccccczvfcaxgab 
+2666 div:int (none) 2491 0 1 100 97 381 0.254593 29 366 417 8 0 heads_default wzcagcccccccccuccgccxpccccccccccccccccccccccccccvclcccccccccccccccocccccccccccccccccccccccczvfcaxgab 
+1898 div:int (none) 937 0 6 100 97 389 0.249357 24 304 417 3 0 heads_default wzcagccccacccccccccccccccccccccbcccccccccccccccccccccccccccccccccccccccccccccaccccccccccccczvfcaxgab 
+1519 div:int (none) 1091 0 13 101 98 382 0.256545 22 275 417 10 0 heads_default wzcagccccccmcccccscccccncccccccxbcccccccvccccccccccccaccccccocccskccccocccccccsccccwcccccicczvfcaxgab 
+3082 div:int (none) 2785 0 1 99 87 370 0.235135 32 402 417 7 0 heads_default wzcagccccccccccccccccdcnccccocbcccccccccccccccckcccccccccccczcccccccccccccccccccccccccpccczvfcaxgab 
+2491 div:int (none) 2325 0 3 100 97 382 0.253927 28 352 417 7 0 heads_default wzcagccccccccccccgccxpccccccccccccccccccccccccccvclcccccccccccccccocccccccccccccccccccccccczvfcaxgab 
+1489 div:int (none) 263 0 11 100 97 386 0.251295 21 270 417 4 0 heads_default wzcagccccciccccccccccccccccccccccccccccccccbccccccccccccccccccccccccccckccccucccccccccccccczvfcaxgab 
+1664 div:int (none) 1383 0 8 100 97 386 0.251295 23 286 416 5 0 heads_default wzcagccccccccqccqccccccccccccccbcccccccccccccccccccccccccccckccccccccccccccccccccccccctcceczvfcaxgab 
+3080 div:int (none) 2657 0 1 110 99 412 0.240291 32 402 416 7 0 heads_default aaaaaaaaawzcagcczcccccccccgccccccccccvccccclccccccccccccccccccuccccccccoccccccccclccccccccccccccccccczvfcaxgab 
+2429 div:int (none) 1489 0 3 100 97 385 0.251948 27 348 413 5 0 heads_default wzcagccccciccccccccccccccccccccccccccccccccbcccccccccccccccccmcccccccccmccccucccccccccccccczvfcaxgab 
+1381 div:int (none) 1115 0 8 100 97 381 0.254593 21 263 412 9 0 heads_default wzcagccccccccccccccccccncsccccnxbcccccccvcccccccccccccccccceocccscccccccccccccccccccccccicczvfcaxgab 
+2712 div:int (none) 2532 0 1 121 109 461 0.236443 27 370 412 14 0 heads_default aaaaaaaaaaaaaaaaaaaaaawzcagcccccccahccccccccccccccccbcsmcccccccccccccccccccccccccccczacccccccccccccccccccccccccczvfcaxgab 
+2891 div:int (none) 2578 0 1 120 117 464 0.252155 30 385 412 15 0 heads_default aaaaaaaaaaaaaaaaaaaawzcagccccccccccddgcccccccchccccccccocccccccccccccclccckcccccccccccccccccccccccccccdwccccccczvfcaxgab 
+1315 div:int (none) 972 0 9 100 86 371 0.231806 20 256 411 8 0 heads_default wzcagccccccccfccccccccccccccccciwcccccccccccccccccccccccwcccccccccckmciccccccccczccmcycclcczvfcaxgab 
+2490 div:int (none) 836 0 3 100 97 380 0.255263 28 352 409 7 0 heads_default wzcagccccccccccccgcnccclccccvccccclccccccccccccccccqcccccccncoccccccccccccccccccccccccccccczvfcaxgab 
+2996 div:int (none) 2720 0 1 102 98 383 0.255875 31 395 408 11 0 heads_default wzcagcccccccccccmccccccrccccccuxbcccccccvceccdccccccccccccccocccsccucyccccccccccccccccyccincczvfcaxgab 
+2649 div:int (none) 1235 0 2 100 88 375 0.234667 29 364 408 5 0 heads_default wzcagcccccccccccccccccdcnccccocbccccccccccccccccccccccccccccczcccccccccccccccccccccccccpccczvfcaxgab 
+2994 div:int (none) 2524 0 1 121 117 463 0.2527 31 395 408 15 0 heads_default aaaaadaaaaaaaaaaaaaawzcagccccccccccccccwcccxchccucccbcccccucicyccracpclccccccccccccqcccccccccccccxcccccccccccccczvfcaxgab 
+1140 div:int (none) 858 0 8 100 97 386 0.251295 19 241 407 4 0 heads_default wzcagcmcccccdcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccdccccbccccczvfcaxgab 
+2985 div:int (none) 1898 0 1 100 97 389 0.249357 31 394 407 4 0 heads_default wzcagccccacccccccccccccccccccccbcccccccccccccccccccccccccccccccccccccccccccxcaccccccccccccczvfcaxgab 
+2148 div:int (none) 1980 0 6 100 95 381 0.249344 25 325 406 9 0 heads_default wzcagccccccmlccccccccccdccccccccccccccccccccccccccccccccccccocqzcccoccccccccccccceccccccccczvfcaxgab 
+1742 div:int (none) 842 0 3 115 112 442 0.253394 23 292 405 12 0 heads_default aaaaaaaaaaaaaawzcagccccccccccccccwcccxchccucccbcccccuciccccracpclccccccccccccqcccccccccccccccccccccccccccczvfcaxgab 
+2427 div:int (none) 1945 0 1 121 113 459 0.246187 27 348 405 15 0 heads_default aaaaaaaaaaaaaaaaaaaawzcagchcccccccciccccccckcfcccccxbcpcjcccccccccccccccccccccccocctshcccccccccccccccccccccccicczvfcaxgab 
+2623 div:int (none) 2294 0 1 101 98 384 0.255208 29 363 403 8 0 heads_default waazcagccccccccccccgcnccccccccvccccclccccccccccccccchcccccccncoccccccccccccccccccccccccccccczvfcaxgab 
+2785 div:int (none) 2649 0 2 100 88 374 0.235294 30 376 402 6 0 heads_default wzcagcccccccccccccccccdcnccccocbcccccccccccccccckcccccccccccczcccccccccccccccccccccccccpccczvfcaxgab 
+1235 div:int (none) 666 0 12 100 97 386 0.251295 20 250 402 4 0 heads_default wzcagcccccccccccccccccdcnccccocbccccccccccccccccccccccccccccccccccccccccccccccccccccccccccczvfcaxgab 
+2361 div:int (none) 1602 0 3 102 94 382 0.246073 27 342 402 10 0 heads_default wzcagcclcccccjcccccccccncccccccxbcccccccvcccccccccccccccccccbcccsccccccccccrcccccccciczcccacczvfcaxgab 
+1278 div:int (none) 985 0 6 100 97 386 0.251295 20 253 401 4 0 heads_default wzcagccccccccccccgccccycccccccccccccxcccccccccccccccccccccccccccccccccccccccccccpcccccccccczvfcaxgab 
+2909 div:int (none) 2615 0 1 100 96 377 0.254642 31 387 401 12 0 heads_default wzcagcccccccccccccqcccencsccccnxbcccccccvccccvccccccrcccccceocccscccccccccccccccccccccccimczvfcaxgab 
+2908 div:int (none) 1489 0 1 100 97 384 0.252604 30 387 399 5 0 heads_default wzcagccccciccccccccccccccccccccccccccccccccbcccccccccccccccccccuccccccckccccuccccccccccpccczvfcaxgab 
+100 div:int (none) 24 0 15 100 97 385 0.251948 9 117 399 4 0 heads_default wzcagccccccccccccxcccccccccccccbcccccccccccccccccccccccccccccccvcccccccccccccccccccccccqcuczvfcaxgab 
+2545 div:int (none) 1432 0 2 101 93 376 0.24734 27 356 397 11 0 heads_default wzcagcccccccccccccucccckcccccccxbcccccczcccctccccccccccaccccocccsccaccncccfccnccccccccccvicczvfcaxgab 
+2035 div:int (none) 1210 0 4 101 88 376 0.234043 24 316 397 8 0 heads_default wtzcagccccccccagcccceccccccwccccccccccjcccccctcccsccccccicccccccccccqcccccfccccccccccccccccczvfcaxgab 
+1383 div:int (none) 37 0 9 100 97 387 0.250646 21 263 397 4 0 heads_default wzcagccccccccqccqccccccccccccccbcccccccccccccccccccccccccccckccccccccccccccccccccccccctcccczvfcaxgab 
+2555 div:int (none) 2396 0 2 100 97 384 0.252604 28 357 397 9 0 heads_default wzcagcccccccpqcccccccccccucccccscblcccccccccccccccccccccccccccccccccccccccccyccccccccytcccczvfcaxgab 
+2290 div:int (none) 1664 0 1 101 98 390 0.251282 27 336 397 6 0 heads_default wzcagccccccccqccqcccccccccacccccbcccccccccccccccccccccccccccckccccccccccccccccccccccccctcceczvfcaxgab 
+2715 div:int (none) 2554 0 1 101 98 388 0.252577 29 370 396 11 0 heads_default wzcagccccccccccccccccccccccccccbccmccccccccsccccccciccccccccccccqcccbaccccccccpccccccyaccccczvfcaxgab 
+2578 div:int (none) 2238 0 1 118 115 457 0.251641 28 359 396 14 0 heads_default aaaaaaaaaaaaaaaaaawzcagccccccccccddgcccccccchccccccccccccccccccccccclccckcccccccccccccccccccccccccccdwccccccczvfcaxgab 
+2175 div:int (none) 1999 0 3 116 110 446 0.246637 24 327 396 9 0 heads_default aaaaaaaaaaaaaaaawzcagcccccccahcccccccccccccccccbccccccccccccccckccccccccccccccczcccmcccccccchcccccccccccccczvfcaxgab 
+2728 div:int (none) 2564 0 1 104 100 393 0.254453 29 371 395 10 0 heads_default aawzcagcccccecccccccccccccccccccbcchccccccccccccccccccalcucccccccccccccocckcctnckcccyceccccccsczvfcaxgab 
+2720 div:int (none) 2550 0 2 102 98 385 0.254545 29 370 395 10 0 heads_default wzcagcccccccccccmccccccrccccccuxbcccccccvcecccccccccccccccccocccsccucyccccccccccccccccbccincczvfcaxgab 
+1900 div:int (none) 1742 0 7 117 114 450 0.253333 24 304 394 13 0 heads_default aaaaaaaaaaaaaaaawzcagccccccccccccccwcccxchccucccbcccccuciccccracpclccccccccccccqcccccccccccccccccccccccccccczvfcaxgab 
+1712 div:int (none) 256 0 5 100 97 387 0.250646 23 290 391 5 0 heads_default wzcagccccccccccccccccccccccccccbccccccscccccccccccciccccccccccccccccwccccccccccccccccaccccczvfcaxgab 
+2651 div:int (none) 1980 0 1 100 95 382 0.248691 28 364 389 9 0 heads_default wzcagccccccmlccccccccccdccccccccccccccccccccccccccccccccccccccqzcccoccccccccccccceccccqcccczvfcaxgab 
+1885 div:int (none) 1281 0 6 101 98 387 0.25323 24 303 388 10 0 heads_default wzcagccccccccccccccqccccccccclccbcccccpcchcqcccccckocccccjccccccccccccccccqccccccccycccccccczvfcaxgab 
+2273 div:int (none) 1652 0 5 99 96 377 0.254642 27 335 386 9 0 heads_default wzcagccccccccccccncnccccnccccccbcccocccccnccccccccccccccccccccccccccccwcccctcccjccrccccccczvfcaxgab 
+108 div:int (none) 78 0 15 101 98 387 0.25323 9 118 384 4 0 heads_default wzcagccccccccccccgccccccccccvccccclcccccccccccccccccccccccccccoccccccccccccccccccccccccccccczvfcaxgab 
+1929 div:int (none) 1572 0 1 126 119 480 0.247917 24 306 384 15 0 heads_default aaaaaaaaaaaaaaaaaaaaaaaaaawzcagccccccccccczcccccqxchccucccbcccxuciccccracpccnccccyccccccqccccccccccccxccccccccccccccczvfcaxgab 
+2257 div:int (none) 1810 0 1 100 97 381 0.254593 26 334 384 7 0 heads_default wzcagcccnciccccccccccccccjcccccccccccccccccbcciccsccccccccccccscccccccckccccucccccccccccccczvfcaxgab 
+1828 div:int (none) 439 0 6 100 71 356 0.199438 21 299 383 7 0 heads_default wzcagcccoccccccccccccccccccccccecccccczcccccjfccccccccccccccccczccccccccecccccccbccczcccccczvfcaxgab 
+1432 div:int (none) 1098 0 4 101 93 376 0.24734 20 266 383 10 0 heads_default wzcagcccccccccccccucccckcccccccxbcccccczcccctcccccccccccccccocccsccaccncccfccnccccccccccvicczvfcaxgab 
+2412 div:int (none) 2257 0 1 99 96 375 0.256 27 346 382 8 0 heads_default wzcagcccnciccccpcccccccccjcccccccccccccccccbccicsccccccccccccscccccccckccccucccccncccccccczvfcaxgab 
+2404 div:int (none) 2259 0 2 100 96 378 0.253968 27 345 382 8 0 heads_default wzcagcccccecccccccccccccccccccbccccccccccccccccccccclcucccccccccccccocckccncucccyceccccccsczvfcaxgab 
+2095 div:int (none) 1318 0 2 100 97 385 0.251948 25 320 381 7 0 heads_default wzcagccccccccqcccccccccccucccccbcblcccccccccccccccccccccccccccccccccccccccccyccccccccytcccczvfcaxgab 
+2325 div:int (none) 1512 0 1 100 88 373 0.235925 27 339 381 6 0 heads_default wzcagccccccccccccgccxzccccccccccccccccccccccccccvclcccccccccccccccocccccccccccccccccccccccczvfcaxgab 
+2100 div:int (none) 1635 0 4 100 97 379 0.255937 25 320 380 9 0 heads_default wzcagcccccccccccmccccccncccccccxbcccccccvcccccccccccoccccccscccsccucccccccccccccccccccccicczvfcaxgab 
+1602 div:int (none) 1449 0 6 102 99 389 0.254499 22 280 379 9 0 heads_default wzcagcclcccccjcccccccccncccccccxbcccccccvcccccccccccccccccccbcccscccccccccccccccccccicccccacczvfcaxgab 
+1999 div:int (none) 1663 0 1 110 105 422 0.248815 23 312 378 8 0 heads_default aaaaaaaaaawzcagcccccccahcccccccccccccccccbccccccccccccccckccccccccccccccczcccmcccccccchcccccccccccccczvfcaxgab 
+1980 div:int (none) 775 0 1 100 95 382 0.248691 24 310 377 8 0 heads_default wzcagccccccmlccccccccccdccccccccccccccccccccccccccccccccccccccqzcccoccccccccccccceccccccccczvfcaxgab 
+2294 div:int (none) 836 0 1 100 97 380 0.255263 27 337 375 7 0 heads_default wzcagccccccccccccgcnccccccccvccccclcccccccccccccccchcccccccncoccccccccccccccccccccccccccccczvfcaxgab 
+2421 div:int (none) 921 0 1 100 88 376 0.234043 26 347 374 9 0 heads_default wzcagcccccccccccccecccccccgccbcbccccccccyccccccccccccxccccccccpzccccccccccccccccccccccccccczvfcaxgab 
+2532 div:int (none) 2343 0 1 120 108 457 0.236324 26 356 373 13 0 heads_default aaaaaaaaaaaaaaaaaaaawzcagcccccccahcccccccccccccccccbcsmcccccccccccccccccccccccccccczacccccccccccccccccccccccccczvfcaxgab 
+2599 div:int (none) 1969 0 1 102 99 388 0.255155 29 361 373 10 0 heads_default wzcagcccccccccjccccccccncccccccxbhcccccccvccccccccccccaccccccocccscccccccccacbccccccwcccccicczvfcaxgab 
+2238 div:int (none) 2080 0 1 116 113 450 0.251111 26 332 373 13 0 heads_default aaaaaaaaaaaaaaaawzcagccccccccccddgcccccccchccccccccccccccccccccccclccccccccccccccccccccccccccccccccwccccccczvfcaxgab 
+2564 div:int (none) 2404 0 1 101 97 381 0.254593 28 358 372 9 0 heads_default wzcagcccccecccccccccccccccccccbcchccccccccccccccccccalcucccccccccccccocckccncucccyceccccccsczvfcaxgab 
+2181 div:int (none) 411 0 2 101 93 378 0.246032 25 328 371 9 0 heads_default wzcagcccccccccccccccccckcccccccxbcccccczcccctcccccccccccccccocccsccaccccccfccnccbcccccccvicczvfcaxgab 
+2259 div:int (none) 1632 0 1 100 96 380 0.252632 26 334 371 7 0 heads_default wzcagcccccecccccccccccccccccccbcccccccccccccccccccccccucccccccccccccocckccncucccycecccccccczvfcaxgab 
+2080 div:int (none) 1623 0 2 114 111 442 0.251131 25 319 369 12 0 heads_default aaaaaaaaaaaaaawzcagccccccccccddgcccccccchccccccccccccccccccccccclcccccccccccccccccccccccccccccccccccccccczvfcaxgab 
+2380 div:int (none) 1908 0 1 101 98 388 0.252577 27 343 368 9 0 heads_default wzcagccccccccccccccccccccccccccbccmccccccccsccccccciccccccccccccqcccwcccccccccpccccccyaccccczvfcaxgab 
+1925 div:int (none) 466 0 4 102 95 385 0.246753 24 306 368 8 0 heads_default wzcagccgcccccccccccqcccccccccccsbccccccclcccycccfccccfcccjcsccccxccccccccckcccccccccccccccccazvfcaxgab 
+2173 div:int (none) 2003 0 1 116 104 441 0.235828 24 327 367 11 0 heads_default aaaaaaaaaaaaaaaawzcagcccccccahcccccccccccccccccbcsmcccccccccccccccccccccccccccczacccccccccccccccccccccccccczvfcaxgab 
+921 div:int (none) 793 0 10 99 87 373 0.233244 17 224 367 8 0 heads_default wzcagccccccccccccccccccccgccbcbccccccccyccccccccccccxccccccccpzccccccccccccccccccccccccccczvfcaxgab 
+2497 div:int (none) 2148 0 1 100 95 381 0.249344 27 353 366 10 0 heads_default wzcagccccccmlccccccccccdcccccccccccccccccccccccccccccwccccccocqzcccoccbcccccccccceccccccccczvfcaxgab 
+1732 div:int (none) 1278 0 2 101 98 390 0.251282 23 291 365 5 0 heads_default wzcagccccccccccccgccccpycccccccccccccxcccccccccccccccccccccccccccccccccccccccccccpcccccccccczvfcaxgab 
+2023 div:int (none) 108 0 3 101 98 386 0.253886 25 314 365 5 0 heads_default wzcagccccccccccccgccccccccccvccccclcccccccccccccccccccccccccccoccccccccclccccccccccccccccccczvfcaxgab 
+1908 div:int (none) 954 0 2 101 98 389 0.251928 24 304 364 8 0 heads_default wzcagccccccccccccccccccccccccccbccmccccccccsccccccciccccccccccccqcccwcccccccccpcccccccaccccczvfcaxgab 
+836 div:int (none) 362 0 7 100 97 381 0.254593 17 216 363 6 0 heads_default wzcagccccccccccccgcnccccccccvccccclccccccccccccccccqcccccccncoccccccccccccccccccccccccccccczvfcaxgab 
+2159 div:int (none) 37 0 3 100 97 387 0.250646 26 326 363 4 0 heads_default wzcagccccccccqcccccccccccccccccbcccccccccccccccccxcccccccccckccccccccccccccccccccccccctcccczvfcaxgab 
+2316 div:int (none) 1381 0 2 100 97 380 0.255263 27 339 362 10 0 heads_default wzcagccccccccccccccccccncsccccnxbcccccccvcccccccccccrcccccceocccscccccccccccccccccccccccimczvfcaxgab 
+2343 div:int (none) 2173 0 1 118 106 449 0.23608 25 340 361 12 0 heads_default aaaaaaaaaaaaaaaaaawzcagcccccccahcccccccccccccccccbcsmcccccccccccccccccccccccccccczacccccccccccccccccccccccccczvfcaxgab 
+86 div:int (none) 35 0 13 98 95 379 0.25066 9 114 361 4 0 heads_default wzcagccccccccccccccccccccccccccbccccccccccccccccccccccjcccccccccccccccccccicccccccccccccczvfcaxgab 
+1937 div:int (none) 1623 0 1 114 111 441 0.251701 24 307 360 12 0 heads_default aaaaaaaaaaaaaawzcagccccccccccddgcccccccchccccccccccccccccccccrcclcccccccccccccccccccccccccccccccccccccccczvfcaxgab 
+1652 div:int (none) 1500 0 4 99 96 378 0.253968 23 284 359 8 0 heads_default wzcagccccccccccccncnccccnccccccbcccoccccccccccccccccccccccccccccccccccwcccctcccjccrccccccczvfcaxgab 
+1945 div:int (none) 1788 0 1 119 111 451 0.24612 24 307 359 14 0 heads_default aaaaaaaaaaaaaaaaaawzcagchcccccccciccccccckcfcccccxbcpcjcccccccccccccccccccccccocctshcccccccccccccccccccccccicczvfcaxgab 
+1632 div:int (none) 1309 0 4 100 96 381 0.251969 22 281 358 6 0 heads_default wzcagcccccccccccccccccccccccccbcccccccccccccccccccccccucccccccccccccocckccncucccycecccccccczvfcaxgab 
+2396 div:int (none) 2095 0 1 100 97 384 0.252604 27 345 357 8 0 heads_default wzcagccccccccqcccccccccccucccccscblcccccccccccccccccccccccccccccccccccccccccyccccccccytcccczvfcaxgab 
+37 div:int (none) 13 0 32 100 97 387 0.250646 7 90 357 3 0 heads_default wzcagccccccccqcccccccccccccccccbcccccccccccccccccccccccccccckccccccccccccccccccccccccctcccczvfcaxgab 
+1098 div:int (none) 411 0 5 101 93 377 0.246684 18 238 356 9 0 heads_default wzcagcccccccccccccccccckcccccccxbcccccczcccctcccccccccccccccocccsccaccncccfccnccccccccccvicczvfcaxgab 
+1795 div:int (none) 1169 0 1 98 86 369 0.233062 23 295 354 5 0 heads_default wzcagccccccccaccccccccccccccccccccgccjccccccccccczccccccccccccccccccccccccccccccccccccccczvfcaxgab 
+1901 div:int (none) 937 0 2 99 96 385 0.249351 24 304 354 3 0 heads_default wzcagccccccccccccccccccccccccccbccccccccccccccccccccccccccccccccccccccccccccaccccccccccccczvfcaxgab 
+1863 div:int (none) 942 0 2 101 98 390 0.251282 24 302 354 7 0 heads_default wzcagccccccccqcccccccccccccccccbcbcccccccwccctccccccccccccccccceccccccccccccccccccbcccytcccczvfcaxgab 
+1886 div:int (none) 1562 0 3 101 98 384 0.255208 24 303 353 7 0 heads_default wzcagcccccccccxcccccccccccccccccctccvcjcccccccccclccccccccccccccccctccrcccccccccccsccccccccczvfcaxgab 
+1810 div:int (none) 1657 0 3 100 97 383 0.253264 23 296 352 6 0 heads_default wzcagcccnciccccccccccccccjcccccccccccccccccbcccccsccccccccccccccccccccckccccucccccccccccccczvfcaxgab 
+942 div:int (none) 546 0 11 101 98 390 0.251282 18 226 352 6 0 heads_default wzcagccccccccqcccccccccccccccccbcbccccccccccctccccccccccccccccceccccccccccccccccccbcccytcccczvfcaxgab 
+2010 div:int (none) 1696 0 2 101 94 377 0.249337 25 313 350 9 0 heads_default wzcagccccccccccccccccccncccccccxbcccccccvcoccclcccccccccccccocccvcccctlcccccccccccccfccccicczvfcaxgab 
+1877 div:int (none) 1565 0 3 100 97 384 0.252604 24 303 350 11 0 heads_default wzcagccccccccccccccqccccmccccccbccycccccccqcccccckocccccjcccccxctccccccccqccccccccccccccccczvfcaxgab 
+1935 div:int (none) 274 0 2 101 98 384 0.255208 24 306 347 7 0 heads_default wzcagcccccccccccmccccccnccccccuxbcccccccvcccccccccccccccccccocccsccucccccccccccccccccccccicczvfcaxgab 
+1210 div:int (none) 1062 0 5 100 87 372 0.233871 19 247 343 7 0 heads_default wzcagccccccccagcccceccccccwccccccccccjccccccncccsccccccicccccccccccqcccccfccccccccccccccccczvfcaxgab 
+1281 div:int (none) 715 0 4 101 98 387 0.25323 20 253 341 9 0 heads_default wzcagccccccccccccccqccccccccclccbcccccpcchcqcccccckocccccjcccccxccccccccccqccccccccycccccccczvfcaxgab 
+941 div:int (none) 320 0 5 101 98 389 0.251928 18 226 340 3 0 heads_default wzcagcccccyccccccccccuccocccccccccccccccccccccccccccccccccccccccccccccccdccccccccccccccccccczvfcaxgab 
+1553 div:int (none) 998 0 1 104 95 393 0.24173 22 277 339 8 0 heads_default aaawzcagccjccccccccccccccckcccccccxhccccccccccccccccccccccccccqocccscccccccccccwcccccfccccccicczvfcaxgab 
+411 div:int (none) 296 0 12 101 93 378 0.246032 13 174 336 8 0 heads_default wzcagcccccccccccccccccckcccccccxbcccccczcccctcccccccccccccccocccsccaccccccfccnccccccccccvicczvfcaxgab 
+104 div:int (none) 27 0 18 100 97 386 0.251295 9 118 335 3 0 heads_default wzcagccccccccccccgcccccccccccccccccccccccdcccccccclcccccccccccccccccccccccccccccccccccccccczvfcaxgab 
+1635 div:int (none) 1486 0 3 101 98 383 0.255875 22 282 333 8 0 heads_default wzcagcccccccccccmccccccncccccccxbcccccccvccccccccccccoccccccscccsccucccccccccccccccccccccicczvfcaxgab 
+1623 div:int (none) 1459 0 2 112 109 434 0.251152 22 281 332 11 0 heads_default aaaaaaaaaaaawzcagccccccccccddgcccccccchccccccccccccccccccccccclcccccccccccccccccccccccccccccccccccccccczvfcaxgab 
+1391 div:int (none) 1237 0 5 101 98 384 0.255208 21 264 332 10 0 heads_default wzcagccccccccccccccccccncccccccxbcccccccvccccccccacccaccccccoccnocccctccccccjccccccwcccccicczvfcaxgab 
+274 div:int (none) 113 0 21 101 98 384 0.255208 12 155 331 6 0 heads_default wzcagcccccccccccmccccccncccccccxbcccccccvcccccccccccccccccccocccsccucccccccccccccccccccccicczvfcaxgab 
+1169 div:int (none) 82 0 1 99 87 373 0.233244 19 242 329 4 0 heads_default wzcagccccccccaccccccccccccccccccccgccjccccccccccczcccccccccccccccccccccccccccccccccccccccczvfcaxgab 
+1668 div:int (none) 369 0 1 100 87 375 0.232 22 286 329 5 0 heads_default wzcagccccccccacccccecccccccccccccccccjccccccncqccccccccccccccccccccqcccccfccccccccccccccccczvfcaxgab 
+1170 div:int (none) 344 0 5 101 98 378 0.259259 19 242 327 7 0 heads_default wzcagccccccccccccccccccncccccccxbcccccccvcoccclcccccccccccccocccvcccctccccccccccccccvccccicczvfcaxgab 
+2003 div:int (none) 1832 0 1 114 102 433 0.235566 23 313 327 10 0 heads_default aaaaaaaaaaaaaawzcagcccccccahcccccccccccccccccbcsmcccccccccccccccccccccccccccczacccccccccccccccccccccccccczvfcaxgab 
+1494 div:int (none) 1344 0 1 108 96 409 0.234719 20 271 325 7 0 heads_default aaaaaaaawzcagcccccccahcccccccccccccccccbcsccccccccccccccccccccccccccccczacccccccccccccccccccccccccczvfcaxgab 
+1840 div:int (none) 1674 0 1 101 98 388 0.252577 24 300 324 5 0 heads_default wzcagcccccccccciccccccsccccciccbccccccccccccccccccccccccwcccccmcccccccccccccccccuccccccccccczvfcaxgab 
+1663 div:int (none) 1504 0 1 108 96 409 0.234719 21 286 323 7 0 heads_default aaaaaaaawzcagcccccccahcccccccccccccccccbccccccccccccccckccccccccccccccczccccccccccccccccccccccccccczvfcaxgab 
+1492 div:int (none) 1337 0 1 113 105 429 0.244755 21 271 322 11 0 heads_default aaaaaaaaaaaawzcagchcccccccccccccccckcfcccccfbcccccckccccccccccccccccccccocccsccccccccccccccccccccccccicczvfcaxgab 
+344 div:int (none) 113 0 17 101 98 383 0.255875 13 166 320 6 0 heads_default wzcagccccccccccccccccccncccccccxbcccccccvcccccccccccccccccccocccscccccccccccccccccccvccccicczvfcaxgab 
+1260 div:int (none) 947 0 1 116 109 442 0.246606 20 252 320 13 0 heads_default aaaaaaaaaaaaaaaawzcagccccccccccczcccccqxchccucccbcccxuciccccracpccccccccccccccqccccccccccccxccccccccccccccczvfcaxgab 
+775 div:int (none) 291 0 5 100 95 383 0.248042 16 209 320 7 0 heads_default wzcagccccccmlcccccccccccccccccccccccccccccccccccccccccccccccccqzcccoccccccccccccceccccccccczvfcaxgab 
+1318 div:int (none) 567 0 4 100 97 385 0.251948 20 256 320 6 0 heads_default wzcagccccccccqcccccccccccucccccbcblccccccccccccccccccccccccccccccccccccccccciccccccccytcccczvfcaxgab 
+1788 div:int (none) 1625 0 1 117 109 443 0.24605 23 294 319 13 0 heads_default aaaaaaaaaaaaaaaawzcagchcccccccciccccccckcfcccccxbcpcjcccccccccccccccccccccccocctstcccccccccccccccccccccccicczvfcaxgab 
+954 div:int (none) 681 0 7 100 97 386 0.251295 18 227 319 7 0 heads_default wzcagccccccccccccccccccccccccccbccmccccccccsccccccciccccccccccccqcccwccccccccccccccccaccccczvfcaxgab 
+842 div:int (none) 700 0 3 113 110 434 0.253456 17 216 318 11 0 heads_default aaaaaaaaaaaawzcagccccccccccccccwcccxchccucccbcccccuciccccracpclccccccccccccqcccccccccccccccccccccccccccczvfcaxgab 
+1160 div:int (none) 566 0 3 102 99 388 0.255155 19 242 317 7 0 heads_default wzcagcclcccccccccccccccncccccccxbcccccccvcccccccccccccccccccocccscccccccccccccccccccicccccicczvfcaxgab 
+1762 div:int (none) 1023 0 1 99 96 381 0.251969 23 292 317 5 0 heads_default wzcagccccccccccccgcbcccccccccccccccccccccdccccccclccccccccccccccccccccnccccccccccccccccccczvfcaxgab 
+1572 div:int (none) 1260 0 1 121 114 461 0.247289 22 278 317 14 0 heads_default aaaaaaaaaaaaaaaaaaaaawzcagccccccccccczcccccqxchccucccbcccxuciccccracpcccccccyccccccqccccccccccccxccccccccccccccczvfcaxgab 
+715 div:int (none) 458 0 9 101 98 391 0.250639 16 204 317 8 0 heads_default wzcagccccccccccccccqccccccccccccbccccccccccqcccccckocccccjcccccxccccccccccqccccccccccccccccczvfcaxgab 
+1562 div:int (none) 1005 0 2 100 97 380 0.255263 22 278 316 6 0 heads_default wzcagccccccccccccccccccccccccccctccvcjcccccccccclccccccccccccccccctccrcccccccccccsccccccccczvfcaxgab 
+1473 div:int (none) 1191 0 2 113 105 430 0.244186 21 269 314 11 0 heads_default aaaaaaaaaaaawzcagchcccccccccccccccckcfcccccxbcccccccccccccccccccccccccccocccstcccccccccccccccccccccccicczvfcaxgab 
+937 div:int (none) 2 0 2 100 97 389 0.249357 18 226 313 2 0 heads_default wzcagccccccccccccccccccccccccccbcccccccccccccccccccccccccccccccccccccccccccccaccccccccccccczvfcaxgab 
+1023 div:int (none) 104 0 4 100 97 385 0.251948 18 230 313 4 0 heads_default wzcagccccccccccccgcbcccccccccccccccccccccdcccccccclccccccccccccccccccccnccccccccccccccccccczvfcaxgab 
+1832 div:int (none) 1654 0 1 112 100 425 0.235294 22 299 313 9 0 heads_default aaaaaaaaaaaawzcagcccccccahcccccccccccccccccbcsccccccccccccccccccccccccccccczacccccccccccccccccccccccccczvfcaxgab 
+38 div:int (none) 25 0 31 101 89 382 0.232984 7 91 310 3 0 heads_default wzcagccccccccccccccccccccccgccccbccccccccccccccccccccccccccccccczccccccccccccccccccccccccccczvfcaxgab 
+82 div:int (none) 19 0 15 100 88 378 0.232804 9 112 310 3 0 heads_default wzcagccccccccacccccccccccccccccccccccjccccccccccczccccccccccccccccccccccccccccccccccccccccczvfcaxgab 
+1079 div:int (none) 348 0 4 101 98 386 0.253886 19 237 309 8 0 heads_default wzcagccccccccccccccccccncccccccxbcccccccvccccccccccccaccccccocccscccccccccaccccccccwcccccicczvfcaxgab 
+1625 div:int (none) 1473 0 1 115 107 436 0.245413 22 281 309 12 0 heads_default aaaaaaaaaaaaaawzcagchcccccccccccccccckcfcccccxbcpcjcccccccccccccccccccccccocccstcccccccccccccccccccccccicczvfcaxgab 
+466 div:int (none) 181 0 6 102 95 386 0.246114 14 179 306 7 0 heads_default wzcagccgcccccccccccqccccccccccccbccccccclcccycccfccccfcccjcsccccxccccccccckcccccccccccccccccazvfcaxgab 
+1500 div:int (none) 1354 0 1 99 96 379 0.253298 22 272 304 7 0 heads_default wzcagccccccccccccccnccccnccccccbcccoccccccccccccccccccccccccccccccccccwcccctcccjccrccccccczvfcaxgab 
+840 div:int (none) 447 0 7 100 87 374 0.23262 17 216 304 6 0 heads_default wzcagccccccccfccccccccccccccccciwcccccccccccccccccccccccwcccccccccccmccccccccccccccmcycclcczvfcaxgab 
+439 div:int (none) 230 0 5 100 75 361 0.207756 13 177 304 6 0 heads_default wzcagcccocccccccccccccccccccccceccccccccccccjfccccccccccccccccczccccccccecccccccbccczcccccczvfcaxgab 
+1565 div:int (none) 1429 0 2 100 97 386 0.251295 22 278 303 10 0 heads_default wzcagccccccccccccccqcccccccccccbccycccccccqcccccckocccccjcccccxccccccccccqccccccccccccccccczvfcaxgab 
+1674 div:int (none) 1379 0 1 101 98 389 0.251928 23 287 303 4 0 heads_default wzcagcccccccccciccccccsccccccccbccccccccccccccccccccccccwcccccmcccccccccccccccccuccccccccccczvfcaxgab 
+998 div:int (none) 864 0 2 103 100 395 0.253165 18 229 302 7 0 heads_default aawzcagccjccccccccccccccckcccccccxhccccccccccccccccccccccccccqocccscccccccccccwccccccccccccicczvfcaxgab 
+1541 div:int (none) 941 0 1 101 98 389 0.251928 22 277 301 4 0 heads_default wzcagcccccyccccccccccuccocccccccccccccccccccccccccccccccccccccccccccccccdcccccccccwccccccccczvfcaxgab 
+1186 div:int (none) 1040 0 3 119 111 455 0.243956 19 244 301 14 0 heads_default aaaaaaaaaaaaaawaaawzcagcqccccccccbccccccckcfcccccxbcccccbcccccccccccccccccccccocccscccccccccccbccccccccccccicczvfcaxgab 
+1091 div:int (none) 930 0 4 101 98 383 0.255875 19 238 299 9 0 heads_default wzcagccccccmcccccccccccncccccccxbcccccccvccccccccccccaccccccocccscccccocccccccsccccwcccccicczvfcaxgab 
+1504 div:int (none) 737 0 1 106 94 402 0.233831 20 273 299 6 0 heads_default aaaaaawzcagcccccccahcccccccccccccccccbccccccccccccccccccccccccccccccczccccccccccccccccccccccccccczvfcaxgab 
+1379 div:int (none) 174 0 2 101 98 390 0.251282 21 263 299 3 0 heads_default wzcagcccccccccciccccccsccccccccbccccccccccccccccccccccccccccccmccccccccccccccccccccccccccccczvfcaxgab 
+947 div:int (none) 829 0 1 114 111 439 0.252847 18 227 299 12 0 heads_default aaaaaaaaaaaaaawzcagcccccccccccccccccqxchccucccbcccxuciccccracpccccccccccccccqccccccccccccxccccccccccccccczvfcaxgab 
+1654 div:int (none) 1494 0 1 110 98 417 0.235012 21 285 299 8 0 heads_default aaaaaaaaaawzcagcccccccahcccccccccccccccccbcsccccccccccccccccccccccccccccczacccccccccccccccccccccccccczvfcaxgab 
+1657 div:int (none) 1489 0 1 100 97 385 0.251948 22 285 297 5 0 heads_default wzcagcccnciccccccccccccccccccccccccccccccccbccccccccccccccccccccccccccckccccucccccccccccccczvfcaxgab 
+369 div:int (none) 84 0 6 100 87 375 0.232 13 167 296 4 0 heads_default wzcagccccccccacccccecccccccccccccccccjccccccnccccccccccccccccccccccqcccccfccccccccccccccccczvfcaxgab 
+333 div:int (none) 130 0 7 100 97 389 0.249357 13 166 296 4 0 heads_default wzcagccccccccccccccccccccccccccbwcccccccccccccccccccccccwccccccccccccccccccccccccccccaccccczvfcaxgab 
+263 div:int (none) 128 0 7 100 97 386 0.251295 12 154 295 3 0 heads_default wzcagcccccicccccccccccccccccccccccccccccccccccccccccccccccccccccccccccckccccucccccccccccccczvfcaxgab 
+1459 div:int (none) 1171 0 1 110 107 426 0.251174 21 268 294 10 0 heads_default aaaaaaaaaawzcagccccccccccddgcccccccchccccccccccccccccccccccclcccccccccccccccccccccccccccccccccccccccczvfcaxgab 
+1451 div:int (none) 1285 0 1 116 113 447 0.252796 21 267 294 12 0 heads_default aaaaaaaaaaaaaawzcagccccccccccccccccccxchccucccbcccccuciitcccracpccccccccccccccqccccccccccccccacccccccccccwczvfcaxgab 
+1482 div:int (none) 152 0 1 100 95 383 0.248042 20 269 292 4 0 heads_default wzcagccccccclcccccccccccccccccccccccccccccccccccccccccccccccccczccctccccctccccccccccccccccczvfcaxgab 
+1171 div:int (none) 770 0 2 108 105 418 0.251196 19 242 292 9 0 heads_default aaaaaaaawzcagccccccccccddgcccccccchccccccccccccccccccccccclcccccccccccccccccccccccccccccccccccccccczvfcaxgab 
+1449 div:int (none) 1160 0 1 102 99 389 0.254499 21 267 292 8 0 heads_default wzcagcclcccccccccccccccncccccccxbcccccccvcccccccccccccccccccocccscccccccccccccccccccicccccacczvfcaxgab 
+1486 div:int (none) 274 0 1 101 98 384 0.255208 21 270 291 7 0 heads_default wzcagcccccccccccmccccccncccccccxbcccccccvccccccccccccaccccccocccsccucccccccccccccccccccccicczvfcaxgab 
+1429 div:int (none) 715 0 2 101 98 390 0.251282 21 266 291 9 0 heads_default wzcagccccccccccccccqccccccccccccbccycccccccqcccccckocccccjcccccxccccccccccqccccccccccccccccczvfcaxgab 
+256 div:int (none) 199 0 14 100 97 388 0.25 12 154 291 4 0 heads_default wzcagccccccccccccccccccccccccccbccccccccccccccccccciccccccccccccccccwccccccccccccccccaccccczvfcaxgab 
+574 div:int (none) 351 0 7 100 97 382 0.253927 15 191 289 7 0 heads_default wzcagccccccccccccccccccnccccccnxbcccccccvcccccccccccccccccccocccscccccccccccccccccccccccicczvfcaxgab 
+737 div:int (none) 436 0 1 104 92 394 0.233503 15 205 286 5 0 heads_default aaaawzcagcccccccahcccccccccccccccccbccccccccccccccccccccccccccccccczccccccccccccccccccccccccccczvfcaxgab 
+230 div:int (none) 80 0 6 100 75 361 0.207756 11 150 283 5 0 heads_default wzcagcccoccccccccccccccccccccccecccccccccccccfccccccccccccccccczccccccccecccccccbccczcccccczvfcaxgab 
+1005 div:int (none) 693 0 4 100 97 381 0.254593 18 229 282 5 0 heads_default wzcagccccccccccccccccccccccccccctccvcjcccccccccclccccccccccccccccccccrcccccccccccsccccccccczvfcaxgab 
+1309 div:int (none) 1002 0 2 100 97 384 0.252604 20 255 281 5 0 heads_default wzcagcccccccccccccccccccccccccbcccccccccccccccccccccccucccccccccccccocckccccucccycccccccccczvfcaxgab 
+1191 div:int (none) 473 0 1 111 103 422 0.244076 19 244 280 10 0 heads_default aaaaaaaaaawzcagchcccccccccccccccckcfcccccxbcccccccccccccccccccccccccccocccstcccccccccccccccccccccccicczvfcaxgab 
+152 div:int (none) 53 0 9 100 89 378 0.23545 10 134 280 3 0 heads_default wzcagccccccclcccccccccccccccccccccccccccccccccccccccccccccccccczccccccccctccccccccccccccccczvfcaxgab 
+130 div:int (none) 45 0 15 100 97 389 0.249357 10 129 279 3 0 heads_default wzcagccccccccccccccccccccccccccbccccccccccccccccccccccccwccccccccccccccccccccccccccccaccccczvfcaxgab 
+985 div:int (none) 598 0 3 100 97 386 0.251295 18 229 279 3 0 heads_default wzcagccccccccccccgccccycccccccccccccccccccccccccccccccccccccccccccccccccccccccccpcccccccccczvfcaxgab 
+174 div:int (none) 2 0 10 101 98 391 0.250639 11 139 277 2 0 heads_default wzcagcccccccccccccccccsccccccccbccccccccccccccccccccccccccccccmccccccccccccccccccccccccccccczvfcaxgab 
+551 div:int (none) 185 0 5 100 97 384 0.252604 15 189 277 4 0 heads_default wzcagccccccccccccgccxcccccccccccccccccccccccccccvclcccccccccccccccccccccccccccccccccccccccczvfcaxgab 
+348 div:int (none) 208 0 7 101 98 386 0.253886 13 166 277 7 0 heads_default wzcagccccccccccccccccccncccccccxbcccccccvccccccccccccaccccccocccsccccccccccccccccccwcccccicczvfcaxgab 
+1337 div:int (none) 473 0 1 111 103 422 0.244076 20 257 277 10 0 heads_default aaaaaaaaaawzcagchcccccccccccccccckcfcccccxbcccccccccccccccccccccccccccocccsccccccccccccccccccccccccicczvfcaxgab 
+666 div:int (none) 231 0 2 100 97 387 0.250646 16 199 275 3 0 heads_default wzcagcccccccccccccccccdcnccccccbccccccccccccccccccccccccccccccccccccccccccccccccccccccccccczvfcaxgab 
+1354 div:int (none) 1078 0 1 99 96 380 0.252632 21 260 272 6 0 heads_default wzcagccccccccccccccnccccnccccccbcccoccccccccccccccccccccccccccccccccccwccccccccjccrccccccczvfcaxgab 
+1344 div:int (none) 737 0 1 106 94 402 0.233831 19 259 271 6 0 heads_default aaaaaawzcagcccccccahcccccccccccccccccbccccccccccccccccccccccccccccccczccccccccccccccccccccccccccczvfcaxgab 
+1285 div:int (none) 977 0 1 114 111 439 0.252847 20 254 270 11 0 heads_default aaaaaaaaaaaawzcagccccccccccccccccccxchccucccbcccccuciiccccracpccccccccccccccqccccccccccccccacccccccccccwczvfcaxgab 
+291 div:int (none) 220 0 6 100 95 383 0.248042 12 158 270 6 0 heads_default wzcagccccccmlcccccccccccccccccccccccccccccccccccccccccccccccccczcccoccccccccccccceccccccccczvfcaxgab 
+972 div:int (none) 840 0 4 100 86 372 0.231183 18 228 269 7 0 heads_default wzcagccccccccfccccccccccccccccciwcccccccccccccccccccccccwcccccccccccmccccccccccczccmcycclcczvfcaxgab 
+368 div:int (none) 204 0 8 107 104 411 0.253041 13 167 268 8 0 heads_default aaaaaawzcagccccccccccccccccccxchccucccbcccccuciccccracpccccccccccccccqcccccccccccccccccccccccccccczvfcaxgab 
+110 div:int (none) 75 0 21 100 97 387 0.250646 9 119 268 4 0 heads_default wzcagccccccccccdngcccccccccccccccccccccccccccccccclcccccccccccccccccccccccccccccccccccccccczvfcaxgab 
+886 div:int (none) 758 0 2 115 107 438 0.244292 17 219 268 12 0 heads_default aaaaaaaaaawaaawzcagchcccccccccccccccckcfcccccxbcccccccccccccccccccccccccccocccsccccccccccccccccccccccccicczvfcaxgab 
+1040 div:int (none) 886 0 3 117 109 446 0.244395 18 232 267 13 0 heads_default aaaaaaaaaaaawaaawzcagchcccccccccccccccckcfcccccxbcccccccccccccccccccccccccccocccsccccccccccccccccccccccccicczvfcaxgab 
+1237 div:int (none) 819 0 1 101 98 384 0.255208 20 250 266 9 0 heads_default wzcagccccccccccccccccccncccccccxbcccccccvccccccccacccaccccccocccocccctccccccjccccccwcccccicczvfcaxgab 
+1078 div:int (none) 920 0 1 100 97 386 0.251295 19 237 266 5 0 heads_default wzcagccccccccccccccnccccnccccccbccccccccccccccccccccccccccccccccccccccwccccccccccccrccccccczvfcaxgab 
+977 div:int (none) 838 0 3 112 109 431 0.2529 18 228 265 10 0 heads_default aaaaaaaaaawzcagccccccccccccccccccxchccucccbcccccuciiccccracpccccccccccccccqccccccccccccccaccccccccccccczvfcaxgab 
+13 div:int (none) 2 0 22 100 97 388 0.25 5 65 265 2 0 heads_default wzcagccccccccqcccccccccccccccccbcccccccccccccccccccccccccccccccccccccccccccccccccccccctcccczvfcaxgab 
+1002 div:int (none) 342 0 2 100 97 386 0.251295 18 229 265 4 0 heads_default wzcagcccccccccccccccccccccccccbcccccccccccccccccccccccucccccccccccccccckccccucccccccccccccczvfcaxgab 
+473 div:int (none) 374 0 3 109 101 414 0.243961 14 179 264 9 0 heads_default aaaaaaaawzcagchcccccccccccccccckcfcccccxbcccccccccccccccccccccccccccocccsccccccccccccccccccccccccicczvfcaxgab 
+320 div:int (none) 234 0 4 100 97 386 0.251295 13 165 264 2 0 heads_default wzcagcccccccccccccccuccocccccccccccccccccccccccccccccccccccccccccccccccdccccccccccccccccccczvfcaxgab 
+342 div:int (none) 128 0 6 100 97 387 0.250646 13 166 263 3 0 heads_default wzcagcccccccccccccccccccccccccbcccccccccccccccccccccccccccccccccccccccckccccucccccccccccccczvfcaxgab 
+765 div:int (none) 369 0 2 100 87 374 0.23262 16 207 260 5 0 heads_default wzcagccccccccacccccecccccccccccccccccjccccccnccccccccccicccccccccccqcccccfccccccccccccccccczvfcaxgab 
+770 div:int (none) 627 0 1 106 103 410 0.25122 16 208 255 8 0 heads_default aaaaaawzcagccccccccccddgcccccccchccccccccccccccccccccccclcccccccccccccccccccccccccccccccccccccccczvfcaxgab 
+1062 div:int (none) 765 0 1 100 87 373 0.233244 18 235 255 6 0 heads_default wzcagccccccccacccccecccccccccccccccccjccccccncccsccccccicccccccccccqcccccfccccccccccccccccczvfcaxgab 
+838 div:int (none) 368 0 1 110 107 423 0.252955 17 216 255 9 0 heads_default aaaaaaaawzcagccccccccccccccccccxchccucccbcccccuciiccccracpccccccccccccccqccccccccccccccaccccccccccccczvfcaxgab 
+566 div:int (none) 113 0 4 101 98 385 0.254545 15 190 255 6 0 heads_default wzcagcclcccccccccccccccncccccccxbcccccccvcccccccccccccccccccocccsccccccccccccccccccccccccicczvfcaxgab 
+700 div:int (none) 461 0 1 111 108 426 0.253521 16 203 253 10 0 heads_default aaaaaaaaaawzcagccccccccccccccwcccxchccucccbcccccuciccccracpclccccccccccccqcccccccccccccccccccccccccccczvfcaxgab 
+864 div:int (none) 613 0 1 102 99 391 0.253197 17 217 252 6 0 heads_default awzcagccjccccccccccccccckcccccccxhccccccccccccccccccccccccccqocccscccccccccccwccccccccccccicczvfcaxgab 
+2 div:int (none) 1 0 45 100 97 389 0.249357 1 12 252 1 0 heads_default wzcagccccccccccccccccccccccccccbccccccccccccccccccccccccccccccccccccccccccccccccccccccccccczvfcaxgab 
+692 div:int (none) 348 0 1 101 98 386 0.253886 16 202 252 8 0 heads_default wzcagcqccccccccccccccccncccccccxbcccccccvccccccccccccaccccccycccsccccccccccccccccccwcccccicczvfcaxgab 
+819 div:int (none) 348 0 1 101 98 385 0.254545 17 214 252 8 0 heads_default wzcagccccccccccccccccccncccccccxbcccccccvccccccccacccaccccccocccocccctcccccccccccccwcccccicczvfcaxgab 
+858 div:int (none) 182 0 1 100 97 387 0.250646 17 217 251 3 0 heads_default wzcagcmcccccdccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccbccccczvfcaxgab 
+526 div:int (none) 231 0 2 100 97 387 0.250646 15 186 250 3 0 heads_default wzcagccccccccccccccnccccnccccccbccccccccccccccccccccccccccccccccccccccccccccccccccccccccccczvfcaxgab 
+546 div:int (none) 321 0 1 101 98 391 0.250639 15 189 250 5 0 heads_default wzcagccccccccqcccccccccccccccccbcbccccccccccccccccccccccccccccceccccccccccccccccccbcccytcccczvfcaxgab 
+793 div:int (none) 520 0 2 100 88 377 0.233422 16 211 250 7 0 heads_default wzcagcccccccccccccccccccccgccbcbccccccccycccccccccccccccccccccpzccccccccccccccccccccccccccczvfcaxgab 
+447 div:int (none) 333 0 6 100 97 387 0.250646 14 178 250 5 0 heads_default wzcagcccccccccccccccccccccccccciwcccccccccccccccccccccccwcccccccccccmccccccccccccccccyccccczvfcaxgab 
+707 div:int (none) 457 0 2 101 98 391 0.250639 16 203 249 6 0 heads_default wzcagccccccccccccccccccccccccccbccccccccccccccccccciccccccccccccqcccwccccccccccccccccacccscczvfcaxgab 
+113 div:int (none) 79 0 15 101 98 386 0.253886 9 119 247 5 0 heads_default wzcagccccccccccccccccccncccccccxbcccccccvcccccccccccccccccccocccsccccccccccccccccccccccccicczvfcaxgab 
+758 div:int (none) 608 0 1 113 105 430 0.244186 16 206 241 11 0 heads_default aaaaaaaawaaawzcagchcccccccccccccccckcfcccccxbcccccccccccccccccccccccccccocccsccccccccccccccccccccccccicczvfcaxgab 
+598 div:int (none) 16 0 3 101 98 391 0.250639 15 192 241 2 0 heads_default wzcagccccccccccccgcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccpcccccccccczvfcaxgab 
+84 div:int (none) 19 0 12 100 87 375 0.232 9 113 240 3 0 heads_default wzcagccccccccacccccecccccccccccccccccjccccccnccccccccccccccccccccccccccccfccccccccccccccccczvfcaxgab 
+930 div:int (none) 348 0 1 101 98 385 0.254545 18 226 239 8 0 heads_default wzcagccccccmcccccccccccncccccccxbcccccccvccccccccccccaccccccocccsccccccccccccccccccwcccccicczvfcaxgab 
+520 div:int (none) 397 0 3 101 89 381 0.233596 14 185 239 6 0 heads_default wzcagccccccccccccccccccccccgccbcbccccccccycccccccccccccccccccccpzccccccccccccccccccccccccccczvfcaxgab 
+920 div:int (none) 526 0 1 100 97 386 0.251295 18 224 238 4 0 heads_default wzcagccccccccccccccnccccnccccccbcccccccccccccccccccccccccccccccccccccccccccccccccccrccccccczvfcaxgab 
+693 div:int (none) 548 0 2 100 97 385 0.251948 16 202 235 4 0 heads_default wzcagccccccccccccccccccccccccccctccccjcccccccccccccccccccccccccccccccrcccccccccccsccccccccczvfcaxgab 
+374 div:int (none) 278 0 1 107 99 406 0.243842 13 168 232 8 0 heads_default aaaaaawzcagchcccccccccccccccckcfcccccxbcccccccccccccccccccccccccccocccsccccccccccccccccccccccccicczvfcaxgab 
+351 div:int (none) 113 0 3 100 97 382 0.253927 13 166 231 6 0 heads_default wzcagccccccccccccccccccncccccccxbcccccccvcccccccccccccccccccocccscccccccccccccccccccccccicczvfcaxgab 
+681 div:int (none) 457 0 1 100 97 387 0.250646 16 202 230 6 0 heads_default wzcagccccccccccccccccccccccccccbccmcccccccccccccccciccccccccccccqcccwccccccccccccccccaccccczvfcaxgab 
+252 div:int (none) 37 0 7 100 97 386 0.251295 12 153 230 4 0 heads_default wzcagccccccccqcccccccccccccccccbcccccccccccccccccccccccccccckcccccccuccccccccccccccccctcccczvfcaxgab 
+16 div:int (none) 1 0 12 100 97 388 0.25 5 66 229 1 0 heads_default wzcagccccccccccccgccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccczvfcaxgab 
+182 div:int (none) 92 0 9 100 97 387 0.250646 11 140 229 2 0 heads_default wzcagcmcccccdcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccczvfcaxgab 
+327 div:int (none) 177 0 2 101 98 391 0.250639 13 165 228 6 0 heads_default wzcagccccccccccccccqccccccccccccbccccccccccqcccccckccccccjcccccxcccccccccccccccccccccccccccczvfcaxgab 
+688 div:int (none) 558 0 1 110 107 423 0.252955 16 202 228 10 0 heads_default aaaaaaaaaawzcagcccccccccccccccccqxchccucccbccccuciccccracpccccccccccccccqcccccccccccccccccccccccccccczvfcaxgab 
+548 div:int (none) 314 0 2 100 97 386 0.251295 15 189 227 3 0 heads_default wzcagccccccccccccccccccccccccccccccccjcccccccccccccccccccccccccccccccrcccccccccccsccccccccczvfcaxgab 
+829 div:int (none) 688 0 1 112 109 431 0.2529 17 215 227 11 0 heads_default aaaaaaaaaaaawzcagcccccccccccccccccqxchccucccbcccxuciccccracpccccccccccccccqccccccccccccxccccccccccccccczvfcaxgab 
+204 div:int (none) 134 0 6 105 102 403 0.253102 11 142 223 7 0 heads_default aaaawzcagccccccccccccccccccxchccucccbcccccuciccccracpccccccccccccccqcccccccccccccccccccccccccccczvfcaxgab 
+613 div:int (none) 54 0 1 101 98 387 0.25323 15 194 218 5 0 heads_default wzcagccjccccccccccccccckcccccccxhcccccccccccccccccccccccccccocccsccccccccccccccccccccccccicczvfcaxgab 
+502 div:int (none) 383 0 1 102 99 394 0.251269 14 182 218 6 0 heads_default aawzcagccccccccccddgcccccccchccccccccccccccccccccccclcccccccccccccccccccccccccccccccccccccccczvfcaxgab 
+362 div:int (none) 108 0 4 100 97 382 0.253927 13 167 217 5 0 heads_default wzcagccccccccccccgccccccccccvccccclccccccccccccccccqcccccccncoccccccccccccccccccccccccccccczvfcaxgab 
+134 div:int (none) 91 0 1 103 100 395 0.253165 10 130 216 6 0 heads_default aawzcagccccccccccccccccccxchccucccbcccccuciccccracpccccccccccccccqcccccccccccccccccccccccccccczvfcaxgab 
+458 div:int (none) 327 0 3 101 98 391 0.250639 14 179 216 7 0 heads_default wzcagccccccccccccccqccccccccccccbccccccccccqcccccckccccccjcccccxccccccccccqccccccccccccccccczvfcaxgab 
+461 div:int (none) 368 0 1 109 106 418 0.253589 14 179 216 9 0 heads_default aaaaaaaawzcagccccccccccccccccccxchccucccbcccccuciccccracpclccccccccccccqcccccccccccccccccccccccccccczvfcaxgab 
+436 div:int (none) 317 0 1 102 90 386 0.233161 13 177 215 4 0 heads_default aawzcagccccccclhcccccccccccccccccbccccccccccccccccccccccccccccccczccccccccccccccccccccccccccczvfcaxgab 
+457 div:int (none) 256 0 2 100 97 388 0.25 14 179 215 5 0 heads_default wzcagccccccccccccccccccccccccccbccccccccccccccccccciccccccccccccqcccwccccccccccccccccaccccczvfcaxgab 
+608 div:int (none) 473 0 1 111 103 422 0.244076 15 193 211 10 0 heads_default aaaaaawaaawzcagchcccccccccccccccckcfcccccxbcccccccccccccccccccccccccccocccsccccccccccccccccccccccccicczvfcaxgab 
+77 div:int (none) 54 0 9 101 88 378 0.232804 8 106 210 5 0 heads_default wzcagcccccccccccccccccckcccccccxbcccccccccccccccccccccccccccocccscccccccccfccccccccccccccicczvfcaxgab 
+627 div:int (none) 502 0 1 104 101 402 0.251244 15 195 209 7 0 heads_default aaaawzcagccccccccccddgcccccccchccccccccccccccccccccccclcccccccccccccccccccccccccccccccccccccccczvfcaxgab 
+558 div:int (none) 368 0 1 108 105 415 0.253012 15 190 207 9 0 heads_default aaaaaaaawzcagcccccccccccccccccqxchccucccbccccuciccccracpccccccccccccccqcccccccccccccccccccccccccccczvfcaxgab 
+128 div:int (none) 70 0 3 100 97 387 0.250646 10 129 205 2 0 heads_default wzcagcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccckccccucccccccccccccczvfcaxgab 
+53 div:int (none) 6 0 9 100 88 378 0.232804 7 93 205 2 0 heads_default wzcagccccccclcccccccccccccccccccccccccccccccccccccccccccccccccczccccccccccccccccccccccccccczvfcaxgab 
+181 div:int (none) 124 0 1 101 95 387 0.245478 11 140 204 6 0 heads_default wzcagccccccccccccccqccccccccccccbccccccclcccyccccccccfcccjcccccxcccccccccccccccccccccccccccazvfcaxgab 
+124 div:int (none) 94 0 6 101 95 388 0.244845 10 128 203 5 0 heads_default wzcagccccccccccccccqccccccccccccbcccccccccccyccccccccfcccjcccccxcccccccccccccccccccccccccccczvfcaxgab 
+231 div:int (none) 2 0 2 100 97 388 0.25 12 150 203 2 0 heads_default wzcagcccccccccccccccccccnccccccbccccccccccccccccccccccccccccccccccccccccccccccccccccccccccczvfcaxgab 
+40 div:int (none) 9 0 5 101 98 392 0.25 7 91 202 3 0 heads_default wzcagccccccccccccccqccccccccccccbccccccccccccccccccccccccjcccccccccccccccccccccccccccccccccczvfcaxgab 
+438 div:int (none) 69 0 1 100 97 387 0.250646 14 177 201 4 0 heads_default wzcagccccccccqcccccccccccucccccbcbcccccccccccccccccccccccccccccccccccccccccccccccccccytcccczvfcaxgab 
+314 div:int (none) 3 0 2 100 97 387 0.250646 13 164 201 2 0 heads_default wzcagccccccccccccccccccccccccccccccccjcccccccccccccccccccccccccccccccccccccccccccsccccccccczvfcaxgab 
+135 div:int (none) 54 0 1 101 98 388 0.252577 10 130 201 5 0 heads_default wzcagchcccccccccccccccckcccccccxbcccccccccccccccccccccccccccocccsccccccccccccccccccccccccicczvfcaxgab 
+321 div:int (none) 69 0 1 101 98 392 0.25 13 165 200 4 0 heads_default wzcagccccccccqcccccccccccccccccbcbccccccccccccccccccccccccccccccccccccccccccccccccbcccytcccczvfcaxgab 
+54 div:int (none) 30 0 9 101 98 389 0.251928 7 94 199 4 0 heads_default wzcagcccccccccccccccccckcccccccxbcccccccccccccccccccccccccccocccsccccccccccccccccccccccccicczvfcaxgab 
+397 div:int (none) 293 0 1 101 89 381 0.233596 13 171 198 5 0 heads_default wzcagccccccccccccccccccccccgccccbccccccccycccccccccccccccccccccpzccccccccccccccccccccccccccczvfcaxgab 
+185 div:int (none) 27 0 4 100 97 387 0.250646 11 140 197 3 0 heads_default wzcagccccccccccccgccxccccccccccccccccccccccccccccclcccccccccccccccccccccccccccccccccccccccczvfcaxgab 
+383 div:int (none) 110 0 1 100 97 386 0.251295 13 169 193 5 0 heads_default wzcagccccccccccddgcccccccchccccccccccccccccccccccclcccccccccccccccccccccccccccccccccccccccczvfcaxgab 
+92 div:int (none) 1 0 5 100 97 388 0.25 9 116 192 1 0 heads_default wzcagcccccccdcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccczvfcaxgab 
+107 div:int (none) 77 0 3 101 88 375 0.234667 9 118 191 6 0 heads_default wzcagcccccccccccccccccckcccccccxbcccccccccccccccccccccccccccocccsccaccccccfcccccccccccccvicczvfcaxgab 
+317 div:int (none) 53 0 1 100 88 378 0.232804 12 164 190 3 0 heads_default wzcagccccccclhccccccccccccccccccccccccccccccccccccccccccccccccczccccccccccccccccccccccccccczvfcaxgab 
+69 div:int (none) 13 0 4 100 97 388 0.25 8 104 189 3 0 heads_default wzcagccccccccqcccccccccccccccccbcbcccccccccccccccccccccccccccccccccccccccccccccccccccytcccczvfcaxgab 
+1 div:ext (none) (none) 0 14 100 97 389 0.249357 0 -1 186 0 0 heads_default wzcagcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccczvfcaxgab 
+293 div:int (none) 38 0 1 101 89 381 0.233596 12 158 184 4 0 heads_default wzcagccccccccccccccccccccccgccccbccccccccycccccccccccccccccccccczccccccccccccccccccccccccccczvfcaxgab 
+296 div:int (none) 107 0 1 101 96 383 0.250653 12 159 182 7 0 heads_default wzcagcccccccccccccccccckcccccccxbcccccccccccccccccccccccccccocccsccaccccccfccnccccccccccvicczvfcaxgab 
+278 div:int (none) 205 0 1 105 97 398 0.243719 12 156 179 7 0 heads_default aaaawzcagchcccccccccccccccckcfcccccxbcccccccccccccccccccccccccccocccsccccccccccccccccccccccccicczvfcaxgab 
+177 div:int (none) 94 0 2 101 98 391 0.250639 11 140 179 5 0 heads_default wzcagccccccccccccccqccccccccccccbccccccccccqccccccpccccccjcccccxcccccccccccccccccccccccccccczvfcaxgab 
+199 div:int (none) 45 0 1 100 97 389 0.249357 11 142 178 3 0 heads_default wzcagccccccccccccccccccccccccccbccccccccccccccccccccccccccccccccccccwccccccccccccccccaccccczvfcaxgab 
+80 div:int (none) 22 0 4 100 80 367 0.217984 8 107 177 4 0 heads_default wzcagcccoccccccccccccccccccccccecccccccccccccfccccccccccccccccczccccccccecccccccbcccccccccczvfcaxgab 
+19 div:int (none) 3 0 7 100 97 388 0.25 6 76 177 2 0 heads_default wzcagccccccccacccccccccccccccccccccccjccccccccccccccccccccccccccccccccccccccccccccccccccccczvfcaxgab 
+45 div:int (none) 2 0 8 100 97 389 0.249357 7 92 176 2 0 heads_default wzcagccccccccccccccccccccccccccbcccccccccccccccccccccccccccccccccccccccccccccccccccccaccccczvfcaxgab 
+234 div:int (none) 1 0 1 100 97 387 0.250646 12 151 174 1 0 heads_default wzcagcccccccccccccccuccoccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccczvfcaxgab 
+25 div:int (none) 2 0 3 100 88 379 0.23219 6 79 171 2 0 heads_default wzcagccccccccccccccccccccccccccbccccccccccccccccccccccccccccccczccccccccccccccccccccccccccczvfcaxgab 
+208 div:int (none) 113 0 1 101 98 386 0.253886 11 143 169 6 0 heads_default wzcagccccccccccccccccccncccccccxbcccccccvccccccccccccaccccccocccsccccccccccccccccccccccccicczvfcaxgab 
+70 div:int (none) 1 0 4 100 97 388 0.25 8 104 167 1 0 heads_default wzcagcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccucccccccccccccczvfcaxgab 
+27 div:int (none) 16 0 8 100 97 387 0.250646 6 80 166 2 0 heads_default wzcagccccccccccccgcccccccccccccccccccccccccccccccclcccccccccccccccccccccccccccccccccccccccczvfcaxgab 
+6 div:int (none) 1 0 6 100 88 379 0.23219 4 51 165 1 0 heads_default wzcagcccccccccccccccccccccccccccccccccccccccccccccccccccccccccczccccccccccccccccccccccccccczvfcaxgab 
+3 div:int (none) 1 0 9 100 97 388 0.25 2 25 165 1 0 heads_default wzcagccccccccccccccccccccccccccccccccjccccccccccccccccccccccccccccccccccccccccccccccccccccczvfcaxgab 
+42 div:int (none) 26 0 3 101 98 389 0.251928 7 92 163 4 0 heads_default wzcagccccccccccccccccccxccccucccbcccccucicccccccpccccccccccccccccccccccccccccccccccccccccccczvfcaxgab 
+220 div:int (none) 153 0 1 100 95 383 0.248042 11 145 162 5 0 heads_default wzcagccccccclcccccccccccccccccccccccccccccccccccccccccccccccccczcccoccccccccccccceccccccccczvfcaxgab 
+205 div:int (none) 135 0 1 103 95 390 0.24359 11 143 162 6 0 heads_default aawzcagchcccccccccccccccckcfcccccxbcccccccccccccccccccccccccccocccsccccccccccccccccccccccccicczvfcaxgab 
+94 div:int (none) 40 0 1 101 98 392 0.25 9 116 156 4 0 heads_default wzcagccccccccccccccqccccccccccccbccccccccccccccccccccccccjcccccxcccccccccccccccccccccccccccczvfcaxgab 
+79 div:int (none) 30 0 2 101 98 389 0.251928 8 107 156 4 0 heads_default wzcagccccccccccccccccccncccccccxbcccccccccccccccccccccccccccocccsccccccccccccccccccccccccicczvfcaxgab 
+114 div:int (none) 53 0 2 100 95 384 0.247396 9 120 153 3 0 heads_default wzcagccccccclcccccccccccccccccccccccccccccccccccccccccccccccccczcccyccccccccccccccccccccccczvfcaxgab 
+35 div:int (none) 12 0 4 99 96 384 0.25 7 90 153 3 0 heads_default wzcagccccccccccccccccccccccccccbccccccccccccccccccccccjccccccccccccccccccccccccccccccccccczvfcaxgab 
+153 div:int (none) 114 0 1 100 94 382 0.246073 10 134 153 4 0 heads_default wzcagccccccclcccccccccccccccccccccccccccccccccccccccccccccccccczcccyccccccccccccceccccccccczvfcaxgab 
+75 div:int (none) 27 0 1 100 97 386 0.251295 8 106 144 3 0 heads_default wzcagccccccccccdcgcccccccccccccccccccccccccccccccclcccccccccccccccccccccccccccccccccccccccczvfcaxgab 
+91 div:int (none) 42 0 1 101 98 387 0.25323 9 116 138 5 0 heads_default wzcagccccccccccccccccccxchccucccbcccccuciccccracpccccccccccccccccccccccccccccccccccccccccccczvfcaxgab 
+78 div:int (none) 48 0 1 100 97 386 0.251295 8 106 132 3 0 heads_default wzcagccccccccccccgccccccccccccccclcccccccccccccccccccccccccccoccccccccccccccccccccccccccccczvfcaxgab 
+5 div:int (none) 2 0 3 100 97 386 0.251295 3 39 126 2 0 heads_default wzcagccccccccccccccccccccccccccbcccccccccccccccccccccccccccocccsccccccccccccccccccccccccicczvfcaxgab 
+24 div:int (none) 15 0 1 100 97 385 0.251948 6 79 119 3 0 heads_default wzcagccccccccccccxcccccccccccccbcccccccccccccccccccccccccccccccvcccccccccccccccccccccccccuczvfcaxgab 
+30 div:int (none) 5 0 1 101 98 390 0.251282 6 81 119 3 0 heads_default wzcagccccccccccccccccccccccccccxbcccccccccccccccccccccccccccocccsccccccccccccccccccccccccicczvfcaxgab 
+48 div:int (none) 16 0 1 100 97 387 0.250646 7 93 118 2 0 heads_default wzcagccccccccccccgcccccccccccccccccccccccccccccccccccccccccccoccccccccccccccccccccccccccccczvfcaxgab 
+22 div:int (none) 11 0 1 100 78 367 0.212534 6 77 117 3 0 heads_default wzcagccccccccccccccccccccccccccecccccccccccccfccccccccccccccccczccccccccccccccccbcccccccccczvfcaxgab 
+11 div:int (none) 6 0 2 100 78 368 0.211957 5 64 106 2 0 heads_default wzcagccccccccccccccccccccccccccccccccccccccccfccccccccccccccccczccccccccccccccccccccccccccczvfcaxgab 
+9 div:int (none) 2 0 2 100 97 388 0.25 4 53 105 2 0 heads_default wzcagccccccccccccccccccccccccccbccccccccccccccccccccccccjcccccccccccccccccccccccccccccccccczvfcaxgab 
+15 div:int (none) 2 0 1 100 97 385 0.251948 5 66 104 2 0 heads_default wzcagccccccccccccccccccccccccccbcccccccccccccccccccccccccccccccvcccccccccccccccccccccccccuczvfcaxgab 
+12 div:int (none) 2 0 2 100 97 388 0.25 5 64 102 2 0 heads_default wzcagccccccccccccccccccccccccccbccccccccccccccccccccccjcccccccccccccccccccccccccccccccccccczvfcaxgab 
+26 div:int (none) 7 0 1 101 98 391 0.250639 6 79 102 3 0 heads_default wzcagccccccccccccccccccxccccucccbccccccciccccccccccccccccccccccccccccccccccccccccccccccccccczvfcaxgab 
+7 div:int (none) 2 0 1 100 97 389 0.249357 4 52 90 2 0 heads_default wzcagccccccccccccccccccxcccccccbccccccccccccccccccccccccccccccccccccccccccccccccccccccccccczvfcaxgab 
