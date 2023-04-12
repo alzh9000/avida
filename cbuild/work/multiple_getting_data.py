@@ -45,7 +45,7 @@ def run_experiment(values, xy, index):
                 "%m-%d_%H-%M-%S", time.localtime(time.time())
             )
 
-    log_file_name = "229r/p2/task_" + str(xy) +"_" + str(values) + f"_date_{experiment_start_time_string}_{index}.txt"
+    log_file_name = "229r/p3/task_" + str(xy) +"_" + str(values) + f"_date_{experiment_start_time_string}_{index}.txt"
     if args.output:
         log_file_name +=  str(args.output)
 
