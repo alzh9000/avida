@@ -20,7 +20,7 @@ for val in values:
 # Default World topology
 # WORLD_X 60                  # Width of the Avida world
 # WORLD_Y 60                  # Height of the Avida world
-xy = {'x': 120, 'y': 120}
+xy = {'x': 10, 'y': 10}
 
 import argparse
 import subprocess
