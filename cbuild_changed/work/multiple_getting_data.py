@@ -25,6 +25,7 @@ for val in original_values:
 xy = {'x': 120, 'y': 120}
 
 import argparse
+import os
 import subprocess
 import time
 import multiprocessing
@@ -51,6 +52,11 @@ def run_experiment(values, xy, index = 0):
     log_file_name = "229r/p6/task_" + str(values) + f"_date_{experiment_start_time_string}_xy{str(xy.values())}_{index}.txt"
     if args.output:
         log_file_name +=  str(args.output)
+        
+    directory_path = log_file_name.split("/")[:1].join("/")
+    # create the directory if it doesn't exist
+    if not os.path.exists(directory_path):
+        os.makedirs(directory_path)
 
     with open('dat_filenames.txt', 'w') as f:
         f.write(log_file_name)
