@@ -1,3 +1,5 @@
+# If tasks files aren't printing counts of organisms with certain functions, then try making sure environment.cfg contains the rewards for the tasks you want to see.
+
 # Tweak requisite:max_count in envrionment.cfg, reward values in envrionment.cfg through this file, mutation rate in avida.cfg, grid size in avida.cfg through this file, # of updates, where 10 updates are roughly equal to 1 generation, in events.cfg by EXIT.
 
 
