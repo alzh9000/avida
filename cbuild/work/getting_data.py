@@ -13,10 +13,10 @@
 # DEFAULT_values = {'NOT': 1.0, 'NAND': 1.0, 'AND': 2.0, 'ORN': 2.0, 'OR': 3.0, 'ANDN': 3.0, 'NOR': 4.0, 'XOR': 4.0, 'EQU': 5.0}
 values = {'NOT': 1.0, 'NAND': 1.0, 'AND': 2.0, 'ORN': 2.0, 'OR': 3.0, 'ANDN': 3.0, 'NOR': 4.0, 'XOR': 4.0, 'EQU': 5.0}
 # values = {'NOT': 1.0, 'NAND': 1.0, 'AND': 2.0, 'ORN': 2.0, 'OR': 4.0, 'ANDN': 4.0, 'NOR': 5.0, 'XOR': 5.0, 'EQU': 8.0}
-multiplier = 2
+multiplier = 1
 for val in values:
     values[val] *= multiplier
-xy = {'x': 20, 'y': 20}
+xy = {'x': 120, 'y': 120}
 
 import argparse
 import subprocess
