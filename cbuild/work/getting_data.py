@@ -16,6 +16,10 @@ values = {'NOT': 1.0, 'NAND': 1.0, 'AND': 2.0, 'ORN': 2.0, 'OR': 3.0, 'ANDN': 3.
 multiplier = 1
 for val in values:
     values[val] *= multiplier
+
+# Default World topology
+# WORLD_X 60                  # Width of the Avida world
+# WORLD_Y 60                  # Height of the Avida world
 xy = {'x': 120, 'y': 120}
 
 import argparse
