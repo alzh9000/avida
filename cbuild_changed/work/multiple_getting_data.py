@@ -13,11 +13,11 @@
 # ALBERT: I'm always going to run this with the command './avida' so I don't need to specify it (no other commands to run). Also, at this point I automatically name the file based on the datetime and configs, so don't need to include file name either. So can just do "python getting_data.py" and it will run the command './avida' and save the output to a file named based on the datetime and configs.
 # -o filename is appended to end of log file, so still useful if you want to specifically mark some name for the logfile.
 # DEFAULT_values = {'NOT': 1.0, 'NAND': 1.0, 'AND': 2.0, 'ORN': 2.0, 'OR': 3.0, 'ANDN': 3.0, 'NOR': 4.0, 'XOR': 4.0, 'EQU': 5.0}
-values = {'NOT': 1.0, 'NAND': 1.0, 'AND': 2.0, 'ORN': 2.0, 'OR': 3.0, 'ANDN': 3.0, 'NOR': 4.0, 'XOR': 4.0, 'EQU': 5.0}
+original_values = {'NOT': 1.0, 'NAND': 1.0, 'AND': 2.0, 'ORN': 2.0, 'OR': 3.0, 'ANDN': 3.0, 'NOR': 4.0, 'XOR': 4.0, 'EQU': 5.0}
 # values = {'NOT': 1.0, 'NAND': 1.0, 'AND': 2.0, 'ORN': 2.0, 'OR': 4.0, 'ANDN': 4.0, 'NOR': 5.0, 'XOR': 5.0, 'EQU': 8.0}
 multiplier = 1
-for val in values:
-    values[val] *= multiplier
+for val in original_values:
+    original_values[val] *= multiplier
 
 # Default World topology
 # WORLD_X 60                  # Width of the Avida world
@@ -28,6 +28,7 @@ import argparse
 import subprocess
 import time
 import multiprocessing
+import copy
 
 parser = argparse.ArgumentParser(
     description="Execute a command and redirect output to a file"
@@ -47,7 +48,7 @@ def run_experiment(values, xy, index = 0):
                 "%m-%d_%H-%M-%S", time.localtime(time.time())
             )
 
-    log_file_name = "229r/p4/task_" + str(xy) +"_" + str(values) + f"_date_{experiment_start_time_string}_{index}.txt"
+    log_file_name = "229r/p5/task_" + str(values) + f"_date_{experiment_start_time_string}_xy{str(xy.values())}_{index}.txt"
     if args.output:
         log_file_name +=  str(args.output)
 
@@ -56,6 +57,18 @@ def run_experiment(values, xy, index = 0):
 
     with open('avida.cfg', 'r') as f:
         contents = f.read()
+        
+    vals = copy.deepcopy(original_values)
+    vals["NOT"] = values[0]
+    vals["NAND"] = values[0]
+    vals["AND"] = values[1]
+    vals["ORN"] = values[1]
+    vals["OR"] = values[2]
+    vals["ANDN"] = values[2]
+    vals["NOR"] = values[3]
+    vals["XOR"] = values[3]
+    vals["EQU"] = values[4]
+    values = vals
 
     # Modify the WORLD_X and WORLD_Y parameters in the file contents
     lines = contents.split('\n')
@@ -132,10 +145,28 @@ def run_experiment(values, xy, index = 0):
 
 if __name__ == '__main__':
     # Create a list of values to pass to the function
-    [1,2,3,4,5,6]
-    values = {'NOT': 1.0, 'NAND': 1.0, 'AND': 2.0, 'ORN': 2.0, 'OR': 3.0, 'ANDN': 3.0, 'NOR': 4.0, 'XOR': 4.0, 'EQU': 5.0}
-    # values_list = [values, values,values, values,values, values]
-    values_list = [{'NOT': 3.0, 'NAND': 3.0, 'AND': 2.0, 'ORN': 2.0, 'OR': 3.0, 'ANDN': 3.0, 'NOR': 4.0, 'XOR': 4.0, 'EQU': 5.0}, {'NOT': 2.0, 'NAND': 2.0, 'AND': 3.0, 'ORN': 3.0, 'OR': 3.0, 'ANDN': 3.0, 'NOR': 4.0, 'XOR': 4.0, 'EQU': 5.0}, {'NOT': 1.0, 'NAND': 1.0, 'AND': 3.0, 'ORN': 3.0, 'OR': 3.0, 'ANDN': 3.0, 'NOR': 4.0, 'XOR': 4.0, 'EQU': 5.0}]
+    values_list = [
+    [1,2,3,4,5],
+    [1,2,3,4,5],
+    ]
+    
+    # values = {'NOT': 1.0, 'NAND': 1.0, 'AND': 2.0, 'ORN': 2.0, 'OR': 3.0, 'ANDN': 3.0, 'NOR': 4.0, 'XOR': 4.0, 'EQU': 5.0}
+    
+    # for v in v_list:
+    #     vals = copy.deepcopy(values)
+    #     vals["NOT"] = v[0]
+    #     vals["NAND"] = v[0]
+    #     vals["AND"] = v[1]
+    #     vals["ORN"] = v[1]
+    #     vals["OR"] = v[2]
+    #     vals["ANDN"] = v[2]
+    #     vals["NOR"] = v[3]
+    #     vals["XOR"] = v[3]
+    #     vals["EQU"] = v[4]
+    #     run_experiment(vals, xy, index = v_list.index(v))
+         
+    # # values_list = [values, values,values, values,values, values]
+    # values_list = [{'NOT': 3.0, 'NAND': 3.0, 'AND': 2.0, 'ORN': 2.0, 'OR': 3.0, 'ANDN': 3.0, 'NOR': 4.0, 'XOR': 4.0, 'EQU': 5.0}, {'NOT': 2.0, 'NAND': 2.0, 'AND': 3.0, 'ORN': 3.0, 'OR': 3.0, 'ANDN': 3.0, 'NOR': 4.0, 'XOR': 4.0, 'EQU': 5.0}, {'NOT': 1.0, 'NAND': 1.0, 'AND': 3.0, 'ORN': 3.0, 'OR': 3.0, 'ANDN': 3.0, 'NOR': 4.0, 'XOR': 4.0, 'EQU': 5.0}]
 
     # Create a list of xy values to pass to the function
     # xy_list = [{'x': 120, 'y': 120}, {'x': 120, 'y': 120},{'x': 120, 'y': 120}, {'x': 10, 'y': 10},{'x': 5, 'y': 5}, {'x': 10, 'y': 10}]
