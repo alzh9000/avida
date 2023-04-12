@@ -48,7 +48,7 @@ def run_experiment(values, xy, index = 0):
                 "%m-%d_%H-%M-%S", time.localtime(time.time())
             )
 
-    log_file_name = "229r/p5/task_" + str(values) + f"_date_{experiment_start_time_string}_xy{str(xy.values())}_{index}.txt"
+    log_file_name = "229r/p6/task_" + str(values) + f"_date_{experiment_start_time_string}_xy{str(xy.values())}_{index}.txt"
     if args.output:
         log_file_name +=  str(args.output)
 
@@ -106,7 +106,7 @@ def run_experiment(values, xy, index = 0):
     with open('environment.cfg', 'w') as f:
         f.write(contents)
 
-    with open(log_file_name, "a") as f:
+    with open(log_file_name, "a+") as f:
         f.write(str(values) + "\n")
         f.write(str(xy) + "\n")
 
@@ -144,11 +144,30 @@ def run_experiment(values, xy, index = 0):
     
 
 if __name__ == '__main__':
+    # All settings are default except 120 x 120 world and u 10000 Exit
+    
     # Create a list of values to pass to the function
-    values_list = [
-    [1,2,3,4,5],
-    [1,2,3,4,5],
-    ]
+    from itertools import permutations
+
+    lst = [1, 2, 3, 4]
+
+    # Generate all permutations of the list
+    perms = permutations(lst)
+
+    big_list = []
+    # Print all permutations
+    for perm in perms:
+        big_list.append(list(perm))
+    for list in big_list:
+        list += [5]
+        
+    # print(big_list)
+    
+    values_list = big_list
+    # values_list = [
+    # [1,2,3,4,5],
+    # [1,2,3,4,5],
+    # ]
     
     # values = {'NOT': 1.0, 'NAND': 1.0, 'AND': 2.0, 'ORN': 2.0, 'OR': 3.0, 'ANDN': 3.0, 'NOR': 4.0, 'XOR': 4.0, 'EQU': 5.0}
     
