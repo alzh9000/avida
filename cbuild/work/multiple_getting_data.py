@@ -133,7 +133,7 @@ if __name__ == '__main__':
     [1,2,3,4,5,6]
     values = {'NOT': 1.0, 'NAND': 1.0, 'AND': 2.0, 'ORN': 2.0, 'OR': 3.0, 'ANDN': 3.0, 'NOR': 4.0, 'XOR': 4.0, 'EQU': 5.0}
     # values_list = [values, values,values, values,values, values]
-    values_list = [{'NOT': 1.0, 'NAND': 1.0, 'AND': 2.0, 'ORN': 2.0, 'OR': 3.0, 'ANDN': 3.0, 'NOR': 4.0, 'XOR': 4.0, 'EQU': 5.0}, {'NOT': 2.0, 'NAND': 2.0, 'AND': 2.0, 'ORN': 2.0, 'OR': 3.0, 'ANDN': 3.0, 'NOR': 4.0, 'XOR': 4.0, 'EQU': 5.0}, {'NOT': 1.0, 'NAND': 1.0, 'AND': 3.0, 'ORN': 3.0, 'OR': 3.0, 'ANDN': 3.0, 'NOR': 4.0, 'XOR': 4.0, 'EQU': 5.0}]
+    values_list = [{'NOT': 3.0, 'NAND': 3.0, 'AND': 2.0, 'ORN': 2.0, 'OR': 3.0, 'ANDN': 3.0, 'NOR': 4.0, 'XOR': 4.0, 'EQU': 5.0}, {'NOT': 2.0, 'NAND': 2.0, 'AND': 3.0, 'ORN': 3.0, 'OR': 3.0, 'ANDN': 3.0, 'NOR': 4.0, 'XOR': 4.0, 'EQU': 5.0}, {'NOT': 1.0, 'NAND': 1.0, 'AND': 3.0, 'ORN': 3.0, 'OR': 3.0, 'ANDN': 3.0, 'NOR': 4.0, 'XOR': 4.0, 'EQU': 5.0}]
 
     # Create a list of xy values to pass to the function
     # xy_list = [{'x': 120, 'y': 120}, {'x': 120, 'y': 120},{'x': 120, 'y': 120}, {'x': 10, 'y': 10},{'x': 5, 'y': 5}, {'x': 10, 'y': 10}]
