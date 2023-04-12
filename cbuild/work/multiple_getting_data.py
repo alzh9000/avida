@@ -141,12 +141,13 @@ if __name__ == '__main__':
     # Run the function in multiple processes with different values and xy values
     results = []
     for values, xy, index in zip(values_list, xy_list, range(len(xy_list))):
-        result = pool.apply_async(run_experiment, args=(values, xy, index))
-        results.append(result)
+        run_experiment(values, xy, index)
+        # result = pool.apply_async(run_experiment, args=(values, xy, index))
+        # results.append(result)
 
-    # Wait for all processes to complete and get the results
-    output = [result.get() for result in results]
+    # # Wait for all processes to complete and get the results
+    # output = [result.get() for result in results]
 
-    # Close the pool of worker processes
-    pool.close()
-    pool.join()
+    # # Close the pool of worker processes
+    # pool.close()
+    # pool.join()
