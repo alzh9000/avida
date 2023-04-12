@@ -39,13 +39,13 @@ parser.add_argument(
 
 args = parser.parse_args()
 
-def run_experiment(values, xy, index):
+def run_experiment(values, xy, index = 0):
 
     experiment_start_time_string = time.strftime(
                 "%m-%d_%H-%M-%S", time.localtime(time.time())
             )
 
-    log_file_name = "229r/p3/task_" + str(xy) +"_" + str(values) + f"_date_{experiment_start_time_string}_{index}.txt"
+    log_file_name = "229r/p4/task_" + str(xy) +"_" + str(values) + f"_date_{experiment_start_time_string}_{index}.txt"
     if args.output:
         log_file_name +=  str(args.output)
 
@@ -130,18 +130,25 @@ def run_experiment(values, xy, index):
 
 if __name__ == '__main__':
     # Create a list of values to pass to the function
-    values_list = [values, values,values, values,values, values]
+    [1,2,3,4,5,6]
+    values = {'NOT': 1.0, 'NAND': 1.0, 'AND': 2.0, 'ORN': 2.0, 'OR': 3.0, 'ANDN': 3.0, 'NOR': 4.0, 'XOR': 4.0, 'EQU': 5.0}
+    # values_list = [values, values,values, values,values, values]
+    values_list = [{'NOT': 1.0, 'NAND': 1.0, 'AND': 2.0, 'ORN': 2.0, 'OR': 3.0, 'ANDN': 3.0, 'NOR': 4.0, 'XOR': 4.0, 'EQU': 5.0}, {'NOT': 2.0, 'NAND': 2.0, 'AND': 2.0, 'ORN': 2.0, 'OR': 3.0, 'ANDN': 3.0, 'NOR': 4.0, 'XOR': 4.0, 'EQU': 5.0}, {'NOT': 1.0, 'NAND': 1.0, 'AND': 3.0, 'ORN': 3.0, 'OR': 3.0, 'ANDN': 3.0, 'NOR': 4.0, 'XOR': 4.0, 'EQU': 5.0}]
 
     # Create a list of xy values to pass to the function
-    xy_list = [{'x': 5, 'y': 5}, {'x': 10, 'y': 10},{'x': 5, 'y': 5}, {'x': 10, 'y': 10},{'x': 5, 'y': 5}, {'x': 10, 'y': 10}]
+    # xy_list = [{'x': 120, 'y': 120}, {'x': 120, 'y': 120},{'x': 120, 'y': 120}, {'x': 10, 'y': 10},{'x': 5, 'y': 5}, {'x': 10, 'y': 10}]
 
-    # Create a pool of worker processes
-    pool = multiprocessing.Pool()
+    # # Create a pool of worker processes
+    # pool = multiprocessing.Pool()
+    
+    
+    for values in values_list:
+        run_experiment(values, xy = {'x': 120, 'y': 120})
 
     # Run the function in multiple processes with different values and xy values
-    results = []
-    for values, xy, index in zip(values_list, xy_list, range(len(xy_list))):
-        run_experiment(values, xy, index)
+    # results = []
+    # for values, xy, index in zip(values_list, xy_list, range(len(xy_list))):
+    #     run_experiment(values, xy, index)
         # result = pool.apply_async(run_experiment, args=(values, xy, index))
         # results.append(result)
 
