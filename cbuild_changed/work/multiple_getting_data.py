@@ -177,10 +177,13 @@ if __name__ == '__main__':
     # print(big_list)
     
     values_list = big_list
-    # values_list = [
-    # [1,2,3,4,5],
-    # [1,2,3,4,5],
-    # ]
+    values_list = [
+    [1,2,3,4,6],
+    [1,2,3,4,4],
+    [1,2,3,4,3],
+    [1,2,3,4,2],
+    [1,2,3,4,1],
+    ]
     
     # values = {'NOT': 1.0, 'NAND': 1.0, 'AND': 2.0, 'ORN': 2.0, 'OR': 3.0, 'ANDN': 3.0, 'NOR': 4.0, 'XOR': 4.0, 'EQU': 5.0}
     
