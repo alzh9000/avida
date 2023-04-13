@@ -1,3 +1,5 @@
+# python multiple_getting_data.py -f p9 
+
 # p6 has data for 1000 updates for all 29 combinations/orderings of rewards. p7 is the same as p6 except running again so we have more data (like so we can average across multiple trieals fro the same configuration)
 # 29 combinations/orderings of rewards: [[1, 2, 3, 4, 5], [1, 2, 4, 3, 5], [1, 3, 2, 4, 5], [1, 3, 4, 2, 5], [1, 4, 2, 3, 5], [1, 4, 3, 2, 5], [2, 1, 3, 4, 5], [2, 1, 4, 3, 5], [2, 3, 1, 4, 5], [2, 3, 4, 1, 5], [2, 4, 1, 3, 5], [2, 4, 3, 1, 5], [3, 1, 2, 4, 5], [3, 1, 4, 2, 5], [3, 2, 1, 4, 5], [3, 2, 4, 1, 5], [3, 4, 1, 2, 5], [3, 4, 2, 1, 5], [4, 1, 2, 3, 5], [4, 1, 3, 2, 5], [4, 2, 1, 3, 5], [4, 2, 3, 1, 5], [4, 3, 1, 2, 5], [4, 3, 2, 1, 5], [1, 2, 3, 4, 6], [1, 2, 3, 4, 4], [1, 2, 3, 4, 3], [1, 2, 3, 4, 2], [1, 2, 3, 4, 1]]
 
@@ -25,7 +27,7 @@ for val in original_values:
 # Default World topology
 # WORLD_X 60                  # Width of the Avida world
 # WORLD_Y 60                  # Height of the Avida world
-xy = {'x': 10, 'y': 10}
+xy = {'x': 1, 'y': 1}
 
 import argparse
 import os
@@ -215,7 +217,7 @@ if __name__ == '__main__':
     # print(values_list)
     max_counts = [True, False]
     
-    for values in values_list:
-        for max_count in max_counts:
-            for i in range(10):
-                run_experiment(values, xy = {'x': 120, 'y': 120}, folder_name=args.folder_name, max_count=max_count, index=i)
+    for i in range(10):
+        for values in values_list:
+            for max_count in max_counts:
+                run_experiment(values, xy = xy, folder_name=args.folder_name, max_count=max_count, index=i)
