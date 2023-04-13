@@ -44,6 +44,11 @@ parser.add_argument(
     "-o", "--output", metavar="FILE", help="the output file name", required=False
 )
 
+
+parser.add_argument(
+    "-f", "--folder_name", metavar="folder_name", help="the folder_name", required=False
+)
+
 args = parser.parse_args()
 
 def run_experiment(values, xy, max_count, folder_name = "ptest", index = 0):
@@ -207,46 +212,10 @@ if __name__ == '__main__':
     ]
     values_list = values_list2 + values_list
     
-    print(values_list)
-    
-    # values = {'NOT': 1.0, 'NAND': 1.0, 'AND': 2.0, 'ORN': 2.0, 'OR': 3.0, 'ANDN': 3.0, 'NOR': 4.0, 'XOR': 4.0, 'EQU': 5.0}
-    
-    # for v in v_list:
-    #     vals = copy.deepcopy(values)
-    #     vals["NOT"] = v[0]
-    #     vals["NAND"] = v[0]
-    #     vals["AND"] = v[1]
-    #     vals["ORN"] = v[1]
-    #     vals["OR"] = v[2]
-    #     vals["ANDN"] = v[2]
-    #     vals["NOR"] = v[3]
-    #     vals["XOR"] = v[3]
-    #     vals["EQU"] = v[4]
-    #     run_experiment(vals, xy, index = v_list.index(v))
-         
-    # # values_list = [values, values,values, values,values, values]
-    # values_list = [{'NOT': 3.0, 'NAND': 3.0, 'AND': 2.0, 'ORN': 2.0, 'OR': 3.0, 'ANDN': 3.0, 'NOR': 4.0, 'XOR': 4.0, 'EQU': 5.0}, {'NOT': 2.0, 'NAND': 2.0, 'AND': 3.0, 'ORN': 3.0, 'OR': 3.0, 'ANDN': 3.0, 'NOR': 4.0, 'XOR': 4.0, 'EQU': 5.0}, {'NOT': 1.0, 'NAND': 1.0, 'AND': 3.0, 'ORN': 3.0, 'OR': 3.0, 'ANDN': 3.0, 'NOR': 4.0, 'XOR': 4.0, 'EQU': 5.0}]
-
-    # Create a list of xy values to pass to the function
-    # xy_list = [{'x': 120, 'y': 120}, {'x': 120, 'y': 120},{'x': 120, 'y': 120}, {'x': 10, 'y': 10},{'x': 5, 'y': 5}, {'x': 10, 'y': 10}]
-
-    # # Create a pool of worker processes
-    # pool = multiprocessing.Pool()
-    
+    # print(values_list)
+    max_counts = [True, False]
     
     for values in values_list:
-        run_experiment(values, xy = {'x': 120, 'y': 120})
-
-    # Run the function in multiple processes with different values and xy values
-    # results = []
-    # for values, xy, index in zip(values_list, xy_list, range(len(xy_list))):
-    #     run_experiment(values, xy, index)
-        # result = pool.apply_async(run_experiment, args=(values, xy, index))
-        # results.append(result)
-
-    # # Wait for all processes to complete and get the results
-    # output = [result.get() for result in results]
-
-    # # Close the pool of worker processes
-    # pool.close()
-    # pool.join()
+        for max_count in max_counts:
+            for i in range(10):
+                run_experiment(values, xy = {'x': 120, 'y': 120}, folder_name=args.folder_name, max_count=max_count, index=i)
