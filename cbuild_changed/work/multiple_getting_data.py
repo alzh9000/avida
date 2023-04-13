@@ -25,7 +25,7 @@ for val in original_values:
 # Default World topology
 # WORLD_X 60                  # Width of the Avida world
 # WORLD_Y 60                  # Height of the Avida world
-xy = {'x': 120, 'y': 120}
+xy = {'x': 10, 'y': 10}
 
 import argparse
 import os
@@ -46,13 +46,14 @@ parser.add_argument(
 
 args = parser.parse_args()
 
-def run_experiment(values, xy, index = 0):
+def run_experiment(values, xy, max_count, folder_name = "ptest", index = 0):
 
     experiment_start_time_string = time.strftime(
                 "%m-%d_%H-%M-%S", time.localtime(time.time())
             )
 
-    log_file_name = "229r/p8/task_" + str(values) + f"_date_{experiment_start_time_string}_xy{str(xy.values())}_{index}.txt"
+    log_file_name = f"229r/{str(folder_name)}/{index}_mxc_{str(max_count)}_" + str(values) + f"_date_{experiment_start_time_string}_xy{str(xy.values())}.txt"
+    
     if args.output:
         log_file_name +=  str(args.output)
         
@@ -113,8 +114,23 @@ def run_experiment(values, xy, index = 0):
         if line.startswith('REACTION'):
             parts = line.split()
             value = float(parts[3].split('=')[1].split(':')[0])
-            lines[i] = line.replace(f'value={value}', f'value={values[parts[1]]}')
-
+            if f'value={value}' in line:
+                lines[i] = line.replace(f'value={value}', f'value={values[parts[1]]}')
+            # didn't udpate environment correctly because it was lookin for floats not ints
+            elif f'value={int(value)}': 
+                lines[i] = line.replace(f'value={int(value)}', f'value={values[parts[1]]}')
+            else:
+                raise Exception(f'Could not find value={value} in line {line}!')
+            
+            if not max_count:
+                lines[i] = lines[i].replace(f'requisite:max_count=1', "")
+            else:
+                if "max_count=1" not in line:
+                    lines[i] = lines[i] + 'requisite:max_count=1'
+            
+            if "EQU" in line:
+                lines[i] = lines[i].replace(f'requisite:max_count=1', "")
+            
     # Join the modified lines back together
     contents = '\n'.join(lines)
     
