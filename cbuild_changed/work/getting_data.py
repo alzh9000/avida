@@ -43,7 +43,7 @@ experiment_start_time_string = time.strftime(
         )
 
 max_count = True
-
+# change max_count, always no max_count for EQU beause EQU is final evolution and max_count is just to speed up evolution
 log_file_name = f"229r/p2/mxc_{str(max_count)}_" + str(xy) +"_" + str(values) + f"_date_{experiment_start_time_string}.txt"
 if args.output:
     log_file_name +=  str(args.output)
