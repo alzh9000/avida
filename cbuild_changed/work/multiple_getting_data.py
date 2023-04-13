@@ -1,3 +1,8 @@
+# Default World topology
+# WORLD_X 60                  # Width of the Avida world
+# WORLD_Y 60                  # Height of the Avida world
+xy = {'x': 120, 'y': 120}
+
 # python multiple_getting_data.py -f p9 
 
 # p6 has data for 1000 updates for all 29 combinations/orderings of rewards. p7 is the same as p6 except running again so we have more data (like so we can average across multiple trieals fro the same configuration)
@@ -24,10 +29,6 @@ multiplier = 1
 for val in original_values:
     original_values[val] *= multiplier
 
-# Default World topology
-# WORLD_X 60                  # Width of the Avida world
-# WORLD_Y 60                  # Height of the Avida world
-xy = {'x': 1, 'y': 1}
 
 import argparse
 import os
