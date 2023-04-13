@@ -42,7 +42,9 @@ experiment_start_time_string = time.strftime(
             "%m-%d_%H-%M-%S", time.localtime(time.time())
         )
 
-log_file_name = "229r/p2/task_" + str(xy) +"_" + str(values) + f"_date_{experiment_start_time_string}.txt"
+max_count = True
+
+log_file_name = f"229r/p2/mxc_{str(max_count)}_" + str(xy) +"_" + str(values) + f"_date_{experiment_start_time_string}.txt"
 if args.output:
     log_file_name +=  str(args.output)
 
@@ -74,7 +76,7 @@ with open('environment.cfg', 'r') as f:
 # Split the contents of the file into individual lines
 lines = contents.split('\n')
 
-max_count_off = True 
+max_count_off = not max_count 
 
 # Modify the process:value parameter for each reaction
 for i, line in enumerate(lines):
@@ -94,6 +96,9 @@ for i, line in enumerate(lines):
         else:
             if "max_count=1" not in line:
                 lines[i] = lines[i] + 'requisite:max_count=1'
+        
+        if "EQU" in line:
+            lines[i] = lines[i].replace(f'requisite:max_count=1', "")
         
 # Join the modified lines back together
 contents = '\n'.join(lines)
