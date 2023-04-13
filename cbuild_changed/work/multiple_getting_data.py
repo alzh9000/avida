@@ -53,10 +53,17 @@ def run_experiment(values, xy, index = 0):
     if args.output:
         log_file_name +=  str(args.output)
         
-    directory_path = log_file_name.split("/")[:1].join("/")
+    # specify the directory path relative to the current working directory
+    directory_path = "/".join(log_file_name.split("/")[:2])
+
+    # get the absolute path of the directory
+    absolute_path = os.path.abspath(directory_path)
+    # print(absolute_path)
+    
     # create the directory if it doesn't exist
-    if not os.path.exists(directory_path):
-        os.makedirs(directory_path)
+    if not os.path.exists(absolute_path):
+        # print(absolute_path)
+        os.makedirs(absolute_path)
 
     with open('dat_filenames.txt', 'w') as f:
         f.write(log_file_name)
