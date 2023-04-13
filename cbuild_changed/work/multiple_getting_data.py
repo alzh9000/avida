@@ -1,3 +1,6 @@
+# p6 has data for 1000 updates for all 29 combinations/orderings of rewards. p7 is the same as p6 except running again so we have more data (like so we can average across multiple trieals fro the same configuration)
+# 29 combinations/orderings of rewards: [[1, 2, 3, 4, 5], [1, 2, 4, 3, 5], [1, 3, 2, 4, 5], [1, 3, 4, 2, 5], [1, 4, 2, 3, 5], [1, 4, 3, 2, 5], [2, 1, 3, 4, 5], [2, 1, 4, 3, 5], [2, 3, 1, 4, 5], [2, 3, 4, 1, 5], [2, 4, 1, 3, 5], [2, 4, 3, 1, 5], [3, 1, 2, 4, 5], [3, 1, 4, 2, 5], [3, 2, 1, 4, 5], [3, 2, 4, 1, 5], [3, 4, 1, 2, 5], [3, 4, 2, 1, 5], [4, 1, 2, 3, 5], [4, 1, 3, 2, 5], [4, 2, 1, 3, 5], [4, 2, 3, 1, 5], [4, 3, 1, 2, 5], [4, 3, 2, 1, 5], [1, 2, 3, 4, 6], [1, 2, 3, 4, 4], [1, 2, 3, 4, 3], [1, 2, 3, 4, 2], [1, 2, 3, 4, 1]]
+
 # If tasks files aren't printing counts of organisms with certain functions, then try making sure environment.cfg contains the rewards for the tasks you want to see.
 
 # Tweak requisite:max_count in envrionment.cfg, reward values in envrionment.cfg through this file, mutation rate in avida.cfg, grid size in avida.cfg through this file, # of updates, where 10 updates are roughly equal to 1 generation, in events.cfg by EXIT.
@@ -49,7 +52,7 @@ def run_experiment(values, xy, index = 0):
                 "%m-%d_%H-%M-%S", time.localtime(time.time())
             )
 
-    log_file_name = "229r/p6/task_" + str(values) + f"_date_{experiment_start_time_string}_xy{str(xy.values())}_{index}.txt"
+    log_file_name = "229r/p7/task_" + str(values) + f"_date_{experiment_start_time_string}_xy{str(xy.values())}_{index}.txt"
     if args.output:
         log_file_name +=  str(args.output)
         
@@ -177,13 +180,16 @@ if __name__ == '__main__':
     # print(big_list)
     
     values_list = big_list
-    values_list = [
+    values_list2 = [
     [1,2,3,4,6],
     [1,2,3,4,4],
     [1,2,3,4,3],
     [1,2,3,4,2],
     [1,2,3,4,1],
     ]
+    values_list += values_list2
+    
+    print(values_list)
     
     # values = {'NOT': 1.0, 'NAND': 1.0, 'AND': 2.0, 'ORN': 2.0, 'OR': 3.0, 'ANDN': 3.0, 'NOR': 4.0, 'XOR': 4.0, 'EQU': 5.0}
     
