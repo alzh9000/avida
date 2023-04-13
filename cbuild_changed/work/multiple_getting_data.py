@@ -52,7 +52,7 @@ def run_experiment(values, xy, index = 0):
                 "%m-%d_%H-%M-%S", time.localtime(time.time())
             )
 
-    log_file_name = "229r/p7/task_" + str(values) + f"_date_{experiment_start_time_string}_xy{str(xy.values())}_{index}.txt"
+    log_file_name = "229r/p8/task_" + str(values) + f"_date_{experiment_start_time_string}_xy{str(xy.values())}_{index}.txt"
     if args.output:
         log_file_name +=  str(args.output)
         
@@ -117,6 +117,8 @@ def run_experiment(values, xy, index = 0):
 
     # Join the modified lines back together
     contents = '\n'.join(lines)
+    
+    print(contents)
 
     # Write the modified contents to a new file
     with open('environment.cfg', 'w') as f:
@@ -187,7 +189,7 @@ if __name__ == '__main__':
     [1,2,3,4,2],
     [1,2,3,4,1],
     ]
-    values_list += values_list2
+    values_list = values_list2 + values_list
     
     print(values_list)
     

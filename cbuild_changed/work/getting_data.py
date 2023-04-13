@@ -11,7 +11,7 @@
 # ALBERT: I'm always going to run this with the command './avida' so I don't need to specify it (no other commands to run). Also, at this point I automatically name the file based on the datetime and configs, so don't need to include file name either. So can just do "python getting_data.py" and it will run the command './avida' and save the output to a file named based on the datetime and configs.
 # -o filename is appended to end of log file, so still useful if you want to specifically mark some name for the logfile.
 # DEFAULT_values = {'NOT': 1.0, 'NAND': 1.0, 'AND': 2.0, 'ORN': 2.0, 'OR': 3.0, 'ANDN': 3.0, 'NOR': 4.0, 'XOR': 4.0, 'EQU': 5.0}
-values = {'NOT': 1.0, 'NAND': 1.0, 'AND': 2.0, 'ORN': 2.0, 'OR': 3.0, 'ANDN': 3.0, 'NOR': 4.0, 'XOR': 4.0, 'EQU': 5.0}
+values = {'NOT': 10.0, 'NAND': 1.0, 'AND': 2.0, 'ORN': 2.0, 'OR': 3.0, 'ANDN': 3.0, 'NOR': 4.0, 'XOR': 4.0, 'EQU': 5.0}
 # values = {'NOT': 1.0, 'NAND': 1.0, 'AND': 2.0, 'ORN': 2.0, 'OR': 4.0, 'ANDN': 4.0, 'NOR': 5.0, 'XOR': 5.0, 'EQU': 8.0}
 multiplier = 1
 for val in values:
@@ -79,10 +79,17 @@ for i, line in enumerate(lines):
     if line.startswith('REACTION'):
         parts = line.split()
         value = float(parts[3].split('=')[1].split(':')[0])
-        lines[i] = line.replace(f'value={value}', f'value={values[parts[1]]}')
-
+        if f'value={value}' in line:
+            lines[i] = line.replace(f'value={value}', f'value={values[parts[1]]}')
+        elif f'value={int(value)}': 
+            lines[i] = line.replace(f'value={int(value)}', f'value={values[parts[1]]}')
+        else:
+            raise Exception(f'Could not find value={value} in line {line}!')
+        
 # Join the modified lines back together
 contents = '\n'.join(lines)
+
+# print(contents)
 
 # Write the modified contents to a new file
 with open('environment.cfg', 'w') as f:
