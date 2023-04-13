@@ -74,6 +74,8 @@ with open('environment.cfg', 'r') as f:
 # Split the contents of the file into individual lines
 lines = contents.split('\n')
 
+max_count_off = True 
+
 # Modify the process:value parameter for each reaction
 for i, line in enumerate(lines):
     if line.startswith('REACTION'):
@@ -81,10 +83,17 @@ for i, line in enumerate(lines):
         value = float(parts[3].split('=')[1].split(':')[0])
         if f'value={value}' in line:
             lines[i] = line.replace(f'value={value}', f'value={values[parts[1]]}')
+        # didn't udpate environment correctly because it was lookin for floats not ints
         elif f'value={int(value)}': 
             lines[i] = line.replace(f'value={int(value)}', f'value={values[parts[1]]}')
         else:
             raise Exception(f'Could not find value={value} in line {line}!')
+        
+        if max_count_off:
+            lines[i] = lines[i].replace(f'requisite:max_count=1', "")
+        else:
+            if "max_count=1" not in line:
+                lines[i] = lines[i] + 'requisite:max_count=1'
         
 # Join the modified lines back together
 contents = '\n'.join(lines)
