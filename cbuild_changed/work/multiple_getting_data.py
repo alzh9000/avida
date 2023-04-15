@@ -142,7 +142,7 @@ def run_experiment(values, xy, max_count, folder_name = "ptest", index = 0):
     # Join the modified lines back together
     contents = '\n'.join(lines)
     
-    print(contents)
+    # print(contents)
 
     # Write the modified contents to a new file
     with open('environment.cfg', 'w') as f:
@@ -218,7 +218,7 @@ if __name__ == '__main__':
     # print(values_list)
     max_counts = [True, False]
     
-    for i in range(10):
+    for i in range(5,100):
         for values in values_list:
             for max_count in max_counts:
                 run_experiment(values, xy = xy, folder_name=args.folder_name, max_count=max_count, index=i)
