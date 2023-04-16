@@ -218,7 +218,7 @@ if __name__ == '__main__':
     # print(values_list)
     max_counts = [True, False]
     
-    for i in range(8,100):
+    for i in range(11,100):
         for values in values_list:
             for max_count in max_counts:
                 run_experiment(values, xy = xy, folder_name=args.folder_name, max_count=max_count, index=i)
