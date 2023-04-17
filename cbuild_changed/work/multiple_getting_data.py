@@ -130,13 +130,13 @@ def run_experiment(values, xy, max_count, folder_name = "ptest", index = 0):
             else:
                 raise Exception(f'Could not find value={value} in line {line}!')
             
-            if not max_count:
+            if max_count == -1:
                 lines[i] = lines[i].replace(f'requisite:max_count=1', "")
             else:
                 if "max_count=1" not in line:
                     lines[i] = lines[i] + 'requisite:max_count=1'
             
-            if "EQU" in line:
+            if max_count != 1 and "EQU" in line:
                 lines[i] = lines[i].replace(f'requisite:max_count=1', "")
             
     # Join the modified lines back together
@@ -216,7 +216,7 @@ if __name__ == '__main__':
     values_list = values_list2 + values_list
     
     # print(values_list)
-    max_counts = [True, False]
+    max_counts = [1, 0, -1]
     
     for i in range(11,100):
         for values in values_list:
