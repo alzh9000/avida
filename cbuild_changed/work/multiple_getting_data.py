@@ -217,6 +217,7 @@ if __name__ == '__main__':
     
     # print(values_list)
     max_counts = [1, 0, -1]
+    # TODO will need to update plotting and dataframe data to account for max_counts = [1, 0, -1] instead of max_counts = [True, False]
     # 14 is when max_counts = [1, 0, -1]
     for i in range(14,100):
         for values in values_list:
