@@ -219,7 +219,7 @@ if __name__ == '__main__':
     max_counts = [1, 0, -1]
     # TODO will need to update plotting and dataframe data to account for max_counts = [1, 0, -1] instead of max_counts = [True, False]
     # 14 is when max_counts = [1, 0, -1]
-    for i in range(14,100):
+    for i in range(16,100):
         for values in values_list:
             for max_count in max_counts:
                 run_experiment(values, xy = xy, folder_name=args.folder_name, max_count=max_count, index=i)
