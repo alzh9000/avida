@@ -1,0 +1,608 @@
+{'NOT': 1, 'NAND': 1, 'AND': 2, 'ORN': 2, 'OR': 3, 'ANDN': 3, 'NOR': 4, 'XOR': 4, 'EQU': 6}
+{'x': 120, 'y': 120}
+Avida 2.14.0
+--------------------------------------------------------------------------------
+by Charles Ofria
+Lead Developer: David M. Bryson
+
+Active developers include:
+Aaron P. Wagner and Anya E. Johnson
+For a more complete list of contributors, see the AUTHORS file.
+
+Copyright 1999-2014 Michigan State University.
+Copyright 1993-2003 California Institute of Technology.
+
+Avida comes with ABSOLUTELY NO WARRANTY.
+This is free software, and you are welcome to redistribute it under certain
+conditions. See file COPYING for details.
+
+For more information, see: http://avida.devosoft.org/
+--------------------------------------------------------------------------------
+
+Random Seed: -1 -> 68194638
+Data Directory: /Users/albertzhang/GitHub/avida/cbuild_changed/work/data/
+
+UD: 0       Gen: 0.000000   Fit: 0.000000   Orgs: 1       Spec: 32.00   SWst: 0.000 %  
+229r/all1/25_mxc_1_[1, 2, 3, 4, 6]_date_04-24_22-14-34_xydict_values([120, 120]).txt
+UD: 1       Gen: 0.000000   Fit: 0.000000   Orgs: 1       Spec: 32.00   SWst: 0.000 %  
+UD: 2       Gen: 0.000000   Fit: 0.000000   Orgs: 1       Spec: 32.00   SWst: 0.000 %  
+UD: 3       Gen: 0.000000   Fit: 0.000000   Orgs: 1       Spec: 32.00   SWst: 0.000 %  
+UD: 4       Gen: 0.000000   Fit: 0.000000   Orgs: 1       Spec: 32.00   SWst: 0.000 %  
+UD: 5       Gen: 0.000000   Fit: 0.000000   Orgs: 1       Spec: 32.00   SWst: 0.000 %  
+UD: 6       Gen: 0.000000   Fit: 0.000000   Orgs: 1       Spec: 32.00   SWst: 0.000 %  
+UD: 7       Gen: 0.000000   Fit: 0.000000   Orgs: 1       Spec: 32.00   SWst: 0.000 %  
+UD: 8       Gen: 0.000000   Fit: 0.000000   Orgs: 1       Spec: 32.00   SWst: 0.000 %  
+UD: 9       Gen: 0.000000   Fit: 0.000000   Orgs: 1       Spec: 32.00   SWst: 0.000 %  
+UD: 10      Gen: 0.000000   Fit: 0.000000   Orgs: 1       Spec: 0.000   SWst: 0.000 %  
+UD: 11      Gen: 0.000000   Fit: 0.000000   Orgs: 1       Spec: 32.00   SWst: 0.000 %  
+UD: 12      Gen: 1.000000   Fit: 0.2493573  Orgs: 2       Spec: 28.67   SWst: 0.000 %  
+UD: 13      Gen: 1.000000   Fit: 0.2493573  Orgs: 2       Spec: 32.00   SWst: 0.000 %  
+UD: 14      Gen: 1.000000   Fit: 0.2493573  Orgs: 2       Spec: 32.00   SWst: 0.000 %  
+UD: 15      Gen: 1.000000   Fit: 0.2493573  Orgs: 2       Spec: 32.00   SWst: 0.000 %  
+UD: 16      Gen: 1.000000   Fit: 0.2493573  Orgs: 2       Spec: 32.00   SWst: 0.000 %  
+UD: 17      Gen: 1.000000   Fit: 0.2493573  Orgs: 2       Spec: 32.00   SWst: 0.000 %  
+UD: 18      Gen: 1.000000   Fit: 0.2493573  Orgs: 2       Spec: 32.00   SWst: 0.000 %  
+UD: 19      Gen: 1.000000   Fit: 0.2493573  Orgs: 2       Spec: 32.00   SWst: 0.000 %  
+UD: 20      Gen: 1.000000   Fit: 0.2493573  Orgs: 2       Spec: 32.00   SWst: 0.000 %  
+UD: 21      Gen: 1.000000   Fit: 0.2493573  Orgs: 2       Spec: 32.00   SWst: 0.000 %  
+UD: 22      Gen: 1.000000   Fit: 0.2493573  Orgs: 2       Spec: 32.00   SWst: 0.000 %  
+UD: 23      Gen: 1.000000   Fit: 0.2493573  Orgs: 2       Spec: 32.00   SWst: 0.000 %  
+UD: 24      Gen: 1.000000   Fit: 0.2493573  Orgs: 2       Spec: 28.50   SWst: 0.000 %  
+UD: 25      Gen: 1.666667   Fit: 0.2493573  Orgs: 3       Spec: 29.67   SWst: 0.000 %  
+UD: 26      Gen: 2.000000   Fit: 0.2496787  Orgs: 4       Spec: 31.00   SWst: 0.000 %  
+UD: 27      Gen: 2.000000   Fit: 0.2496787  Orgs: 4       Spec: 32.00   SWst: 0.000 %  
+UD: 28      Gen: 2.000000   Fit: 0.2496787  Orgs: 4       Spec: 32.00   SWst: 0.000 %  
+UD: 29      Gen: 2.000000   Fit: 0.2496787  Orgs: 4       Spec: 32.00   SWst: 0.000 %  
+UD: 30      Gen: 2.000000   Fit: 0.2496787  Orgs: 4       Spec: 32.00   SWst: 0.000 %  
+UD: 31      Gen: 2.000000   Fit: 0.2496787  Orgs: 4       Spec: 32.00   SWst: 0.000 %  
+UD: 32      Gen: 2.000000   Fit: 0.2496787  Orgs: 4       Spec: 32.00   SWst: 0.000 %  
+UD: 33      Gen: 2.000000   Fit: 0.2496787  Orgs: 4       Spec: 32.00   SWst: 0.000 %  
+UD: 34      Gen: 2.000000   Fit: 0.2496787  Orgs: 4       Spec: 32.00   SWst: 0.000 %  
+UD: 35      Gen: 2.000000   Fit: 0.2496787  Orgs: 4       Spec: 32.00   SWst: 0.000 %  
+UD: 36      Gen: 2.000000   Fit: 0.2496787  Orgs: 4       Spec: 32.00   SWst: 0.000 %  
+UD: 37      Gen: 2.000000   Fit: 0.2496787  Orgs: 4       Spec: 30.25   SWst: 0.000 %  
+UD: 38      Gen: 2.400000   Fit: 0.2496144  Orgs: 5       Spec: 27.20   SWst: 0.000 %  
+UD: 39      Gen: 3.000000   Fit: 0.2500008  Orgs: 8       Spec: 31.50   SWst: 0.000 %  
+UD: 40      Gen: 3.000000   Fit: 0.2500008  Orgs: 8       Spec: 32.00   SWst: 0.000 %  
+UD: 41      Gen: 3.000000   Fit: 0.2500008  Orgs: 8       Spec: 32.00   SWst: 0.000 %  
+UD: 42      Gen: 3.000000   Fit: 0.2500008  Orgs: 8       Spec: 32.00   SWst: 0.000 %  
+UD: 43      Gen: 3.000000   Fit: 0.2500008  Orgs: 8       Spec: 32.00   SWst: 0.000 %  
+UD: 44      Gen: 3.000000   Fit: 0.2500008  Orgs: 8       Spec: 32.00   SWst: 0.000 %  
+UD: 45      Gen: 3.000000   Fit: 0.2500008  Orgs: 8       Spec: 32.00   SWst: 0.000 %  
+UD: 46      Gen: 3.000000   Fit: 0.2500008  Orgs: 8       Spec: 32.00   SWst: 0.000 %  
+UD: 47      Gen: 3.000000   Fit: 0.2500008  Orgs: 8       Spec: 32.00   SWst: 0.000 %  
+UD: 48      Gen: 3.000000   Fit: 0.2500008  Orgs: 8       Spec: 32.00   SWst: 0.000 %  
+UD: 49      Gen: 3.000000   Fit: 0.2500008  Orgs: 8       Spec: 32.00   SWst: 0.000 %  
+UD: 50      Gen: 3.222222   Fit: 0.2499293  Orgs: 9       Spec: 31.30   SWst: 0.000 %  
+UD: 51      Gen: 3.545455   Fit: 0.2499422  Orgs: 11      Spec: 28.89   SWst: 0.000 %  
+UD: 52      Gen: 3.769231   Fit: 0.2504529  Orgs: 13      Spec: 30.00   SWst: 0.000 %  
+UD: 53      Gen: 3.857143   Fit: 0.2504206  Orgs: 14      Spec: 31.38   SWst: 0.000 %  
+UD: 54      Gen: 3.933333   Fit: 0.2504356  Orgs: 15      Spec: 31.79   SWst: 0.000 %  
+UD: 55      Gen: 3.933333   Fit: 0.2504356  Orgs: 15      Spec: 32.00   SWst: 0.000 %  
+UD: 56      Gen: 3.933333   Fit: 0.2504356  Orgs: 15      Spec: 32.00   SWst: 0.000 %  
+UD: 57      Gen: 3.933333   Fit: 0.2504356  Orgs: 15      Spec: 32.00   SWst: 0.000 %  
+UD: 58      Gen: 3.933333   Fit: 0.2504356  Orgs: 15      Spec: 32.00   SWst: 0.000 %  
+UD: 59      Gen: 3.933333   Fit: 0.2504356  Orgs: 15      Spec: 32.00   SWst: 0.000 %  
+UD: 60      Gen: 3.933333   Fit: 0.2504356  Orgs: 15      Spec: 32.00   SWst: 0.000 %  
+UD: 61      Gen: 3.933333   Fit: 0.2504356  Orgs: 15      Spec: 32.00   SWst: 0.000 %  
+UD: 62      Gen: 3.933333   Fit: 0.2504356  Orgs: 15      Spec: 32.00   SWst: 0.000 %  
+UD: 63      Gen: 3.933333   Fit: 0.2504356  Orgs: 15      Spec: 29.50   SWst: 0.000 %  
+UD: 64      Gen: 4.523810   Fit: 0.2503111  Orgs: 21      Spec: 29.36   SWst: 0.000 %  
+UD: 65      Gen: 4.708333   Fit: 0.2504621  Orgs: 24      Spec: 31.00   SWst: 0.000 %  
+UD: 66      Gen: 4.807692   Fit: 0.2504265  Orgs: 26      Spec: 31.24   SWst: 0.000 %  
+UD: 67      Gen: 4.892857   Fit: 0.2504422  Orgs: 28      Spec: 31.77   SWst: 0.000 %  
+UD: 68      Gen: 4.892857   Fit: 0.2504422  Orgs: 28      Spec: 32.00   SWst: 0.000 %  
+UD: 69      Gen: 4.892857   Fit: 0.2504422  Orgs: 28      Spec: 32.00   SWst: 0.000 %  
+UD: 70      Gen: 4.892857   Fit: 0.2504422  Orgs: 28      Spec: 32.00   SWst: 0.000 %  
+UD: 71      Gen: 4.892857   Fit: 0.2504422  Orgs: 28      Spec: 32.00   SWst: 0.000 %  
+UD: 72      Gen: 4.892857   Fit: 0.2504422  Orgs: 28      Spec: 32.00   SWst: 0.000 %  
+UD: 73      Gen: 4.892857   Fit: 0.2504422  Orgs: 28      Spec: 32.00   SWst: 0.000 %  
+UD: 74      Gen: 4.892857   Fit: 0.2504422  Orgs: 28      Spec: 32.00   SWst: 0.000 %  
+UD: 75      Gen: 4.892857   Fit: 0.2504422  Orgs: 28      Spec: 31.69   SWst: 0.000 %  
+UD: 76      Gen: 5.000000   Fit: 0.2504270  Orgs: 29      Spec: 31.00   SWst: 0.000 %  
+UD: 77      Gen: 5.129032   Fit: 0.2504411  Orgs: 31      Spec: 29.10   SWst: 0.000 %  
+UD: 78      Gen: 5.675000   Fit: 0.2485221  Orgs: 40      Spec: 29.32   SWst: 3.000 %  
+UD: 79      Gen: 5.790698   Fit: 0.2487005  Orgs: 43      Spec: 32.00   SWst: 1.240 %  
+UD: 80      Gen: 5.844444   Fit: 0.2487869  Orgs: 45      Spec: 31.30   SWst: 0.000 %  
+UD: 81      Gen: 5.866667   Fit: 0.2487869  Orgs: 45      Spec: 30.22   SWst: 0.4444%  
+UD: 82      Gen: 5.866667   Fit: 0.2487869  Orgs: 45      Spec: 29.00   SWst: 0.000 %  
+UD: 83      Gen: 5.866667   Fit: 0.2487869  Orgs: 45      Spec: 28.48   SWst: 0.000 %  
+UD: 84      Gen: 5.866667   Fit: 0.2487869  Orgs: 45      Spec: 29.55   SWst: 0.000 %  
+UD: 85      Gen: 5.866667   Fit: 0.2487869  Orgs: 45      Spec: 29.07   SWst: 0.000 %  
+UD: 86      Gen: 5.866667   Fit: 0.2487869  Orgs: 45      Spec: 28.71   SWst: 0.000 %  
+UD: 87      Gen: 5.866667   Fit: 0.2487869  Orgs: 45      Spec: 29.07   SWst: 0.000 %  
+UD: 88      Gen: 5.911111   Fit: 0.2487869  Orgs: 45      Spec: 28.88   SWst: 2.000 %  
+UD: 89      Gen: 6.000000   Fit: 0.2487424  Orgs: 46      Spec: 27.19   SWst: 1.884 %  
+UD: 90      Gen: 6.300000   Fit: 0.2489335  Orgs: 50      Spec: 27.77   SWst: 3.667 %  
+UD: 91      Gen: 6.603448   Fit: 0.2453248  Orgs: 58      Spec: 29.17   SWst: 1.264 %  
+UD: 92      Gen: 6.800000   Fit: 0.2453523  Orgs: 65      Spec: 31.23   SWst: 1.385 %  
+UD: 93      Gen: 6.800000   Fit: 0.2453523  Orgs: 65      Spec: 30.19   SWst: 0.000 %  
+UD: 94      Gen: 6.882353   Fit: 0.2453222  Orgs: 68      Spec: 27.69   SWst: 1.471 %  
+UD: 95      Gen: 6.882353   Fit: 0.2453222  Orgs: 68      Spec: 26.67   SWst: 0.000 %  
+UD: 96      Gen: 6.882353   Fit: 0.2453222  Orgs: 68      Spec: 26.27   SWst: 0.000 %  
+UD: 97      Gen: 6.882353   Fit: 0.2453222  Orgs: 68      Spec: 25.89   SWst: 0.000 %  
+UD: 98      Gen: 6.882353   Fit: 0.2453222  Orgs: 68      Spec: 25.39   SWst: 0.000 %  
+UD: 99      Gen: 6.882353   Fit: 0.2453222  Orgs: 68      Spec: 25.95   SWst: 0.000 %  
+UD: 100     Gen: 6.882353   Fit: 0.2453222  Orgs: 68      Spec: 25.79   SWst: 0.000 %  
+229r/all1/25_mxc_1_[1, 2, 3, 4, 6]_date_04-24_22-14-34_xydict_values([120, 120]).txt
+UD: 101     Gen: 6.942029   Fit: 0.2423551  Orgs: 69      Spec: 27.50   SWst: 1.159 %  
+UD: 102     Gen: 7.135135   Fit: 0.2399467  Orgs: 74      Spec: 28.68   SWst: 0.7658%  
+UD: 103     Gen: 7.455696   Fit: 0.2403955  Orgs: 79      Spec: 29.32   SWst: 4.937 %  
+UD: 104     Gen: 7.578313   Fit: 0.2407512  Orgs: 83      Spec: 28.64   SWst: 1.928 %  
+UD: 105     Gen: 7.651163   Fit: 0.2420333  Orgs: 86      Spec: 27.39   SWst: 1.628 %  
+UD: 106     Gen: 7.797753   Fit: 0.2416065  Orgs: 89      Spec: 28.78   SWst: 2.322 %  
+UD: 107     Gen: 7.868132   Fit: 0.2433795  Orgs: 91      Spec: 27.31   SWst: 2.601 %  
+UD: 108     Gen: 7.879121   Fit: 0.2431682  Orgs: 91      Spec: 27.74   SWst: 0.1465%  
+UD: 109     Gen: 7.879121   Fit: 0.2431682  Orgs: 91      Spec: 26.92   SWst: 0.000 %  
+UD: 110     Gen: 7.891304   Fit: 0.2430334  Orgs: 92      Spec: 27.46   SWst: 0.000 %  
+UD: 111     Gen: 7.891304   Fit: 0.2430334  Orgs: 92      Spec: 27.41   SWst: 0.000 %  
+UD: 112     Gen: 7.891304   Fit: 0.2430334  Orgs: 92      Spec: 26.73   SWst: 0.000 %  
+UD: 113     Gen: 7.913978   Fit: 0.2431083  Orgs: 93      Spec: 25.08   SWst: 0.000 %  
+UD: 114     Gen: 8.094737   Fit: 0.2434440  Orgs: 95      Spec: 24.34   SWst: 2.035 %  
+UD: 115     Gen: 8.306122   Fit: 0.2413932  Orgs: 98      Spec: 25.90   SWst: 3.197 %  
+UD: 116     Gen: 8.504762   Fit: 0.2421395  Orgs: 105     Spec: 26.82   SWst: 2.190 %  
+UD: 117     Gen: 8.627273   Fit: 0.2423737  Orgs: 110     Spec: 26.78   SWst: 1.303 %  
+UD: 118     Gen: 8.730435   Fit: 0.2427857  Orgs: 115     Spec: 26.38   SWst: 1.681 %  
+UD: 119     Gen: 8.823529   Fit: 0.2411657  Orgs: 119     Spec: 27.54   SWst: 1.569 %  
+UD: 120     Gen: 8.860656   Fit: 0.2412621  Orgs: 122     Spec: 27.50   SWst: 0.1639%  
+UD: 121     Gen: 8.868852   Fit: 0.2412621  Orgs: 122     Spec: 27.40   SWst: 0.000 %  
+UD: 122     Gen: 8.868852   Fit: 0.2412621  Orgs: 122     Spec: 27.02   SWst: 0.000 %  
+UD: 123     Gen: 8.868852   Fit: 0.2412621  Orgs: 122     Spec: 27.43   SWst: 0.000 %  
+UD: 124     Gen: 8.868852   Fit: 0.2412621  Orgs: 122     Spec: 25.99   SWst: 0.000 %  
+UD: 125     Gen: 8.885246   Fit: 0.2412621  Orgs: 122     Spec: 25.49   SWst: 0.6011%  
+UD: 126     Gen: 8.983871   Fit: 0.2414445  Orgs: 124     Spec: 26.02   SWst: 2.500 %  
+UD: 127     Gen: 9.110236   Fit: 0.2417027  Orgs: 127     Spec: 25.72   SWst: 1.312 %  
+UD: 128     Gen: 9.340580   Fit: 0.2408403  Orgs: 138     Spec: 26.47   SWst: 1.763 %  
+UD: 129     Gen: 9.479167   Fit: 0.2410488  Orgs: 144     Spec: 27.19   SWst: 2.384 %  
+UD: 130     Gen: 9.583893   Fit: 0.2413527  Orgs: 149     Spec: 27.73   SWst: 1.074 %  
+UD: 131     Gen: 9.698718   Fit: 0.2416356  Orgs: 156     Spec: 27.80   SWst: 0.8333%  
+UD: 132     Gen: 9.750000   Fit: 0.2415151  Orgs: 156     Spec: 28.31   SWst: 1.368 %  
+UD: 133     Gen: 9.801242   Fit: 0.2414632  Orgs: 161     Spec: 28.42   SWst: 0.2277%  
+UD: 134     Gen: 9.801242   Fit: 0.2414632  Orgs: 161     Spec: 27.62   SWst: 0.000 %  
+UD: 135     Gen: 9.801242   Fit: 0.2414632  Orgs: 161     Spec: 27.69   SWst: 0.000 %  
+UD: 136     Gen: 9.801242   Fit: 0.2414632  Orgs: 161     Spec: 27.84   SWst: 0.000 %  
+UD: 137     Gen: 9.826087   Fit: 0.2414551  Orgs: 161     Spec: 27.48   SWst: 0.3727%  
+UD: 138     Gen: 9.876543   Fit: 0.2415080  Orgs: 162     Spec: 27.69   SWst: 1.317 %  
+UD: 139     Gen: 9.963415   Fit: 0.2416311  Orgs: 164     Spec: 26.91   SWst: 1.240 %  
+UD: 140     Gen: 10.14793   Fit: 0.2419015  Orgs: 169     Spec: 26.66   SWst: 3.195 %  
+UD: 141     Gen: 10.36000   Fit: 0.2426265  Orgs: 175     Spec: 27.17   SWst: 2.286 %  
+UD: 142     Gen: 10.54444   Fit: 0.2427110  Orgs: 180     Spec: 26.90   SWst: 5.167 %  
+UD: 143     Gen: 10.64894   Fit: 0.2425098  Orgs: 188     Spec: 27.11   SWst: 0.9574%  
+UD: 144     Gen: 10.70526   Fit: 0.2423524  Orgs: 190     Spec: 27.62   SWst: 1.228 %  
+UD: 145     Gen: 10.78866   Fit: 0.2426896  Orgs: 194     Spec: 27.96   SWst: 1.151 %  
+UD: 146     Gen: 10.84264   Fit: 0.2424813  Orgs: 197     Spec: 27.51   SWst: 1.354 %  
+UD: 147     Gen: 10.87374   Fit: 0.2423342  Orgs: 198     Spec: 28.20   SWst: 0.3367%  
+UD: 148     Gen: 10.87374   Fit: 0.2423342  Orgs: 198     Spec: 28.50   SWst: 0.000 %  
+UD: 149     Gen: 10.88384   Fit: 0.2423342  Orgs: 198     Spec: 28.77   SWst: 0.000 %  
+UD: 150     Gen: 10.90955   Fit: 0.2423759  Orgs: 199     Spec: 29.26   SWst: 0.1005%  
+UD: 151     Gen: 10.99505   Fit: 0.2425656  Orgs: 202     Spec: 28.04   SWst: 1.436 %  
+UD: 152     Gen: 11.12077   Fit: 0.2429102  Orgs: 207     Spec: 28.38   SWst: 1.304 %  
+UD: 153     Gen: 11.31776   Fit: 0.2437791  Orgs: 214     Spec: 28.71   SWst: 4.393 %  
+UD: 154     Gen: 11.41818   Fit: 0.2440891  Orgs: 220     Spec: 28.92   SWst: 1.348 %  
+UD: 155     Gen: 11.52915   Fit: 0.2442931  Orgs: 223     Spec: 28.53   SWst: 2.975 %  
+UD: 156     Gen: 11.64655   Fit: 0.2441714  Orgs: 232     Spec: 29.45   SWst: 1.624 %  
+UD: 157     Gen: 11.72269   Fit: 0.2441631  Orgs: 238     Spec: 29.57   SWst: 0.7983%  
+UD: 158     Gen: 11.76050   Fit: 0.2439056  Orgs: 238     Spec: 29.54   SWst: 1.162 %  
+UD: 159     Gen: 11.79752   Fit: 0.2441673  Orgs: 242     Spec: 28.19   SWst: 0.7438%  
+UD: 160     Gen: 11.82716   Fit: 0.2441172  Orgs: 243     Spec: 28.76   SWst: 0.7407%  
+UD: 161     Gen: 11.85656   Fit: 0.2439825  Orgs: 244     Spec: 29.37   SWst: 0.4235%  
+UD: 162     Gen: 11.86939   Fit: 0.2440044  Orgs: 245     Spec: 29.50   SWst: 0.000 %  
+UD: 163     Gen: 11.93927   Fit: 0.2440083  Orgs: 247     Spec: 28.72   SWst: 0.9852%  
+UD: 164     Gen: 12.00397   Fit: 0.2441189  Orgs: 252     Spec: 29.07   SWst: 0.1720%  
+UD: 165     Gen: 12.18533   Fit: 0.2437506  Orgs: 259     Spec: 28.77   SWst: 3.256 %  
+UD: 166     Gen: 12.32197   Fit: 0.2435596  Orgs: 264     Spec: 29.14   SWst: 4.343 %  
+UD: 167     Gen: 12.49265   Fit: 0.2441714  Orgs: 272     Spec: 28.90   SWst: 3.174 %  
+UD: 168     Gen: 12.59140   Fit: 0.2441861  Orgs: 279     Spec: 28.65   SWst: 1.553 %  
+UD: 169     Gen: 12.65957   Fit: 0.2438479  Orgs: 282     Spec: 28.23   SWst: 2.281 %  
+UD: 170     Gen: 12.70423   Fit: 0.2437903  Orgs: 284     Spec: 29.01   SWst: 1.467 %  
+UD: 171     Gen: 12.76573   Fit: 0.2438524  Orgs: 286     Spec: 29.24   SWst: 1.841 %  
+UD: 172     Gen: 12.81100   Fit: 0.2435301  Orgs: 291     Spec: 28.31   SWst: 1.260 %  
+UD: 173     Gen: 12.83562   Fit: 0.2435025  Orgs: 292     Spec: 28.34   SWst: 0.1941%  
+UD: 174     Gen: 12.86395   Fit: 0.2433835  Orgs: 294     Spec: 28.65   SWst: 0.4649%  
+UD: 175     Gen: 12.93624   Fit: 0.2430929  Orgs: 298     Spec: 28.09   SWst: 0.6376%  
+UD: 176     Gen: 13.03300   Fit: 0.2425457  Orgs: 303     Spec: 29.11   SWst: 2.398 %  
+UD: 177     Gen: 13.15309   Fit: 0.2432070  Orgs: 307     Spec: 29.12   SWst: 1.759 %  
+UD: 178     Gen: 13.28981   Fit: 0.2438970  Orgs: 314     Spec: 29.03   SWst: 1.645 %  
+UD: 179     Gen: 13.42188   Fit: 0.2443221  Orgs: 320     Spec: 29.09   SWst: 2.177 %  
+UD: 180     Gen: 13.54180   Fit: 0.2445902  Orgs: 323     Spec: 28.96   SWst: 2.518 %  
+UD: 181     Gen: 13.63855   Fit: 0.2446929  Orgs: 332     Spec: 28.51   SWst: 1.396 %  
+UD: 182     Gen: 13.70659   Fit: 0.2446958  Orgs: 334     Spec: 28.21   SWst: 2.226 %  
+UD: 183     Gen: 13.74627   Fit: 0.2449467  Orgs: 335     Spec: 28.61   SWst: 0.9652%  
+UD: 184     Gen: 13.80236   Fit: 0.2446599  Orgs: 339     Spec: 28.26   SWst: 1.288 %  
+UD: 185     Gen: 13.83529   Fit: 0.2445604  Orgs: 340     Spec: 28.25   SWst: 1.010 %  
+UD: 186     Gen: 13.87320   Fit: 0.2440563  Orgs: 347     Spec: 29.01   SWst: 0.3939%  
+UD: 187     Gen: 13.91714   Fit: 0.2440286  Orgs: 350     Spec: 28.59   SWst: 0.6476%  
+UD: 188     Gen: 14.00281   Fit: 0.2440164  Orgs: 356     Spec: 27.96   SWst: 1.891 %  
+UD: 189     Gen: 14.13296   Fit: 0.2442195  Orgs: 361     Spec: 27.50   SWst: 3.370 %  
+UD: 190     Gen: 14.25068   Fit: 0.2442924  Orgs: 367     Spec: 27.42   SWst: 2.298 %  
+UD: 191     Gen: 14.36290   Fit: 0.2446299  Orgs: 372     Spec: 27.97   SWst: 3.109 %  
+UD: 192     Gen: 14.42933   Fit: 0.2446899  Orgs: 375     Spec: 27.78   SWst: 2.169 %  
+UD: 193     Gen: 14.54830   Fit: 0.2449079  Orgs: 383     Spec: 27.79   SWst: 3.203 %  
+UD: 194     Gen: 14.60260   Fit: 0.2447654  Orgs: 385     Spec: 27.77   SWst: 1.351 %  
+UD: 195     Gen: 14.66839   Fit: 0.2447115  Orgs: 386     Spec: 28.16   SWst: 0.9845%  
+UD: 196     Gen: 14.71835   Fit: 0.2436198  Orgs: 387     Spec: 28.64   SWst: 1.852 %  
+UD: 197     Gen: 14.74419   Fit: 0.2436601  Orgs: 387     Spec: 28.43   SWst: 0.8355%  
+UD: 198     Gen: 14.80000   Fit: 0.2432689  Orgs: 390     Spec: 28.47   SWst: 1.393 %  
+UD: 199     Gen: 14.85570   Fit: 0.2432080  Orgs: 395     Spec: 27.98   SWst: 0.5654%  
+UD: 200     Gen: 14.94000   Fit: 0.2431673  Orgs: 400     Spec: 27.91   SWst: 1.417 %  
+229r/all1/25_mxc_1_[1, 2, 3, 4, 6]_date_04-24_22-14-34_xydict_values([120, 120]).txt
+UD: 201     Gen: 15.10784   Fit: 0.2432055  Orgs: 408     Spec: 27.98   SWst: 2.516 %  
+UD: 202     Gen: 15.23913   Fit: 0.2431289  Orgs: 414     Spec: 27.86   SWst: 1.924 %  
+UD: 203     Gen: 15.34524   Fit: 0.2424428  Orgs: 420     Spec: 28.98   SWst: 2.317 %  
+UD: 204     Gen: 15.45794   Fit: 0.2430757  Orgs: 428     Spec: 28.64   SWst: 2.508 %  
+UD: 205     Gen: 15.54462   Fit: 0.2432718  Orgs: 437     Spec: 28.85   SWst: 0.8314%  
+UD: 206     Gen: 15.60948   Fit: 0.2435858  Orgs: 443     Spec: 28.08   SWst: 1.512 %  
+UD: 207     Gen: 15.65541   Fit: 0.2432013  Orgs: 444     Spec: 27.54   SWst: 1.134 %  
+UD: 208     Gen: 15.69196   Fit: 0.2429492  Orgs: 448     Spec: 27.91   SWst: 0.9896%  
+UD: 209     Gen: 15.72160   Fit: 0.2428590  Orgs: 449     Spec: 28.16   SWst: 0.9354%  
+UD: 210     Gen: 15.76275   Fit: 0.2427071  Orgs: 451     Spec: 27.33   SWst: 1.042 %  
+UD: 211     Gen: 15.83188   Fit: 0.2427729  Orgs: 458     Spec: 26.42   SWst: 1.863 %  
+UD: 212     Gen: 15.92191   Fit: 0.2427859  Orgs: 461     Spec: 27.20   SWst: 2.155 %  
+UD: 213     Gen: 16.06794   Fit: 0.2421288  Orgs: 471     Spec: 26.66   SWst: 3.263 %  
+UD: 214     Gen: 16.16387   Fit: 0.2421614  Orgs: 476     Spec: 26.63   SWst: 2.626 %  
+UD: 215     Gen: 16.27273   Fit: 0.2423636  Orgs: 484     Spec: 25.94   SWst: 2.135 %  
+UD: 216     Gen: 16.37602   Fit: 0.2428350  Orgs: 492     Spec: 26.34   SWst: 2.846 %  
+UD: 217     Gen: 16.50688   Fit: 0.2435525  Orgs: 509     Spec: 26.00   SWst: 2.076 %  
+UD: 218     Gen: 16.55882   Fit: 0.2435368  Orgs: 510     Spec: 26.62   SWst: 1.791 %  
+UD: 219     Gen: 16.61988   Fit: 0.2435775  Orgs: 513     Spec: 25.95   SWst: 0.9032%  
+UD: 220     Gen: 16.66148   Fit: 0.2435930  Orgs: 514     Spec: 26.07   SWst: 0.8106%  
+UD: 221     Gen: 16.68859   Fit: 0.2435946  Orgs: 517     Spec: 26.81   SWst: 0.7801%  
+UD: 222     Gen: 16.72447   Fit: 0.2432357  Orgs: 519     Spec: 26.61   SWst: 0.8349%  
+UD: 223     Gen: 16.80497   Fit: 0.2433036  Orgs: 523     Spec: 26.11   SWst: 1.810 %  
+UD: 224     Gen: 16.89245   Fit: 0.2431291  Orgs: 530     Spec: 26.46   SWst: 2.233 %  
+UD: 225     Gen: 17.00000   Fit: 0.2427801  Orgs: 534     Spec: 26.72   SWst: 2.016 %  
+UD: 226     Gen: 17.14444   Fit: 0.2431764  Orgs: 540     Spec: 27.19   SWst: 3.056 %  
+UD: 227     Gen: 17.27273   Fit: 0.2433973  Orgs: 550     Spec: 27.08   SWst: 2.206 %  
+UD: 228     Gen: 17.38351   Fit: 0.2432924  Orgs: 558     Spec: 27.28   SWst: 2.688 %  
+UD: 229     Gen: 17.48606   Fit: 0.2436684  Orgs: 574     Spec: 27.19   SWst: 1.789 %  
+UD: 230     Gen: 17.56822   Fit: 0.2436499  Orgs: 579     Spec: 27.87   SWst: 3.172 %  
+UD: 231     Gen: 17.61512   Fit: 0.2438224  Orgs: 582     Spec: 27.20   SWst: 0.7388%  
+UD: 232     Gen: 17.64897   Fit: 0.2440673  Orgs: 584     Spec: 27.95   SWst: 0.8676%  
+UD: 233     Gen: 17.66154   Fit: 0.2438043  Orgs: 585     Spec: 28.41   SWst: 0.4160%  
+UD: 234     Gen: 17.67632   Fit: 0.2437834  Orgs: 587     Spec: 27.74   SWst: 0.1363%  
+UD: 235     Gen: 17.71525   Fit: 0.2432039  Orgs: 590     Spec: 27.14   SWst: 0.6667%  
+UD: 236     Gen: 17.82550   Fit: 0.2434754  Orgs: 596     Spec: 27.43   SWst: 2.103 %  
+UD: 237     Gen: 17.92715   Fit: 0.2434828  Orgs: 604     Spec: 27.45   SWst: 1.954 %  
+UD: 238     Gen: 18.06230   Fit: 0.2429540  Orgs: 610     Spec: 27.11   SWst: 4.230 %  
+UD: 239     Gen: 18.19256   Fit: 0.2430764  Orgs: 618     Spec: 27.99   SWst: 2.551 %  
+UD: 240     Gen: 18.30732   Fit: 0.2431591  Orgs: 628     Spec: 27.87   SWst: 2.856 %  
+UD: 241     Gen: 18.45866   Fit: 0.2429682  Orgs: 641     Spec: 27.62   SWst: 3.531 %  
+UD: 242     Gen: 18.55521   Fit: 0.2433083  Orgs: 652     Spec: 28.26   SWst: 2.699 %  
+UD: 243     Gen: 18.61035   Fit: 0.2434780  Orgs: 657     Spec: 29.07   SWst: 1.923 %  
+UD: 244     Gen: 18.63389   Fit: 0.2434356  Orgs: 661     Spec: 29.16   SWst: 0.6505%  
+UD: 245     Gen: 18.65257   Fit: 0.2433234  Orgs: 662     Spec: 29.14   SWst: 0.3374%  
+UD: 246     Gen: 18.66968   Fit: 0.2434858  Orgs: 663     Spec: 29.16   SWst: 0.6988%  
+UD: 247     Gen: 18.69069   Fit: 0.2435832  Orgs: 666     Spec: 28.82   SWst: 0.3754%  
+UD: 248     Gen: 18.76269   Fit: 0.2434776  Orgs: 670     Spec: 28.55   SWst: 1.597 %  
+UD: 249     Gen: 18.87021   Fit: 0.2435353  Orgs: 678     Spec: 27.62   SWst: 2.601 %  
+UD: 250     Gen: 18.97820   Fit: 0.2435531  Orgs: 688     Spec: 27.71   SWst: 2.074 %  
+UD: 251     Gen: 19.08034   Fit: 0.2433232  Orgs: 697     Spec: 27.43   SWst: 2.310 %  
+UD: 252     Gen: 19.20685   Fit: 0.2435829  Orgs: 701     Spec: 27.34   SWst: 2.929 %  
+UD: 253     Gen: 19.37099   Fit: 0.2438264  Orgs: 717     Spec: 27.14   SWst: 3.631 %  
+UD: 254     Gen: 19.49863   Fit: 0.2436387  Orgs: 728     Spec: 27.45   SWst: 3.585 %  
+UD: 255     Gen: 19.56698   Fit: 0.2436646  Orgs: 739     Spec: 28.16   SWst: 1.714 %  
+UD: 256     Gen: 19.60000   Fit: 0.2435720  Orgs: 745     Spec: 28.13   SWst: 0.8412%  
+UD: 257     Gen: 19.63575   Fit: 0.2435287  Orgs: 744     Spec: 28.52   SWst: 0.9095%  
+UD: 258     Gen: 19.65508   Fit: 0.2435320  Orgs: 748     Spec: 28.92   SWst: 0.1872%  
+UD: 259     Gen: 19.68043   Fit: 0.2435681  Orgs: 751     Spec: 28.69   SWst: 0.4128%  
+UD: 260     Gen: 19.72112   Fit: 0.2432022  Orgs: 753     Spec: 28.72   SWst: 0.7481%  
+UD: 261     Gen: 19.80317   Fit: 0.2433750  Orgs: 757     Spec: 28.31   SWst: 2.030 %  
+UD: 262     Gen: 19.91667   Fit: 0.2430011  Orgs: 768     Spec: 28.29   SWst: 1.931 %  
+UD: 263     Gen: 20.00772   Fit: 0.2430501  Orgs: 777     Spec: 28.73   SWst: 2.656 %  
+UD: 264     Gen: 20.15140   Fit: 0.2434745  Orgs: 786     Spec: 28.48   SWst: 3.134 %  
+UD: 265     Gen: 20.30364   Fit: 0.2436917  Orgs: 797     Spec: 27.60   SWst: 3.693 %  
+UD: 266     Gen: 20.43857   Fit: 0.2438628  Orgs: 814     Spec: 28.06   SWst: 3.362 %  
+UD: 267     Gen: 20.50732   Fit: 0.2438007  Orgs: 820     Spec: 28.08   SWst: 2.053 %  
+UD: 268     Gen: 20.57298   Fit: 0.2439700  Orgs: 829     Spec: 27.66   SWst: 1.311 %  
+UD: 269     Gen: 20.61198   Fit: 0.2438961  Orgs: 835     Spec: 27.70   SWst: 0.7864%  
+UD: 270     Gen: 20.64482   Fit: 0.2439719  Orgs: 839     Spec: 28.17   SWst: 0.6158%  
+UD: 271     Gen: 20.66983   Fit: 0.2439875  Orgs: 842     Spec: 27.99   SWst: 0.7838%  
+UD: 272     Gen: 20.71496   Fit: 0.2439980  Orgs: 842     Spec: 27.38   SWst: 1.089 %  
+UD: 273     Gen: 20.78420   Fit: 0.2433066  Orgs: 848     Spec: 27.83   SWst: 1.761 %  
+UD: 274     Gen: 20.87207   Fit: 0.2432443  Orgs: 852     Spec: 28.34   SWst: 2.586 %  
+UD: 275     Gen: 20.96973   Fit: 0.2434431  Orgs: 859     Spec: 27.96   SWst: 1.964 %  
+UD: 276     Gen: 21.09759   Fit: 0.2437989  Orgs: 871     Spec: 27.38   SWst: 2.602 %  
+UD: 277     Gen: 21.23363   Fit: 0.2439293  Orgs: 886     Spec: 27.42   SWst: 3.491 %  
+UD: 278     Gen: 21.38667   Fit: 0.2436682  Orgs: 900     Spec: 27.37   SWst: 3.078 %  
+UD: 279     Gen: 21.46440   Fit: 0.2434603  Orgs: 913     Spec: 27.58   SWst: 2.034 %  
+UD: 280     Gen: 21.54496   Fit: 0.2437971  Orgs: 923     Spec: 27.89   SWst: 2.203 %  
+UD: 281     Gen: 21.59593   Fit: 0.2437377  Orgs: 933     Spec: 27.31   SWst: 0.8825%  
+UD: 282     Gen: 21.62793   Fit: 0.2437098  Orgs: 938     Spec: 27.34   SWst: 0.9133%  
+UD: 283     Gen: 21.66419   Fit: 0.2437168  Orgs: 941     Spec: 27.79   SWst: 0.9352%  
+UD: 284     Gen: 21.70382   Fit: 0.2434091  Orgs: 942     Spec: 27.86   SWst: 0.9271%  
+UD: 285     Gen: 21.74576   Fit: 0.2432532  Orgs: 944     Spec: 27.68   SWst: 1.508 %  
+UD: 286     Gen: 21.81454   Fit: 0.2431486  Orgs: 949     Spec: 27.54   SWst: 1.419 %  
+UD: 287     Gen: 21.92589   Fit: 0.2432657  Orgs: 958     Spec: 27.85   SWst: 2.342 %  
+UD: 288     Gen: 22.01452   Fit: 0.2432328  Orgs: 964     Spec: 27.88   SWst: 1.895 %  
+UD: 289     Gen: 22.16991   Fit: 0.2431885  Orgs: 977     Spec: 27.53   SWst: 3.811 %  
+UD: 290     Gen: 22.28470   Fit: 0.2433870  Orgs: 987     Spec: 27.64   SWst: 3.134 %  
+UD: 291     Gen: 22.38347   Fit: 0.2434353  Orgs: 1004    Spec: 28.27   SWst: 2.742 %  
+UD: 292     Gen: 22.46608   Fit: 0.2434521  Orgs: 1017    Spec: 27.67   SWst: 2.144 %  
+UD: 293     Gen: 22.52740   Fit: 0.2434131  Orgs: 1022    Spec: 27.97   SWst: 1.885 %  
+UD: 294     Gen: 22.58641   Fit: 0.2434648  Orgs: 1030    Spec: 27.94   SWst: 1.654 %  
+UD: 295     Gen: 22.62885   Fit: 0.2434078  Orgs: 1040    Spec: 28.03   SWst: 0.5994%  
+UD: 296     Gen: 22.66731   Fit: 0.2431197  Orgs: 1043    Spec: 27.96   SWst: 1.365 %  
+UD: 297     Gen: 22.72031   Fit: 0.2432292  Orgs: 1044    Spec: 27.95   SWst: 1.178 %  
+UD: 298     Gen: 22.79847   Fit: 0.2436249  Orgs: 1047    Spec: 28.34   SWst: 1.449 %  
+UD: 299     Gen: 22.85375   Fit: 0.2438192  Orgs: 1053    Spec: 28.15   SWst: 1.209 %  
+UD: 300     Gen: 22.94345   Fit: 0.2437336  Orgs: 1061    Spec: 28.01   SWst: 2.114 %  
+229r/all1/25_mxc_1_[1, 2, 3, 4, 6]_date_04-24_22-14-34_xydict_values([120, 120]).txt
+UD: 301     Gen: 23.05385   Fit: 0.2435424  Orgs: 1077    Spec: 28.01   SWst: 2.417 %  
+UD: 302     Gen: 23.20165   Fit: 0.2436674  Orgs: 1091    Spec: 28.03   SWst: 3.382 %  
+UD: 303     Gen: 23.31545   Fit: 0.2434003  Orgs: 1100    Spec: 28.28   SWst: 3.100 %  
+UD: 304     Gen: 23.41854   Fit: 0.2434164  Orgs: 1111    Spec: 28.27   SWst: 2.394 %  
+UD: 305     Gen: 23.48525   Fit: 0.2434554  Orgs: 1119    Spec: 28.65   SWst: 1.373 %  
+UD: 306     Gen: 23.54902   Fit: 0.2434415  Orgs: 1122    Spec: 28.32   SWst: 1.747 %  
+UD: 307     Gen: 23.59859   Fit: 0.2433993  Orgs: 1131    Spec: 28.46   SWst: 1.544 %  
+UD: 308     Gen: 23.63139   Fit: 0.2433471  Orgs: 1134    Spec: 28.41   SWst: 0.9583%  
+UD: 309     Gen: 23.66755   Fit: 0.2433831  Orgs: 1137    Spec: 28.32   SWst: 0.8590%  
+UD: 310     Gen: 23.73514   Fit: 0.2432395  Orgs: 1144    Spec: 28.04   SWst: 1.276 %  
+UD: 311     Gen: 23.81755   Fit: 0.2432709  Orgs: 1151    Spec: 28.72   SWst: 1.442 %  
+UD: 312     Gen: 23.88159   Fit: 0.2435659  Orgs: 1157    Spec: 28.06   SWst: 1.443 %  
+UD: 313     Gen: 23.98207   Fit: 0.2436017  Orgs: 1171    Spec: 27.48   SWst: 1.867 %  
+UD: 314     Gen: 24.11973   Fit: 0.2438467  Orgs: 1186    Spec: 27.35   SWst: 2.996 %  
+UD: 315     Gen: 24.23283   Fit: 0.2440103  Orgs: 1194    Spec: 27.89   SWst: 3.037 %  
+UD: 316     Gen: 24.33333   Fit: 0.2440472  Orgs: 1206    Spec: 27.94   SWst: 3.029 %  
+UD: 317     Gen: 24.40099   Fit: 0.2438434  Orgs: 1212    Spec: 28.11   SWst: 1.892 %  
+UD: 318     Gen: 24.47744   Fit: 0.2440427  Orgs: 1219    Spec: 27.83   SWst: 2.330 %  
+UD: 319     Gen: 24.53865   Fit: 0.2441454  Orgs: 1229    Spec: 27.52   SWst: 1.410 %  
+UD: 320     Gen: 24.58914   Fit: 0.2441578  Orgs: 1234    Spec: 27.80   SWst: 1.113 %  
+UD: 321     Gen: 24.62975   Fit: 0.2442872  Orgs: 1237    Spec: 27.65   SWst: 1.143 %  
+UD: 322     Gen: 24.69268   Fit: 0.2441365  Orgs: 1243    Spec: 27.38   SWst: 1.330 %  
+UD: 323     Gen: 24.75261   Fit: 0.2443190  Orgs: 1245    Spec: 27.92   SWst: 1.274 %  
+UD: 324     Gen: 24.81934   Fit: 0.2444323  Orgs: 1251    Spec: 27.41   SWst: 1.383 %  
+UD: 325     Gen: 24.93602   Fit: 0.2446688  Orgs: 1266    Spec: 27.35   SWst: 2.320 %  
+UD: 326     Gen: 25.05399   Fit: 0.2447725  Orgs: 1278    Spec: 27.32   SWst: 1.800 %  
+UD: 327     Gen: 25.17543   Fit: 0.2449014  Orgs: 1294    Spec: 27.99   SWst: 2.782 %  
+UD: 328     Gen: 25.28254   Fit: 0.2449400  Orgs: 1306    Spec: 27.93   SWst: 2.476 %  
+UD: 329     Gen: 25.35366   Fit: 0.2449180  Orgs: 1312    Spec: 27.97   SWst: 1.684 %  
+UD: 330     Gen: 25.42348   Fit: 0.2447540  Orgs: 1320    Spec: 27.60   SWst: 2.197 %  
+UD: 331     Gen: 25.49437   Fit: 0.2446966  Orgs: 1333    Spec: 27.28   SWst: 1.745 %  
+UD: 332     Gen: 25.55497   Fit: 0.2447591  Orgs: 1337    Spec: 27.52   SWst: 1.321 %  
+UD: 333     Gen: 25.60581   Fit: 0.2447989  Orgs: 1342    Spec: 27.78   SWst: 1.207 %  
+UD: 334     Gen: 25.68370   Fit: 0.2448542  Orgs: 1350    Spec: 27.86   SWst: 1.622 %  
+UD: 335     Gen: 25.75110   Fit: 0.2447970  Orgs: 1358    Spec: 27.36   SWst: 1.735 %  
+UD: 336     Gen: 25.82145   Fit: 0.2447091  Orgs: 1361    Spec: 27.71   SWst: 1.572 %  
+UD: 337     Gen: 25.93159   Fit: 0.2447673  Orgs: 1374    Spec: 27.34   SWst: 2.188 %  
+UD: 338     Gen: 26.03899   Fit: 0.2450851  Orgs: 1385    Spec: 27.62   SWst: 2.686 %  
+UD: 339     Gen: 26.13857   Fit: 0.2452825  Orgs: 1400    Spec: 27.20   SWst: 2.612 %  
+UD: 340     Gen: 26.23921   Fit: 0.2455651  Orgs: 1413    Spec: 27.18   SWst: 2.371 %  
+UD: 341     Gen: 26.31924   Fit: 0.2456219  Orgs: 1419    Spec: 27.49   SWst: 2.060 %  
+UD: 342     Gen: 26.38710   Fit: 0.2455964  Orgs: 1426    Spec: 27.71   SWst: 1.566 %  
+UD: 343     Gen: 26.45094   Fit: 0.2456355  Orgs: 1437    Spec: 27.69   SWst: 1.594 %  
+UD: 344     Gen: 26.52497   Fit: 0.2456998  Orgs: 1442    Spec: 27.29   SWst: 2.152 %  
+UD: 345     Gen: 26.59157   Fit: 0.2451947  Orgs: 1447    Spec: 27.26   SWst: 2.041 %  
+UD: 346     Gen: 26.65844   Fit: 0.2452604  Orgs: 1458    Spec: 27.59   SWst: 1.401 %  
+UD: 347     Gen: 26.72275   Fit: 0.2451843  Orgs: 1468    Spec: 27.44   SWst: 1.426 %  
+UD: 348     Gen: 26.78876   Fit: 0.2450697  Orgs: 1477    Spec: 27.89   SWst: 1.444 %  
+UD: 349     Gen: 26.87290   Fit: 0.2451355  Orgs: 1487    Spec: 26.92   SWst: 1.737 %  
+UD: 350     Gen: 26.96869   Fit: 0.2452839  Orgs: 1501    Spec: 27.11   SWst: 2.121 %  
+UD: 351     Gen: 27.09492   Fit: 0.2454491  Orgs: 1517    Spec: 27.14   SWst: 2.872 %  
+UD: 352     Gen: 27.20118   Fit: 0.2457409  Orgs: 1526    Spec: 27.39   SWst: 2.368 %  
+UD: 353     Gen: 27.29492   Fit: 0.2456075  Orgs: 1536    Spec: 27.51   SWst: 2.383 %  
+UD: 354     Gen: 27.36593   Fit: 0.2451685  Orgs: 1544    Spec: 27.56   SWst: 1.699 %  
+UD: 355     Gen: 27.43830   Fit: 0.2452980  Orgs: 1556    Spec: 27.68   SWst: 1.748 %  
+UD: 356     Gen: 27.50384   Fit: 0.2453528  Orgs: 1562    Spec: 27.04   SWst: 1.647 %  
+UD: 357     Gen: 27.57506   Fit: 0.2454437  Orgs: 1572    Spec: 27.05   SWst: 1.499 %  
+UD: 358     Gen: 27.63015   Fit: 0.2452043  Orgs: 1579    Spec: 26.90   SWst: 1.699 %  
+UD: 359     Gen: 27.69163   Fit: 0.2450957  Orgs: 1589    Spec: 27.22   SWst: 1.290 %  
+UD: 360     Gen: 27.76063   Fit: 0.2448318  Orgs: 1600    Spec: 27.20   SWst: 1.633 %  
+UD: 361     Gen: 27.84057   Fit: 0.2443792  Orgs: 1612    Spec: 26.52   SWst: 2.275 %  
+UD: 362     Gen: 27.93169   Fit: 0.2447223  Orgs: 1625    Spec: 26.52   SWst: 1.904 %  
+UD: 363     Gen: 28.03659   Fit: 0.2448061  Orgs: 1640    Spec: 26.48   SWst: 2.301 %  
+UD: 364     Gen: 28.14658   Fit: 0.2449516  Orgs: 1651    Spec: 27.22   SWst: 2.453 %  
+UD: 365     Gen: 28.24292   Fit: 0.2448543  Orgs: 1659    Spec: 27.45   SWst: 2.347 %  
+UD: 366     Gen: 28.31254   Fit: 0.2448579  Orgs: 1667    Spec: 27.88   SWst: 1.788 %  
+UD: 367     Gen: 28.38905   Fit: 0.2449810  Orgs: 1681    Spec: 27.69   SWst: 1.793 %  
+UD: 368     Gen: 28.45708   Fit: 0.2449986  Orgs: 1689    Spec: 27.57   SWst: 1.488 %  
+UD: 369     Gen: 28.52802   Fit: 0.2447186  Orgs: 1695    Spec: 27.64   SWst: 1.845 %  
+UD: 370     Gen: 28.59426   Fit: 0.2448131  Orgs: 1708    Spec: 28.15   SWst: 1.587 %  
+UD: 371     Gen: 28.66299   Fit: 0.2448278  Orgs: 1721    Spec: 27.83   SWst: 1.577 %  
+UD: 372     Gen: 28.72132   Fit: 0.2448632  Orgs: 1726    Spec: 28.02   SWst: 1.589 %  
+UD: 373     Gen: 28.80000   Fit: 0.2447774  Orgs: 1735    Spec: 27.61   SWst: 1.645 %  
+UD: 374     Gen: 28.90126   Fit: 0.2447668  Orgs: 1752    Spec: 27.42   SWst: 2.080 %  
+UD: 375     Gen: 29.00847   Fit: 0.2450583  Orgs: 1771    Spec: 27.39   SWst: 2.368 %  
+UD: 376     Gen: 29.12332   Fit: 0.2453081  Orgs: 1784    Spec: 26.93   SWst: 2.371 %  
+UD: 377     Gen: 29.22527   Fit: 0.2454334  Orgs: 1789    Spec: 27.08   SWst: 2.405 %  
+UD: 378     Gen: 29.30372   Fit: 0.2455188  Orgs: 1801    Spec: 27.43   SWst: 1.855 %  
+UD: 379     Gen: 29.36183   Fit: 0.2456907  Orgs: 1813    Spec: 27.34   SWst: 1.281 %  
+UD: 380     Gen: 29.43726   Fit: 0.2456161  Orgs: 1825    Spec: 27.03   SWst: 1.759 %  
+UD: 381     Gen: 29.49946   Fit: 0.2456660  Orgs: 1836    Spec: 27.45   SWst: 1.153 %  
+UD: 382     Gen: 29.57955   Fit: 0.2459384  Orgs: 1848    Spec: 27.48   SWst: 1.751 %  
+UD: 383     Gen: 29.63412   Fit: 0.2459145  Orgs: 1864    Spec: 27.33   SWst: 1.381 %  
+UD: 384     Gen: 29.71612   Fit: 0.2459831  Orgs: 1874    Spec: 27.77   SWst: 2.088 %  
+UD: 385     Gen: 29.78073   Fit: 0.2456108  Orgs: 1879    Spec: 27.63   SWst: 2.173 %  
+UD: 386     Gen: 29.86790   Fit: 0.2457709  Orgs: 1885    Spec: 27.38   SWst: 1.966 %  
+UD: 387     Gen: 29.97320   Fit: 0.2458319  Orgs: 1903    Spec: 27.50   SWst: 2.347 %  
+UD: 388     Gen: 30.09870   Fit: 0.2461171  Orgs: 1925    Spec: 27.45   SWst: 2.265 %  
+UD: 389     Gen: 30.20547   Fit: 0.2461491  Orgs: 1937    Spec: 27.18   SWst: 2.721 %  
+UD: 390     Gen: 30.28292   Fit: 0.2462386  Orgs: 1944    Spec: 27.33   SWst: 1.977 %  
+UD: 391     Gen: 30.34325   Fit: 0.2460675  Orgs: 1949    Spec: 28.03   SWst: 1.625 %  
+UD: 392     Gen: 30.40745   Fit: 0.2460744  Orgs: 1961    Spec: 27.62   SWst: 1.472 %  
+UD: 393     Gen: 30.47411   Fit: 0.2461192  Orgs: 1970    Spec: 27.61   SWst: 1.465 %  
+UD: 394     Gen: 30.54821   Fit: 0.2459833  Orgs: 1981    Spec: 27.60   SWst: 1.822 %  
+UD: 395     Gen: 30.62844   Fit: 0.2461623  Orgs: 1997    Spec: 27.82   SWst: 1.874 %  
+UD: 396     Gen: 30.69442   Fit: 0.2460862  Orgs: 2006    Spec: 27.36   SWst: 2.104 %  
+UD: 397     Gen: 30.76538   Fit: 0.2461320  Orgs: 2016    Spec: 26.83   SWst: 1.599 %  
+UD: 398     Gen: 30.84444   Fit: 0.2459796  Orgs: 2025    Spec: 27.42   SWst: 2.122 %  
+UD: 399     Gen: 30.94322   Fit: 0.2459242  Orgs: 2043    Spec: 27.18   SWst: 2.473 %  
+UD: 400     Gen: 31.04550   Fit: 0.2459370  Orgs: 2066    Spec: 26.84   SWst: 2.044 %  
+229r/all1/25_mxc_1_[1, 2, 3, 4, 6]_date_04-24_22-14-34_xydict_values([120, 120]).txt
+UD: 401     Gen: 31.15288   Fit: 0.2460680  Orgs: 2080    Spec: 26.85   SWst: 2.444 %  
+UD: 402     Gen: 31.24533   Fit: 0.2460659  Orgs: 2087    Spec: 27.01   SWst: 2.487 %  
+UD: 403     Gen: 31.32696   Fit: 0.2461097  Orgs: 2092    Spec: 27.44   SWst: 2.494 %  
+UD: 404     Gen: 31.38231   Fit: 0.2460707  Orgs: 2103    Spec: 27.43   SWst: 1.442 %  
+UD: 405     Gen: 31.45776   Fit: 0.2459845  Orgs: 2119    Spec: 27.09   SWst: 1.439 %  
+UD: 406     Gen: 31.51551   Fit: 0.2459132  Orgs: 2128    Spec: 27.56   SWst: 1.590 %  
+UD: 407     Gen: 31.59282   Fit: 0.2459290  Orgs: 2144    Spec: 27.37   SWst: 1.702 %  
+UD: 408     Gen: 31.66078   Fit: 0.2459955  Orgs: 2152    Spec: 26.76   SWst: 1.901 %  
+UD: 409     Gen: 31.73077   Fit: 0.2460607  Orgs: 2158    Spec: 26.73   SWst: 1.796 %  
+UD: 410     Gen: 31.79429   Fit: 0.2457652  Orgs: 2173    Spec: 26.85   SWst: 1.717 %  
+UD: 411     Gen: 31.89067   Fit: 0.2454387  Orgs: 2186    Spec: 27.12   SWst: 2.060 %  
+UD: 412     Gen: 31.98413   Fit: 0.2455523  Orgs: 2205    Spec: 26.76   SWst: 2.015 %  
+UD: 413     Gen: 32.09605   Fit: 0.2456675  Orgs: 2228    Spec: 26.77   SWst: 2.587 %  
+UD: 414     Gen: 32.19099   Fit: 0.2456600  Orgs: 2241    Spec: 26.96   SWst: 1.810 %  
+UD: 415     Gen: 32.27135   Fit: 0.2456901  Orgs: 2248    Spec: 26.96   SWst: 2.135 %  
+UD: 416     Gen: 32.34058   Fit: 0.2458894  Orgs: 2255    Spec: 27.08   SWst: 1.595 %  
+UD: 417     Gen: 32.42247   Fit: 0.2460730  Orgs: 2270    Spec: 27.57   SWst: 1.623 %  
+UD: 418     Gen: 32.48970   Fit: 0.2462276  Orgs: 2281    Spec: 27.62   SWst: 1.399 %  
+UD: 419     Gen: 32.55580   Fit: 0.2462923  Orgs: 2294    Spec: 27.69   SWst: 1.869 %  
+UD: 420     Gen: 32.62364   Fit: 0.2465182  Orgs: 2301    Spec: 27.71   SWst: 1.899 %  
+UD: 421     Gen: 32.70134   Fit: 0.2465325  Orgs: 2307    Spec: 27.57   SWst: 1.484 %  
+UD: 422     Gen: 32.76090   Fit: 0.2465527  Orgs: 2317    Spec: 27.26   SWst: 1.565 %  
+UD: 423     Gen: 32.83791   Fit: 0.2465770  Orgs: 2332    Spec: 26.84   SWst: 1.658 %  
+UD: 424     Gen: 32.94572   Fit: 0.2466922  Orgs: 2358    Spec: 26.42   SWst: 2.139 %  
+UD: 425     Gen: 33.05523   Fit: 0.2467823  Orgs: 2372    Spec: 26.38   SWst: 2.624 %  
+UD: 426     Gen: 33.16730   Fit: 0.2468861  Orgs: 2385    Spec: 26.25   SWst: 2.967 %  
+UD: 427     Gen: 33.25240   Fit: 0.2469994  Orgs: 2397    Spec: 26.16   SWst: 1.952 %  
+UD: 428     Gen: 33.32131   Fit: 0.2471312  Orgs: 2412    Spec: 26.65   SWst: 1.674 %  
+UD: 429     Gen: 33.39818   Fit: 0.2471544  Orgs: 2421    Spec: 26.52   SWst: 2.024 %  
+UD: 430     Gen: 33.48230   Fit: 0.2468845  Orgs: 2430    Spec: 26.66   SWst: 2.003 %  
+UD: 431     Gen: 33.54225   Fit: 0.2468823  Orgs: 2438    Spec: 26.85   SWst: 1.511 %  
+UD: 432     Gen: 33.61868   Fit: 0.2468458  Orgs: 2452    Spec: 27.08   SWst: 1.576 %  
+UD: 433     Gen: 33.68984   Fit: 0.2468926  Orgs: 2460    Spec: 26.99   SWst: 1.932 %  
+UD: 434     Gen: 33.75909   Fit: 0.2468013  Orgs: 2474    Spec: 26.98   SWst: 1.535 %  
+UD: 435     Gen: 33.83883   Fit: 0.2468832  Orgs: 2488    Spec: 27.10   SWst: 2.209 %  
+UD: 436     Gen: 33.91673   Fit: 0.2469519  Orgs: 2510    Spec: 26.70   SWst: 1.588 %  
+UD: 437     Gen: 34.02738   Fit: 0.2471178  Orgs: 2520    Spec: 26.32   SWst: 2.692 %  
+UD: 438     Gen: 34.12391   Fit: 0.2472559  Orgs: 2534    Spec: 26.19   SWst: 2.430 %  
+UD: 439     Gen: 34.22859   Fit: 0.2473530  Orgs: 2546    Spec: 26.26   SWst: 2.944 %  
+UD: 440     Gen: 34.30187   Fit: 0.2472107  Orgs: 2564    Spec: 26.24   SWst: 1.681 %  
+UD: 441     Gen: 34.38695   Fit: 0.2474018  Orgs: 2574    Spec: 26.46   SWst: 2.095 %  
+UD: 442     Gen: 34.46032   Fit: 0.2475009  Orgs: 2583    Spec: 26.52   SWst: 1.790 %  
+UD: 443     Gen: 34.53974   Fit: 0.2474457  Orgs: 2592    Spec: 26.58   SWst: 1.872 %  
+UD: 444     Gen: 34.59477   Fit: 0.2472426  Orgs: 2601    Spec: 26.67   SWst: 1.512 %  
+UD: 445     Gen: 34.66935   Fit: 0.2474724  Orgs: 2604    Spec: 26.82   SWst: 1.701 %  
+UD: 446     Gen: 34.73356   Fit: 0.2471923  Orgs: 2616    Spec: 26.44   SWst: 1.800 %  
+UD: 447     Gen: 34.80684   Fit: 0.2470157  Orgs: 2630    Spec: 26.75   SWst: 1.573 %  
+UD: 448     Gen: 34.88637   Fit: 0.2469467  Orgs: 2649    Spec: 26.48   SWst: 1.874 %  
+UD: 449     Gen: 34.98043   Fit: 0.2470721  Orgs: 2657    Spec: 26.42   SWst: 2.027 %  
+UD: 450     Gen: 35.08567   Fit: 0.2469919  Orgs: 2673    Spec: 25.96   SWst: 2.500 %  
+UD: 451     Gen: 35.20431   Fit: 0.2471179  Orgs: 2692    Spec: 26.04   SWst: 2.922 %  
+UD: 452     Gen: 35.28614   Fit: 0.2469061  Orgs: 2705    Spec: 26.44   SWst: 2.269 %  
+UD: 453     Gen: 35.36594   Fit: 0.2467162  Orgs: 2719    Spec: 27.03   SWst: 2.224 %  
+UD: 454     Gen: 35.44355   Fit: 0.2468462  Orgs: 2728    Spec: 27.19   SWst: 2.011 %  
+UD: 455     Gen: 35.52570   Fit: 0.2469958  Orgs: 2743    Spec: 27.05   SWst: 1.967 %  
+UD: 456     Gen: 35.56951   Fit: 0.2468712  Orgs: 2748    Spec: 27.17   SWst: 1.141 %  
+UD: 457     Gen: 35.62005   Fit: 0.2469594  Orgs: 2753    Spec: 27.04   SWst: 1.250 %  
+UD: 458     Gen: 35.68666   Fit: 0.2469890  Orgs: 2767    Spec: 26.99   SWst: 1.517 %  
+UD: 459     Gen: 35.75512   Fit: 0.2469739  Orgs: 2781    Spec: 27.02   SWst: 1.736 %  
+UD: 460     Gen: 35.81782   Fit: 0.2466945  Orgs: 2794    Spec: 26.40   SWst: 1.774 %  
+UD: 461     Gen: 35.90278   Fit: 0.2467424  Orgs: 2808    Spec: 26.34   SWst: 2.045 %  
+UD: 462     Gen: 36.00744   Fit: 0.2465819  Orgs: 2823    Spec: 26.17   SWst: 2.153 %  
+UD: 463     Gen: 36.11990   Fit: 0.2468444  Orgs: 2844    Spec: 25.95   SWst: 2.743 %  
+UD: 464     Gen: 36.22114   Fit: 0.2468188  Orgs: 2867    Spec: 26.03   SWst: 2.282 %  
+UD: 465     Gen: 36.31451   Fit: 0.2469509  Orgs: 2887    Spec: 26.54   SWst: 2.429 %  
+UD: 466     Gen: 36.39027   Fit: 0.2469730  Orgs: 2898    Spec: 26.68   SWst: 1.942 %  
+UD: 467     Gen: 36.46632   Fit: 0.2470268  Orgs: 2910    Spec: 26.83   SWst: 2.023 %  
+UD: 468     Gen: 36.52107   Fit: 0.2468333  Orgs: 2919    Spec: 26.79   SWst: 1.564 %  
+UD: 469     Gen: 36.58995   Fit: 0.2470294  Orgs: 2924    Spec: 26.32   SWst: 1.296 %  
+UD: 470     Gen: 36.64439   Fit: 0.2469674  Orgs: 2933    Spec: 26.74   SWst: 1.271 %  
+UD: 471     Gen: 36.70638   Fit: 0.2469870  Orgs: 2946    Spec: 26.85   SWst: 1.412 %  
+UD: 472     Gen: 36.77766   Fit: 0.2467798  Orgs: 2955    Spec: 26.50   SWst: 1.672 %  
+UD: 473     Gen: 36.86114   Fit: 0.2468332  Orgs: 2967    Spec: 26.56   SWst: 1.900 %  
+UD: 474     Gen: 36.95847   Fit: 0.2468897  Orgs: 2986    Spec: 25.94   SWst: 2.294 %  
+UD: 475     Gen: 37.08325   Fit: 0.2472150  Orgs: 3003    Spec: 25.61   SWst: 2.809 %  
+UD: 476     Gen: 37.18434   Fit: 0.2471516  Orgs: 3027    Spec: 25.95   SWst: 2.717 %  
+UD: 477     Gen: 37.28210   Fit: 0.2472282  Orgs: 3045    Spec: 26.01   SWst: 2.502 %  
+UD: 478     Gen: 37.37810   Fit: 0.2472774  Orgs: 3060    Spec: 25.72   SWst: 2.751 %  
+UD: 479     Gen: 37.43974   Fit: 0.2471357  Orgs: 3070    Spec: 25.92   SWst: 1.446 %  
+UD: 480     Gen: 37.50195   Fit: 0.2471303  Orgs: 3082    Spec: 26.29   SWst: 1.642 %  
+UD: 481     Gen: 37.54908   Fit: 0.2469680  Orgs: 3087    Spec: 26.44   SWst: 1.391 %  
+UD: 482     Gen: 37.60000   Fit: 0.2472247  Orgs: 3090    Spec: 26.66   SWst: 1.282 %  
+UD: 483     Gen: 37.67032   Fit: 0.2472505  Orgs: 3103    Spec: 26.49   SWst: 1.728 %  
+UD: 484     Gen: 37.73102   Fit: 0.2470490  Orgs: 3108    Spec: 26.78   SWst: 1.116 %  
+UD: 485     Gen: 37.80442   Fit: 0.2468992  Orgs: 3119    Spec: 26.52   SWst: 1.709 %  
+UD: 486     Gen: 37.89771   Fit: 0.2469031  Orgs: 3138    Spec: 26.34   SWst: 2.334 %  
+UD: 487     Gen: 38.00222   Fit: 0.2469634  Orgs: 3156    Spec: 25.76   SWst: 2.336 %  
+UD: 488     Gen: 38.12087   Fit: 0.2469859  Orgs: 3177    Spec: 25.67   SWst: 2.710 %  
+UD: 489     Gen: 38.22822   Fit: 0.2470464  Orgs: 3203    Spec: 25.78   SWst: 2.563 %  
+UD: 490     Gen: 38.33302   Fit: 0.2469243  Orgs: 3219    Spec: 25.70   SWst: 2.763 %  
+UD: 491     Gen: 38.40775   Fit: 0.2469605  Orgs: 3225    Spec: 26.29   SWst: 1.988 %  
+UD: 492     Gen: 38.47373   Fit: 0.2470047  Orgs: 3236    Spec: 26.59   SWst: 1.896 %  
+UD: 493     Gen: 38.52845   Fit: 0.2468874  Orgs: 3251    Spec: 26.26   SWst: 1.442 %  
+UD: 494     Gen: 38.58477   Fit: 0.2469195  Orgs: 3256    Spec: 26.31   SWst: 1.415 %  
+UD: 495     Gen: 38.65135   Fit: 0.2469057  Orgs: 3264    Spec: 26.25   SWst: 1.652 %  
+UD: 496     Gen: 38.71930   Fit: 0.2469787  Orgs: 3274    Spec: 26.17   SWst: 1.595 %  
+UD: 497     Gen: 38.78704   Fit: 0.2466911  Orgs: 3287    Spec: 26.37   SWst: 1.432 %  
+UD: 498     Gen: 38.86618   Fit: 0.2467160  Orgs: 3303    Spec: 26.43   SWst: 1.718 %  
+UD: 499     Gen: 38.97020   Fit: 0.2467161  Orgs: 3322    Spec: 26.10   SWst: 2.408 %  
+UD: 500     Gen: 39.08880   Fit: 0.2467149  Orgs: 3356    Spec: 25.65   SWst: 2.420 %  
+229r/all1/25_mxc_1_[1, 2, 3, 4, 6]_date_04-24_22-14-34_xydict_values([120, 120]).txt
+UD: 501     Gen: 39.20337   Fit: 0.2469238  Orgs: 3378    Spec: 25.85   SWst: 2.890 %  
+UD: 502     Gen: 39.29682   Fit: 0.2469792  Orgs: 3396    Spec: 25.98   SWst: 2.547 %  
+UD: 503     Gen: 39.38471   Fit: 0.2468490  Orgs: 3413    Spec: 25.96   SWst: 2.101 %  
+UD: 504     Gen: 39.45853   Fit: 0.2467206  Orgs: 3424    Spec: 26.53   SWst: 2.264 %  
+UD: 505     Gen: 39.51210   Fit: 0.2467997  Orgs: 3431    Spec: 26.64   SWst: 1.557 %  
+UD: 506     Gen: 39.58045   Fit: 0.2469366  Orgs: 3437    Spec: 26.79   SWst: 1.952 %  
+UD: 507     Gen: 39.64056   Fit: 0.2469505  Orgs: 3447    Spec: 26.39   SWst: 1.613 %  
+UD: 508     Gen: 39.70784   Fit: 0.2468553  Orgs: 3457    Spec: 26.51   SWst: 1.428 %  
+UD: 509     Gen: 39.77163   Fit: 0.2469064  Orgs: 3468    Spec: 26.79   SWst: 1.681 %  
+UD: 510     Gen: 39.84971   Fit: 0.2468108  Orgs: 3480    Spec: 26.57   SWst: 1.945 %  
+UD: 511     Gen: 39.94165   Fit: 0.2470850  Orgs: 3496    Spec: 26.23   SWst: 1.890 %  
+UD: 512     Gen: 40.05936   Fit: 0.2469124  Orgs: 3521    Spec: 25.83   SWst: 2.379 %  
+UD: 513     Gen: 40.18828   Fit: 0.2470937  Orgs: 3548    Spec: 26.12   SWst: 2.688 %  
+UD: 514     Gen: 40.27988   Fit: 0.2471303  Orgs: 3573    Spec: 26.13   SWst: 2.194 %  
+UD: 515     Gen: 40.36181   Fit: 0.2471944  Orgs: 3593    Spec: 26.08   SWst: 2.441 %  
+UD: 516     Gen: 40.43627   Fit: 0.2472299  Orgs: 3601    Spec: 26.31   SWst: 2.184 %  
+UD: 517     Gen: 40.50553   Fit: 0.2471998  Orgs: 3614    Spec: 26.44   SWst: 1.881 %  
+UD: 518     Gen: 40.55908   Fit: 0.2471447  Orgs: 3622    Spec: 26.39   SWst: 1.310 %  
+UD: 519     Gen: 40.62015   Fit: 0.2473118  Orgs: 3633    Spec: 26.55   SWst: 1.251 %  
+UD: 520     Gen: 40.67955   Fit: 0.2472442  Orgs: 3648    Spec: 26.21   SWst: 1.423 %  
+UD: 521     Gen: 40.76155   Fit: 0.2471824  Orgs: 3657    Spec: 26.34   SWst: 1.815 %  
+UD: 522     Gen: 40.84211   Fit: 0.2473162  Orgs: 3667    Spec: 26.19   SWst: 1.835 %  
+UD: 523     Gen: 40.92989   Fit: 0.2473408  Orgs: 3680    Spec: 25.68   SWst: 1.992 %  
+UD: 524     Gen: 41.03506   Fit: 0.2474372  Orgs: 3708    Spec: 25.73   SWst: 2.293 %  
+UD: 525     Gen: 41.15508   Fit: 0.2472605  Orgs: 3740    Spec: 25.27   SWst: 2.608 %  
+UD: 526     Gen: 41.24900   Fit: 0.2473265  Orgs: 3767    Spec: 25.66   SWst: 2.264 %  
+UD: 527     Gen: 41.33571   Fit: 0.2471571  Orgs: 3786    Spec: 26.21   SWst: 2.286 %  
+UD: 528     Gen: 41.42112   Fit: 0.2472752  Orgs: 3797    Spec: 25.88   SWst: 2.389 %  
+UD: 529     Gen: 41.49186   Fit: 0.2472142  Orgs: 3808    Spec: 26.39   SWst: 1.828 %  
+UD: 530     Gen: 41.54572   Fit: 0.2471957  Orgs: 3817    Spec: 26.29   SWst: 1.474 %  
+UD: 531     Gen: 41.59248   Fit: 0.2470270  Orgs: 3828    Spec: 26.79   SWst: 1.353 %  
+UD: 532     Gen: 41.65571   Fit: 0.2470377  Orgs: 3834    Spec: 26.66   SWst: 1.605 %  
+UD: 533     Gen: 41.72623   Fit: 0.2469097  Orgs: 3850    Spec: 26.44   SWst: 1.721 %  
+UD: 534     Gen: 41.80083   Fit: 0.2467796  Orgs: 3861    Spec: 26.56   SWst: 1.719 %  
+UD: 535     Gen: 41.88995   Fit: 0.2468018  Orgs: 3880    Spec: 26.33   SWst: 1.965 %  
+UD: 536     Gen: 42.00230   Fit: 0.2469404  Orgs: 3905    Spec: 25.81   SWst: 2.370 %  
+UD: 537     Gen: 42.11762   Fit: 0.2472579  Orgs: 3928    Spec: 25.76   SWst: 2.424 %  
+UD: 538     Gen: 42.22632   Fit: 0.2471517  Orgs: 3959    Spec: 25.85   SWst: 2.501 %  
+UD: 539     Gen: 42.31401   Fit: 0.2470130  Orgs: 3968    Spec: 26.22   SWst: 2.151 %  
+UD: 540     Gen: 42.39578   Fit: 0.2467887  Orgs: 3982    Spec: 26.00   SWst: 2.319 %  
+UD: 541     Gen: 42.46798   Fit: 0.2467738  Orgs: 3998    Spec: 26.29   SWst: 2.044 %  
+UD: 542     Gen: 42.52618   Fit: 0.2466789  Orgs: 4010    Spec: 26.11   SWst: 1.695 %  
+UD: 543     Gen: 42.58197   Fit: 0.2466934  Orgs: 4026    Spec: 26.49   SWst: 1.325 %  
+UD: 544     Gen: 42.64479   Fit: 0.2466540  Orgs: 4037    Spec: 26.63   SWst: 1.604 %  
+UD: 545     Gen: 42.70676   Fit: 0.2467552  Orgs: 4041    Spec: 26.35   SWst: 1.509 %  
+UD: 546     Gen: 42.78312   Fit: 0.2467369  Orgs: 4053    Spec: 25.84   SWst: 2.026 %  
+UD: 547     Gen: 42.87958   Fit: 0.2468853  Orgs: 4069    Spec: 25.72   SWst: 1.932 %  
+UD: 548     Gen: 42.98681   Fit: 0.2469912  Orgs: 4093    Spec: 25.18   SWst: 2.341 %  
+UD: 549     Gen: 43.09898   Fit: 0.2471715  Orgs: 4132    Spec: 25.16   SWst: 2.261 %  
+UD: 550     Gen: 43.19523   Fit: 0.2472671  Orgs: 4149    Spec: 25.47   SWst: 2.284 %  
+UD: 551     Gen: 43.29312   Fit: 0.2472081  Orgs: 4169    Spec: 25.79   SWst: 2.244 %  
+UD: 552     Gen: 43.36268   Fit: 0.2473087  Orgs: 4180    Spec: 25.74   SWst: 1.772 %  
+UD: 553     Gen: 43.43379   Fit: 0.2473293  Orgs: 4191    Spec: 26.14   SWst: 2.036 %  
+UD: 554     Gen: 43.50095   Fit: 0.2473198  Orgs: 4200    Spec: 26.08   SWst: 1.978 %  
+UD: 555     Gen: 43.55695   Fit: 0.2474476  Orgs: 4214    Spec: 26.03   SWst: 1.572 %  
+UD: 556     Gen: 43.62293   Fit: 0.2474722  Orgs: 4230    Spec: 26.24   SWst: 1.608 %  
+UD: 557     Gen: 43.69145   Fit: 0.2475777  Orgs: 4236    Spec: 26.55   SWst: 1.682 %  
+UD: 558     Gen: 43.76223   Fit: 0.2474166  Orgs: 4252    Spec: 26.36   SWst: 1.658 %  
+UD: 559     Gen: 43.84379   Fit: 0.2475477  Orgs: 4270    Spec: 26.13   SWst: 1.983 %  
+UD: 560     Gen: 43.95711   Fit: 0.2476329  Orgs: 4290    Spec: 25.98   SWst: 2.751 %  
+UD: 561     Gen: 44.07507   Fit: 0.2478950  Orgs: 4316    Spec: 25.40   SWst: 2.355 %  
+UD: 562     Gen: 44.17715   Fit: 0.2479872  Orgs: 4341    Spec: 25.68   SWst: 2.647 %  
+UD: 563     Gen: 44.27713   Fit: 0.2480642  Orgs: 4359    Spec: 25.81   SWst: 2.364 %  
+UD: 564     Gen: 44.35665   Fit: 0.2477568  Orgs: 4374    Spec: 25.90   SWst: 2.157 %  
+UD: 565     Gen: 44.42463   Fit: 0.2477684  Orgs: 4385    Spec: 26.08   SWst: 1.808 %  
+UD: 566     Gen: 44.49159   Fit: 0.2476640  Orgs: 4400    Spec: 26.13   SWst: 1.725 %  
+UD: 567     Gen: 44.55626   Fit: 0.2476630  Orgs: 4417    Spec: 25.90   SWst: 1.773 %  
+UD: 568     Gen: 44.61584   Fit: 0.2476407  Orgs: 4433    Spec: 25.89   SWst: 1.584 %  
+UD: 569     Gen: 44.68152   Fit: 0.2476571  Orgs: 4443    Spec: 26.43   SWst: 1.956 %  
+UD: 570     Gen: 44.75112   Fit: 0.2476888  Orgs: 4464    Spec: 26.17   SWst: 1.635 %  
+UD: 571     Gen: 44.83840   Fit: 0.2477252  Orgs: 4474    Spec: 26.02   SWst: 2.110 %  
+UD: 572     Gen: 44.94146   Fit: 0.2478328  Orgs: 4493    Spec: 25.56   SWst: 2.393 %  
+UD: 573     Gen: 45.03873   Fit: 0.2478365  Orgs: 4519    Spec: 25.48   SWst: 2.059 %  
+UD: 574     Gen: 45.13906   Fit: 0.2477851  Orgs: 4552    Spec: 25.63   SWst: 2.221 %  
+UD: 575     Gen: 45.23365   Fit: 0.2478767  Orgs: 4571    Spec: 25.72   SWst: 2.307 %  
+UD: 576     Gen: 45.30939   Fit: 0.2478432  Orgs: 4580    Spec: 25.67   SWst: 2.075 %  
+UD: 577     Gen: 45.38303   Fit: 0.2478823  Orgs: 4595    Spec: 25.79   SWst: 2.067 %  
