@@ -1,0 +1,125 @@
+{'NOT': 1, 'NAND': 1, 'AND': 2, 'ORN': 2, 'OR': 3, 'ANDN': 3, 'NOR': 4, 'XOR': 4, 'EQU': 5}
+{'x': 120, 'y': 120}
+Avida 2.14.0
+--------------------------------------------------------------------------------
+by Charles Ofria
+Lead Developer: David M. Bryson
+
+Active developers include:
+Aaron P. Wagner and Anya E. Johnson
+For a more complete list of contributors, see the AUTHORS file.
+
+Copyright 1999-2014 Michigan State University.
+Copyright 1993-2003 California Institute of Technology.
+
+Avida comes with ABSOLUTELY NO WARRANTY.
+This is free software, and you are welcome to redistribute it under certain
+conditions. See file COPYING for details.
+
+For more information, see: http://avida.devosoft.org/
+--------------------------------------------------------------------------------
+
+Random Seed: -1 -> 80713156
+Data Directory: /Users/albertzhang/GitHub/avida/cbuild_changed/work/data/
+
+UD: 0       Gen: 0.000000   Fit: 0.000000   Orgs: 1       Spec: 32.00   SWst: 0.000 %  
+UD: 100     Gen: 7.329114   Fit: 0.2424545  Orgs: 79      Spec: 31.15   SWst: 0.2532%  
+UD: 200     Gen: 15.20915   Fit: 0.2428310  Orgs: 459     Spec: 27.16   SWst: 2.709 %  
+UD: 300     Gen: 23.07231   Fit: 0.2435538  Orgs: 1134    Spec: 27.46   SWst: 2.334 %  
+UD: 400     Gen: 30.94012   Fit: 0.2450241  Orgs: 2121    Spec: 26.87   SWst: 1.685 %  
+UD: 500     Gen: 38.76415   Fit: 0.2456915  Orgs: 3409    Spec: 26.42   SWst: 2.334 %  
+UD: 600     Gen: 46.61577   Fit: 0.2474943  Orgs: 5023    Spec: 26.12   SWst: 1.784 %  
+UD: 700     Gen: 54.52988   Fit: 0.2500292  Orgs: 6962    Spec: 25.79   SWst: 2.212 %  
+UD: 800     Gen: 62.69552   Fit: 0.2569661  Orgs: 9278    Spec: 25.03   SWst: 2.032 %  
+UD: 900     Gen: 71.34233   Fit: 0.2685395  Orgs: 11936   Spec: 25.39   SWst: 2.057 %  
+UD: 1000    Gen: 80.24891   Fit: 0.2821585  Orgs: 13527   Spec: 23.96   SWst: 2.096 %  
+UD: 1100    Gen: 93.23243   Fit: 0.6957098  Orgs: 14129   Spec: 19.47   SWst: 2.001 %  
+UD: 1200    Gen: 136.7264   Fit: 4.090711   Orgs: 14194   Spec: 15.92   SWst: 1.981 %  
+UD: 1300    Gen: 183.8612   Fit: 8.130446   Orgs: 14309   Spec: 16.04   SWst: 1.983 %  
+UD: 1400    Gen: 245.2427   Fit: 45.61514   Orgs: 14382   Spec: 17.01   SWst: 1.913 %  
+UD: 1500    Gen: 297.9421   Fit: 74.71293   Orgs: 14381   Spec: 16.44   SWst: 2.106 %  
+UD: 1600    Gen: 349.4165   Fit: 108.4762   Orgs: 14384   Spec: 16.14   SWst: 2.322 %  
+UD: 1700    Gen: 395.3632   Fit: 136.6844   Orgs: 14382   Spec: 16.02   SWst: 2.140 %  
+UD: 1800    Gen: 439.2652   Fit: 163.2257   Orgs: 14380   Spec: 16.14   SWst: 2.032 %  
+UD: 1900    Gen: 480.0816   Fit: 189.7316   Orgs: 14373   Spec: 16.24   SWst: 1.922 %  
+UD: 2000    Gen: 519.1167   Fit: 215.1289   Orgs: 14358   Spec: 16.16   SWst: 1.884 %  
+UD: 2100    Gen: 552.5676   Fit: 240.6686   Orgs: 14375   Spec: 16.01   SWst: 2.027 %  
+UD: 2200    Gen: 585.4470   Fit: 268.0226   Orgs: 14379   Spec: 16.05   SWst: 1.972 %  
+UD: 2300    Gen: 614.9036   Fit: 290.9861   Orgs: 14377   Spec: 16.01   SWst: 1.918 %  
+UD: 2400    Gen: 643.9546   Fit: 309.0598   Orgs: 14382   Spec: 15.89   SWst: 2.083 %  
+UD: 2500    Gen: 672.1093   Fit: 384.5562   Orgs: 14370   Spec: 15.29   SWst: 1.920 %  
+UD: 2600    Gen: 709.2314   Fit: 717.6270   Orgs: 14374   Spec: 14.91   SWst: 1.768 %  
+UD: 2700    Gen: 750.2477   Fit: 1028.120   Orgs: 14384   Spec: 14.64   SWst: 1.906 %  
+UD: 2800    Gen: 789.8843   Fit: 1365.613   Orgs: 14385   Spec: 14.77   SWst: 1.764 %  
+UD: 2900    Gen: 827.0211   Fit: 1656.303   Orgs: 14381   Spec: 14.32   SWst: 1.952 %  
+UD: 3000    Gen: 862.7354   Fit: 1930.216   Orgs: 14375   Spec: 14.83   SWst: 1.552 %  
+UD: 3100    Gen: 895.2199   Fit: 2118.731   Orgs: 14374   Spec: 14.89   SWst: 1.482 %  
+UD: 3200    Gen: 926.2248   Fit: 2310.253   Orgs: 14370   Spec: 13.81   SWst: 1.717 %  
+UD: 3300    Gen: 954.5932   Fit: 2465.514   Orgs: 14367   Spec: 14.57   SWst: 1.564 %  
+UD: 3400    Gen: 978.3148   Fit: 2598.488   Orgs: 14364   Spec: 14.43   SWst: 1.579 %  
+UD: 3500    Gen: 998.8258   Fit: 2683.100   Orgs: 14372   Spec: 14.80   SWst: 1.599 %  
+UD: 3600    Gen: 1018.416   Fit: 2705.014   Orgs: 14377   Spec: 14.67   SWst: 1.639 %  
+UD: 3700    Gen: 1034.251   Fit: 2800.157   Orgs: 14375   Spec: 14.93   SWst: 1.493 %  
+UD: 3800    Gen: 1049.527   Fit: 2852.634   Orgs: 14374   Spec: 15.32   SWst: 1.459 %  
+UD: 3900    Gen: 1063.293   Fit: 2881.531   Orgs: 14371   Spec: 15.01   SWst: 1.507 %  
+UD: 4000    Gen: 1077.068   Fit: 2861.662   Orgs: 14376   Spec: 15.01   SWst: 1.451 %  
+UD: 4100    Gen: 1090.753   Fit: 2914.415   Orgs: 14377   Spec: 14.85   SWst: 1.510 %  
+UD: 4200    Gen: 1104.064   Fit: 2984.535   Orgs: 14365   Spec: 15.25   SWst: 1.502 %  
+UD: 4300    Gen: 1116.152   Fit: 2986.844   Orgs: 14376   Spec: 14.83   SWst: 1.493 %  
+UD: 4400    Gen: 1127.656   Fit: 2953.605   Orgs: 14372   Spec: 14.80   SWst: 1.566 %  
+UD: 4500    Gen: 1139.206   Fit: 2956.840   Orgs: 14373   Spec: 15.22   SWst: 1.655 %  
+UD: 4600    Gen: 1150.863   Fit: 3044.890   Orgs: 14372   Spec: 14.73   SWst: 1.730 %  
+UD: 4700    Gen: 1162.641   Fit: 2998.981   Orgs: 14366   Spec: 14.69   SWst: 1.484 %  
+UD: 4800    Gen: 1174.890   Fit: 3034.331   Orgs: 14375   Spec: 14.21   SWst: 1.614 %  
+UD: 4900    Gen: 1186.819   Fit: 2999.273   Orgs: 14375   Spec: 14.31   SWst: 1.787 %  
+UD: 5000    Gen: 1198.883   Fit: 3006.927   Orgs: 14381   Spec: 14.28   SWst: 1.609 %  
+UD: 5100    Gen: 1211.282   Fit: 3003.277   Orgs: 14375   Spec: 14.24   SWst: 1.657 %  
+UD: 5200    Gen: 1223.863   Fit: 3045.385   Orgs: 14376   Spec: 14.34   SWst: 1.828 %  
+UD: 5300    Gen: 1236.656   Fit: 3011.957   Orgs: 14374   Spec: 14.09   SWst: 1.570 %  
+UD: 5400    Gen: 1249.581   Fit: 3046.137   Orgs: 14382   Spec: 14.11   SWst: 1.772 %  
+UD: 5500    Gen: 1262.923   Fit: 3100.354   Orgs: 14381   Spec: 13.71   SWst: 1.816 %  
+UD: 5600    Gen: 1276.698   Fit: 3143.470   Orgs: 14381   Spec: 13.69   SWst: 1.903 %  
+UD: 5700    Gen: 1290.453   Fit: 3107.937   Orgs: 14383   Spec: 14.50   SWst: 1.599 %  
+UD: 5800    Gen: 1304.002   Fit: 3143.839   Orgs: 14371   Spec: 14.28   SWst: 1.616 %  
+UD: 5900    Gen: 1317.673   Fit: 3165.988   Orgs: 14378   Spec: 13.93   SWst: 1.790 %  
+UD: 6000    Gen: 1331.802   Fit: 3186.560   Orgs: 14382   Spec: 14.38   SWst: 1.754 %  
+UD: 6100    Gen: 1346.581   Fit: 3194.607   Orgs: 14378   Spec: 14.20   SWst: 1.708 %  
+UD: 6200    Gen: 1360.880   Fit: 3185.212   Orgs: 14371   Spec: 13.84   SWst: 1.739 %  
+UD: 6300    Gen: 1376.419   Fit: 3228.351   Orgs: 14383   Spec: 13.83   SWst: 1.773 %  
+UD: 6400    Gen: 1390.985   Fit: 3250.701   Orgs: 14375   Spec: 13.80   SWst: 1.811 %  
+UD: 6500    Gen: 1405.813   Fit: 3295.660   Orgs: 14381   Spec: 13.77   SWst: 1.977 %  
+UD: 6600    Gen: 1421.855   Fit: 3317.923   Orgs: 14378   Spec: 13.93   SWst: 1.947 %  
+UD: 6700    Gen: 1437.452   Fit: 3345.874   Orgs: 14370   Spec: 14.48   SWst: 1.881 %  
+UD: 6800    Gen: 1454.033   Fit: 3369.692   Orgs: 14379   Spec: 14.19   SWst: 1.881 %  
+UD: 6900    Gen: 1470.810   Fit: 3387.669   Orgs: 14385   Spec: 14.44   SWst: 1.915 %  
+UD: 7000    Gen: 1487.580   Fit: 3470.820   Orgs: 14386   Spec: 13.98   SWst: 1.985 %  
+UD: 7100    Gen: 1504.574   Fit: 3441.076   Orgs: 14382   Spec: 13.66   SWst: 1.924 %  
+UD: 7200    Gen: 1520.287   Fit: 3469.453   Orgs: 14364   Spec: 14.20   SWst: 1.960 %  
+UD: 7300    Gen: 1538.598   Fit: 3442.512   Orgs: 14370   Spec: 13.61   SWst: 2.133 %  
+UD: 7400    Gen: 1555.402   Fit: 3494.655   Orgs: 14388   Spec: 13.42   SWst: 1.967 %  
+UD: 7500    Gen: 1574.219   Fit: 3570.955   Orgs: 14370   Spec: 14.05   SWst: 1.816 %  
+UD: 7600    Gen: 1592.022   Fit: 3611.973   Orgs: 14382   Spec: 13.78   SWst: 2.009 %  
+UD: 7700    Gen: 1610.102   Fit: 3626.543   Orgs: 14376   Spec: 13.91   SWst: 1.890 %  
+UD: 7800    Gen: 1629.618   Fit: 3698.510   Orgs: 14379   Spec: 13.65   SWst: 1.881 %  
+UD: 7900    Gen: 1646.452   Fit: 3730.922   Orgs: 14375   Spec: 13.48   SWst: 1.902 %  
+UD: 8000    Gen: 1669.184   Fit: 3764.196   Orgs: 14377   Spec: 13.09   SWst: 2.137 %  
+UD: 8100    Gen: 1689.092   Fit: 3861.231   Orgs: 14375   Spec: 13.62   SWst: 2.096 %  
+UD: 8200    Gen: 1707.585   Fit: 3828.200   Orgs: 14385   Spec: 12.77   SWst: 1.826 %  
+UD: 8300    Gen: 1726.591   Fit: 3825.767   Orgs: 14379   Spec: 13.35   SWst: 2.039 %  
+UD: 8400    Gen: 1744.428   Fit: 3924.421   Orgs: 14383   Spec: 12.89   SWst: 1.930 %  
+UD: 8500    Gen: 1765.093   Fit: 3934.836   Orgs: 14388   Spec: 12.73   SWst: 1.868 %  
+UD: 8600    Gen: 1783.334   Fit: 3957.233   Orgs: 14381   Spec: 12.68   SWst: 2.038 %  
+UD: 8700    Gen: 1801.098   Fit: 3997.620   Orgs: 14378   Spec: 13.23   SWst: 2.151 %  
+UD: 8800    Gen: 1819.905   Fit: 4014.885   Orgs: 14375   Spec: 12.80   SWst: 2.064 %  
+UD: 8900    Gen: 1837.116   Fit: 4013.081   Orgs: 14377   Spec: 13.04   SWst: 2.075 %  
+UD: 9000    Gen: 1853.753   Fit: 4028.461   Orgs: 14379   Spec: 12.86   SWst: 2.053 %  
+UD: 9100    Gen: 1871.017   Fit: 4024.499   Orgs: 14383   Spec: 12.81   SWst: 2.115 %  
+UD: 9200    Gen: 1887.066   Fit: 4063.924   Orgs: 14390   Spec: 13.09   SWst: 2.153 %  
+UD: 9300    Gen: 1905.343   Fit: 4114.587   Orgs: 14380   Spec: 12.76   SWst: 2.139 %  
+UD: 9400    Gen: 1922.376   Fit: 4117.493   Orgs: 14387   Spec: 12.62   SWst: 2.056 %  
+UD: 9500    Gen: 1939.635   Fit: 4184.241   Orgs: 14375   Spec: 12.68   SWst: 1.963 %  
+UD: 9600    Gen: 1956.398   Fit: 4190.549   Orgs: 14379   Spec: 12.52   SWst: 2.066 %  
+UD: 9700    Gen: 1974.242   Fit: 4195.301   Orgs: 14386   Spec: 12.89   SWst: 1.938 %  
+UD: 9800    Gen: 1993.050   Fit: 4229.509   Orgs: 14378   Spec: 12.78   SWst: 2.028 %  
+UD: 9900    Gen: 2010.302   Fit: 4171.330   Orgs: 14379   Spec: 12.97   SWst: 2.020 %  
+UD: 10000   Gen: 2027.495   Fit: 4200.728   Orgs: 14376   Spec: 13.14   SWst: 2.069 %  
