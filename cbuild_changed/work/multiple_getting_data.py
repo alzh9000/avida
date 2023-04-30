@@ -215,7 +215,8 @@ if __name__ == '__main__':
     ]
     values_list = values_list2 + values_list
     
-    # print(values_list)
+    print([tuple(lst) for lst in values_list])
+    raise Exception("stop")
     max_counts = [1, 0, -1]
     # TODO will need to update plotting and dataframe data to account for max_counts = [1, 0, -1] instead of max_counts = [True, False]
     # 14 is when max_counts = [1, 0, -1]
